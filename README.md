@@ -17,9 +17,15 @@ Our understanding of modern neural networks lags behind their practical successe
   - Sanjeev Arora, Simon S. Du, Wei Hu, Zhiyuan Li, Ruslan Salakhutdinov, Ruosong Wang. *NeurIPS 2019*
   - Digest: The current paper gives the first efficient exact algorithm for computing the extension of NTK to convolutional neural nets, which we call Convolutional NTK (CNTK), as well as an efficient GPU implementation of this algorithm.
 
+### 2018
+- Neural Tangent Kernel: Convergence and Generalization in Neural Networks.
+  [[paper]](https://arxiv.org/abs/1806.07572)
+  - Arthur Jacot, Franck Gabriel, Clément Hongler. *NeurIPS 2018*
+  - Digest: We prove that the evolution of an ANN during training can also be described by a kernel: during gradient descent on the parameters of an ANN, the network function $f_{\theta}$ (which maps input vectors to output vectors) follows the kernel gradient of the functional cost (which is convex, in contrast to the parameter cost) w.r.t. a new kernel: the Neural Tangent Kernel (NTK).
+
 ## Empirical Study
 
-#### 2019
+### 2019
 - Deep Double Descent: Where Bigger Models and More Data Hurt.
   [[paper]](https://arxiv.org/abs/1912.02292)  
   - Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, Ilya Sutskever. *ICLR 2020*
