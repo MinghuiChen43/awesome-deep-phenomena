@@ -15,9 +15,9 @@ Our understanding of modern neural networks lags behind their practical successe
 
 #### 2019
 - Deep Double Descent: Where Bigger Models and More Data Hurt.
-  [paper](https://arxiv.org/abs/1912.02292)
+  [[paper]](https://arxiv.org/abs/1912.02292)
   - Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, Ilya Sutskever. *ICLR 2020*
-  - We show that a variety of modern deep learning tasks exhibit a "double-descent" phenomenon where, as we increase model size, performance first gets worse and then gets better.
+  - Digest: We show that a variety of modern deep learning tasks exhibit a "double-descent" phenomenon where, as we increase model size, performance first gets worse and then gets better.
 
 
 ## Understanding Robustness
