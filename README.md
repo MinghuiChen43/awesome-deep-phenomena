@@ -21,7 +21,7 @@ Our understanding of modern neural networks lags behind their practical successe
 - Neural Tangent Kernel: Convergence and Generalization in Neural Networks.
   [[paper]](https://arxiv.org/abs/1806.07572)
   - Arthur Jacot, Franck Gabriel, Clément Hongler. *NeurIPS 2018*
-  - Digest: We prove that the evolution of an ANN during training can also be described by a kernel: during gradient descent on the parameters of an ANN, the network function \\(f_{\theta}\\) (which maps input vectors to output vectors) follows the kernel gradient of the functional cost (which is convex, in contrast to the parameter cost) w.r.t. a new kernel: the Neural Tangent Kernel (NTK).
+  - Digest: We prove that the evolution of an ANN during training can also be described by a kernel: during gradient descent on the parameters of an ANN, the network function $ f_{\theta} $ (which maps input vectors to output vectors) follows the kernel gradient of the functional cost (which is convex, in contrast to the parameter cost) w.r.t. a new kernel: the Neural Tangent Kernel (NTK).
 
 ## Empirical Study
 
