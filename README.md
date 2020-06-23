@@ -59,4 +59,9 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Interpretability
 
+### 2019
+- Explaining Deep Neural Networks with a Polynomial Time Algorithm for Shapley Values Approximation.
+  [[paper]](https://arxiv.org/abs/1903.10992)
+  - Marco Ancona, Cengiz Öztireli, Markus Gross. *ICML 2019*
+  - Digest: In this work, by leveraging recent results on uncertainty propagation, we propose a novel, polynomial-time approximation of Shapley values in deep neural networks. We show that our method produces significantly better approximations of Shapley values than existing state-of-the-art attribution methods.
 
