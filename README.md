@@ -1,0 +1,2 @@
+# awesome-deep-phenomena
+Our understanding of modern neural networks lags behind their practical successes. This growing gap poses a challenge to the pace of progress in machine learning because fewer pillars of knowledge are available to designers of models and algorithms. Inspired by the ICML 2019 workshop Identifying and Understanding Deep Learning Phenomena, I collect papers which present interesting empirical study or insight into the nature of deep learning.
