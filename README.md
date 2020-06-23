@@ -10,6 +10,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Deep Learning Theory
 
+### 2020
+- Bayesian Deep Learning and a Probabilistic Perspective of Generalization.
+  [[paper]](https://arxiv.org/abs/2002.08791)
+  [[code]](https://github.com/izmailovpavel/understandingbdl)
+  - Andrew Gordon Wilson, Pavel Izmailov.
+  - Digest: We show that deep ensembles provide an effective mechanism for approximate Bayesian marginalization, and propose a related approach that further improves the predictive distribution by marginalizing within basins of attraction, without significant overhead. We also investigate the prior over functions implied by a vague distribution over neural network weights, explaining the generalization properties of such models from a probabilistic perspective.
+
 ### 2019
 - On Exact Computation with an Infinitely Wide Neural Net.
   [[paper]](https://arxiv.org/abs/1904.11955)
