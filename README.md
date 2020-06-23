@@ -26,7 +26,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 
 ## Understanding Robustness
-
+- Benchmarking Neural Network Robustness to Common Corruptions and Perturbations.
+  [[paper]](https://arxiv.org/abs/1903.12261)
+  [[dataset]](https://github.com/hendrycks/robustness)
+  - Dan Hendrycks, Thomas Dietterich. *ICLR 2019*
+  - Digest: In this paper we establish rigorous benchmarks for image classifier robustness. Our first benchmark, ImageNet-C, standardizes and expands the corruption robustness topic, while showing which classifiers are preferable in safety-critical applications. Then we propose a new dataset called ImageNet-P which enables researchers to benchmark a classifier's robustness to common perturbations. 
 
 ## Interpretability
 
