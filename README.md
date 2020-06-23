@@ -10,6 +10,12 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Deep Learning Theory
 
+### 2019
+- On Exact Computation with an Infinitely Wide Neural Net.
+  [[paper]](https://arxiv.org/abs/1904.11955)
+  [[code]](https://github.com/ruosongwang/cntk)
+  - Sanjeev Arora, Simon S. Du, Wei Hu, Zhiyuan Li, Ruslan Salakhutdinov, Ruosong Wang. *NeurIPS 2019*
+  - Digest: The current paper gives the first efficient exact algorithm for computing the extension of NTK to convolutional neural nets, which we call Convolutional NTK (CNTK), as well as an efficient GPU implementation of this algorithm.
 
 ## Empirical Study
 
@@ -26,6 +32,8 @@ Our understanding of modern neural networks lags behind their practical successe
 
 
 ## Understanding Robustness
+
+### 2019
 - Benchmarking Neural Network Robustness to Common Corruptions and Perturbations.
   [[paper]](https://arxiv.org/abs/1903.12261)
   [[dataset]](https://github.com/hendrycks/robustness)
