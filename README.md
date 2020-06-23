@@ -5,8 +5,8 @@ Our understanding of modern neural networks lags behind their practical successe
 - [Deep Learning Theory](#deep-learning-theory)
 - [Empirical Study](#empirical-study)
 - [Understanding Robustness](#understanding-robustness)
+- [Representation Learning](#representation-learning)
 - [Interpretability](#interpretability)
-- [Others](#others)
 
 ## Deep Learning Theory
 
@@ -46,7 +46,17 @@ Our understanding of modern neural networks lags behind their practical successe
   - Dan Hendrycks, Thomas Dietterich. *ICLR 2019*
   - Digest: In this paper we establish rigorous benchmarks for image classifier robustness. Our first benchmark, ImageNet-C, standardizes and expands the corruption robustness topic, while showing which classifiers are preferable in safety-critical applications. Then we propose a new dataset called ImageNet-P which enables researchers to benchmark a classifier's robustness to common perturbations. 
 
+## Representation Learning
+
+### 2019
+- A critical analysis of self-supervision, or what we can learn from a single image.
+  [[paper]](https://arxiv.org/abs/1904.13132)
+  [[code]](https://github.com/yukimasano/linear-probes)
+  - Yuki M. Asano, Christian Rupprecht, Andrea Vedaldi. *ICLR 2020*
+  - Digest: We show that three different and representative methods, BiGAN, RotNet and DeepCluster, can learn the first few layers of a convolutional network from a single image as well as using millions of images and manual labels, provided that strong data augmentation is used. However, for deeper layers the gap with manual supervision cannot be closed even if millions of unlabelled images are used for training.
+
+
+
 ## Interpretability
 
 
-## Others
