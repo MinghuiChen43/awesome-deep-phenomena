@@ -44,6 +44,12 @@ Our understanding of modern neural networks lags behind their practical successe
   - Chiyuan Zhang, Samy Bengio, Yoram Singer. *ICML 2019 Workshop*
   - Digest: We show that the layers can be categorized as either "ambient" or "critical". Resetting the ambient layers to their initial values has no negative consequence, and in many cases they barely change throughout training. On the contrary, resetting the critical layers completely destroys the predictor and the performance drops to chanceh. 
 
+### 2017
+- Critical Learning Periods in Deep Neural Networks.
+  [[paper]](https://arxiv.org/abs/1711.08856)
+  - Alessandro Achille, Matteo Rovere, Stefano Soatto. *ICLR 2019*
+  - Digest: Our findings indicate that the early transient is critical in determining the final solution of the optimization associated with training an artificial neural network. In particular, the effects of sensory deficits during a critical period cannot be overcome, no matter how much additional training is performed.
+
 
 ## Understanding Robustness
 
