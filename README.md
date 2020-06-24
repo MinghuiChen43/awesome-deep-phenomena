@@ -10,6 +10,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Deep Learning Theory
 
+### 2020
+- Double Trouble in Double Descent : Bias and Variance(s) in the Lazy Regime
+  [[paper]](https://arxiv.org/abs/2003.01054)
+  [[code]](https://github.com/mariaref/Random_Features)
+  - Stéphane d'Ascoli, Maria Refinetti, Giulio Biroli, Florent Krzakala. *ICML 2020*
+  - Digest:  In this work, we develop a quantitative theory for this phenomenon in the so-called lazy learning regime of neural networks, by considering the problem of learning a high-dimensional function with random features regression. We obtain a precise asymptotic expression for the bias-variance decomposition of the test error, and show that the bias displays a phase transition at the interpolation threshold, beyond which it remains constant. 
+
+
 ### 2019
 - On Exact Computation with an Infinitely Wide Neural Net.
   [[paper]](https://arxiv.org/abs/1904.11955)
