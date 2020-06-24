@@ -79,8 +79,12 @@ Our understanding of modern neural networks lags behind their practical successe
 ### 2020
 
 - Triple descent and the two kinds of overfitting: Where & why do they appear? [[paper]](https://arxiv.org/abs/2006.03509) [[code]](https://github.com/sdascoli/triple-descent-paper)
-  - Stéphane d'Ascoli, Levent Sagun, Giulio Biroli. 
+  - Stéphane d'Ascoli, Levent Sagun, Giulio Biroli.
   - Digest:  In this paper, we show that despite their apparent similarity, these two scenarios are inherently different. In fact, both peaks can co-exist when neural networks are applied to noisy regression tasks. The relative size of the peaks is governed by the degree of nonlinearity of the activation function. Building on recent developments in the analysis of random feature models, we provide a theoretical ground for this sample-wise triple descent.  
+
+- Adversarial Machine Learning: An Interpretation Perspective. [[paper]](https://arxiv.org/abs/2004.11488)
+  - Ninghao Liu, Mengnan Du, Xia Hu.
+  - Digest: In this paper, we review recent work on adversarial attack and defense, particularly, from the perspective of machine learning interpretation. We categorize interpretation into two types, according to whether it focuses on raw features or model components.  
 
 - Rethinking Bias-Variance Trade-off for Generalization of Neural Networks. [[paper]](https://arxiv.org/abs/2002.11328) [[code]](https://github.com/yaodongyu/Rethink-BiasVariance-Tradeoff)
   - Zitong Yang, Yaodong Yu, Chong You, Jacob Steinhardt, Yi Ma. *ICML 2020*
@@ -261,11 +265,43 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Interpretability
 
+### 2020
+
+- Opportunities and Challenges in Explainable Artificial Intelligence (XAI): A Survey. [[paper]](https://arxiv.org/abs/2006.11371)
+  - Arun Das, Paul Rad.
+  - Digest: Explainable Artificial Intelligence (XAI) is a field of Artificial Intelligence (AI) that promotes a set of tools, techniques, and algorithms that can generate high-quality interpretable, intuitive, human-understandable explanations of AI decisions. In addition to providing a holistic view of the current XAI landscape in deep learning, this paper provides mathematical summaries of seminal work.  
+
+- Explainable Deep Learning: A Field Guide for the Uninitiated. [[paper]](https://arxiv.org/abs/2004.14545v1)
+  - Ning Xie, Gabrielle Ras, Marcel van Gerven, Derek Doran.
+  - Digest: A review of related topics that are closely related to the realm of explainable deep learning is elaborated. Such a review would help the uninitiated researchers thoroughly understand the connections between the related fields and explainable deep learning, and how jointly those fields help shape the future of deep learning towards transparency, robustness, and reliability
+
 ### 2019
 
 - Explaining Deep Neural Networks with a Polynomial Time Algorithm for Shapley Values Approximation. [[paper]](https://arxiv.org/abs/1903.10992)
   - Marco Ancona, Cengiz Öztireli, Markus Gross. *ICML 2019*
   - Digest: In this work, by leveraging recent results on uncertainty propagation, we propose a novel, polynomial-time approximation of Shapley values in deep neural networks. We show that our method produces significantly better approximations of Shapley values than existing state-of-the-art attribution methods.  
+
+### 2018
+
+- Explaining Deep Learning Models - A Bayesian Non-parametric Approach. [[paper]](https://arxiv.org/abs/1811.03422) [[cdoe]](https://github.com/Henrygwb/Explaining-DL)
+  - Wenbo Guo, Sui Huang, Yunzhe Tao, Xinyu Xing, Lin Lin. *NeurIPS 2018*
+  - Digest: In this work, we propose a novel technical approach that augments a Bayesian non-parametric regression mixture model with multiple elastic nets. Using the enhanced mixture model, we can extract generalizable insights for a target model through a global approximation.  
+
+- How convolutional neural network see the world - A survey of convolutional neural network visualization methods. [[paper]](https://arxiv.org/abs/1804.11191v2)
+  - Zhuwei Qin, Fuxun Yu, Chenchen Liu, Xiang Chen.
+  - Digest: In this paper, we expect to provide a comprehensive survey of several representative CNN visualization methods, including Activation Maximization, Network Inversion, Deconvolutional Neural Networks (DeconvNet), and Network Dissection based visualization.  
+
+- A Survey Of Methods For Explaining Black Box Models. [[paper]](https://arxiv.org/abs/1802.01933v3)
+  - Riccardo Guidotti, Anna Monreale, Salvatore Ruggieri, Franco Turini, Dino Pedreschi, Fosca Giannotti.
+  - Digest: The literature reports many approaches aimed at overcoming this crucial weakness sometimes at the cost of scarifying accuracy for interpretability.  
+
+- Visual Interpretability for Deep Learning: a Survey. [[paper]](https://arxiv.org/abs/1802.00614v2)
+  - Quanshi Zhang, Song-Chun Zhu.
+  - Digest: This paper reviews recent studies in understanding neural-network representations and learning neural networks with interpretable/disentangled middle-layer representations.  
+
+- LEMNA: Explaining Deep Learning based Security Applications. [[paper]](http://xinyuxing.org/pub/ccs18.pdf)
+  - Wenbo Guo, Dongliang Mu, Jun Xu, Purui Su, Gang Wang, Xinyu Xing. *CCS 2018*
+  - Digest: In this paper, we propose LEMNA, a high-fidelity explanation method dedicated for security applications. Given an input data sample, LEMNA generates a small set of interpretable features to explain how the input sample is classified. The core idea is to approximate a local area of the complex deep learning decision boundary using a simple interpretable model.  
 
 ### 2017
 
@@ -286,6 +322,10 @@ Our understanding of modern neural networks lags behind their practical successe
 - Synthesizing the preferred inputs for neurons in neural networks via deep generator networks. [[paper]](https://arxiv.org/abs/1605.09304)
   - Anh Nguyen, Alexey Dosovitskiy, Jason Yosinski, Thomas Brox, Jeff Clune. *NeurIPS 2016*
   - Digest:  Here we dramatically improve the qualitative state of the art of activation maximization by harnessing a powerful, learned prior: a deep generator network (DGN).  
+
+- "Why Should I Trust You?": Explaining the Predictions of Any Classifier. [[paper]](https://arxiv.org/abs/1602.04938) [[code]](https://github.com/marcotcr/lime-experiments)
+  - Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin. *KDD 2016*
+  - Digest: In this work, we propose LIME, a novel explanation technique that explains the predictions of any classifier in an interpretable and faithful manner, by learning an interpretable model locally around the prediction.  
 
 ### 2015
 
