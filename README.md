@@ -174,7 +174,7 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2015
 
-- Understanding Neural Networks Through Deep Visualization. [[paper]](https://arxiv.org/abs/1506.06579) 
+- Understanding Neural Networks Through Deep Visualization. [[paper]](https://arxiv.org/abs/1506.06579)  
   - Jason Yosinski, Jeff Clune, Anh Nguyen, Thomas Fuchs, Hod Lipson. *ICML 2015 Workshop*
   - Digest:  We introduce two such tools here. The first is a tool that visualizes the activations produced on each layer of a trained convnet as it processes an image or video (e.g. a live webcam stream). The second tool enables visualizing features at each layer of a DNN via regularized optimization in image space.   
 
