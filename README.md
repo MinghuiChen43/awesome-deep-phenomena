@@ -207,6 +207,10 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2019
 
+- Image Synthesis with a Single (Robust) Classifier. [[paper]](https://arxiv.org/abs/1906.09453) [[code]](https://github.com/MadryLab/robustness_applications?)
+  - Shibani Santurkar, Dimitris Tsipras, Brandon Tran, Andrew Ilyas, Logan Engstrom, Aleksander Madry. *NeurIPS 2019*
+  - Digest: The crux of our approach is that we train this classifier to be adversarially robust. It turns out that adversarial robustness is precisely what we need to directly manipulate salient features of the input. Overall, our findings demonstrate the utility of robustness in the broader machine learning context.  
+
 - Unlabeled Data Improves Adversarial Robustness. [[paper]](https://arxiv.org/abs/1905.13736) [[code]](https://github.com/yaircarmon/semisup-adv)
   - Yair Carmon, Aditi Raghunathan, Ludwig Schmidt, Percy Liang, John C. Duchi. *NeurIPS 2019*
   - Digest: Theoretically, we revisit the simple Gaussian model of [Schmidt et al](https://arxiv.org/abs/1804.11285). that shows a sample complexity gap between standard and robust classification. We prove that unlabeled data bridges this gap: a simple semi-supervised learning procedure (self-training) achieves high robust accuracy using the same number of labels required for achieving high standard accuracy.  
@@ -241,9 +245,17 @@ Our understanding of modern neural networks lags behind their practical successe
   - Robert Geirhos, Patricia Rubisch, Claudio Michaelis, Matthias Bethge, Felix A. Wichmann, Wieland Brendel. *ICLR 2019*
   - Digest: We show that ImageNet-trained CNNs are strongly biased towards recognising textures rather than shapes, which is in stark contrast to human behavioural evidence and reveals fundamentally different classification strategies.  
 
+- Attacks Meet Interpretability: Attribute-steered Detection of Adversarial Samples. [[paper]](https://arxiv.org/abs/1810.11580)
+  - Guanhong Tao, Shiqing Ma, Yingqi Liu, Xiangyu Zhang. *NeurIPS 2018*
+  - Digest: We argue that adversarial sample attacks are deeply entangled with interpretability of DNN models: while classification results on benign inputs can be reasoned based on the human perceptible features/attributes, results on adversarial samples can hardly be explained. Therefore, we propose a novel adversarial sample detection technique for face recognition models, based on interpretability.  
+
 - Sparse DNNs with Improved Adversarial Robustness. [[paper]](https://arxiv.org/abs/1810.09619)
   - Yiwen Guo, Chao Zhang, Changshui Zhang, Yurong Chen.
   - Digest: Our analyses reveal, both theoretically and empirically, that nonlinear DNN-based classifiers behave differently under l2 attacks from some linear ones. We further demonstrate that an appropriately higher model sparsity implies better robustness of nonlinear DNNs, whereas over-sparsified models can be more difficult to resist adversarial examples.  
+
+- PAC-learning in the presence of evasion adversaries. [[paper]](https://arxiv.org/abs/1806.01471)
+  - Daniel Cullina, Arjun Nitin Bhagoji, Prateek Mittal. *NeurIPS 2018*
+  - Digest: In this paper, we step away from the attack-defense arms race and seek to understand the limits of what can be learned in the presence of an evasion adversary. In particular, we extend the Probably Approximately Correct (PAC)-learning framework to account for the presence of an adversary.  
 
 - Robustness May Be at Odds with Accuracy. [[paper]](https://arxiv.org/abs/1805.12152)
   - Dimitris Tsipras, Shibani Santurkar, Logan Engstrom, Alexander Turner, Aleksander Madry. *ICLR 2019*
@@ -337,6 +349,10 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2018
 
+- Fooling Network Interpretation in Image Classification. [[paper]](https://arxiv.org/abs/1812.02843)
+  - Akshayvarun Subramanya, Vipin Pillai, Hamed Pirsiavash. *ICCV 2019*
+  - Digest: We show that it is possible to create adversarial patches which not only fool the prediction, but also change what we interpret regarding the cause of the prediction.  
+
 - Explaining Deep Learning Models - A Bayesian Non-parametric Approach. [[paper]](https://arxiv.org/abs/1811.03422) [[cdoe]](https://github.com/Henrygwb/Explaining-DL)
   - Wenbo Guo, Sui Huang, Yunzhe Tao, Xinyu Xing, Lin Lin. *NeurIPS 2018*
   - Digest: In this work, we propose a novel technical approach that augments a Bayesian non-parametric regression mixture model with multiple elastic nets. Using the enhanced mixture model, we can extract generalizable insights for a target model through a global approximation.  
@@ -371,6 +387,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Aditya Chattopadhyay, Anirban Sarkar, Prantik Howlader, Vineeth N Balasubramanian. *WACV 2018*
   - Digest: Building on a recently proposed method called Grad-CAM, we propose a generalized method called Grad-CAM++ that can provide better visual explanations of CNN model predictions, in terms of better object localization as well as explaining occurrences of multiple object instances in a single image, when compared to state-of-the-art.  
 
+- Interpretation of Neural Networks is Fragile. [[paper]](https://arxiv.org/abs/1710.10547)
+  - Amirata Ghorbani, Abubakar Abid, James Zou. *AAAI 2019*
+  - Digest: In this paper, we show that interpretation of deep learning predictions is extremely fragile in the following sense: two perceptively indistinguishable inputs with the same predicted label can be assigned very different interpretations.  
+
 - SmoothGrad: removing noise by adding noise. [[paper]](https://arxiv.org/abs/1706.03825) [[code]](https://github.com/hs2k/pytorch-smoothgrad)
   - Daniel Smilkov, Nikhil Thorat, Been Kim, Fernanda Viégas, Martin Wattenberg.
   - Digest:  This paper makes two contributions: it introduces SmoothGrad, a simple method that can help visually sharpen gradient-based sensitivity maps, and it discusses lessons in the visualization of these maps.  
@@ -378,6 +398,11 @@ Our understanding of modern neural networks lags behind their practical successe
 - A Unified Approach to Interpreting Model Predictions. [[paper]](https://arxiv.org/abs/1705.07874) [[code]](https://github.com/slundberg/shap)
   - Scott Lundberg, Su-In Lee. *NeurIPS 2017*
   - Digest: To address this problem, we present a unified framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction.  
+
+- Real Time Image Saliency for Black Box Classifiers. [[paper]](https://arxiv.org/abs/1705.07857)
+  - Piotr Dabkowski, Yarin Gal. *NeurIPS 2017*
+  - Digest: In this work we develop a fast saliency detection method that can be applied to any differentiable image classifier. We train a masking model to manipulate the scores of the classifier by masking salient parts of the input image.  
+
 
 - Network Dissection: Quantifying Interpretability of Deep Visual Representations. [[paper]](https://arxiv.org/abs/1704.05796) [[code]](http://netdissect.csail.mit.edu/)
   - David Bau, Bolei Zhou, Aditya Khosla, Aude Oliva, Antonio Torralba. *CVPR 2017*
