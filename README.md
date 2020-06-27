@@ -269,6 +269,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2020
 
+- Big Self-Supervised Models are Strong Semi-Supervised Learners. [[paper]](https://arxiv.org/abs/2006.10029) [[code]](https://github.com/google-research/simclr)
+  - Ting Chen, Simon Kornblith, Kevin Swersky, Mohammad Norouzi, Geoffrey Hinton.
+  - Digest: The proposed semi-supervised learning algorithm can be summarized in three steps: unsupervised pretraining of a big ResNet model using SimCLRv2 (a modification of SimCLR), supervised fine-tuning on a few labeled examples, and distillation with unlabeled examples for refining and transferring the task-specific knowledge.  
+
+- Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning. [[paper]](https://arxiv.org/abs/2006.07733)
+  - Jean-Bastien Grill, Florian Strub, Florent Altché, Corentin Tallec, Pierre H. Richemond, Elena Buchatskaya, Carl Doersch, Bernardo Avila Pires, Zhaohan Daniel Guo, Mohammad Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu, Rémi Munos, Michal Valko.
+  - Digest: We introduce Bootstrap Your Own Latent (BYOL), a new approach to self-supervised image representation learning. BYOL relies on two neural networks, referred to as online and target networks, that interact and learn from each other. From an augmented view of an image, we train the online network to predict the target network representation of the same image under a different augmented view.  
+
 - What makes for good views for contrastive learning? [[paper]](https://arxiv.org/abs/2005.10243) [[code]](https://github.com/HobbitLong/PyContrast)
   - Yonglong Tian, Chen Sun, Ben Poole, Dilip Krishnan, Cordelia Schmid, Phillip Isola.
   - Digest:  In this paper, we use empirical analysis to better understand the importance of view selection, and argue that we should reduce the mutual information (MI) between views while keeping task-relevant information intact.  
@@ -277,11 +285,31 @@ Our understanding of modern neural networks lags behind their practical successe
   - Eddie Yan, Yanping Huang.
   - Digest: Surprisingly, neural network features not only predict data augmentation transformations, but they predict many transformations with high accuracy. After validating that neural networks encode features corresponding to augmentation transformations, we show that these features are primarily encoded in the early layers of modern CNNs.  
 
+- Automatic Shortcut Removal for Self-Supervised Representation Learning. [[paper]](https://arxiv.org/abs/2002.08822)
+  - Matthias Minderer, Olivier Bachem, Neil Houlsby, Michael Tschannen. *ICML 2020*
+  - Digest: Here, we propose a general framework for removing shortcut features automatically. Our key assumption is that those features which are the first to be exploited for solving the pretext task may also be the most vulnerable to an adversary trained to make the task harder.  
+
+- A Simple Framework for Contrastive Learning of Visual Representations. [[paper]](https://arxiv.org/abs/2002.05709) [[code]](https://github.com/google-research/simclr)
+  - Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton.
+  - Digest: This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank.  
+
 ### 2019
+
+- Self-Supervised Learning of Pretext-Invariant Representations. [[paper]](https://arxiv.org/abs/1912.01991) [[code]]
+  - Ishan Misra, Laurens van der Maaten. *CVPR 2020*
+  - Digest:  We argue that, instead, semantic representations ought to be invariant under such transformations. Specifically, we develop Pretext-Invariant Representation Learning (PIRL, pronounced as "pearl") that learns invariant representations based on pretext tasks.  
+
+- Momentum Contrast for Unsupervised Visual Representation Learning. [[paper]](https://arxiv.org/abs/1911.05722) [[code]](https://github.com/facebookresearch/moco)
+  - Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick. *CVPR 2020*
+  - Digest: We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning.  
 
 - On Mutual Information Maximization for Representation Learning. [[paper]](https://arxiv.org/abs/1907.13625) [[code]](https://github.com/google-research/google-research/tree/master/mutual_information_representation_learning)
   - Michael Tschannen, Josip Djolonga, Paul K. Rubenstein, Sylvain Gelly, Mario Lucic. *ICLR 2020*
   - Digest: In this paper we argue, and provide empirical evidence, that the success of these methods cannot be attributed to the properties of MI alone, and that they strongly depend on the inductive bias in both the choice of feature extractor architectures and the parametrization of the employed MI estimators.  
+
+- Large Scale Adversarial Representation Learning. [[paper]](https://arxiv.org/abs/1907.02544) [[code]](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/bigbigan_with_tf_hub.ipynb)
+  - Jeff Donahue, Karen Simonyan. *NeurIPS 2019*
+  - Digest: In this work we show that progress in image generation quality translates to substantially improved representation learning performance. Our approach, BigBiGAN, builds upon the state-of-the-art BigGAN model, extending it to representation learning by adding an encoder and modifying the discriminator.  
 
 - Learning Representations by Maximizing Mutual Information Across Views. [[paper]](https://arxiv.org/abs/1906.00910) [[code]](https://github.com/Philip-Bachman/amdim-public)
   - Philip Bachman, R Devon Hjelm, William Buchwalter. *NeurIPS 2019*
@@ -295,7 +323,19 @@ Our understanding of modern neural networks lags behind their practical successe
   - Yuki M. Asano, Christian Rupprecht, Andrea Vedaldi. *ICLR 2020*
   - Digest: We show that three different and representative methods, BiGAN, RotNet and DeepCluster, can learn the first few layers of a convolutional network from a single image as well as using millions of images and manual labels, provided that strong data augmentation is used. However, for deeper layers the gap with manual supervision cannot be closed even if millions of unlabelled images are used for training.  
 
+- Revisiting Self-Supervised Visual Representation Learning. [[paper]](https://arxiv.org/abs/1901.09005) [[code]](https://github.com/google/revisiting-self-supervised)
+  - Alexander Kolesnikov, Xiaohua Zhai, Lucas Beyer. *CVPR 2019*
+  - Digest: We challenge a number of common practices in selfsupervised visual representation learning and observe that standard recipes for CNN design do not always translate to self-supervised representation learning.  
+
+- AET vs. AED: Unsupervised Representation Learning by Auto-Encoding Transformations rather than Data. [[paper]](https://arxiv.org/abs/1901.04596) [[code]](https://github.com/maple-research-lab/AET)
+  - Liheng Zhang, Guo-Jun Qi, Liqiang Wang, Jiebo Luo. *CVPR 2019*
+  - Digest: In this paper, we present a novel paradigm of unsupervised representation learning by Auto-Encoding Transformation (AET) in contrast to the conventional Auto-Encoding Data (AED) approach. Given a randomly sampled transformation, AET seeks to predict it merely from the encoded features as accurately as possible at the output end.  
+
 ### 2018
+
+- Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations. [[paper]](https://arxiv.org/abs/1811.12359) [[code]](https://github.com/google-research/disentanglement_lib)
+  - Francesco Locatello, Stefan Bauer, Mario Lucic, Gunnar Rätsch, Sylvain Gelly, Bernhard Schölkopf, Olivier Bachem. *ICML 2019*
+  - Digest: Our results suggest that future work on disentanglement learning should be explicit about the role of inductive biases and (implicit) supervision, investigate concrete benefits of enforcing disentanglement of the learned representations, and consider a reproducible experimental setup covering several data sets.  
 
 - Representation Learning with Contrastive Predictive Coding. [[paper]](https://arxiv.org/abs/1807.03748)
   - Aaron van den Oord, Yazhe Li, Oriol Vinyals.
