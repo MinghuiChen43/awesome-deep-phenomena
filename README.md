@@ -180,6 +180,10 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2020
 
+- On the Generalization Benefit of Noise in Stochastic Gradient Descent. [[paper]](https://arxiv.org/abs/2006.15081)
+  - Samuel L. Smith, Erich Elsen, Soham De. *ICML 2020*
+  - Digest:  In this paper, we perform carefully designed experiments and rigorous hyperparameter sweeps on a range of popular models, which verify that small or moderately large batch sizes can substantially outperform very large batches on the test set. This occurs even when both models are trained for the same number of iterations and large batches achieve smaller training losses.  
+
 - Finding trainable sparse networks through Neural Tangent Transfer. [[paper]](https://arxiv.org/abs/2006.08228) [[code]](https://github.com/fmi-basel/neural-tangent-transfer)
   - Tianlin Liu, Friedemann Zenke. *ICML 2020*
   - Digest: In this article, we introduce Neural Tangent Transfer, a method that instead finds trainable sparse networks in a label-free manner. Specifically, we find sparse networks whose training dynamics, as characterized by the neural tangent kernel, mimic those of dense networks in function space.  
@@ -356,6 +360,10 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Representation Learning
 
 ### 2020
+
+- Proper Network Interpretability Helps Adversarial Robustness in Classification. [[paper]](https://arxiv.org/abs/2006.14748) [[code]](https://github.com/AkhilanB/Proper-Interpretability)
+  - Akhilan Boopathy, Sijia Liu, Gaoyuan Zhang, Cynthia Liu, Pin-Yu Chen, Shiyu Chang, Luca Daniel. *ICML 2020*
+  - Digest: In this paper, we theoretically show that with a proper measurement of interpretation, it is actually difficult to prevent prediction-evasion adversarial attacks from causing interpretation discrepancy, as confirmed by experiments on MNIST, CIFAR-10 and Restricted ImageNet.  
 
 - Big Self-Supervised Models are Strong Semi-Supervised Learners. [[paper]](https://arxiv.org/abs/2006.10029) [[code]](https://github.com/google-research/simclr)
   - Ting Chen, Simon Kornblith, Kevin Swersky, Mohammad Norouzi, Geoffrey Hinton.
