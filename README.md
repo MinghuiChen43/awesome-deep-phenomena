@@ -24,6 +24,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Jimmy Ba, Murat Erdogdu, Taiji Suzuki, Denny Wu, Tianzong Zhang. *ICLR 2020*
   - Digest: This paper focuses on studying the double descent phenomenon in a one layer neural network training in an asymptotic regime where various dimensions go to infinity together with fixed ratios. The authors provide precise asymptotic characterization of the risk and use it to study various phenomena. In particular they characterize the role of various scales of the initialization and their effects.  
 
+- Optimization for deep learning: theory and algorithms. [[paper]](https://arxiv.org/abs/1912.08957)
+  - Ruoyu Sun.
+  - Digest: When and why can a neural network be successfully trained? This article provides an overview of optimization algorithms and theory for training neural networks.  
+
 - Neural Tangents: Fast and Easy Infinite Neural Networks in Python. [[paper]](https://arxiv.org/abs/1912.02803) [[code]](https://github.com/google/neural-tangents)
   - Roman Novak, Lechao Xiao, Jiri Hron, Jaehoon Lee, Alexander A. Alemi, Jascha Sohl-Dickstein, Samuel S. Schoenholz. *ICLR 2020*
   - Digest: Neural Tangents is a library designed to enable research into infinite-width neural networks. It provides a high-level API for specifying complex and hierarchical neural network architectures. These networks can then be trained and evaluated either at finite-width as usual or in their infinite-width limit.  
@@ -187,10 +191,6 @@ Our understanding of modern neural networks lags behind their practical successe
 - Triple descent and the two kinds of overfitting: Where & why do they appear? [[paper]](https://arxiv.org/abs/2006.03509) [[code]](https://github.com/sdascoli/triple-descent-paper)
   - Stéphane d'Ascoli, Levent Sagun, Giulio Biroli.
   - Digest:  In this paper, we show that despite their apparent similarity, these two scenarios are inherently different. In fact, both peaks can co-exist when neural networks are applied to noisy regression tasks. The relative size of the peaks is governed by the degree of nonlinearity of the activation function. Building on recent developments in the analysis of random feature models, we provide a theoretical ground for this sample-wise triple descent.  
-
-- Adversarial Machine Learning: An Interpretation Perspective. [[paper]](https://arxiv.org/abs/2004.11488)
-  - Ninghao Liu, Mengnan Du, Xia Hu.
-  - Digest: In this paper, we review recent work on adversarial attack and defense, particularly, from the perspective of machine learning interpretation. We categorize interpretation into two types, according to whether it focuses on raw features or model components.  
 
 - Rethinking Bias-Variance Trade-off for Generalization of Neural Networks. [[paper]](https://arxiv.org/abs/2002.11328) [[code]](https://github.com/yaodongyu/Rethink-BiasVariance-Tradeoff)
   - Zitong Yang, Yaodong Yu, Chong You, Jacob Steinhardt, Yi Ma. *ICML 2020*
