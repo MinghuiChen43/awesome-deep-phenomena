@@ -439,6 +439,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Yuki M. Asano, Christian Rupprecht, Andrea Vedaldi. *ICLR 2020*
   - Digest: We show that three different and representative methods, BiGAN, RotNet and DeepCluster, can learn the first few layers of a convolutional network from a single image as well as using millions of images and manual labels, provided that strong data augmentation is used. However, for deeper layers the gap with manual supervision cannot be closed even if millions of unlabelled images are used for training.  
 
+- Approximating CNNs with Bag-of-local-Features models works surprisingly well on ImageNet. [[paper]](https://arxiv.org/abs/1904.00760) [[code]](https://github.com/wielandbrendel/bag-of-local-features-models)
+  - Wieland Brendel, Matthias Bethge. *ICLR 2019*
+  - Digest: Our model, a simple variant of the ResNet-50 architecture called BagNet, classifies an image based on the occurrences of small local image features without taking into account their spatial ordering. This strategy is closely related to the bag-of-feature (BoF) models popular before the onset of deep learning and reaches a surprisingly high accuracy on ImageNet.  
+
 - Revisiting Self-Supervised Visual Representation Learning. [[paper]](https://arxiv.org/abs/1901.09005) [[code]](https://github.com/google/revisiting-self-supervised)
   - Alexander Kolesnikov, Xiaohua Zhai, Lucas Beyer. *CVPR 2019*
   - Digest: We challenge a number of common practices in selfsupervised visual representation learning and observe that standard recipes for CNN design do not always translate to self-supervised representation learning.  
