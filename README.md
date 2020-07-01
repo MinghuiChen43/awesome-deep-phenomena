@@ -292,6 +292,10 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2020
 
+- Biologically Inspired Mechanisms for Adversarial Robustness. [[paper]](https://arxiv.org/abs/2006.16427)
+  - Manish V. Reddy, Andrzej Banburski, Nishka Pant, Tomaso Poggio.
+  - Digest: In this work, we investigate the role of two biologically plausible mechanisms in adversarial robustness. We demonstrate that the non-uniform sampling performed by the primate retina and the presence of multiple receptive fields with a range of receptive field sizes at each eccentricity improve the robustness of neural networks to small adversarial perturbations.  
+
 - Smooth Adversarial Training. [[paper]](https://arxiv.org/abs/2006.14536)
   - Cihang Xie, Mingxing Tan, Boqing Gong, Alan Yuille, Quoc V. Le.
   - Digest: Hence we propose smooth adversarial training (SAT), in which we replace ReLU with its smooth approximations to strengthen adversarial training. The purpose of smooth activation functions in SAT is to allow it to find harder adversarial examples and compute better gradient updates during adversarial training. Compared to standard adversarial training, SAT improves adversarial robustness for "free", i.e., no drop in accuracy and no increase in computational cost.  
