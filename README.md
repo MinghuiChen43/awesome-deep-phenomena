@@ -41,7 +41,7 @@ Our understanding of modern neural networks lags behind their practical successe
   - Digest: We show that this Neural Network-Gaussian Process correspondence surprisingly extends to all modern feedforward or recurrent neural networks composed of multilayer perceptron, RNNs (e.g. LSTMs, GRUs), (nD or graph) convolution, pooling, skip connection, attention, batch normalization, and/or layer normalization.  
 
 - Improved Sample Complexities for Deep Networks and Robust Classification via an All-Layer Margin. [[paper]](https://arxiv.org/abs/1910.04284) [[code]](https://github.com/cwein3/all-layer-margin-opt)
-  - Colin Wei, Tengyu Ma.
+  - Colin Wei, Tengyu Ma. *ICLR 2020*
   - Digest:  In this work, we propose to instead analyze a new notion of margin, which we call the "all-layer margin." Our analysis reveals that the all-layer margin has a clear and direct relationship with generalization for deep models.  
 
 - Finite Depth and Width Corrections to the Neural Tangent Kernel. [[paper]](https://arxiv.org/abs/1909.05989)
