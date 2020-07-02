@@ -40,6 +40,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Greg Yang. *NeurIPS 2019*
   - Digest: We show that this Neural Network-Gaussian Process correspondence surprisingly extends to all modern feedforward or recurrent neural networks composed of multilayer perceptron, RNNs (e.g. LSTMs, GRUs), (nD or graph) convolution, pooling, skip connection, attention, batch normalization, and/or layer normalization.  
 
+- On Robustness of Neural Ordinary Differential Equations. [[paper]](https://arxiv.org/abs/1910.05513)
+  - Hanshu Yan, Jiawei Du, Vincent Y. F. Tan, Jiashi Feng. *ICLR 2020*
+  - Digest: In this work, we fill this important gap by exploring robustness properties of neural ODEs both empirically and theoretically.  
+
 - Improved Sample Complexities for Deep Networks and Robust Classification via an All-Layer Margin. [[paper]](https://arxiv.org/abs/1910.04284) [[code]](https://github.com/cwein3/all-layer-margin-opt)
   - Colin Wei, Tengyu Ma. *ICLR 2020*
   - Digest:  In this work, we propose to instead analyze a new notion of margin, which we call the "all-layer margin." Our analysis reveals that the all-layer margin has a clear and direct relationship with generalization for deep models.  
@@ -242,6 +246,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Vivek Ramanujan, Mitchell Wortsman, Aniruddha Kembhavi, Ali Farhadi, Mohammad Rastegari. *CVPR 2020*
   - Digest: Hidden in a randomly weighted Wide ResNet-50 we show that there is a subnetwork (with random weights) that is smaller than, but matches the performance of a ResNet-34 trained on ImageNet. Not only do these "untrained subnetworks" exist, but we provide an algorithm to effectively find them.  
 
+- Truth or Backpropaganda? An Empirical Investigation of Deep Learning Theory. [[paper]](https://arxiv.org/abs/1910.00359) [[code]](https://github.com/goldblum/TruthOrBackpropaganda)
+  - Micah Goldblum, Jonas Geiping, Avi Schwarzschild, Michael Moeller, Tom Goldstein. *ICLR 2020*
+  - Digest: The authors take a closer look at widely held beliefs about neural networks. Using a mix of analysis and experiment, they shed some light on the ways these assumptions break down.  
+
 - A Signal Propagation Perspective for Pruning Neural Networks at Initialization. [[paper]](https://arxiv.org/abs/1906.06307) [[code]](https://github.com/namhoonlee/spp-public)
   - Namhoon Lee, Thalaiyasingam Ajanthan, Stephen Gould, Philip H. S. Torr. *ICLR 2020*
   - Digest: In this work, by noting connection sensitivity as a form of gradient, we formally characterize initialization conditions to ensure reliable connection sensitivity measurements, which in turn yields effective pruning results. Moreover, we analyze the signal propagation properties of the resulting pruned networks and introduce a simple, data-free method to improve their trainability.  
@@ -422,6 +430,10 @@ Our understanding of modern neural networks lags behind their practical successe
 - Momentum Contrast for Unsupervised Visual Representation Learning. [[paper]](https://arxiv.org/abs/1911.05722) [[code]](https://github.com/facebookresearch/moco)
   - Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick. *CVPR 2020*
   - Digest: We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning.  
+
+- Building Deep, Equivariant Capsule Networks. [[paper]](https://arxiv.org/abs/1908.01300)
+  - Sairaam Venkatraman, S. Balasubramanian, R. Raghunatha Sarma. *ICLR 2020*
+  - Digest: This paper combine recent ideas from capsule networks and group-equivariant neural networks to form equivariant capsules.  
 
 - On Mutual Information Maximization for Representation Learning. [[paper]](https://arxiv.org/abs/1907.13625) [[code]](https://github.com/google-research/google-research/tree/master/mutual_information_representation_learning)
   - Michael Tschannen, Josip Djolonga, Paul K. Rubenstein, Sylvain Gelly, Mario Lucic. *ICLR 2020*
