@@ -170,7 +170,7 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2016
 
-- Deep Information Propagation. [[paper]](https://arxiv.org/abs/1611.01232) [[paper]](https://arxiv.org/abs/1611.01232)
+- Deep Information Propagation. [[paper]](https://arxiv.org/abs/1611.01232)
   - Samuel S. Schoenholz, Justin Gilmer, Surya Ganguli, Jascha Sohl-Dickstein. *ICLR 2017*
   - Digest: We study the behavior of untrained neural networks whose weights and biases are randomly distributed using mean field theory. We show the existence of depth scales that naturally limit the maximum depth of signal propagation through these random networks. Our main practical result is to show that random networks may be trained precisely when information can travel through them.  
 
