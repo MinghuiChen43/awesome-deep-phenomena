@@ -234,6 +234,10 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2019
 
+- White Noise Analysis of Neural Networks. [[paper]](https://arxiv.org/abs/1912.12106) [[code]](https://github.com/aliborji/WhiteNoiseAnalysis)
+  - Ali Borji, Sikun Lin. *ICLR 2020*
+  - Digest: A white noise analysis of modern deep neural networks is presented to unveil their biases at the whole network level or the single neuron level. Our analysis is based on two popular and related methods in psychophysics and neurophysiology namely classification images and spike triggered analysis.  
+
 - Linear Mode Connectivity and the Lottery Ticket Hypothesis. [[paper]](https://arxiv.org/abs/1912.05671)
   - Jonathan Frankle, Gintare Karolina Dziugaite, Daniel M. Roy, Michael Carbin. *ICML 2020*
   - Digest: We introduce "instability analysis," which assesses whether a neural network optimizes to the same, linearly connected minimum under different samples of SGD noise. We find that standard vision models become "stable" in this way early in training. From then on, the outcome of optimization is determined to within a linearly connected region.  
@@ -253,6 +257,10 @@ Our understanding of modern neural networks lags behind their practical successe
 - Truth or Backpropaganda? An Empirical Investigation of Deep Learning Theory. [[paper]](https://arxiv.org/abs/1910.00359) [[code]](https://github.com/goldblum/TruthOrBackpropaganda)
   - Micah Goldblum, Jonas Geiping, Avi Schwarzschild, Michael Moeller, Tom Goldstein. *ICLR 2020*
   - Digest: The authors take a closer look at widely held beliefs about neural networks. Using a mix of analysis and experiment, they shed some light on the ways these assumptions break down.  
+
+- Data-Independent Neural Pruning via Coresets. [[paper]](https://arxiv.org/abs/1907.04018)
+  - Ben Mussay, Margarita Osadchy, Vladimir Braverman, Samson Zhou, Dan Feldman. *ICLR 2020*
+  - Digest: We propose the first efficient, data-independent neural pruning algorithm with a provable trade-off between its compression rate and the approximation error for any future test sample. Our method is based on the coreset framework, which finds a small weighted subset of points that provably approximates the original inputs.  
 
 - A Signal Propagation Perspective for Pruning Neural Networks at Initialization. [[paper]](https://arxiv.org/abs/1906.06307) [[code]](https://github.com/namhoonlee/spp-public)
   - Namhoon Lee, Thalaiyasingam Ajanthan, Stephen Gould, Philip H. S. Torr. *ICLR 2020*
