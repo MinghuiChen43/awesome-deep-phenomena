@@ -368,6 +368,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Manish V. Reddy, Andrzej Banburski, Nishka Pant, Tomaso Poggio.
   - Digest: In this work, we investigate the role of two biologically plausible mechanisms in adversarial robustness. We demonstrate that the non-uniform sampling performed by the primate retina and the presence of multiple receptive fields with a range of receptive field sizes at each eccentricity improve the robustness of neural networks to small adversarial perturbations.  
 
+- Proper Network Interpretability Helps Adversarial Robustness in Classification. [[paper]](https://arxiv.org/abs/2006.14748) [[code]](https://github.com/AkhilanB/Proper-Interpretability)
+  - Akhilan Boopathy, Sijia Liu, Gaoyuan Zhang, Cynthia Liu, Pin-Yu Chen, Shiyu Chang, Luca Daniel. *ICML 2020*
+  - Digest: In this paper, we theoretically show that with a proper measurement of interpretation, it is actually difficult to prevent prediction-evasion adversarial attacks from causing interpretation discrepancy, as confirmed by experiments on MNIST, CIFAR-10 and Restricted ImageNet.  
+
 - Smooth Adversarial Training. [[paper]](https://arxiv.org/abs/2006.14536)
   - Cihang Xie, Mingxing Tan, Boqing Gong, Alan Yuille, Quoc V. Le.
   - Digest: Hence we propose smooth adversarial training (SAT), in which we replace ReLU with its smooth approximations to strengthen adversarial training. The purpose of smooth activation functions in SAT is to allow it to find harder adversarial examples and compute better gradient updates during adversarial training. Compared to standard adversarial training, SAT improves adversarial robustness for "free", i.e., no drop in accuracy and no increase in computational cost.  
@@ -537,9 +541,9 @@ Our understanding of modern neural networks lags behind their practical successe
   - Haozhi Qi, Chong You, Xiaolong Wang, Yi Ma, Jitendra Malik. *ICML 2020*
   - Digest: This paper shows that deep vanilla ConvNets without normalization nor skip connections can also be trained to achieve surprisingly good performance on standard image recognition benchmarks. This is achieved by enforcing the convolution kernels to be near isometric during initialization and training, as well as by using a variant of ReLU that is shifted towards being isometric.  
 
-- Proper Network Interpretability Helps Adversarial Robustness in Classification. [[paper]](https://arxiv.org/abs/2006.14748) [[code]](https://github.com/AkhilanB/Proper-Interpretability)
-  - Akhilan Boopathy, Sijia Liu, Gaoyuan Zhang, Cynthia Liu, Pin-Yu Chen, Shiyu Chang, Luca Daniel. *ICML 2020*
-  - Digest: In this paper, we theoretically show that with a proper measurement of interpretation, it is actually difficult to prevent prediction-evasion adversarial attacks from causing interpretation discrepancy, as confirmed by experiments on MNIST, CIFAR-10 and Restricted ImageNet.  
+- Parametric Instance Classification for Unsupervised Visual Feature Learning. [[paper]](https://arxiv.org/abs/2006.14618)
+  - Yue Cao, Zhenda Xie, Bin Liu, Yutong Lin, Zheng Zhang, Han Hu.
+  - Digest: This paper presents parametric instance classification (PIC) for unsupervised visual feature learning. Unlike the state-of-the-art approaches which do instance discrimination in a dual-branch non-parametric fashion, PIC directly performs a one-branch parametric instance classification, revealing a simple framework similar to supervised classification and without the need to address the information leakage issue.  
 
 - Big Self-Supervised Models are Strong Semi-Supervised Learners. [[paper]](https://arxiv.org/abs/2006.10029) [[code]](https://github.com/google-research/simclr)
   - Ting Chen, Simon Kornblith, Kevin Swersky, Mohammad Norouzi, Geoffrey Hinton.
@@ -556,6 +560,18 @@ Our understanding of modern neural networks lags behind their practical successe
 - What makes for good views for contrastive learning? [[paper]](https://arxiv.org/abs/2005.10243) [[code]](https://github.com/HobbitLong/PyContrast)
   - Yonglong Tian, Chen Sun, Ben Poole, Dilip Krishnan, Cordelia Schmid, Phillip Isola.
   - Digest:  In this paper, we use empirical analysis to better understand the importance of view selection, and argue that we should reduce the mutual information (MI) between views while keeping task-relevant information intact.  
+
+- Understanding Contrastive Representation Learning through Alignment and Uniformity on the Hypersphere. [[paper]](https://arxiv.org/abs/2005.10242) [[code]](https://github.com/SsnL/align_uniform)
+  - Tongzhou Wang, Phillip Isola. *ICML 2020*
+  - Digest: In this work, we identify two key properties related to the contrastive loss: (1) alignment (closeness) of features from positive pairs, and (2) uniformity of the induced distribution of the (normalized) features on the hypersphere. We prove that, asymptotically, the contrastive loss optimizes these properties, and analyze their positive effects on downstream tasks.  
+
+- Steering Self-Supervised Feature Learning Beyond Local Pixel Statistics. [[paper]](https://arxiv.org/abs/2004.02331) [[code]](https://sjenni.github.io/LCI/)
+  - Simon Jenni, Hailin Jin, Paolo Favaro. *CVPR 2020*
+  - Digest:  We introduce a novel image transformation that we call limited context inpainting (LCI). This transformation inpaints an image patch conditioned only on a small rectangular pixel boundary (the limited context). Because of the limited boundary information, the inpainter can learn to match local pixel statistics, but is unlikely to match the global statistics of the image.  
+
+- How Useful is Self-Supervised Pretraining for Visual Tasks? [[paper]](https://arxiv.org/abs/2003.14323) [[code]](https://github.com/princeton-vl/selfstudy)
+  - Alejandro Newell, Jia Deng. *CVPR 2020*
+  - Digest: We evaluate various self-supervised algorithms across a comprehensive array of synthetic datasets and downstream tasks. We prepare a suite of synthetic data that enables an endless supply of annotated images as well as full control over dataset difficulty.  
 
 - Do CNNs Encode Data Augmentations? [[paper]](https://arxiv.org/abs/2003.08773)
   - Eddie Yan, Yanping Huang.
@@ -579,6 +595,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie, Ross Girshick. *CVPR 2020*
   - Digest: We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning.  
 
+- Self-supervised Label Augmentation via Input Transformations. [[paper]](https://arxiv.org/abs/1910.05872) [[code]](https://github.com/hankook/SLA)
+  - Hankook Lee, Sung Ju Hwang, Jinwoo Shin. *ICML 2020*
+  - Digest: Our main idea is to learn a single unified task with respect to the joint distribution of the original and self-supervised labels, i.e., we augment original labels via self-supervision of input transformation.  
+
 - A Large-scale Study of Representation Learning with the Visual Task Adaptation Benchmark. [[paper]](https://arxiv.org/abs/1910.04867) [[code]](https://github.com/google-research/task_adaptation)
   - Xiaohua Zhai, Joan Puigcerver, Alexander Kolesnikov, Pierre Ruyssen, Carlos Riquelme, Mario Lucic, Josip Djolonga, Andre Susano Pinto, Maxim Neumann, Alexey Dosovitskiy, Lucas Beyer, Olivier Bachem, Michael Tschannen, Marcin Michalski, Olivier Bousquet, Sylvain Gelly, Neil Houlsby.
   - Digest: We present the Visual Task Adaptation Benchmark (VTAB), which defines good representations as those that adapt to diverse, unseen tasks with few examples. With VTAB, we conduct a large-scale study of many popular publicly-available representation learning algorithms.  
@@ -598,6 +618,10 @@ Our understanding of modern neural networks lags behind their practical successe
 - Learning Representations by Maximizing Mutual Information Across Views. [[paper]](https://arxiv.org/abs/1906.00910) [[code]](https://github.com/Philip-Bachman/amdim-public)
   - Philip Bachman, R Devon Hjelm, William Buchwalter. *NeurIPS 2019*
   - Digest: We propose an approach to self-supervised representation learning based on maximizing mutual information between features extracted from multiple views of a shared context.  
+
+- Data-Efficient Image Recognition with Contrastive Predictive Coding. [[paper]](https://arxiv.org/abs/1905.09272)
+  - Olivier J. Hénaff, Aravind Srinivas, Jeffrey De Fauw, Ali Razavi, Carl Doersch, S. M. Ali Eslami, Aaron van den Oord. *ICML 2020*
+  - Digest: We hypothesize that data-efficient recognition is enabled by representations which make the variability in natural signals more predictable. We therefore revisit and improve Contrastive Predictive Coding, an unsupervised objective for learning such representations.  
 
 - On Variational Bounds of Mutual Information. [[paper]](https://arxiv.org/abs/1905.06922)
   - Ben Poole, Sherjil Ozair, Aaron van den Oord, Alexander A. Alemi, George Tucker. *ICML 2019*
