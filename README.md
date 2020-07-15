@@ -590,6 +590,10 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2020
 
+- Graph Structure of Neural Networks. [[paper]](https://arxiv.org/abs/2007.06559)
+  - Jiaxuan You, Jure Leskovec, Kaiming He, Saining Xie. *ICML 2020*
+  - Digest:  Here we systematically investigate how does the graph structure of neural networks affect their predictive performance. To this end, we develop a novel graph-based representation of neural networks called relational graph, where layers of neural network computation correspond to rounds of message exchange along the graph structure.  
+
 - Deep Isometric Learning for Visual Recognition. [[paper]](https://arxiv.org/abs/2006.16992) [[code]](https://github.com/HaozhiQi/ISONet)
   - Haozhi Qi, Chong You, Xiaolong Wang, Yi Ma, Jitendra Malik. *ICML 2020*
   - Digest: This paper shows that deep vanilla ConvNets without normalization nor skip connections can also be trained to achieve surprisingly good performance on standard image recognition benchmarks. This is achieved by enforcing the convolution kernels to be near isometric during initialization and training, as well as by using a variant of ReLU that is shifted towards being isometric.  
