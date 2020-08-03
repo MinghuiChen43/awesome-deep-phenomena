@@ -206,6 +206,10 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2020
 
+- Finite Versus Infinite Neural Networks: an Empirical Study. [[paper]](https://arxiv.org/abs/2007.15801)
+  - Jaehoon Lee, Samuel S. Schoenholz, Jeffrey Pennington, Ben Adlam, Lechao Xiao, Roman Novak, Jascha Sohl-Dickstein.
+  - Digest: We perform a careful, thorough, and large scale empirical study of the correspondence between wide neural networks and kernel methods. By doing so, we resolve a variety of open questions related to the study of infinitely wide neural networks.  
+
 - Graph Structure of Neural Networks. [[paper]](https://arxiv.org/abs/2007.06559)
   - Jiaxuan You, Jure Leskovec, Kaiming He, Saining Xie. *ICML 2020*
   - Digest:  Here we systematically investigate how does the graph structure of neural networks affect their predictive performance. To this end, we develop a novel graph-based representation of neural networks called relational graph, where layers of neural network computation correspond to rounds of message exchange along the graph structure.  
