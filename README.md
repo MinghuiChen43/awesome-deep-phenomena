@@ -148,6 +148,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Behnam Neyshabur, Zhiyuan Li, Srinadh Bhojanapalli, Yann LeCun, Nathan Srebro.  *ICLR 2019*
   - Digest:  In this work we suggest a novel complexity measure based on unit-wise capacities resulting in a tighter generalization bound for two layer ReLU networks. Our capacity bound correlates with the behavior of test error with increasing network sizes, and could potentially explain the improvement in generalization with over-parametrization.  
 
+- A Mean Field View of the Landscape of Two-Layers Neural Networks. [[paper]](https://arxiv.org/abs/1804.06561)
+  - Song Mei, Andrea Montanari, Phan-Minh Nguyen. *PNAS*
+  - Digest: In this paper we consider a simple case, namely two-layers neural networks, and prove that -in a suitable scaling limit- SGD dynamics is captured by a certain non-linear partial differential equation (PDE) that we call distributional dynamics (DD). We then consider several specific examples, and show how DD can be used to prove convergence of SGD to networks with nearly ideal generalization error.  
+
 - How to Start Training: The Effect of Initialization and Architecture. [[paper]](https://arxiv.org/abs/1803.01719)
   - Boris Hanin, David Rolnick. *NeurIPS 2018*
   - Digest: We identify and study two common failure modes for early training in deep ReLU nets. The first failure mode, exploding/vanishing mean activation length, can be avoided by initializing weights from a symmetric distribution with variance 2/fan-in and, for ResNets, by correctly weighting the residual modules. We prove that the second failure mode, exponentially large variance of activation length, never occurs in residual nets once the first failure mode is avoided.  
@@ -311,6 +315,10 @@ Our understanding of modern neural networks lags behind their practical successe
 - One ticket to win them all: generalizing lottery ticket initializations across datasets and optimizers. [[paper]](https://arxiv.org/abs/1906.02773)
   - Ari S. Morcos, Haonan Yu, Michela Paganini, Yuandong Tian. *NeurIPS 2019*
   - Digest:  Perhaps surprisingly, we found that, within the natural images domain, winning ticket initializations generalized across a variety of datasets, including Fashion MNIST, SVHN, CIFAR-10/100, ImageNet, and Places365, often achieving performance close to that of winning tickets generated on the same dataset.  
+
+- Deep ReLU Networks Have Surprisingly Few Activation Patterns. [[paper]](https://arxiv.org/abs/1906.00904)
+  - Boris Hanin, David Rolnick. *NeurIPS 2019*
+  - Digest: In this paper, we show that the average number of activation patterns for ReLU networks at initialization is bounded by the total number of neurons raised to the input dimension. We show empirically that this bound, which is independent of the depth, is tight both at initialization and during training, even on memorization tasks that should maximize the number of activation patterns.  
 
 - Rethinking the Usage of Batch Normalization and Dropout in the Training of Deep Neural Networks. [[paper]](https://arxiv.org/abs/1905.05928)
   - Guangyong Chen, Pengfei Chen, Yujun Shi, Chang-Yu Hsieh, Benben Liao, Shengyu Zhang.
