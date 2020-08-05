@@ -156,6 +156,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Boris Hanin, David Rolnick. *NeurIPS 2018*
   - Digest: We identify and study two common failure modes for early training in deep ReLU nets. The first failure mode, exploding/vanishing mean activation length, can be avoided by initializing weights from a symmetric distribution with variance 2/fan-in and, for ResNets, by correctly weighting the residual modules. We prove that the second failure mode, exponentially large variance of activation length, never occurs in residual nets once the first failure mode is avoided.  
 
+- Generalization in Machine Learning via Analytical Learning Theory. [[paper]](https://arxiv.org/abs/1802.07426)
+  - Kenji Kawaguchi, Yoshua Bengio, Vikas Verma, Leslie Pack Kaelbling.
+  - Digest: This paper introduces a novel measure-theoretic theory for machine learning that does not require statistical assumptions. Based on this theory, a new regularization method in deep learning is derived and shown to outperform previous methods in CIFAR-10, CIFAR-100, and SVHN.  
+
 - Stronger generalization bounds for deep nets via a compression approach. [[paper]](https://arxiv.org/abs/1802.05296)
   - Sanjeev Arora, Rong Ge, Behnam Neyshabur, Yi Zhang. *ICML 2018*
   - Digest: A simple compression framework for proving generalization bounds, perhaps a more explicit and intuitive form of the PAC-Bayes work. It also yields elementary short proofs of recent generalization results.  
