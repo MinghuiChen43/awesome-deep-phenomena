@@ -406,6 +406,10 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2020
 
+- Axiom-based Grad-CAM: Towards Accurate Visualization and Explanation of CNNs. [[paper]](https://arxiv.org/abs/2008.02312) [[code]](https://github.com/Fu0511/XGrad-CAM)
+  - Ruigang Fu, Qingyong Hu, Xiaohu Dong, Yulan Guo, Yinghui Gao, Biao Li. *BMVC 2020*
+  - Digest:  In this paper, we introduce two axioms -- Conservation and Sensitivity -- to the visualization paradigm of the CAM methods. Meanwhile, a dedicated Axiom-based Grad-CAM (XGrad-CAM) is proposed to satisfy these axioms as much as possible.  
+
 - Neural Additive Models: Interpretable Machine Learning with Neural Nets. [[paper]](https://arxiv.org/abs/2004.13912) [[code]](https://github.com/propublica/compas-analysis)
   - Rishabh Agarwal, Nicholas Frosst, Xuezhou Zhang, Rich Caruana, Geoffrey E. Hinton.
   - Digest: We propose Neural Additive Models (NAMs) which combine some of the expressivity of DNNs with the inherent intelligibility of generalized additive models. NAMs learn a linear combination of neural networks that each attend to a single input feature.  
