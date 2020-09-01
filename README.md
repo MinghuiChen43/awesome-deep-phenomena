@@ -214,6 +214,10 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2020
 
+- Extreme Memorization via Scale of Initialization. [[paper]](https://arxiv.org/abs/2008.13363)
+  - Harsh Mehta, Ashok Cutkosky, Behnam Neyshabur.
+  - Digest: We construct an experimental setup in which changing the scale of initialization strongly impacts the implicit regularization induced by SGD, interpolating from good generalization performance to completely memorizing the training set while making little progress on the test set. Moreover, we find that the extent and manner in which generalization ability is affected depends on the activation and loss function used, with sin activation being the most extreme.  
+
 - Finite Versus Infinite Neural Networks: an Empirical Study. [[paper]](https://arxiv.org/abs/2007.15801)
   - Jaehoon Lee, Samuel S. Schoenholz, Jeffrey Pennington, Ben Adlam, Lechao Xiao, Roman Novak, Jascha Sohl-Dickstein.
   - Digest: We perform a careful, thorough, and large scale empirical study of the correspondence between wide neural networks and kernel methods. By doing so, we resolve a variety of open questions related to the study of infinitely wide neural networks.  
