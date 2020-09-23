@@ -12,6 +12,10 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### 2020
 
+- Towards a Mathematical Understanding of Neural Network-Based Machine Learning: what we know and what we don't. [[paper]](https://arxiv.org/abs/2009.10713)
+  - Weinan E, Chao Ma, Stephan Wojtowytsch, Lei Wu.
+  - Digest: The purpose of this article is to review the achievements made in the last few years towards the understanding of the reasons behind the success and subtleties of neural network-based machine learning.  
+
 - The Representation Theory of Neural Networks. [[paper]](https://arxiv.org/abs/2007.12213)
   - Marco Antonio Armenta, Pierre-Marc Jodoin.
   - Digest: In this work, we show that neural networks can be represented via the mathematical theory of quiver representations. More specifically, we prove that a neural network is a quiver representation with activation functions, a mathematical object that we represent using a network quiver.  
