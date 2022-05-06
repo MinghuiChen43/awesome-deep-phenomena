@@ -19,7 +19,7 @@ Our understanding of modern neural networks lags behind their practical successe
 - Limitations of Neural Collapse for Understanding Generalization in Deep Learning. [[paper]](https://arxiv.org/abs/2202.08384)
   - Like Hui, Mikhail Belkin, Preetum Nakkiran.
   - Key Word: Neural Collapse.
-  - Digest: We point out that Neural Collapse is primarily an optimization phenomenon, not a generalization one, by investigating the train collapse and test collapse on various dataset and architecture combinations. We propose more precise denitions — "strong" and "weak" Neural Collapse for both the train set and the test set — and discuss their theoretical feasibility.
+  - Digest: We point out that Neural Collapse is primarily an optimization phenomenon, not a generalization one, by investigating the train collapse and test collapse on various dataset and architecture combinations. We propose more precise definitions — "strong" and "weak" Neural Collapse for both the train set and the test set — and discuss their theoretical feasibility.
 
 ### Empirical Study: 2021
 
