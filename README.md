@@ -23,6 +23,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2021
 
+- Masked Autoencoders Are Scalable Vision Learners. [[paper]](https://arxiv.org/abs/2111.06377) [[code]](https://github.com/facebookresearch/mae)
+  - Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, Ross Girshick. *CVPR 2022*
+  - Key Word: Self-Supervision; Autoencoders.
+  - Digest: This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for computer vision. Our MAE approach is simple: we mask random patches of the input image and reconstruct the missing pixels. It is based on two core designs. First, we develop an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens. Second, we find that masking a high proportion of the input image, e.g., 75%, yields a nontrivial and meaningful self-supervisory task.
+
 - Exploring the Limits of Large Scale Pre-training. [[paper]](https://arxiv.org/abs/2110.02095)
   - Samira Abnar, Mostafa Dehghani, Behnam Neyshabur, Hanie Sedghi. *ICLR 2022*
   - Key Word: Pre-training.
@@ -292,6 +297,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Lottery Ticket Hypothesis
 
 ### Lottery Ticket Hypothesis: 2022
+
+- Reconstruction Task Finds Universal Winning Tickets. [[paper]](https://arxiv.org/abs/2202.11484)
+  - Ruichen Li, Binghui Li, Qi Qian, Liwei Wang.
+  - Key Word: Lottery Ticket Hypothesis; Self-Supervision.
+  - Digest: We show that the image-level pretrain task is not capable of pruning models for diverse downstream tasks. To mitigate this problem, we introduce image reconstruction, a pixel-level task, into the traditional pruning framework. Concretely, an autoencoder is trained based on the original model, and then the pruning process is optimized with both autoencoder and classification losses.
 
 - Finding Dynamics Preserving Adversarial Winning Tickets. [[paper]](https://arxiv.org/abs/2202.06488) [[code]](https://github.com/google/neural-tangents)
   - Xupeng Shi, Pengfei Zheng, A. Adam Ding, Yuan Gao, Weizhong Zhang. *AISTATS 2022*
