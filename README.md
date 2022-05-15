@@ -512,6 +512,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Shape-Texture; Robustness.
   - Digest: Shape and texture are two prominent and complementary cues for recognizing objects. Nonetheless, Convolutional Neural Networks are often biased towards either texture or shape, depending on the training dataset. Our ablation shows that such bias degenerates model performance. Motivated by this observation, we develop a simple algorithm for shape-texture debiased learning. To prevent models from exclusively attending on a single cue in representation learning, we augment training data with images with conflicting shape and texture information (eg, an image of chimpanzee shape but with lemon texture) and, most importantly, provide the corresponding supervisions from shape and texture simultaneously.
 
+- Beyond accuracy: quantifying trial-by-trial behaviour of CNNs and humans by measuring error consistency. [[paper]](https://arxiv.org/abs/2006.16736) [[code]](https://github.com/wichmann-lab/error-consistency)
+  - Robert Geirhos, Kristof Meding, Felix A. Wichmann.
+  - Key Word: Error Consistency.
+  - Digest: Here we introduce trial-by-trial error consistency, a quantitative analysis for measuring whether two decision making systems systematically make errors on the same inputs. Making consistent errors on a trial-by-trial basis is a necessary condition if we want to ascertain similar processing strategies between decision makers.  
+
 - Biologically Inspired Mechanisms for Adversarial Robustness. [[paper]](https://arxiv.org/abs/2006.16427)
   - Manish V. Reddy, Andrzej Banburski, Nishka Pant, Tomaso Poggio. *NeurIPS 2020*
   - Key Word: Robustness; Retinal Fixations.
