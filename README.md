@@ -298,6 +298,26 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Lottery Ticket Hypothesis: 2022
 
+- Revisit Kernel Pruning with Lottery Regulated Grouped Convolutions. [[paper]](https://openreview.net/forum?id=LdEhiMG9WLO) [[code]](https://github.com/choH/lottery_regulated_grouped_kernel_pruning)
+  - Shaochen Zhong, Guanqun Zhang, Ningjia Huang, Shuai Xu. *ICLR 2022*
+  - Key Word: Lottery Ticket Hypothesis.
+  - Digest: We revisit the idea of kernel pruning, a heavily overlooked approach under the context of structured pruning. This is because kernel pruning will naturally introduce sparsity to filters within the same convolutional layer — thus, making the remaining network no longer dense. We address this problem by proposing a versatile grouped pruning framework where we first cluster filters from each convolutional layer into equal-sized groups, prune the grouped kernels we deem unimportant from each filter group, then permute the remaining filters to form a densely grouped convolutional architecture (which also enables the parallel computing capability) for fine-tuning.
+
+- Proving the Lottery Ticket Hypothesis for Convolutional Neural Networks. [[paper]](https://openreview.net/forum?id=Vjki79-619-)
+  - Arthur da Cunha, Emanuele Natale, Laurent Viennot, Laurent_Viennot. *ICLR 2022*
+  - Key Word: Lottery Ticket Hypothesis.
+  - Digest: Recent theoretical works proved an even stronger version: every sufficiently overparameterized (dense) neural network contains a subnetwork that, even without training, achieves accuracy comparable to that of the trained large network. These works left as an open problem to extend the result to convolutional neural networks (CNNs). In this work we provide such generalization by showing that, with high probability, it is possible to approximate any CNN by pruning a random CNN whose size is larger by a logarithmic factor.
+
+- Audio Lottery: Speech Recognition Made Ultra-Lightweight, Noise-Robust, and Transferable. [[paper]](https://openreview.net/forum?id=9Nk6AJkVYB) [[code]](https://github.com/VITA-Group/Audio-Lottery)
+  - Shaojin Ding, Tianlong Chen, Zhangyang Wang. *ICLR 2022*
+  - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
+  - Digest: We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
+
+- Dual Lottery Ticket Hypothesis. [[paper]](https://arxiv.org/abs/2203.04248) [[code]](https://github.com/yueb17/dlth)
+  - Yue Bai, Huan Wang, Zhiqiang Tao, Kunpeng Li, Yun Fu. *ICLR 2022*
+  - Key Word: Lottery Ticket Hypothesis.
+  - Digest: This paper articulates a Dual Lottery Ticket Hypothesis (DLTH) as a dual format of original Lottery Ticket Hypothesis (LTH). Correspondingly, a simple regularization based sparse network training strategy, Random Sparse Network Transformation (RST), is proposed to validate DLTH and enhance sparse network training.
+
 - Reconstruction Task Finds Universal Winning Tickets. [[paper]](https://arxiv.org/abs/2202.11484)
   - Ruichen Li, Binghui Li, Qi Qian, Liwei Wang.
   - Key Word: Lottery Ticket Hypothesis; Self-Supervision.
@@ -309,6 +329,21 @@ Our understanding of modern neural networks lags behind their practical successe
   - Digest: Based on recent works of Neural Tangent Kernel (NTK), we systematically study the dynamics of adversarial training and prove the existence of trainable sparse sub-network at initialization which can be trained to be adversarial robust from scratch. This theoretically verifies the lottery ticket hypothesis in adversarial context and we refer such sub-network structure as Adversarial Winning Ticket (AWT). We also show empirical evidences that AWT preserves the dynamics of adversarial training and achieve equal performance as dense adversarial training.
 
 ### Lottery Ticket Hypothesis: 2021
+
+- Plant 'n' Seek: Can You Find the Winning Ticket? [[paper]](https://arxiv.org/abs/2111.11153) [[code]](https://github.com/RelationalML/PlantNSeek)
+  - Jonas Fischer, Rebekka Burkholz. *ICLR 2022*
+  - Key Word: Lottery Ticket Hypothesis.
+  - Digest: Currently, such algorithms are primarily evaluated on imaging data, for which we lack ground truth information and thus the understanding of how sparse lottery tickets could be. To fill this gap, we develop a framework that allows us to plant and hide winning tickets with desirable properties in randomly initialized neural networks. To analyze the ability of state-of-the-art pruning to identify tickets of extreme sparsity, we design and hide such tickets solving four challenging tasks.
+
+- On the Existence of Universal Lottery Tickets. [[paper]](https://arxiv.org/abs/2111.11146) [[code]](https://github.com/relationalml/universallt)
+  - Rebekka Burkholz, Nilanjana Laha, Rajarshi Mukherjee, Alkis Gotovos. *ICLR 2022*
+  - Key Word: Lottery Ticket Hypothesis.
+  - Digest: The lottery ticket hypothesis conjectures the existence of sparse subnetworks of large randomly initialized deep neural networks that can be successfully trained in isolation. Recent work has experimentally observed that some of these tickets can be practically reused across a variety of tasks, hinting at some form of universality. We formalize this concept and theoretically prove that not only do such universal tickets exist but they also do not require further training.
+
+- How many degrees of freedom do we need to train deep networks: a loss landscape perspective. [[paper]](https://arxiv.org/abs/2107.05802) [[code]](https://github.com/ganguli-lab/degrees-of-freedom)
+  - Brett W. Larsen, Stanislav Fort, Nic Becker, Surya Ganguli. *ICLR 2022*
+  - Key Word: Loss Landscape; Lottery Ticket Hypothesis.
+  - Digest: A variety of recent works, spanning pruning, lottery tickets, and training within random subspaces, have shown that deep neural networks can be trained using far fewer degrees of freedom than the total number of parameters. We analyze this phenomenon for random subspaces by first examining the success probability of hitting a training loss sublevel set when training within a random subspace of a given training dimensionality.  
 
 - A Winning Hand: Compressing Deep Networks Can Improve Out-Of-Distribution Robustness. [[paper]](https://arxiv.org/abs/2106.09129)
   - James Diffenderfer, Brian R. Bartoldson, Shreya Chaganti, Jize Zhang, Bhavya Kailkhura. *NeurIPS 2021*
@@ -324,6 +359,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Xin Qian, Diego Klabjan. *ICML 2021*
   - Key Word: Lottery Ticket Hypothesis.
   - Digest: We theoretically study the performance of two pruning techniques (random and magnitude-based) on FCNs and CNNs. Given a target network whose weights are independently sampled from appropriate distributions, we provide a universal approach to bound the gap between a pruned and the target network in a probabilistic sense. The results establish that there exist pruned networks with expressive power within any specified bound from the target network.
+
+- On Lottery Tickets and Minimal Task Representations in Deep Reinforcement Learning. [[paper]](https://arxiv.org/abs/2105.01648)
+  - Marc Aurel Vischer, Robert Tjarko Lange, Henning Sprekeler. *ICLR 2022*
+  - Key Word: Reinforcement Learning; Lottery Ticket Hypothesis.
+  - Digest: The lottery ticket hypothesis questions the role of overparameterization in supervised deep learning. But how is the performance of winning lottery tickets affected by the distributional shift inherent to reinforcement learning problems? In this work, we address this question by comparing sparse agents who have to address the non-stationarity of the exploration-exploitation problem with supervised agents trained to imitate an expert. We show that feed-forward networks trained with behavioural cloning compared to reinforcement learning can be pruned to higher levels of sparsity without performance degradation.
 
 - Multi-Prize Lottery Ticket Hypothesis: Finding Accurate Binary Neural Networks by Pruning A Randomly Weighted Network. [[paper]](https://arxiv.org/abs/2103.09377) [[code]](https://github.com/chrundle/biprop)
   - James Diffenderfer, Bhavya Kailkhura. *ICLR 2021*
