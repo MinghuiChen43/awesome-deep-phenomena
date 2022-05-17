@@ -656,6 +656,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Information Bottleneck; PAC-Bayes.
   - Digest: There have been a series of theoretical works trying to derive non-vacuous bounds for NNs. Recently, the compression of information stored in weights (IIW) is proved to play a key role in NNs generalization based on the PAC-Bayes theorem. However, no solution of IIW has ever been provided, which builds a barrier for further investigation of the IIW's property and its potential in practical deep learning. In this paper, we propose an algorithm for the efficient approximation of IIW. Then, we build an IIW-based information bottleneck on the trade-off between accuracy and information complexity of NNs, namely PIB.
 
+- Information Bottleneck: Exact Analysis of (Quantized) Neural Networks. [[paper]](https://arxiv.org/abs/2106.12912) [[code]](https://github.com/StephanLorenzen/ExactIBAnalysisInQNNs)
+  - Stephan Sloth Lorenzen, Christian Igel, Mads Nielsen. *ICLR 2022*
+  - Key Word: Information Bottleneck; Quantization.
+  - Digest: We study the IB principle in settings where MI is non-trivial and can be computed exactly. We monitor the dynamics of quantized neural networks, that is, we discretize the whole deep learning system so that no approximation is required when computing the MI. This allows us to quantify the information flow without measurement errors.
+
 - Invariance Principle Meets Information Bottleneck for Out-of-Distribution Generalization. [[paper]](https://arxiv.org/abs/2106.06607) [[code]](https://github.com/ahujak/IB-IRM)
   - Kartik Ahuja, Ethan Caballero, Dinghuai Zhang, Yoshua Bengio, Ioannis Mitliagkas, Irina Rish. *NeurIPS 2021*
   - Key Word: Information Bottleneck; Out-of-Distribution Generalization; Invarianct Risk Minimization.
@@ -864,6 +869,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Digest: In this work, we study the sample complexity of robust interpolation problem when the data are in a unit ball. We show that both too many data and small data hurt robustness.
 
 ### Others: 2021
+
+- Discovering and Explaining the Representation Bottleneck of DNNs. [[paper]](https://arxiv.org/abs/2111.06236)
+  - Huiqi Deng, Qihan Ren, Hao Zhang, Quanshi Zhang. *ICLR 2022*
+  - Key Word: Representation Bottleneck; Explanation.
+  - Digest: This paper explores the bottleneck of feature representations of deep neural networks (DNNs), from the perspective of the complexity of interactions between input variables encoded in DNNs. To this end, we focus on the multi-order interaction between input variables, where the order represents the complexity of interactions. We discover that a DNN is more likely to encode both too simple and too complex interactions, but usually fails to learn interactions of intermediate complexity. Such a phenomenon is widely shared by different DNNs for different tasks. This phenomenon indicates a cognition gap between DNNs and humans, and we call it a representation bottleneck. We theoretically prove the underlying reason for the representation bottleneck.
 
 - The Equilibrium Hypothesis: Rethinking implicit regularization in Deep Neural Networks. [[paper]](https://arxiv.org/abs/2110.11749)
   - Yizhang Lou, Chris Mingard, Soufiane Hayou.
