@@ -533,7 +533,29 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Interactions with Neuroscience
 
+### Interactions with Neuroscience: 2022
+
+- Wiring Up Vision: Minimizing Supervised Synaptic Updates Needed to Produce a Primate Ventral Stream. [[paper]](https://openreview.net/forum?id=g1SzIRLQXMM)
+  - Franziska Geiger, Martin Schrimpf, Tiago Marques, James J. DiCarlo. *ICLR 2022*
+  - Key Word: Computational Neuroscience; Primate Visual Ventral Stream.
+  - Digest: We develop biologically-motivated initialization and training procedures to train models with 200x fewer synaptic updates (epochs x labeled images x weights) while maintaining 80% of brain predictivity on a set of neural and behavioral benchmarks.
+
+- Curriculum learning as a tool to uncover learning principles in the brain. [[paper]](https://openreview.net/forum?id=TpJMvo0_pu-)
+  - Daniel R. Kepple, Rainer Engelken, Kanaka Rajan. *ICLR 2022*
+  - Key Word: Curriculum Learning; Neuroscience.
+  - Digest: We present a novel approach to use curricula to identify principles by which a system learns. Previous work in curriculum learning has focused on how curricula can be designed to improve learning of a model on particular tasks. We consider the inverse problem: what can a curriculum tell us about how a learning system acquired a task? Using recurrent neural networks (RNNs) and models of common experimental neuroscience tasks, we demonstrate that curricula can be used to differentiate learning principles using target-based and a representation-based loss functions as use cases.
+
+- Finding Biological Plausibility for Adversarially Robust Features via Metameric Tasks. [[paper]](https://arxiv.org/abs/2202.00838) [[code]](https://github.com/anneharrington/adversarially-robust-periphery)
+  - Anne Harrington, Arturo Deza. *ICLR 2022*
+  - Key Word: Adversarial Robustness; Peripheral Computation; Psychophysics.
+  - Digest: To understand how adversarially robust optimizations/representations compare to human vision, we performed a psychophysics experiment using a metamer task where we evaluated how well human observers could distinguish between images synthesized to match adversarially robust representations compared to non-robust representations and a texture synthesis model of peripheral vision.  We found that the discriminability of robust representation and texture model images decreased to near chance performance as stimuli were presented farther in the periphery.  
+
 ### Interactions with Neuroscience: 2021
+
+- Relating transformers to models and neural representations of the hippocampal formation. [[paper]](https://arxiv.org/abs/2112.04035)
+  - James C.R. Whittington, Joseph Warren, Timothy E.J. Behrens. *ICLR 2022*
+  - Key Word: Transformers; Hippocampus; Cortex.
+  - Digest: We show that transformers, when equipped with recurrent position encodings, replicate the precisely tuned spatial representations of the hippocampal formation; most notably place and grid cells. Furthermore, we show that this result is no surprise since it is closely related to current hippocampal models from neuroscience.
 
 - Partial success in closing the gap between human and machine vision. [[paper]](https://arxiv.org/abs/2106.07411) [[code]](https://github.com/bethgelab/model-vs-human)
   - Robert Geirhos, Kantharaju Narayanappa, Benjamin Mitzkus, Tizian Thieringer, Matthias Bethge, Felix A. Wichmann, Wieland Brendel. *NeurIPS 2021*
