@@ -313,6 +313,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - Digest: We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
 
+- Analyzing Lottery Ticket Hypothesis from PAC-Bayesian Theory Perspective. [[paper]](https://arxiv.org/abs/2205.07320)
+  - Keitaro Sakamoto, Issei Sato.
+  - Key Word: Lottery Ticket Hypothesis; PAC-Bayes.
+  - Digest: We confirm this hypothesis and show that the PAC-Bayesian theory can provide an explicit understanding of the relationship between LTH and generalization behavior. On the basis of our experimental findings that flatness is useful for improving accuracy and robustness to label noise and that the distance from the initial weights is deeply involved in winning tickets, we offer the PAC-Bayes bound using a spike-and-slab distribution to analyze winning tickets.
+
 - Dual Lottery Ticket Hypothesis. [[paper]](https://arxiv.org/abs/2203.04248) [[code]](https://github.com/yueb17/dlth)
   - Yue Bai, Huan Wang, Zhiqiang Tao, Kunpeng Li, Yun Fu. *ICLR 2022*
   - Key Word: Lottery Ticket Hypothesis.
