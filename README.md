@@ -741,6 +741,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Neural Tangent Kernel
 
+## Neural Tangent Kernel: 2022
+
+- Self-Consistent Dynamical Field Theory of Kernel Evolution in Wide Neural Networks. [[paper]](https://arxiv.org/abs/2205.09653)
+  - Blake Bordelon, Cengiz Pehlevan.
+  - Key Word: Neural Tangent Kernel; Mean Field Theory.
+  - Digest: We analyze feature learning in infinite width neural networks trained with gradient flow through a self-consistent dynamical field theory. We construct a collection of deterministic dynamical order parameters which are inner-product kernels for hidden unit activations and gradients in each layer at pairs of time points, providing a reduced description of network activity through training.
+
 ## Neural Tangent Kernel: 2021
 
 - Neural Tangent Generalization Attacks. [[paper]](https://proceedings.mlr.press/v139/yuan21b.html) [[code]](https://github.com/lionelmessi6410/ntga)
