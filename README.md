@@ -887,6 +887,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Implicit Regularization.
   - Digest: We provide the first explanation for this alignment hierarchy. We introduce and empirically validate the Equilibrium Hypothesis which states that the layers that achieve some balance between forward and backward information loss are the ones with the highest alignment to data labels.
 
+- Understanding Dimensional Collapse in Contrastive Self-supervised Learning. [[paper]](https://arxiv.org/abs/2110.09348) [[code]](https://github.com/facebookresearch/directclr)
+  - Li Jing, Pascal Vincent, Yann LeCun, Yuandong Tian. *ICLR 2022*
+  - Key Word: Self-Supervision; Contrastive Learning; Implicit Regularization; Dimensional Collapse.
+  - Digest: We show that dimensional collapse also happens in contrastive learning. In this paper, we shed light on the dynamics at play in contrastive learning that leads to dimensional collapse. Inspired by our theory,  we propose a novel contrastive learning method, called DirectCLR, which directly optimizes the representation space without relying on a trainable projector.
+
 - Implicit Sparse Regularization: The Impact of Depth and Early Stopping. [[paper]](https://arxiv.org/abs/2108.05574) [[code]](https://github.com/jiangyuan2li/implicit-sparse-regularization)
   - Jiangyuan Li, Thanh V. Nguyen, Chinmay Hegde, Raymond K. W. Wong. *NeurIPS 2021*
   - Key Word: Implicit Regularization.
