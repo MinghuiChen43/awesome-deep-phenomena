@@ -545,6 +545,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Curriculum Learning; Neuroscience.
   - <details><summary>Digest</summary> We present a novel approach to use curricula to identify principles by which a system learns. Previous work in curriculum learning has focused on how curricula can be designed to improve learning of a model on particular tasks. We consider the inverse problem: what can a curriculum tell us about how a learning system acquired a task? Using recurrent neural networks (RNNs) and models of common experimental neuroscience tasks, we demonstrate that curricula can be used to differentiate learning principles using target-based and a representation-based loss functions as use cases.
 
+- The developmental trajectory of object recognition robustness: children are like small adults but unlike big deep neural networks. [[paper]](https://arxiv.org/abs/2205.10144) [[code]](https://github.com/wichmann-lab/robustness-development)
+  - Lukas S. Huber, Robert Geirhos, Felix A. Wichmann.
+  - Key Word: Object Recognition; Out-of-Distribution Generalization; Children.
+  - <details><summary>Digest</summary>  We find, first, that already 4–6 year-olds showed remarkable robustness to image distortions and outperform DNNs trained on ImageNet. Second, we estimated the number of “images” children have been exposed to during their lifetime. Compared to various DNNs, children's high robustness requires relatively little data. Third, when recognizing objects children—like adults but unlike DNNs—rely heavily on shape but not on texture cues. Together our results suggest that the remarkable robustness to distortions emerges early in the developmental trajectory of human object recognition and is unlikely the result of a mere accumulation of experience with distorted visual input.
+
 - Finding Biological Plausibility for Adversarially Robust Features via Metameric Tasks. [[paper]](https://arxiv.org/abs/2202.00838) [[code]](https://github.com/anneharrington/adversarially-robust-periphery)
   - Anne Harrington, Arturo Deza. *ICLR 2022*
   - Key Word: Adversarial Robustness; Peripheral Computation; Psychophysics.
