@@ -860,6 +860,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- A Model of One-Shot Generalization. [[paper]](https://arxiv.org/abs/2205.14553)
+  - Thomas Laurent, James H. von Brecht, Xavier Bresson.
+  - Key Word: One-Shot Generalization; PAC Learning; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We provide a theoretical framework to study a phenomenon that we call one-shot generalization. This phenomenon refers to the ability of an algorithm to perform transfer learning within a single task, meaning that it correctly classifies a test point that has a single exemplar in the training set. We propose a simple data model and use it to study this phenomenon in two ways. First, we prove a non-asymptotic base-line -- kernel methods based on nearest-neighbor classification cannot perform one-shot generalization, independently of the choice of the kernel and the size of the training set. Second, we empirically show that the most direct neural network architecture for our data model performs one-shot generalization almost perfectly. This stark differential leads us to believe that the one-shot generalization mechanism is partially responsible for the empirical success of neural networks.
+
 - Towards Understanding Grokking: An Effective Theory of Representation Learning. [[paper]](https://arxiv.org/abs/2205.10343)
   - Ziming Liu, Ouail Kitouni, Niklas Nolte, Eric J. Michaud, Max Tegmark, Mike Williams.
   - Key Word: Grokking; Physics of Learning; Deep Double Descent.
