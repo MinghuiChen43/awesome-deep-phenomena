@@ -545,6 +545,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Curriculum Learning; Neuroscience.
   - <details><summary>Digest</summary> We present a novel approach to use curricula to identify principles by which a system learns. Previous work in curriculum learning has focused on how curricula can be designed to improve learning of a model on particular tasks. We consider the inverse problem: what can a curriculum tell us about how a learning system acquired a task? Using recurrent neural networks (RNNs) and models of common experimental neuroscience tasks, we demonstrate that curricula can be used to differentiate learning principles using target-based and a representation-based loss functions as use cases.
 
+- Painful intelligence: What AI can tell us about human suffering. [[paper]](https://arxiv.org/abs/2205.15409)
+  - Aapo Hyvärinen.
+  - Key Word: Neuroscience.
+  - <details><summary>Digest</summary> This book uses the modern theory of artificial intelligence (AI) to understand human suffering or mental pain. Both humans and sophisticated AI agents process information about the world in order to achieve goals and obtain rewards, which is why AI can be used as a model of the human brain and mind. This book intends to make the theory accessible to a relatively general audience, requiring only some relevant scientific background. The book starts with the assumption that suffering is mainly caused by frustration. Frustration means the failure of an agent (whether AI or human) to achieve a goal or a reward it wanted or expected.
+
 - The developmental trajectory of object recognition robustness: children are like small adults but unlike big deep neural networks. [[paper]](https://arxiv.org/abs/2205.10144) [[code]](https://github.com/wichmann-lab/robustness-development)
   - Lukas S. Huber, Robert Geirhos, Felix A. Wichmann.
   - Key Word: Object Recognition; Out-of-Distribution Generalization; Children.
