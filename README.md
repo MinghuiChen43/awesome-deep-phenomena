@@ -870,6 +870,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Realistic Deep Learning May Not Fit Benignly. [[paper]](https://arxiv.org/abs/2206.00501)
+  - Kaiyue Wen, Jiaye Teng, Jingzhao Zhang.
+  - Key Word: Benign Overfitting.
+  - <details><summary>Digest</summary> We examine the benign overfitting phenomena in real-world settings. We found that for tasks such as training a ResNet model on ImageNet dataset, the model does not fit benignly. To understand why benign overfitting fails in the ImageNet experiment, we analyze previous benign overfitting models under a more restrictive setup where the number of parameters is not significantly larger than the number of data points.
+
 - A Model of One-Shot Generalization. [[paper]](https://arxiv.org/abs/2205.14553)
   - Thomas Laurent, James H. von Brecht, Xavier Bresson.
   - Key Word: One-Shot Generalization; PAC Learning; Neural Tangent Kernel.
@@ -968,6 +973,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Vardan Papyan, X.Y. Han, David L. Donoho. *PNAS*
   - Key Word: Neural Collapse.
   - <details><summary>Digest</summary> This paper studied the terminal phase of training (TPT) of today’s canonical deepnet training protocol. It documented that during TPT a process called Neural Collapse takes place, involving four fundamental and interconnected phenomena: (NC1)-(NC4).
+
+- How benign is benign overfitting? [[paper]](https://arxiv.org/abs/2007.04028)
+  - Amartya Sanyal, Puneet K Dokania, Varun Kanade, Philip H.S. Torr. *ICLR 2021*
+  - Key Word: Benign Overfitting; Adversarial Robustness.
+  - <details><summary>Digest</summary> We investigate two causes for adversarial vulnerability in deep neural networks: bad data and (poorly) trained models. When trained with SGD, deep neural networks essentially achieve zero training error, even in the presence of label noise, while also exhibiting good generalization on natural test data, something referred to as benign overfitting. However, these models are vulnerable to adversarial attacks. We identify label noise as one of the causes for adversarial vulnerability, and provide theoretical and empirical evidence in support of this. Surprisingly, we find several instances of label noise in datasets such as MNIST and CIFAR, and that robustly trained models incur training error on some of these, i.e. they don’t fit the noise.
 
 - Neural Controlled Differential Equations for Irregular Time Series. [[paper]](https://arxiv.org/abs/2005.08926) [[code]](https://github.com/patrick-kidger/NeuralCDE)
   - Patrick Kidger, James Morrill, James Foster, Terry Lyons. *NeurIPS 2020*
