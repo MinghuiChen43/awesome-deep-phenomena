@@ -875,6 +875,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- A Theoretical Analysis on Feature Learning in Neural Networks: Emergence from Inputs and Advantage over Fixed Features. [[paper]](https://arxiv.org/abs/2206.01717)
+  - Zhenmei Shi, Junyi Wei, Yingyu Liang. *ICLR 2022*
+  - Key Word: Linearization of Neural Networks; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> To better understand the source and benefit of feature learning in neural networks, we consider learning problems motivated by practical data, where the labels are determined by a set of class relevant patterns and the inputs are generated from these along with some background patterns. We prove that neural networks trained by gradient descent can succeed on these problems. The success relies on the emergence and improvement of effective features, which are learned among exponentially many candidates efficiently by exploiting the data (in particular, the structure of the input distribution).
+
 - Realistic Deep Learning May Not Fit Benignly. [[paper]](https://arxiv.org/abs/2206.00501)
   - Kaiyue Wen, Jiaye Teng, Jingzhao Zhang.
   - Key Word: Benign Overfitting.
