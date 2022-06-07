@@ -758,6 +758,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Neural Tangent Kernel: 2022
 
+- On the Generalization Power of the Overfitted Three-Layer Neural Tangent Kernel Model. [[paper]](https://arxiv.org/abs/2206.02047)
+  - Peizhong Ju, Xiaojun Lin, Ness B. Shroff.
+  - Key Word: Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We study the generalization performance of overparameterized 3-layer NTK models. We show that, for a specific set of ground-truth functions (which we refer to as the "learnable set"), the test error of the overfitted 3-layer NTK is upper bounded by an expression that decreases with the number of neurons of the two hidden layers. Different from 2-layer NTK where there exists only one hidden-layer, the 3-layer NTK involves interactions between two hidden-layers. Our upper bound reveals that, between the two hidden-layers, the test error descends faster with respect to the number of neurons in the second hidden-layer (the one closer to the output) than with respect to that in the first hidden-layer (the one closer to the input).
+
 - Self-Consistent Dynamical Field Theory of Kernel Evolution in Wide Neural Networks. [[paper]](https://arxiv.org/abs/2205.09653)
   - Blake Bordelon, Cengiz Pehlevan.
   - Key Word: Neural Tangent Kernel; Mean Field Theory.
@@ -874,6 +879,10 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Others
 
 ### Others: 2022
+
+- Why do CNNs Learn Consistent Representations in their First Layer Independent of Labels and Architecture? [[paper]](https://arxiv.org/abs/2206.02454)
+  - Rhea Chowers, Yair Weiss.
+  - Key Word: It has previously been observed that the filters learned in the first layer of a CNN are qualitatively similar for different networks and tasks. We extend this finding and show a high quantitative similarity between filters learned by different networks. We consider the CNN filters as a filter bank and measure the sensitivity of the filter bank to different frequencies. We show that the sensitivity profile of different networks is almost identical, yet far from initialization. Remarkably, we show that it remains the same even when the network is trained with random labels. To understand this effect, we derive an analytic formula for the sensitivity of the filters in the first layer of a linear CNN. We prove that when the average patch in images of the two classes is identical, the sensitivity profile of the filters in the first layer will be identical in expectation when using the true labels or random labels and will only depend on the second-order statistics of image patches.
 
 - A Theoretical Analysis on Feature Learning in Neural Networks: Emergence from Inputs and Advantage over Fixed Features. [[paper]](https://arxiv.org/abs/2206.01717)
   - Zhenmei Shi, Junyi Wei, Yingyu Liang. *ICLR 2022*
