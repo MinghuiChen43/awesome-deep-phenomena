@@ -16,6 +16,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- Neural Collapse: A Review on Modelling Principles and Generalization. [[paper]](https://arxiv.org/abs/2206.04041)
+  - Vignesh Kothapalli, Ebrahim Rasromani, Vasudev Awatramani.
+  - Key Word: Neural Collapse.
+  - <details><summary>Digest</summary> We analyse the principles which aid in modelling such a phenomena from the ground up and show how they can build a common understanding of the recently proposed models that try to explain NC. We hope that our analysis presents a multifaceted perspective on modelling NC and aids in forming connections with the generalization capabilities of neural networks. Finally, we conclude by discussing the avenues for further research and propose potential research problems.
+
 - Limitations of Neural Collapse for Understanding Generalization in Deep Learning. [[paper]](https://arxiv.org/abs/2202.08384)
   - Like Hui, Mikhail Belkin, Preetum Nakkiran.
   - Key Word: Neural Collapse.
@@ -880,9 +885,15 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Towards Understanding Why Mask-Reconstruction Pretraining Helps in Downstream Tasks. [[paper]](https://arxiv.org/abs/2206.03826)
+  - Jiachun Pan, Pan Zhou, Shuicheng Yan.
+  - Key Word: Mask-Reconstruction Pretraining; Self-Supervision.
+  - <details><summary>Digest</summary> Supervised fine-tuning the pretrained encoder remarkably surpasses the conventional supervised learning (SL) trained from scratch. However, it is still unclear 1) how MRP performs semantic learning in the pretraining phase and 2) why it helps in downstream tasks. To solve these problems, we theoretically show that on an auto-encoder of a two/one-layered convolution encoder/decoder, MRP can capture all discriminative semantics in the pretraining dataset, and accordingly show its provable improvement over SL on the classification downstream task.
+
 - Why do CNNs Learn Consistent Representations in their First Layer Independent of Labels and Architecture? [[paper]](https://arxiv.org/abs/2206.02454)
   - Rhea Chowers, Yair Weiss.
-  - Key Word: It has previously been observed that the filters learned in the first layer of a CNN are qualitatively similar for different networks and tasks. We extend this finding and show a high quantitative similarity between filters learned by different networks. We consider the CNN filters as a filter bank and measure the sensitivity of the filter bank to different frequencies. We show that the sensitivity profile of different networks is almost identical, yet far from initialization. Remarkably, we show that it remains the same even when the network is trained with random labels. To understand this effect, we derive an analytic formula for the sensitivity of the filters in the first layer of a linear CNN. We prove that when the average patch in images of the two classes is identical, the sensitivity profile of the filters in the first layer will be identical in expectation when using the true labels or random labels and will only depend on the second-order statistics of image patches.
+  - Key Word: Architecture Inductive Bias.
+  - <details><summary>Digest</summary> It has previously been observed that the filters learned in the first layer of a CNN are qualitatively similar for different networks and tasks. We extend this finding and show a high quantitative similarity between filters learned by different networks. We consider the CNN filters as a filter bank and measure the sensitivity of the filter bank to different frequencies. We show that the sensitivity profile of different networks is almost identical, yet far from initialization. Remarkably, we show that it remains the same even when the network is trained with random labels. To understand this effect, we derive an analytic formula for the sensitivity of the filters in the first layer of a linear CNN. We prove that when the average patch in images of the two classes is identical, the sensitivity profile of the filters in the first layer will be identical in expectation when using the true labels or random labels and will only depend on the second-order statistics of image patches.
 
 - A Theoretical Analysis on Feature Learning in Neural Networks: Emergence from Inputs and Advantage over Fixed Features. [[paper]](https://arxiv.org/abs/2206.01717)
   - Zhenmei Shi, Junyi Wei, Yingyu Liang. *ICLR 2022*
@@ -921,6 +932,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2021
 
+- On the Role of Neural Collapse in Transfer Learning. [[paper]](https://arxiv.org/abs/2112.15121)
+  - Tomer Galanti, András György, Marcus Hutter. *ICLR 2022*
+  - Key Word: Neural Collapse; Transfer Learning.
+  - <details><summary>Digest</summary> We provide an explanation for this behavior based on the recently observed phenomenon that the features learned by overparameterized classification networks show an interesting clustering property, called neural collapse.
+
 - Discovering and Explaining the Representation Bottleneck of DNNs. [[paper]](https://arxiv.org/abs/2111.06236)
   - Huiqi Deng, Qihan Ren, Hao Zhang, Quanshi Zhang. *ICLR 2022*
   - Key Word: Representation Bottleneck; Explanation.
@@ -935,6 +951,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Li Jing, Pascal Vincent, Yann LeCun, Yuandong Tian. *ICLR 2022*
   - Key Word: Self-Supervision; Contrastive Learning; Implicit Regularization; Dimensional Collapse.
   - <details><summary>Digest</summary> We show that dimensional collapse also happens in contrastive learning. In this paper, we shed light on the dynamics at play in contrastive learning that leads to dimensional collapse. Inspired by our theory,  we propose a novel contrastive learning method, called DirectCLR, which directly optimizes the representation space without relying on a trainable projector.
+
+- An Unconstrained Layer-Peeled Perspective on Neural Collapse. [[paper]](https://arxiv.org/abs/2110.02796)
+  - Wenlong Ji, Yiping Lu, Yiliang Zhang, Zhun Deng, Weijie J. Su. *ICLR 2022*
+  - Key Word: Neural Collapse; Uncostrained Model; Implicit Regularization.
+  - <details><summary>Digest</summary> We introduce a surrogate model called the unconstrained layer-peeled model (ULPM). We prove that gradient flow on this model converges to critical points of a minimum-norm separation problem exhibiting neural collapse in its global minimizer. Moreover, we show that the ULPM with the cross-entropy loss has a benign global landscape for its loss function, which allows us to prove that all the critical points are strict saddle points except the global minimizers that exhibit the neural collapse phenomenon.
 
 - Implicit Sparse Regularization: The Impact of Depth and Early Stopping. [[paper]](https://arxiv.org/abs/2108.05574) [[code]](https://github.com/jiangyuan2li/implicit-sparse-regularization)
   - Jiangyuan Li, Thanh V. Nguyen, Chinmay Hegde, Raymond K. W. Wong. *NeurIPS 2021*
@@ -951,10 +972,15 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> Neural controlled differential equations (Neural CDEs) are state-of-the-art models for irregular time series. However, due to current implementations relying on non-causal interpolation schemes, Neural CDEs cannot currently be used in online prediction tasks; that is, in real-time as data arrives. This is in contrast to similar ODE models such as the ODE-RNN which can already operate in continuous time. Here we introduce and benchmark new interpolation schemes, most notably, rectilinear interpolation, which allows for an online everywhere causal solution to be defined.
 
-- Differentiable Multiple Shooting Layers. [[paper]](https://arxiv.org/abs/2106.03885)
+- Differentiable Multiple Shooting Layers. [[paper]](https://arxiv.org/abs/2106.03885) [[code]](https://colab.research.google.com/github/neuralcollapse/neuralcollapse/blob/main/neuralcollapse.ipynb)
   - Stefano Massaroli, Michael Poli, Sho Sonoda, Taji Suzuki, Jinkyoo Park, Atsushi Yamashita, Hajime Asama. *NeurIPS 2021*
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> We detail a novel class of implicit neural models. Leveraging time-parallel methods for differential equations, Multiple Shooting Layers (MSLs) seek solutions of initial value problems via parallelizable root-finding algorithms. MSLs broadly serve as drop-in replacements for neural ordinary differential equations (Neural ODEs) with improved efficiency in number of function evaluations (NFEs) and wall-clock inference time.
+
+- Neural Collapse Under MSE Loss: Proximity to and Dynamics on the Central Path. [[paper]](https://arxiv.org/abs/2106.02073)
+  - X.Y. Han, Vardan Papyan, David L. Donoho. *ICLR 2022*
+  - Key Word: Neural Collapse; Gradient Flow.
+  - <details><summary>Digest</summary> The analytically-tractable MSE loss offers more mathematical opportunities than the hard-to-analyze CE loss, inspiring us to leverage MSE loss towards the theoretical investigation of NC. We develop three main contributions: (I) We show a new decomposition of the MSE loss into (A) terms directly interpretable through the lens of NC and which assume the last-layer classifier is exactly the least-squares classifier; and (B) a term capturing the deviation from this least-squares classifier. (II) We exhibit experiments on canonical datasets and networks demonstrating that term-(B) is negligible during training. This motivates us to introduce a new theoretical construct: the central path, where the linear classifier stays MSE-optimal for feature activations throughout the dynamics. (III) By studying renormalized gradient flow along the central path, we derive exact dynamics that predict NC.
 
 - Fit without fear: remarkable mathematical phenomena of deep learning through the prism of interpolation. [[paper]](https://arxiv.org/abs/2105.14368)
   - Mikhail Belkin.
@@ -964,7 +990,12 @@ Our understanding of modern neural networks lags behind their practical successe
 - MALI: A memory efficient and reverse accurate integrator for Neural ODEs. [[paper]](https://arxiv.org/abs/2102.04668) [[code]](https://github.com/juntang-zhuang/TorchDiffEqPack)
   - Juntang Zhuang, Nicha C. Dvornek, Sekhar Tatikonda, James S. Duncan. *ICLR 2021*
   - Key Word: Ordinary Differential Equations.
-  - <details><summary>Digest</summary> Based on the asynchronous leapfrog (ALF) solver, we propose the Memory-efficient ALF Integrator (MALI), which has a constant memory cost \textit{w.r.t} number of solver steps in integration similar to the adjoint method, and guarantees accuracy in reverse-time trajectory (hence accuracy in gradient estimation). We validate MALI in various tasks: on image recognition tasks, to our knowledge, MALI is the first to enable feasible training of a Neural ODE on ImageNet and outperform a well-tuned ResNet, while existing methods fail due to either heavy memory burden or inaccuracy.
+  - <details><summary>Digest</summary> Based on the asynchronous leapfrog (ALF) solver, we propose the Memory-efficient ALF Integrator (MALI), which has a constant memory cost w.r.t number of solver steps in integration similar to the adjoint method, and guarantees accuracy in reverse-time trajectory (hence accuracy in gradient estimation). We validate MALI in various tasks: on image recognition tasks, to our knowledge, MALI is the first to enable feasible training of a Neural ODE on ImageNet and outperform a well-tuned ResNet, while existing methods fail due to either heavy memory burden or inaccuracy.
+
+- A Geometric Analysis of Neural Collapse with Unconstrained Features. [[paper]](https://arxiv.org/abs/2105.02375) [[code]](https://github.com/tding1/Neural-Collapse)
+  - Zhihui Zhu, Tianyu Ding, Jinxin Zhou, Xiao Li, Chong You, Jeremias Sulam, Qing Qu. *NeurIPS 2021*
+  - Key Word: Neural Collapse, Nonconvex Optimization.
+  - <details><summary>Digest</summary> We provide the first global optimization landscape analysis of Neural Collapse -- an intriguing empirical phenomenon that arises in the last-layer classifiers and features of neural networks during the terminal phase of training. As recently reported by Papyan et al., this phenomenon implies that (i) the class means and the last-layer classifiers all collapse to the vertices of a Simplex Equiangular Tight Frame (ETF) up to scaling, and (ii) cross-example within-class variability of last-layer activations collapses to zero. We study the problem based on a simplified unconstrained feature model, which isolates the topmost layers from the classifier of the neural network.
 
 ### Others: 2020
 
