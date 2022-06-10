@@ -318,6 +318,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - <details><summary>Digest</summary> We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
 
+- HideNseek: Federated Lottery Ticket via Server-side Pruning and Sign Supermask. [[paper]](https://arxiv.org/abs/2206.04385)
+  - Anish K. Vallapuram, Pengyuan Zhou, Young D. Kwon, Lik Hang Lee, Hengwei Xu, Pan Hui.
+  - Key Word: Lottery Ticket Hypothesis; Federated Learning.
+  - <details><summary>Digest</summary> We propose HideNseek which employs one-shot data-agnostic pruning at initialization to get a subnetwork based on weights' synaptic saliency. Each client then optimizes a sign supermask multiplied by the unpruned weights to allow faster convergence with the same compression rates as state-of-the-art.
+
 - Analyzing Lottery Ticket Hypothesis from PAC-Bayesian Theory Perspective. [[paper]](https://arxiv.org/abs/2205.07320)
   - Keitaro Sakamoto, Issei Sato.
   - Key Word: Lottery Ticket Hypothesis; PAC-Bayes.
