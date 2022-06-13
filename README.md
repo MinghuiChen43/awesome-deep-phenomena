@@ -318,6 +318,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - <details><summary>Digest</summary> We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
 
+- Data-Efficient Double-Win Lottery Tickets from Robust Pre-training. [[paper]](https://arxiv.org/abs/2206.04762) [[code]](https://github.com/VITA-Group/Double-Win-LTH)
+  - Tianlong Chen, Zhenyu Zhang, Sijia Liu, Yang Zhang, Shiyu Chang, Zhangyang Wang. *ICML 2022*
+  - Key Word: Lottery Ticket Hypothesis; Adversarial Training; Robust Pre-training.
+  - <details><summary>Digest</summary> We formulate a more rigorous concept, Double-Win Lottery Tickets, in which a located subnetwork from a pre-trained model can be independently transferred on diverse downstream tasks, to reach BOTH the same standard and robust generalization, under BOTH standard and adversarial training regimes, as the full pre-trained model can do. We comprehensively examine various pre-training mechanisms and find that robust pre-training tends to craft sparser double-win lottery tickets with superior performance over the standard counterparts.
+
 - HideNseek: Federated Lottery Ticket via Server-side Pruning and Sign Supermask. [[paper]](https://arxiv.org/abs/2206.04385)
   - Anish K. Vallapuram, Pengyuan Zhou, Young D. Kwon, Lik Hang Lee, Hengwei Xu, Pan Hui.
   - Key Word: Lottery Ticket Hypothesis; Federated Learning.
