@@ -318,6 +318,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - <details><summary>Digest</summary> We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
 
+- "Understanding Robustness Lottery": A Comparative Visual Analysis of Neural Network Pruning Approaches. [[paper]](https://arxiv.org/abs/2206.07918)
+  - Zhimin Li, Shusen Liu, Xin Yu, Kailkhura Bhavya, Jie Cao, Diffenderfer James Daniel, Peer-Timo Bremer, Valerio Pascucci.
+  - Key Word: Lottery Ticket Hypothesis; Out-of-Distribution Generalization; Visualization.
+  - <details><summary>Digest</summary> This work aims to shed light on how different pruning methods alter the network's internal feature representation, and the corresponding impact on model performance. To provide a meaningful comparison and characterization of model feature space, we use three geometric metrics that are decomposed from the common adopted classification loss. With these metrics, we design a visualization system to highlight the impact of pruning on model prediction as well as the latent feature embedding.
+
 - Data-Efficient Double-Win Lottery Tickets from Robust Pre-training. [[paper]](https://arxiv.org/abs/2206.04762) [[code]](https://github.com/VITA-Group/Double-Win-LTH)
   - Tianlong Chen, Zhenyu Zhang, Sijia Liu, Yang Zhang, Shiyu Chang, Zhangyang Wang. *ICML 2022*
   - Key Word: Lottery Ticket Hypothesis; Adversarial Training; Robust Pre-training.
