@@ -16,6 +16,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- How You Start Matters for Generalization. [[paper]](https://arxiv.org/abs/2206.08558)
+  - Sameera Ramasinghe, Lachlan MacDonald, Moshiur Farazi, Hemanth Sartachandran, Simon Lucey.
+  - Key Word: Implicit regularization; Fourier Spectrum.
+  - <details><summary>Digest</summary> We promote a shift of focus towards initialization rather than neural architecture or (stochastic) gradient descent to explain this implicit regularization. Through a Fourier lens, we derive a general result for the spectral bias of neural networks and show that the generalization of neural networks is heavily tied to their initialization. Further, we empirically solidify the developed theoretical insights using practical, deep networks.
+
 - Neural Collapse: A Review on Modelling Principles and Generalization. [[paper]](https://arxiv.org/abs/2206.04041)
   - Vignesh Kothapalli, Ebrahim Rasromani, Vasudev Awatramani.
   - Key Word: Neural Collapse.
@@ -225,6 +230,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Deep Double Descent
 
 ### Deep Double Descent 2022
+
+- Sparse Double Descent: Where Network Pruning Aggravates Overfitting. [[paper]](https://arxiv.org/abs/2206.08684) [[code]](https://github.com/hezheug/sparse-double-descent)
+  - Zheng He, Zeke Xie, Quanzhi Zhu, Zengchang Qin. *ICML 2022*
+  - Key Word: Deep Double Descent; Lottery Ticket Hypothesis.
+  - <details><summary>Digest</summary> While recent studies focused on the deep double descent with respect to model overparameterization, they failed to recognize that sparsity may also cause double descent. In this paper, we have three main contributions. First, we report the novel sparse double descent phenomenon through extensive experiments. Second, for this phenomenon, we propose a novel learning distance interpretation that the curve of ℓ2 learning distance of sparse models (from initialized parameters to final parameters) may correlate with the sparse double descent curve well and reflect generalization better than minima flatness. Third, in the context of sparse double descent, a winning ticket in the lottery ticket hypothesis surprisingly may not always win.
 
 - Phenomenology of Double Descent in Finite-Width Neural Networks. [[paper]](https://arxiv.org/abs/2203.07337) [[code]](https://github.com/sidak/double-descent)
   - Sidak Pal Singh, Aurelien Lucchi, Thomas Hofmann, Bernhard Schölkopf. *ICLR 2022*
@@ -777,6 +787,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Neural Tangent Kernel
 
 ## Neural Tangent Kernel: 2022
+
+- Fast Finite Width Neural Tangent Kernel. [[paper]](https://arxiv.org/abs/2206.08720) [[code]](https://github.com/google/neural-tangents)
+  - Roman Novak, Jascha Sohl-Dickstein, Samuel S. Schoenholz. *ICML 2022*
+  - Key Word: Neural Tangent Kernel.
+  - <details><summary>Digest</summary> In the infinite width limit, the NTK can sometimes be computed analytically and is useful for understanding training and generalization of NN architectures. At finite widths, the NTK is also used to better initialize NNs, compare the conditioning across models, perform architecture search, and do meta-learning. Unfortunately, the finite width NTK is notoriously expensive to compute, which severely limits its practical utility. We perform the first in-depth analysis of the compute and memory requirements for NTK computation in finite width networks. Leveraging the structure of neural networks, we further propose two novel algorithms that change the exponent of the compute and memory requirements of the finite width NTK, dramatically improving efficiency.
 
 - On the Generalization Power of the Overfitted Three-Layer Neural Tangent Kernel Model. [[paper]](https://arxiv.org/abs/2206.02047)
   - Peizhong Ju, Xiaojun Lin, Ness B. Shroff.
