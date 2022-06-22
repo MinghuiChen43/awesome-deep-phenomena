@@ -16,6 +16,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- When Does Re-initialization Work? [[paper]](https://arxiv.org/abs/2206.10011)
+  - Sheheryar Zaidi, Tudor Berariu, Hyunjik Kim, Jörg Bornschein, Claudia Clopath, Yee Whye Teh, Razvan Pascanu.
+  - Key Word: Re-initialization; Regularization.
+  - <details><summary>Digest</summary> We conduct an extensive empirical comparison of standard training with a selection of re-initialization methods to answer this question, training over 15,000 models on a variety of image classification benchmarks. We first establish that such methods are consistently beneficial for generalization in the absence of any other regularization. However, when deployed alongside other carefully tuned regularization techniques, re-initialization methods offer little to no added benefit for generalization, although optimal generalization performance becomes less sensitive to the choice of learning rate and weight decay hyperparameters. To investigate the impact of re-initialization methods on noisy data, we also consider learning under label noise. Surprisingly, in this case, re-initialization significantly improves upon standard training, even in the presence of other carefully tuned regularization techniques.
+
 - How You Start Matters for Generalization. [[paper]](https://arxiv.org/abs/2206.08558)
   - Sameera Ramasinghe, Lachlan MacDonald, Moshiur Farazi, Hemanth Sartachandran, Simon Lucey.
   - Key Word: Implicit regularization; Fourier Spectrum.
@@ -327,6 +332,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Shaojin Ding, Tianlong Chen, Zhangyang Wang. *ICLR 2022*
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - <details><summary>Digest</summary> We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
+
+- Winning the Lottery Ahead of Time: Efficient Early Network Pruning. [[paper]](https://arxiv.org/abs/2206.10451)
+  - John Rachwan, Daniel Zügner, Bertrand Charpentier, Simon Geisler, Morgane Ayle, Stephan Günnemann. *ICML 2022*
+  - Key Word: Lottery Ticket Hypothesis; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> Although state-of-the-art pruning methods extract highly sparse models, they neglect two main challenges: (1) the process of finding these sparse models is often very expensive; (2) unstructured pruning does not provide benefits in terms of GPU memory, training time, or carbon emissions. We propose Early Compression via Gradient Flow Preservation (EarlyCroP), which efficiently extracts state-of-the-art sparse models before or early in training addressing challenge (1), and can be applied in a structured manner addressing challenge (2). This enables us to train sparse networks on commodity GPUs whose dense versions would be too large, thereby saving costs and reducing hardware requirements.
 
 - "Understanding Robustness Lottery": A Comparative Visual Analysis of Neural Network Pruning Approaches. [[paper]](https://arxiv.org/abs/2206.07918)
   - Zhimin Li, Shusen Liu, Xin Yu, Kailkhura Bhavya, Jie Cao, Diffenderfer James Daniel, Peer-Timo Bremer, Valerio Pascucci.
@@ -787,6 +797,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Neural Tangent Kernel
 
 ## Neural Tangent Kernel: 2022
+
+- Limitations of the NTK for Understanding Generalization in Deep Learning. [[paper]](https://arxiv.org/abs/2206.10012)
+  - Nikhil Vyas, Yamini Bansal, Preetum Nakkiran.
+  - Key Word: Neural Tangent Kernel.
+  - <details><summary>Digest</summary> In this work, we study NTKs through the lens of scaling laws, and demonstrate that they fall short of explaining important aspects of neural network generalization. In particular, we demonstrate realistic settings where finite-width neural networks have significantly better data scaling exponents as compared to their corresponding empirical and infinite NTKs at initialization. This reveals a more fundamental difference between the real networks and NTKs, beyond just a few percentage points of test accuracy. Further, we show that even if the empirical NTK is allowed to be pre-trained on a constant number of samples, the kernel scaling does not catch up to the neural network scaling. Finally, we show that the empirical NTK continues to evolve throughout most of the training, in contrast with prior work which suggests that it stabilizes after a few epochs of training. Altogether, our work establishes concrete limitations of the NTK approach in understanding generalization of real networks on natural datasets.
 
 - Fast Finite Width Neural Tangent Kernel. [[paper]](https://arxiv.org/abs/2206.08720) [[code]](https://github.com/google/neural-tangents)
   - Roman Novak, Jascha Sohl-Dickstein, Samuel S. Schoenholz. *ICML 2022*
