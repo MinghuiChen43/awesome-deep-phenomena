@@ -692,14 +692,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Information Bottleneck
 
-## Information Bottleneck: 2022
+### Information Bottleneck: 2022
 
 - Sparsity-Inducing Categorical Prior Improves Robustness of the Information Bottleneck. [[paper]](https://arxiv.org/abs/2203.02592)
   - Anirban Samaddar, Sandeep Madireddy, Prasanna Balaprakash
   - Key Word: Information Bottleneck; Robustness.
   - <details><summary>Digest</summary> We present a novel sparsity-inducing spike-slab prior that uses sparsity as a mechanism to provide flexibility that allows each data point to learn its own dimension distribution. In addition, it provides a mechanism to learn a joint distribution of the latent variable and the sparsity. Thus, unlike other approaches, it can account for the full uncertainty in the latent space.
 
-## Information Bottleneck: 2021
+### Information Bottleneck: 2021
 
 - Information Bottleneck Disentanglement for Identity Swapping. [[paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Gao_Information_Bottleneck_Disentanglement_for_Identity_Swapping_CVPR_2021_paper.html)
   - Gege Gao, Huaibo Huang, Chaoyou Fu, Zhaoyang Li, Ran He. *CVPR 2021*
@@ -726,7 +726,7 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Information Bottleneck; Survey.
   - <details><summary>Digest</summary> A known information-theoretic method called the information bottleneck theory has emerged as a promising approach to better understand the learning dynamics of neural networks. In principle, IB theory models learning as a trade-off between the compression of the data and the retainment of information. The goal of this survey is to provide a comprehensive review of IB theory covering it's information theoretic roots and the recently proposed applications to understand deep learning models.
 
-## Information Bottleneck: 2020
+### Information Bottleneck: 2020
 
 - Graph Information Bottleneck. [[paper]](https://arxiv.org/abs/2010.12811) [[code]](https://github.com/snap-stanford/GIB)
   - Tailin Wu, Hongyu Ren, Pan Li, Jure Leskovec. *NeurIPS 2020*
@@ -763,21 +763,21 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Information Bottleneck; Attribution.
   - <details><summary>Digest</summary> We adapt the information bottleneck concept for attribution. By adding noise to intermediate feature maps we restrict the flow of information and can quantify (in bits) how much information image regions provide.
 
-## Information Bottleneck: 2019
+### Information Bottleneck: 2019
 
 - Learnability for the Information Bottleneck. [[paper]](https://arxiv.org/abs/1907.07331)
   - Tailin Wu, Ian Fischer, Isaac L. Chuang, Max Tegmark. *UAI 2019*
   - Key Word: Information Bottleneck.
   - <details><summary>Digest</summary> We presented theoretical results for predicting the onset of learning, and have shown that it is determined by the conspicuous subset of the training examples. We gave a practical algorithm for predicting the transition as well as discovering this subset, and showed that those predictions are accurate, even in cases of extreme label noise.
 
-## Information Bottleneck: 2018
+### Information Bottleneck: 2018
 
 - On the Information Bottleneck Theory of Deep Learning. [[paper]](https://openreview.net/forum?id=ry_WPG-A-) [[code]](https://github.com/artemyk/ibsgd/tree/iclr2018)
   - Andrew Michael Saxe, Yamini Bansal, Joel Dapello, Madhu Advani, Artemy Kolchinsky, Brendan Daniel Tracey, David Daniel Cox. *ICLR 2018*
   - Key Word: Information Bottleneck.
   - <details><summary>Digest</summary> This submission explores [recent theoretical work](https://arxiv.org/abs/1703.00810) by Shwartz-Ziv and Tishby on explaining the generalization ability of deep networks. The paper gives counter-examples that suggest aspects of the theory might not be relevant for all neural networks.  
 
-## Information Bottleneck: 2017
+### Information Bottleneck: 2017
 
 - Emergence of Invariance and Disentanglement in Deep Representations. [[paper]](https://arxiv.org/abs/1706.01350)
   - Alessandro Achille, Stefano Soatto. *JMLR*
@@ -796,7 +796,7 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Neural Tangent Kernel
 
-## Neural Tangent Kernel: 2022
+### Neural Tangent Kernel: 2022
 
 - Limitations of the NTK for Understanding Generalization in Deep Learning. [[paper]](https://arxiv.org/abs/2206.10012)
   - Nikhil Vyas, Yamini Bansal, Preetum Nakkiran.
@@ -818,7 +818,7 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Neural Tangent Kernel; Mean Field Theory.
   - <details><summary>Digest</summary> We analyze feature learning in infinite width neural networks trained with gradient flow through a self-consistent dynamical field theory. We construct a collection of deterministic dynamical order parameters which are inner-product kernels for hidden unit activations and gradients in each layer at pairs of time points, providing a reduced description of network activity through training.
 
-## Neural Tangent Kernel: 2021
+### Neural Tangent Kernel: 2021
 
 - Neural Tangent Generalization Attacks. [[paper]](https://proceedings.mlr.press/v139/yuan21b.html) [[code]](https://github.com/lionelmessi6410/ntga)
   - Chia-Hung Yuan, Shan-Hung Wu. *ICML 2021*
@@ -860,7 +860,7 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Scaling Laws; Neural Tangent Kernel.
   - <details><summary>Digest</summary> We propose a theory that explains and connects these scaling laws. We identify variance-limited and resolution-limited scaling behavior for both dataset and model size, for a total of four scaling regimes. The variance-limited scaling follows simply from the existence of a well-behaved infinite data or infinite width limit, while the resolution-limited regime can be explained by positing that models are effectively resolving a smooth data manifold.
 
-## Neural Tangent Kernel: 2020
+### Neural Tangent Kernel: 2020
 
 - Deep learning versus kernel learning: an empirical study of loss landscape geometry and the time evolution of the Neural Tangent Kernel. [[paper]](https://arxiv.org/abs/2010.15110)
   - Stanislav Fort, Gintare Karolina Dziugaite, Mansheej Paul, Sepideh Kharaghani, Daniel M. Roy, Surya Ganguli. *NeurIPS 2020*
@@ -892,7 +892,7 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Neural Tangent Kernel; Mean Field Theory.
   - <details><summary>Digest</summary> We provide a generalized neural tangent kernel analysis and show that noisy gradient descent with weight decay can still exhibit a "kernel-like" behavior. This implies that the training loss converges linearly up to a certain accuracy. We also establish a novel generalization error bound for two-layer neural networks trained by noisy gradient descent with weight decay.
 
-## Neural Tangent Kernel: 2019
+### Neural Tangent Kernel: 2019
 
 - Simple and Effective Regularization Methods for Training on Noisily Labeled Data with Generalization Guarantee. [[paper]](https://arxiv.org/abs/1905.11368)
   - Wei Hu, Zhiyuan Li, Dingli Yu. *ICLR 2020*
@@ -914,7 +914,7 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Neural Tangent Kernel.
   - <details><summary>Digest</summary> Several recent trends in machine learning theory and practice, from the design of state-of-the-art Gaussian Process to the convergence analysis of deep neural nets (DNNs) under stochastic gradient descent (SGD), have found it fruitful to study wide random neural networks. Central to these approaches are certain scaling limits of such networks. We unify these results by introducing a notion of a straightline \emph{tensor program} that can express most neural network computations, and we characterize its scaling limit when its tensors are large and randomized.
 
-## Neural Tangent Kernel: 2018
+### Neural Tangent Kernel: 2018
 
 - A Convergence Theory for Deep Learning via Over-Parameterization. [[paper]](https://arxiv.org/abs/1811.03962)
   - Zeyuan Allen-Zhu, Yuanzhi Li, Zhao Song. *ICML 2019*
