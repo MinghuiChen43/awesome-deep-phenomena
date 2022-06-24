@@ -353,6 +353,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis; Federated Learning.
   - <details><summary>Digest</summary> We propose HideNseek which employs one-shot data-agnostic pruning at initialization to get a subnetwork based on weights' synaptic saliency. Each client then optimizes a sign supermask multiplied by the unpruned weights to allow faster convergence with the same compression rates as state-of-the-art.
 
+- Lottery Tickets on a Data Diet: Finding Initializations with Sparse Trainable Networks. [[paper]](https://arxiv.org/abs/2206.01278) [[code]](https://github.com/mansheej/lth_diet)
+  - Mansheej Paul, Brett W. Larsen, Surya Ganguli, Jonathan Frankle, Gintare Karolina Dziugaite.
+  - Key Word: Lottery Ticket Hypothesis; Pre-training.
+  - <details><summary>Digest</summary> We seek to understand how this early phase of pre-training leads to a good initialization for IMP both through the lens of the data distribution and the loss landscape geometry. Empirically we observe that, holding the number of pre-training iterations constant, training on a small fraction of (randomly chosen) data suffices to obtain an equally good initialization for IMP. We additionally observe that by pre-training only on "easy" training data, we can decrease the number of steps necessary to find a good initialization for IMP compared to training on the full dataset or a randomly chosen subset. Finally, we identify novel properties of the loss landscape of dense networks that are predictive of IMP performance, showing in particular that more examples being linearly mode connected in the dense network correlates well with good initializations for IMP.
+
 - Analyzing Lottery Ticket Hypothesis from PAC-Bayesian Theory Perspective. [[paper]](https://arxiv.org/abs/2205.07320)
   - Keitaro Sakamoto, Issei Sato.
   - Key Word: Lottery Ticket Hypothesis; PAC-Bayes.
