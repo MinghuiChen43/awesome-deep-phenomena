@@ -965,6 +965,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Grokking; Physics of Learning; Deep Double Descent.
   - <details><summary>Digest</summary> We aim to understand grokking, a phenomenon where models generalize long after overfitting their training set. We present both a microscopic analysis anchored by an effective theory and a macroscopic analysis of phase diagrams describing learning performance across hyperparameters. We find that generalization originates from structured representations whose training dynamics and dependence on training set size can be predicted by our effective theory in a toy setting. We observe empirically the presence of four learning phases: comprehension, grokking, memorization, and confusion.
 
+- Empirical Evaluation and Theoretical Analysis for Representation Learning: A Survey. [[paper]](https://arxiv.org/abs/2204.08226)
+  - Kento Nozawa, Issei Sato. *IJCAI 2022*
+  - Key Word: Representation Learning; Pre-training; Regularization.
+  - <details><summary>Digest</summary> Representation learning enables us to automatically extract generic feature representations from a dataset to solve another machine learning task. Recently, extracted feature representations by a representation learning algorithm and a simple predictor have exhibited state-of-the-art performance on several machine learning tasks. Despite its remarkable progress, there exist various ways to evaluate representation learning algorithms depending on the application because of the flexibility of representation learning. To understand the current representation learning, we review evaluation methods of representation learning algorithms and theoretical analyses.
+
 - Resonance in Weight Space: Covariate Shift Can Drive Divergence of SGD with Momentum. [[paper]](https://arxiv.org/abs/2203.11992)
   - Kirby Banman, Liam Peet-Pare, Nidhi Hegde, Alona Fyshe, Martha White. *ICLR 2022*
   - Key Word: Stochastic Gradient Descent; Covariate Shift.
