@@ -1163,6 +1163,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Approximation Theory.
   - <details><summary>Digest</summary> We build a rigorous bridge between deep networks (DNs) and approximation theory via spline functions and operators. Our key result is that a large class of DNs can be written as a composition of max-affine spline operators (MASOs), which provide a powerful portal through which to view and analyze their inner workings.
 
+- On Lazy Training in Differentiable Programming. [[paper]](https://arxiv.org/abs/1812.07956) [[code]](https://github.com/edouardoyallon/lazy-training-CNN)
+  - Lenaic Chizat, Edouard Oyallon, Francis Bach. *NeurIPS 2019*
+  - Key Word: Lazy Training.
+  - <details><summary>Digest</summary> In a series of recent theoretical works, it was shown that strongly over-parameterized neural networks trained with gradient-based methods could converge exponentially fast to zero training loss, with their parameters hardly varying. In this work, we show that this "lazy training" phenomenon is not specific to over-parameterized neural networks, and is due to a choice of scaling, often implicit, that makes the model behave as its linearization around the initialization, thus yielding a model equivalent to learning with positive-definite kernels. Through a theoretical analysis, we exhibit various situations where this phenomenon arises in non-convex optimization and we provide bounds on the distance between the lazy and linearized optimization paths.
+
 - Why ReLU networks yield high-confidence predictions far away from the training data and how to mitigate the problem. [[paper]](https://arxiv.org/abs/1812.05720) [[code]](https://github.com/max-andr/relu_networks_overconfident)
   - Matthias Hein, Maksym Andriushchenko, Julian Bitterwolf. *CVPR 2019*
   - Key Wrod: ReLU; Adversarial Example.
