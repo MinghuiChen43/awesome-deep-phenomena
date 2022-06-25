@@ -31,6 +31,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Neural Collapse.
   - <details><summary>Digest</summary> We analyse the principles which aid in modelling such a phenomena from the ground up and show how they can build a common understanding of the recently proposed models that try to explain NC. We hope that our analysis presents a multifaceted perspective on modelling NC and aids in forming connections with the generalization capabilities of neural networks. Finally, we conclude by discussing the avenues for further research and propose potential research problems.
 
+- Rethinking the Role of Demonstrations: What Makes In-Context Learning Work? [[paper]](https://arxiv.org/abs/2202.12837) [[code]](https://github.com/Alrope123/rethinking-demonstrations)
+  - Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer.
+  - Key Word: Natural Language Processing; In-Context Learning.
+  - <details><summary>Digest</summary> We show that ground truth demonstrations are in fact not required -- randomly replacing labels in the demonstrations barely hurts performance, consistently over 12 different models including GPT-3. Instead, we find that other aspects of the demonstrations are the key drivers of end task performance, including the fact that they provide a few examples of (1) the label space, (2) the distribution of the input text, and (3) the overall format of the sequence.
+
 - Limitations of Neural Collapse for Understanding Generalization in Deep Learning. [[paper]](https://arxiv.org/abs/2202.08384)
   - Like Hui, Mikhail Belkin, Preetum Nakkiran.
   - Key Word: Neural Collapse.
@@ -1026,6 +1031,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - James Morrill, Patrick Kidger, Lingyi Yang, Terry Lyons.
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> Neural controlled differential equations (Neural CDEs) are state-of-the-art models for irregular time series. However, due to current implementations relying on non-causal interpolation schemes, Neural CDEs cannot currently be used in online prediction tasks; that is, in real-time as data arrives. This is in contrast to similar ODE models such as the ODE-RNN which can already operate in continuous time. Here we introduce and benchmark new interpolation schemes, most notably, rectilinear interpolation, which allows for an online everywhere causal solution to be defined.
+
+- Why Do Pretrained Language Models Help in Downstream Tasks? An Analysis of Head and Prompt Tuning. [[paper]](https://arxiv.org/abs/2106.09226) [[code]](https://github.com/sangmichaelxie/pretraining_analysis)
+  - Colin Wei, Sang Michael Xie, Tengyu Ma. *NeurIPS 2021*
+  - Key Word: Natural Language Processing; Pre-training; Prompting.
+  - <details><summary>Digest</summary> We propose an analysis framework that links the pretraining and downstream tasks with an underlying latent variable generative model of text -- the downstream classifier must recover a function of the posterior distribution over the latent variables. We analyze head tuning (learning a classifier on top of the frozen pretrained model) and prompt tuning in this setting. The generative model in our analysis is either a Hidden Markov Model (HMM) or an HMM augmented with a latent memory component, motivated by long-term dependencies in natural language.
 
 - Differentiable Multiple Shooting Layers. [[paper]](https://arxiv.org/abs/2106.03885) [[code]](https://colab.research.google.com/github/neuralcollapse/neuralcollapse/blob/main/neuralcollapse.ipynb)
   - Stefano Massaroli, Michael Poli, Sho Sonoda, Taji Suzuki, Jinkyoo Park, Atsushi Yamashita, Hajime Asama. *NeurIPS 2021*
