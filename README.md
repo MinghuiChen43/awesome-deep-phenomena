@@ -246,12 +246,22 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Deep Double Descent; Lottery Ticket Hypothesis.
   - <details><summary>Digest</summary> While recent studies focused on the deep double descent with respect to model overparameterization, they failed to recognize that sparsity may also cause double descent. In this paper, we have three main contributions. First, we report the novel sparse double descent phenomenon through extensive experiments. Second, for this phenomenon, we propose a novel learning distance interpretation that the curve of ℓ2 learning distance of sparse models (from initialized parameters to final parameters) may correlate with the sparse double descent curve well and reflect generalization better than minima flatness. Third, in the context of sparse double descent, a winning ticket in the lottery ticket hypothesis surprisingly may not always win.
 
+- Can Neural Nets Learn the Same Model Twice? Investigating Reproducibility and Double Descent from the Decision Boundary Perspective. [[paper]](https://arxiv.org/abs/2203.08124) [[code]](https://github.com/somepago/dbviz)
+  - Gowthami Somepalli, Liam Fowl, Arpit Bansal, Ping Yeh-Chiang, Yehuda Dar, Richard Baraniuk, Micah Goldblum, Tom Goldstein. *CVPR 2022*
+  - Key Word: Deep Double Descent; Manifold.
+  - <details><summary>Digest</summary> We discuss methods for visualizing neural network decision boundaries and decision regions. We use these visualizations to investigate issues related to reproducibility and generalization in neural network training. We observe that changes in model architecture (and its associate inductive bias) cause visible changes in decision boundaries, while multiple runs with the same architecture yield results with strong similarities, especially in the case of wide architectures. We also use decision boundary methods to visualize double descent phenomena.
+
 - Phenomenology of Double Descent in Finite-Width Neural Networks. [[paper]](https://arxiv.org/abs/2203.07337) [[code]](https://github.com/sidak/double-descent)
   - Sidak Pal Singh, Aurelien Lucchi, Thomas Hofmann, Bernhard Schölkopf. *ICLR 2022*
   - Key Word: Deep Double Descent.
   - <details><summary>Digest</summary> 'Double descent' delineates the generalization behaviour of models depending on the regime they belong to: under- or over-parameterized. The current theoretical understanding behind the occurrence of this phenomenon is primarily based on linear and kernel regression models -- with informal parallels to neural networks via the Neural Tangent Kernel. Therefore such analyses do not adequately capture the mechanisms behind double descent in finite-width neural networks, as well as, disregard crucial components -- such as the choice of the loss function. We address these shortcomings by leveraging influence functions in order to derive suitable expressions of the population loss and its lower bound, while imposing minimal assumptions on the form of the parametric model.
 
 ### Deep Double Descent 2021
+
+- Multi-scale Feature Learning Dynamics: Insights for Double Descent. [[paper]](https://arxiv.org/abs/2112.03215) [[code]](https://github.com/nndoubledescent/doubledescent)
+  - Mohammad Pezeshki, Amartya Mitra, Yoshua Bengio, Guillaume Lajoie.
+  - Key Word: Deep Double Descent.
+  - <details><summary>Digest</summary> We investigate the origins of the less studied epoch-wise double descent in which the test error undergoes two non-monotonous transitions, or descents as the training time increases. By leveraging tools from statistical physics, we study a linear teacher-student setup exhibiting epoch-wise double descent similar to that in deep neural networks. In this setting, we derive closed-form analytical expressions for the evolution of generalization error over training. We find that double descent can be attributed to distinct features being learned at different scales: as fast-learning features overfit, slower-learning features start to fit, resulting in a second descent in test error.
 
 - Asymptotic Risk of Overparameterized Likelihood Models: Double Descent Theory for Deep Neural Networks. [[paper]](https://arxiv.org/abs/2103.00500)
   - Ryumei Nakada, Masaaki Imaizumi.
