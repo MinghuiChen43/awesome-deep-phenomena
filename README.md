@@ -290,6 +290,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Deep Double Descent.
   - <details><summary>Digest</summary> This paper explores the generalization loss of linear regression in variably parameterized families of models, both under-parameterized and over-parameterized. We show that the generalization curve can have an arbitrary number of peaks, and moreover, locations of those peaks can be explicitly controlled. Our results highlight the fact that both classical U-shaped generalization curve and the recently observed double descent curve are not intrinsic properties of the model family. Instead, their emergence is due to the interaction between the properties of the data and the inductive biases of learning algorithms.
 
+- Early Stopping in Deep Networks: Double Descent and How to Eliminate it. [[paper]](https://arxiv.org/abs/2007.10099) [[code]](https://github.com/MLI-lab/early_stopping_double_descent)
+  - Reinhard Heckel, Fatih Furkan Yilmaz. *ICLR 2021*
+  - Key Word: Deep Double Descent; Early Stopping.
+  - <details><summary>Digest</summary> We show that such epoch-wise double descent arises for a different reason: It is caused by a superposition of two or more bias-variance tradeoffs that arise because different parts of the network are learned at different epochs, and eliminating this by proper scaling of stepsizes can significantly improve the early stopping performance. We show this analytically for i) linear regression, where differently scaled features give rise to a superposition of bias-variance tradeoffs, and for ii) a two-layer neural network, where the first and second layer each govern a bias-variance tradeoff. Inspired by this theory, we study two standard convolutional networks empirically and show that eliminating epoch-wise double descent through adjusting stepsizes of different layers improves the early stopping performance significantly.
+
 - Triple descent and the two kinds of overfitting: Where & why do they appear? [[paper]](https://arxiv.org/abs/2006.03509) [[code]](https://github.com/sdascoli/triple-descent-paper)
   - Stéphane d'Ascoli, Levent Sagun, Giulio Biroli.
   - <details><summary>Digest</summary> Deep Double Descent.
