@@ -70,6 +70,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Curriculum Learning.
   - <details><summary>Digest</summary> We set out to investigate the relative benefits of ordered learning. We first investigate the implicit curricula resulting from architectural and optimization bias and find that samples are learned in a highly consistent order. Next, to quantify the benefit of explicit curricula, we conduct extensive experiments over thousands of orderings spanning three kinds of learning: curriculum, anti-curriculum, and random-curriculum -- in which the size of the training dataset is dynamically increased over time, but the examples are randomly ordered.
 
+- In Search of Robust Measures of Generalization. [[paper]](https://arxiv.org/abs/2010.11924) [[code]](https://github.com/nitarshan/robust-generalization-measures)
+  - Gintare Karolina Dziugaite, Alexandre Drouin, Brady Neal, Nitarshan Rajkumar, Ethan Caballero, Linbo Wang, Ioannis Mitliagkas, Daniel M. Roy. *NeurIPS 2020*
+  - Key Word: Generalization Measures.
+  - <details><summary>Digest</summary> One of the principal scientific challenges in deep learning is explaining generalization, i.e., why the particular way the community now trains networks to achieve small training error also leads to small error on held-out data from the same population. It is widely appreciated that some worst-case theories -- such as those based on the VC dimension of the class of predictors induced by modern neural network architectures -- are unable to explain empirical performance. A large volume of work aims to close this gap, primarily by developing bounds on generalization error, optimization error, and excess risk. When evaluated empirically, however, most of these bounds are numerically vacuous. Focusing on generalization bounds, this work addresses the question of how to evaluate such bounds empirically.
+
 - Characterising Bias in Compressed Models. [[paper]](https://arxiv.org/abs/2010.03058)
   - Sara Hooker, Nyalleng Moorosi, Gregory Clark, Samy Bengio, Emily Denton.
   - Key Word: Pruning; Fairness.
@@ -954,6 +959,16 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Others
 
 ### Others: 2022
+
+- Robustness Implies Generalization via Data-Dependent Generalization Bounds. [[paper]](https://arxiv.org/abs/2206.13497)
+  - Kenji Kawaguchi, Zhun Deng, Kyle Luh, Jiaoyang Huang. *ICML 2022*
+  - Key Word: Algorithmic Robustness Bound.
+  - <details><summary>Digest</summary> This paper proves that robustness implies generalization via data-dependent generalization bounds. As a result, robustness and generalization are shown to be connected closely in a data-dependent manner. Our bounds improve previous bounds in two directions, to solve an open problem that has seen little development since 2010. The first is to reduce the dependence on the covering number. The second is to remove the dependence on the hypothesis space. We present several examples, including ones for lasso and deep learning, in which our bounds are provably preferable.
+
+- Learning sparse features can lead to overfitting in neural networks. [[paper]](https://arxiv.org/abs/2206.12314) [[code]](https://github.com/pcsl-epfl/regressionsphere)
+  - Leonardo Petrini, Francesco Cagnetta, Eric Vanden-Eijnden, Matthieu Wyart.
+  - Key Word: Sparse Representation; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> It is widely believed that the success of deep networks lies in their ability to learn a meaningful representation of the features of the data. Yet, understanding when and how this feature learning improves performance remains a challenge: for example, it is beneficial for modern architectures trained to classify images, whereas it is detrimental for fully-connected networks trained for the same task on the same data. Here we propose an explanation for this puzzle, by showing that feature learning can perform worse than lazy training (via random feature kernel or the NTK) as the former can lead to a sparser neural representation. Although sparsity is known to be essential for learning anisotropic data, it is detrimental when the target function is constant or smooth along certain directions of input space. We illustrate this phenomenon in two settings: (i) regression of Gaussian random functions on the d-dimensional unit sphere and (ii) classification of benchmark datasets of images.
 
 - Towards Understanding Why Mask-Reconstruction Pretraining Helps in Downstream Tasks. [[paper]](https://arxiv.org/abs/2206.03826)
   - Jiachun Pan, Pan Zhou, Shuicheng Yan.
