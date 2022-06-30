@@ -960,6 +960,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Beyond neural scaling laws: beating power law scaling via data pruning. [[paper]](https://arxiv.org/abs/2206.14486)
+  - Ben Sorscher, Robert Geirhos, Shashank Shekhar, Surya Ganguli, Ari S. Morcos.
+  - Key Word: Dataset Pruning; Ensemble Active Learning.
+  - <details><summary>Digest</summary> Widely observed neural scaling laws, in which error falls off as a power of the training set size, model size, or both, have driven substantial performance improvements in deep learning. However, these improvements through scaling alone require considerable costs in compute and energy. Here we focus on the scaling of error with dataset size and show how both in theory and practice we can break beyond power law scaling and reduce it to exponential scaling instead if we have access to a high-quality data pruning metric that ranks the order in which training examples should be discarded to achieve any pruned dataset size. We then test this new exponential scaling prediction with pruned dataset size empirically, and indeed observe better than power law scaling performance on ResNets trained on CIFAR-10, SVHN, and ImageNet.
+
 - Robustness Implies Generalization via Data-Dependent Generalization Bounds. [[paper]](https://arxiv.org/abs/2206.13497)
   - Kenji Kawaguchi, Zhun Deng, Kyle Luh, Jiaoyang Huang. *ICML 2022*
   - Key Word: Algorithmic Robustness Bound.
