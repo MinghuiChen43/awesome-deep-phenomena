@@ -701,6 +701,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Neural Representation Similarity.
   - <details><summary>Digest</summary> Despite impressive performance on numerous visual tasks, Convolutional Neural Networks (CNNs) --- unlike brains --- are often highly sensitive to small perturbations of their input, e.g. adversarial noise leading to erroneous decisions. We propose to regularize CNNs using large-scale neuroscience data to learn more robust neural features in terms of representational similarity. We presented natural images to mice and measured the responses of thousands of neurons from cortical visual areas.
 
+- A Unified Theory of Early Visual Representations from Retina to Cortex through Anatomically Constrained Deep CNNs. [[paper]](https://arxiv.org/abs/1901.00945) [[code]](https://github.com/ganguli-lab/RetinalResources)
+  - Jack Lindsey, Samuel A. Ocko, Surya Ganguli, Stephane Deny. *ICLR 2019*
+  - Key Word: Visual System; Convolutional Neural Networks; Efficient Coding; Retina.
+  - <details><summary>Digest</summary> There is currently no unified theory explaining these differences in representations across layers. Here, using a deep convolutional neural network trained on image recognition as a model of the visual system, we show that such differences in representation can emerge as a direct consequence of different neural resource constraints on the retinal and cortical networks, and we find a single model from which both geometries spontaneously emerge at the appropriate stages of visual processing. The key constraint is a reduced number of neurons at the retinal output, consistent with the anatomy of the optic nerve as a stringent bottleneck.
+
 ### Interactions with Neuroscience: 2018
 
 - ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness. [[paper]](https://arxiv.org/abs/1811.12231) [[code]](https://github.com/rgeirhos/Stylized-ImageNet)
