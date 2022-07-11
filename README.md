@@ -16,6 +16,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- How Much More Data Do I Need? Estimating Requirements for Downstream Tasks. [[paper]](https://arxiv.org/abs/2207.01725)
+  - Rafid Mahmood, James Lucas, David Acuna, Daiqing Li, Jonah Philion, Jose M. Alvarez, Zhiding Yu, Sanja Fidler, Marc T. Law. *CVPR 2022*
+  - Key Word: Neural Scaling Laws; Active Learning.
+  - <details><summary>Digest</summary> Prior work on neural scaling laws suggest that the power-law function can fit the validation performance curve and extrapolate it to larger data set sizes. We find that this does not immediately translate to the more difficult downstream task of estimating the required data set size to meet a target performance. In this work, we consider a broad class of computer vision tasks and systematically investigate a family of functions that generalize the power-law function to allow for better estimation of data requirements.
+
 - When Does Re-initialization Work? [[paper]](https://arxiv.org/abs/2206.10011)
   - Sheheryar Zaidi, Tudor Berariu, Hyunjik Kim, Jörg Bornschein, Claudia Clopath, Yee Whye Teh, Razvan Pascanu.
   - Key Word: Re-initialization; Regularization.
@@ -357,6 +362,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Shaojin Ding, Tianlong Chen, Zhangyang Wang. *ICLR 2022*
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - <details><summary>Digest</summary> We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
+
+- SuperTickets: Drawing Task-Agnostic Lottery Tickets from Supernets via Jointly Architecture Searching and Parameter Pruning. [[paper]](https://arxiv.org/abs/2207.03677) [[code]](https://github.com/RICE-EIC/SuperTickets)
+  - Haoran You, Baopu Li, Zhanyi Sun, Xu Ouyang, Yingyan Lin. *ECCV 2022*
+  - Key Word: Lottery Ticket Hypothesis; Neural Architecture Search.
+  - <details><summary>Digest</summary> We discover for the first time that both efficient DNNs and their lottery subnetworks (i.e., lottery tickets) can be directly identified from a supernet, which we term as SuperTickets, via a two-in-one training scheme with jointly architecture searching and parameter pruning. Moreover, we develop a progressive and unified SuperTickets identification strategy that allows the connectivity of subnetworks to change during supernet training, achieving better accuracy and efficiency trade-offs than conventional sparse training.
 
 - Lottery Ticket Hypothesis for Spiking Neural Networks. [[paper]](https://arxiv.org/abs/2207.01382)
   - Youngeun Kim, Yuhang Li, Hyoungseob Park, Yeshwanth Venkatesha, Ruokai Yin, Priyadarshini Panda. *ECCV 2022*
@@ -969,6 +979,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Others
 
 ### Others: 2022
+
+- Implicit Bias of Gradient Descent on Reparametrized Models: On Equivalence to Mirror Descent. [[paper]](https://arxiv.org/abs/2207.04036)
+  - Zhiyuan Li, Tianhao Wang, JasonD. Lee, Sanjeev Arora.
+  - Key Word: Implicit Bias; Mirror Descent.
+  - <details><summary>Digest</summary> As part of the effort to understand implicit bias of gradient descent in overparametrized models, several results have shown how the training trajectory on the overparametrized model can be understood as mirror descent on a different objective. The main result here is a characterization of this phenomenon under a notion termed commuting parametrization, which encompasses all the previous results in this setting. It is shown that gradient flow with any commuting parametrization is equivalent to continuous mirror descent with a related Legendre function.
 
 - Beyond neural scaling laws: beating power law scaling via data pruning. [[paper]](https://arxiv.org/abs/2206.14486)
   - Ben Sorscher, Robert Geirhos, Shashank Shekhar, Surya Ganguli, Ari S. Morcos.
