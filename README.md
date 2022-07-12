@@ -1,6 +1,6 @@
 # Awesome Deep Phenomena [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-Our understanding of modern neural networks lags behind their practical successes. This growing gap poses a challenge to the pace of progress in machine learning because fewer pillars of knowledge are available to designers of models and algorithms. Inspired by the [ICML 2019 workshop Identifying and Understanding Deep Learning Phenomena](http://deep-phenomena.org/), I collect papers which present interesting empirical study and insight into the nature of deep learning.  
+Our understanding of modern neural networks lags behind their practical successes. This growing gap poses a challenge to the pace of progress in machine learning because fewer pillars of knowledge are available to designers of models and algorithms [[ref]](http://deep-phenomena.org/). Inspired by the [ICML 2019 workshop Identifying and Understanding Deep Learning Phenomena](http://deep-phenomena.org/), I collect papers which present interesting empirical study and insight into the nature of deep learning.  
 
 ## Table of Contents
 
@@ -630,6 +630,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Curriculum Learning; Neuroscience.
   - <details><summary>Digest</summary> We present a novel approach to use curricula to identify principles by which a system learns. Previous work in curriculum learning has focused on how curricula can be designed to improve learning of a model on particular tasks. We consider the inverse problem: what can a curriculum tell us about how a learning system acquired a task? Using recurrent neural networks (RNNs) and models of common experimental neuroscience tasks, we demonstrate that curricula can be used to differentiate learning principles using target-based and a representation-based loss functions as use cases.
 
+- On the Principles of Parsimony and Self-Consistency for the Emergence of Intelligence. [[paper]](https://arxiv.org/abs/2207.04630)
+  - Yi Ma, Doris Tsao, Heung-Yeung Shum.
+  - Key Word: Intelligence; Parsimony; Self-Consistency; Rate Reduction.
+  - <details><summary>Digest</summary> Ten years into the revival of deep networks and artificial intelligence, we propose a theoretical framework that sheds light on understanding deep networks within a bigger picture of Intelligence in general. We introduce two fundamental principles, Parsimony and Self-consistency, that we believe to be cornerstones for the emergence of Intelligence, artificial or natural. While these two principles have rich classical roots, we argue that they can be stated anew in entirely measurable and computable ways.
+
 - Painful intelligence: What AI can tell us about human suffering. [[paper]](https://arxiv.org/abs/2205.15409)
   - Aapo Hyvärinen.
   - Key Word: Neuroscience.
@@ -979,6 +984,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Others
 
 ### Others: 2022
+
+- Synergy and Symmetry in Deep Learning: Interactions between the Data, Model, and Inference Algorithm. [[paper]](https://arxiv.org/abs/2207.04612)
+  - Lechao Xiao, Jeffrey Pennington. *ICML 2022*
+  - Key Word: Synergy; Symmetry; Implicit Bias; Neural Tangent Kernel; Neural Scaling Laws.
+  - <details><summary>Digest</summary> Although learning in high dimensions is commonly believed to suffer from the curse of dimensionality, modern machine learning methods often exhibit an astonishing power to tackle a wide range of challenging real-world learning problems without using abundant amounts of data. How exactly these methods break this curse remains a fundamental open question in the theory of deep learning. While previous efforts have investigated this question by studying the data (D), model (M), and inference algorithm (I) as independent modules, in this paper, we analyze the triplet (D, M, I) as an integrated system and identify important synergies that help mitigate the curse of dimensionality.
 
 - Implicit Bias of Gradient Descent on Reparametrized Models: On Equivalence to Mirror Descent. [[paper]](https://arxiv.org/abs/2207.04036)
   - Zhiyuan Li, Tianhao Wang, JasonD. Lee, Sanjeev Arora.
