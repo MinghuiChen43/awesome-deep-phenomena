@@ -16,6 +16,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- A Data-Based Perspective on Transfer Learning. [[paper]](https://arxiv.org/abs/2207.05739) [[code]](https://github.com/MadryLab/data-transfer)
+  - Saachi Jain, Hadi Salman, Alaa Khaddaj, Eric Wong, Sung Min Park, Aleksander Madry.
+  - Key Word: Transfer Learning; Influence Function; Data Leakage.
+  - <details><summary>Digest</summary> It is commonly believed that in transfer learning including more pre-training data translates into better performance. However, recent evidence suggests that removing data from the source dataset can actually help too. In this work, we take a closer look at the role of the source dataset's composition in transfer learning and present a framework for probing its impact on downstream performance. Our framework gives rise to new capabilities such as pinpointing transfer learning brittleness as well as detecting pathologies such as data-leakage and the presence of misleading examples in the source dataset.
+
 - How Much More Data Do I Need? Estimating Requirements for Downstream Tasks. [[paper]](https://arxiv.org/abs/2207.01725)
   - Rafid Mahmood, James Lucas, David Acuna, Daiqing Li, Jonah Philion, Jose M. Alvarez, Zhiding Yu, Sanja Fidler, Marc T. Law. *CVPR 2022*
   - Key Word: Neural Scaling Laws; Active Learning.
