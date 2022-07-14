@@ -990,6 +990,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Towards understanding how momentum improves generalization in deep learning. [[paper]](https://arxiv.org/abs/2207.05931)
+  - Samy Jelassi, Yuanzhi Li. *ICML 2022*
+  - Key Word: Gradient Descent with Momentum.
+  - <details><summary>Digest</summary> We adopt another perspective and first empirically show that gradient descent with momentum (GD+M) significantly improves generalization compared to gradient descent (GD) in some deep learning problems. From this observation, we formally study how momentum improves generalization. We devise a binary classification setting where a one-hidden layer (over-parameterized) convolutional neural network trained with GD+M provably generalizes better than the same network trained with GD, when both algorithms are similarly initialized.
+
 - Synergy and Symmetry in Deep Learning: Interactions between the Data, Model, and Inference Algorithm. [[paper]](https://arxiv.org/abs/2207.04612)
   - Lechao Xiao, Jeffrey Pennington. *ICML 2022*
   - Key Word: Synergy; Symmetry; Implicit Bias; Neural Tangent Kernel; Neural Scaling Laws.
