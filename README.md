@@ -990,6 +990,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Benign, Tempered, or Catastrophic: A Taxonomy of Overfitting. [[paper]](https://arxiv.org/abs/2207.06569)
+  - Neil Mallinar, James B. Simon, Amirhesam Abedsoltan, Parthe Pandit, Mikhail Belkin, Preetum Nakkiran.
+  - Key Word: Overfitting; Kernel Regression.
+  - <details><summary>Digest</summary> The practical success of overparameterized neural networks has motivated the recent scientific study of interpolating methods, which perfectly fit their training data. Certain interpolating methods, including neural networks, can fit noisy training data without catastrophically bad test performance, in defiance of standard intuitions from statistical learning theory. Aiming to explain this, a body of recent work has studied benign overfitting, a phenomenon where some interpolating methods approach Bayes optimality, even in the presence of noise. In this work we argue that while benign overfitting has been instructive and fruitful to study, many real interpolating methods like neural networks do not fit benignly: modest noise in the training set causes nonzero (but non-infinite) excess risk at test time, implying these models are neither benign nor catastrophic but rather fall in an intermediate regime. We call this intermediate regime tempered overfitting, and we initiate its systematic study.
+
 - Towards understanding how momentum improves generalization in deep learning. [[paper]](https://arxiv.org/abs/2207.05931)
   - Samy Jelassi, Yuanzhi Li. *ICML 2022*
   - Key Word: Gradient Descent with Momentum.
