@@ -413,6 +413,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis.
   - <details><summary>Digest</summary> This paper articulates a Dual Lottery Ticket Hypothesis (DLTH) as a dual format of original Lottery Ticket Hypothesis (LTH). Correspondingly, a simple regularization based sparse network training strategy, Random Sparse Network Transformation (RST), is proposed to validate DLTH and enhance sparse network training.
 
+- Rare Gems: Finding Lottery Tickets at Initialization. [[paper]](https://arxiv.org/abs/2202.12002)
+  - Kartik Sreenivasan, Jy-yong Sohn, Liu Yang, Matthew Grinde, Alliot Nagle, Hongyi Wang, Eric Xing, Kangwook Lee, Dimitris Papailiopoulos.
+  - Key Word: Lottery Ticket Hypothesis; Sanity Checks; Pruning at Initialization.
+  - <details><summary>Digest</summary> Finding lottery tickets that train to better accuracy compared to simple baselines remains an open problem. In this work, we resolve this open problem by proposing Gem-Miner which finds lottery tickets at initialization that beat current baselines. Gem-Miner finds lottery tickets trainable to accuracy competitive or better than Iterative Magnitude Pruning (IMP), and does so up to 19× faster.
+
 - Reconstruction Task Finds Universal Winning Tickets. [[paper]](https://arxiv.org/abs/2202.11484)
   - Ruichen Li, Binghui Li, Qi Qian, Liwei Wang.
   - Key Word: Lottery Ticket Hypothesis; Self-Supervision.
