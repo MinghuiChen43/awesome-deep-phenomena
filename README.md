@@ -5,6 +5,7 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Table of Contents
 
 - [Empirical Study](#empirical-study)
+- [Neural Collapse](#neural-collapse)
 - [Deep Double Descent](#deep-double-descent)
 - [Lottery Ticket Hypothesis](#lottery-ticket-hypothesis)
 - [Interactions with Neuroscience](#interactions-with-neuroscience)
@@ -36,20 +37,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Implicit regularization; Fourier Spectrum.
   - <details><summary>Digest</summary> We promote a shift of focus towards initialization rather than neural architecture or (stochastic) gradient descent to explain this implicit regularization. Through a Fourier lens, we derive a general result for the spectral bias of neural networks and show that the generalization of neural networks is heavily tied to their initialization. Further, we empirically solidify the developed theoretical insights using practical, deep networks.
 
-- Neural Collapse: A Review on Modelling Principles and Generalization. [[paper]](https://arxiv.org/abs/2206.04041)
-  - Vignesh Kothapalli, Ebrahim Rasromani, Vasudev Awatramani.
-  - Key Word: Neural Collapse.
-  - <details><summary>Digest</summary> We analyse the principles which aid in modelling such a phenomena from the ground up and show how they can build a common understanding of the recently proposed models that try to explain NC. We hope that our analysis presents a multifaceted perspective on modelling NC and aids in forming connections with the generalization capabilities of neural networks. Finally, we conclude by discussing the avenues for further research and propose potential research problems.
-
 - Rethinking the Role of Demonstrations: What Makes In-Context Learning Work? [[paper]](https://arxiv.org/abs/2202.12837) [[code]](https://github.com/Alrope123/rethinking-demonstrations)
   - Sewon Min, Xinxi Lyu, Ari Holtzman, Mikel Artetxe, Mike Lewis, Hannaneh Hajishirzi, Luke Zettlemoyer.
   - Key Word: Natural Language Processing; In-Context Learning.
   - <details><summary>Digest</summary> We show that ground truth demonstrations are in fact not required -- randomly replacing labels in the demonstrations barely hurts performance, consistently over 12 different models including GPT-3. Instead, we find that other aspects of the demonstrations are the key drivers of end task performance, including the fact that they provide a few examples of (1) the label space, (2) the distribution of the input text, and (3) the overall format of the sequence.
-
-- Limitations of Neural Collapse for Understanding Generalization in Deep Learning. [[paper]](https://arxiv.org/abs/2202.08384)
-  - Like Hui, Mikhail Belkin, Preetum Nakkiran.
-  - Key Word: Neural Collapse.
-  - <details><summary>Digest</summary> We point out that Neural Collapse is primarily an optimization phenomenon, not a generalization one, by investigating the train collapse and test collapse on various dataset and architecture combinations. We propose more precise definitions — "strong" and "weak" Neural Collapse for both the train set and the test set — and discuss their theoretical feasibility.
 
 ### Empirical Study: 2021
 
@@ -251,6 +242,59 @@ Our understanding of modern neural networks lags behind their practical successe
   - Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals. *ICLR 2017*
   - Key Word: Memorization.
   - <details><summary>Digest</summary> Through extensive systematic experiments, we show how these traditional approaches fail to explain why large neural networks generalize well in practice. Specifically, our experiments establish that state-of-the-art convolutional networks for image classification trained with stochastic gradient methods easily fit a random labeling of the training data.  
+
+## Neural Collapse
+
+### Neural Collapse 2022
+
+- Neural Collapse: A Review on Modelling Principles and Generalization. [[paper]](https://arxiv.org/abs/2206.04041)
+  - Vignesh Kothapalli, Ebrahim Rasromani, Vasudev Awatramani.
+  - Key Word: Neural Collapse.
+  - <details><summary>Digest</summary> We analyse the principles which aid in modelling such a phenomena from the ground up and show how they can build a common understanding of the recently proposed models that try to explain NC. We hope that our analysis presents a multifaceted perspective on modelling NC and aids in forming connections with the generalization capabilities of neural networks. Finally, we conclude by discussing the avenues for further research and propose potential research problems.
+
+- Do We Really Need a Learnable Classifier at the End of Deep Neural Network? [[paper]](https://arxiv.org/abs/2203.09081)
+  - Yibo Yang, Liang Xie, Shixiang Chen, Xiangtai Li, Zhouchen Lin, Dacheng Tao.
+  - Key Word: Neural Collapse.
+  - <details><summary>Digest</summary> We study the potential of training a network with the last-layer linear classifier randomly initialized as a simplex ETF and fixed during training. This practice enjoys theoretical merits under the layer-peeled analytical framework. We further develop a simple loss function specifically for the ETF classifier. Its advantage gets verified by both theoretical and experimental results.
+
+- Limitations of Neural Collapse for Understanding Generalization in Deep Learning. [[paper]](https://arxiv.org/abs/2202.08384)
+  - Like Hui, Mikhail Belkin, Preetum Nakkiran.
+  - Key Word: Neural Collapse.
+  - <details><summary>Digest</summary> We point out that Neural Collapse is primarily an optimization phenomenon, not a generalization one, by investigating the train collapse and test collapse on various dataset and architecture combinations. We propose more precise definitions — "strong" and "weak" Neural Collapse for both the train set and the test set — and discuss their theoretical feasibility.
+
+### Neural Collapse 2021
+
+- On the Role of Neural Collapse in Transfer Learning. [[paper]](https://arxiv.org/abs/2112.15121)
+  - Tomer Galanti, András György, Marcus Hutter. *ICLR 2022*
+  - Key Word: Neural Collapse; Transfer Learning.
+  - <details><summary>Digest</summary> We provide an explanation for this behavior based on the recently observed phenomenon that the features learned by overparameterized classification networks show an interesting clustering property, called neural collapse.
+
+- An Unconstrained Layer-Peeled Perspective on Neural Collapse. [[paper]](https://arxiv.org/abs/2110.02796)
+  - Wenlong Ji, Yiping Lu, Yiliang Zhang, Zhun Deng, Weijie J. Su. *ICLR 2022*
+  - Key Word: Neural Collapse; Uncostrained Model; Implicit Regularization.
+  - <details><summary>Digest</summary> We introduce a surrogate model called the unconstrained layer-peeled model (ULPM). We prove that gradient flow on this model converges to critical points of a minimum-norm separation problem exhibiting neural collapse in its global minimizer. Moreover, we show that the ULPM with the cross-entropy loss has a benign global landscape for its loss function, which allows us to prove that all the critical points are strict saddle points except the global minimizers that exhibit the neural collapse phenomenon.
+
+- Neural Collapse Under MSE Loss: Proximity to and Dynamics on the Central Path. [[paper]](https://arxiv.org/abs/2106.02073)
+  - X.Y. Han, Vardan Papyan, David L. Donoho. *ICLR 2022*
+  - Key Word: Neural Collapse; Gradient Flow.
+  - <details><summary>Digest</summary> The analytically-tractable MSE loss offers more mathematical opportunities than the hard-to-analyze CE loss, inspiring us to leverage MSE loss towards the theoretical investigation of NC. We develop three main contributions: (I) We show a new decomposition of the MSE loss into (A) terms directly interpretable through the lens of NC and which assume the last-layer classifier is exactly the least-squares classifier; and (B) a term capturing the deviation from this least-squares classifier. (II) We exhibit experiments on canonical datasets and networks demonstrating that term-(B) is negligible during training. This motivates us to introduce a new theoretical construct: the central path, where the linear classifier stays MSE-optimal for feature activations throughout the dynamics. (III) By studying renormalized gradient flow along the central path, we derive exact dynamics that predict NC.
+
+- A Geometric Analysis of Neural Collapse with Unconstrained Features. [[paper]](https://arxiv.org/abs/2105.02375) [[code]](https://github.com/tding1/Neural-Collapse)
+  - Zhihui Zhu, Tianyu Ding, Jinxin Zhou, Xiao Li, Chong You, Jeremias Sulam, Qing Qu. *NeurIPS 2021*
+  - Key Word: Neural Collapse, Nonconvex Optimization.
+  - <details><summary>Digest</summary> We provide the first global optimization landscape analysis of Neural Collapse -- an intriguing empirical phenomenon that arises in the last-layer classifiers and features of neural networks during the terminal phase of training. As recently reported by Papyan et al., this phenomenon implies that (i) the class means and the last-layer classifiers all collapse to the vertices of a Simplex Equiangular Tight Frame (ETF) up to scaling, and (ii) cross-example within-class variability of last-layer activations collapses to zero. We study the problem based on a simplified unconstrained feature model, which isolates the topmost layers from the classifier of the neural network.
+
+- Exploring Deep Neural Networks via Layer-Peeled Model: Minority Collapse in Imbalanced Training. [[paper]](https://arxiv.org/abs/2101.12699) [[code]](https://github.com/HornHehhf/LPM)
+  - Cong Fang, Hangfeng He, Qi Long, Weijie J. Su. *PNAS*
+  - Key Word: Neural Collapse; Imbalanced Training.
+  - <details><summary>Digest</summary> In this paper, we introduce the Layer-Peeled Model, a nonconvex yet analytically tractable optimization program, in a quest to better understand deep neural networks that are trained for a sufficiently long time. As the name suggests, this new model is derived by isolating the topmost layer from the remainder of the neural network, followed by imposing certain constraints separately on the two parts of the network. When moving to the imbalanced case, our analysis of the Layer-Peeled Model reveals a hitherto unknown phenomenon that we term Minority Collapse, which fundamentally limits the performance of deep learning models on the minority classes.
+
+### Neural Collapse 2020
+
+- Prevalence of Neural Collapse during the terminal phase of deep learning training. [[paper]](https://arxiv.org/abs/2008.08186) [[code]](https://github.com/neuralcollapse/neuralcollapse)
+  - Vardan Papyan, X.Y. Han, David L. Donoho. *PNAS*
+  - Key Word: Neural Collapse.
+  - <details><summary>Digest</summary> This paper studied the terminal phase of training (TPT) of today’s canonical deepnet training protocol. It documented that during TPT a process called Neural Collapse takes place, involving four fundamental and interconnected phenomena: (NC1)-(NC4).
 
 ## Deep Double Descent
 
@@ -1070,22 +1114,12 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Stochastic Gradient Descent; Covariate Shift.
   - <details><summary>Digest</summary> We show that SGDm under covariate shift with a fixed step-size can be unstable and diverge. In particular, we show SGDm under covariate shift is a parametric oscillator, and so can suffer from a phenomenon known as resonance. We approximate the learning system as a time varying system of ordinary differential equations, and leverage existing theory to characterize the system's divergence/convergence as resonant/nonresonant modes.
 
-- Do We Really Need a Learnable Classifier at the End of Deep Neural Network? [[paper]](https://arxiv.org/abs/2203.09081)
-  - Yibo Yang, Liang Xie, Shixiang Chen, Xiangtai Li, Zhouchen Lin, Dacheng Tao.
-  - Key Word: Neural Collapse.
-  - <details><summary>Digest</summary> We study the potential of training a network with the last-layer linear classifier randomly initialized as a simplex ETF and fixed during training. This practice enjoys theoretical merits under the layer-peeled analytical framework. We further develop a simple loss function specifically for the ETF classifier. Its advantage gets verified by both theoretical and experimental results.
-
 - How Many Data Are Needed for Robust Learning? [[paper]](https://arxiv.org/abs/2202.11592)
   - Hongyang Zhang, Yihan Wu, Heng Huang.
   - Key Word: Robustness.
   - <details><summary>Digest</summary> In this work, we study the sample complexity of robust interpolation problem when the data are in a unit ball. We show that both too many data and small data hurt robustness.
 
 ### Others: 2021
-
-- On the Role of Neural Collapse in Transfer Learning. [[paper]](https://arxiv.org/abs/2112.15121)
-  - Tomer Galanti, András György, Marcus Hutter. *ICLR 2022*
-  - Key Word: Neural Collapse; Transfer Learning.
-  - <details><summary>Digest</summary> We provide an explanation for this behavior based on the recently observed phenomenon that the features learned by overparameterized classification networks show an interesting clustering property, called neural collapse.
 
 - Discovering and Explaining the Representation Bottleneck of DNNs. [[paper]](https://arxiv.org/abs/2111.06236)
   - Huiqi Deng, Qihan Ren, Hao Zhang, Quanshi Zhang. *ICLR 2022*
@@ -1101,11 +1135,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Li Jing, Pascal Vincent, Yann LeCun, Yuandong Tian. *ICLR 2022*
   - Key Word: Self-Supervision; Contrastive Learning; Implicit Regularization; Dimensional Collapse.
   - <details><summary>Digest</summary> We show that dimensional collapse also happens in contrastive learning. In this paper, we shed light on the dynamics at play in contrastive learning that leads to dimensional collapse. Inspired by our theory,  we propose a novel contrastive learning method, called DirectCLR, which directly optimizes the representation space without relying on a trainable projector.
-
-- An Unconstrained Layer-Peeled Perspective on Neural Collapse. [[paper]](https://arxiv.org/abs/2110.02796)
-  - Wenlong Ji, Yiping Lu, Yiliang Zhang, Zhun Deng, Weijie J. Su. *ICLR 2022*
-  - Key Word: Neural Collapse; Uncostrained Model; Implicit Regularization.
-  - <details><summary>Digest</summary> We introduce a surrogate model called the unconstrained layer-peeled model (ULPM). We prove that gradient flow on this model converges to critical points of a minimum-norm separation problem exhibiting neural collapse in its global minimizer. Moreover, we show that the ULPM with the cross-entropy loss has a benign global landscape for its loss function, which allows us to prove that all the critical points are strict saddle points except the global minimizers that exhibit the neural collapse phenomenon.
 
 - Implicit Sparse Regularization: The Impact of Depth and Early Stopping. [[paper]](https://arxiv.org/abs/2108.05574) [[code]](https://github.com/jiangyuan2li/implicit-sparse-regularization)
   - Jiangyuan Li, Thanh V. Nguyen, Chinmay Hegde, Raymond K. W. Wong. *NeurIPS 2021*
@@ -1132,30 +1161,15 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> We detail a novel class of implicit neural models. Leveraging time-parallel methods for differential equations, Multiple Shooting Layers (MSLs) seek solutions of initial value problems via parallelizable root-finding algorithms. MSLs broadly serve as drop-in replacements for neural ordinary differential equations (Neural ODEs) with improved efficiency in number of function evaluations (NFEs) and wall-clock inference time.
 
-- Neural Collapse Under MSE Loss: Proximity to and Dynamics on the Central Path. [[paper]](https://arxiv.org/abs/2106.02073)
-  - X.Y. Han, Vardan Papyan, David L. Donoho. *ICLR 2022*
-  - Key Word: Neural Collapse; Gradient Flow.
-  - <details><summary>Digest</summary> The analytically-tractable MSE loss offers more mathematical opportunities than the hard-to-analyze CE loss, inspiring us to leverage MSE loss towards the theoretical investigation of NC. We develop three main contributions: (I) We show a new decomposition of the MSE loss into (A) terms directly interpretable through the lens of NC and which assume the last-layer classifier is exactly the least-squares classifier; and (B) a term capturing the deviation from this least-squares classifier. (II) We exhibit experiments on canonical datasets and networks demonstrating that term-(B) is negligible during training. This motivates us to introduce a new theoretical construct: the central path, where the linear classifier stays MSE-optimal for feature activations throughout the dynamics. (III) By studying renormalized gradient flow along the central path, we derive exact dynamics that predict NC.
-
 - Fit without fear: remarkable mathematical phenomena of deep learning through the prism of interpolation. [[paper]](https://arxiv.org/abs/2105.14368)
   - Mikhail Belkin.
   - Key Word: Interpolation; Over-parameterization.
   - <details><summary>Digest</summary> In the past decade the mathematical theory of machine learning has lagged far behind the triumphs of deep neural networks on practical challenges. However, the gap between theory and practice is gradually starting to close. In this paper I will attempt to assemble some pieces of the remarkable and still incomplete mathematical mosaic emerging from the efforts to understand the foundations of deep learning. The two key themes will be interpolation, and its sibling, over-parameterization. Interpolation corresponds to fitting data, even noisy data, exactly. Over-parameterization enables interpolation and provides flexibility to select a right interpolating model.
 
-- A Geometric Analysis of Neural Collapse with Unconstrained Features. [[paper]](https://arxiv.org/abs/2105.02375) [[code]](https://github.com/tding1/Neural-Collapse)
-  - Zhihui Zhu, Tianyu Ding, Jinxin Zhou, Xiao Li, Chong You, Jeremias Sulam, Qing Qu. *NeurIPS 2021*
-  - Key Word: Neural Collapse, Nonconvex Optimization.
-  - <details><summary>Digest</summary> We provide the first global optimization landscape analysis of Neural Collapse -- an intriguing empirical phenomenon that arises in the last-layer classifiers and features of neural networks during the terminal phase of training. As recently reported by Papyan et al., this phenomenon implies that (i) the class means and the last-layer classifiers all collapse to the vertices of a Simplex Equiangular Tight Frame (ETF) up to scaling, and (ii) cross-example within-class variability of last-layer activations collapses to zero. We study the problem based on a simplified unconstrained feature model, which isolates the topmost layers from the classifier of the neural network.
-
 - MALI: A memory efficient and reverse accurate integrator for Neural ODEs. [[paper]](https://arxiv.org/abs/2102.04668) [[code]](https://github.com/juntang-zhuang/TorchDiffEqPack)
   - Juntang Zhuang, Nicha C. Dvornek, Sekhar Tatikonda, James S. Duncan. *ICLR 2021*
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> Based on the asynchronous leapfrog (ALF) solver, we propose the Memory-efficient ALF Integrator (MALI), which has a constant memory cost w.r.t number of solver steps in integration similar to the adjoint method, and guarantees accuracy in reverse-time trajectory (hence accuracy in gradient estimation). We validate MALI in various tasks: on image recognition tasks, to our knowledge, MALI is the first to enable feasible training of a Neural ODE on ImageNet and outperform a well-tuned ResNet, while existing methods fail due to either heavy memory burden or inaccuracy.
-
-- Exploring Deep Neural Networks via Layer-Peeled Model: Minority Collapse in Imbalanced Training. [[paper]](https://arxiv.org/abs/2101.12699) [[code]](https://github.com/HornHehhf/LPM)
-  - Cong Fang, Hangfeng He, Qi Long, Weijie J. Su. *PNAS*
-  - Key Word: Neural Collapse; Imbalanced Training.
-  - <details><summary>Digest</summary> In this paper, we introduce the Layer-Peeled Model, a nonconvex yet analytically tractable optimization program, in a quest to better understand deep neural networks that are trained for a sufficiently long time. As the name suggests, this new model is derived by isolating the topmost layer from the remainder of the neural network, followed by imposing certain constraints separately on the two parts of the network. When moving to the imbalanced case, our analysis of the Layer-Peeled Model reveals a hitherto unknown phenomenon that we term Minority Collapse, which fundamentally limits the performance of deep learning models on the minority classes.
 
 ### Others: 2020
 
@@ -1178,11 +1192,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - James Morrill, Cristopher Salvi, Patrick Kidger, James Foster, Terry Lyons. *ICML 2021*
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> Neural Controlled Differential Equations (Neural CDEs) are the continuous-time analogue of an RNN. However, as with RNNs, training can quickly become impractical for long time series. Here we use rough path theory to extend this formulation through application of a pre-existing mathematical tool from rough analysis - the log-ODE method - which allows us to take integration steps larger than the discretisation of the data, resulting in significantly faster training times, with retainment (and often even improvements) in model performance.
-
-- Prevalence of Neural Collapse during the terminal phase of deep learning training. [[paper]](https://arxiv.org/abs/2008.08186) [[code]](https://github.com/neuralcollapse/neuralcollapse)
-  - Vardan Papyan, X.Y. Han, David L. Donoho. *PNAS*
-  - Key Word: Neural Collapse.
-  - <details><summary>Digest</summary> This paper studied the terminal phase of training (TPT) of today’s canonical deepnet training protocol. It documented that during TPT a process called Neural Collapse takes place, involving four fundamental and interconnected phenomena: (NC1)-(NC4).
 
 - How benign is benign overfitting? [[paper]](https://arxiv.org/abs/2007.04028)
   - Amartya Sanyal, Puneet K Dokania, Varun Kanade, Philip H.S. Torr. *ICLR 2021*
