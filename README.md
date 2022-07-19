@@ -49,6 +49,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Self-Supervision; Autoencoders.
   - <details><summary>Digest</summary> This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for computer vision. Our MAE approach is simple: we mask random patches of the input image and reconstruct the missing pixels. It is based on two core designs. First, we develop an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens. Second, we find that masking a high proportion of the input image, e.g., 75%, yields a nontrivial and meaningful self-supervisory task.
 
+- Understanding Dataset Difficulty with V-Usable Information. [[paper]](https://arxiv.org/abs/2110.08420) [[code]](https://github.com/kawine/dataset_difficulty)
+  - Kawin Ethayarajh, Yejin Choi, Swabha Swayamdipta. *ICML 2022*
+  - Key Word: Dataset Difficulty Measures; Information Theory.
+  - <details><summary>Digest</summary> Estimating the difficulty of a dataset typically involves comparing state-of-the-art models to humans; the bigger the performance gap, the harder the dataset is said to be. However, this comparison provides little understanding of how difficult each instance in a given distribution is, or what attributes make the dataset difficult for a given model. To address these questions, we frame dataset difficulty -- w.r.t. a model V -- as the lack of V-usable information (Xu et al., 2019), where a lower value indicates a more difficult dataset for V. We further introduce pointwise V-information (PVI) for measuring the difficulty of individual instances w.r.t. a given distribution.
+
 - Exploring the Limits of Large Scale Pre-training. [[paper]](https://arxiv.org/abs/2110.02095)
   - Samira Abnar, Mostafa Dehghani, Behnam Neyshabur, Hanie Sedghi. *ICLR 2022*
   - Key Word: Pre-training.
@@ -1160,6 +1165,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Stefano Massaroli, Michael Poli, Sho Sonoda, Taji Suzuki, Jinkyoo Park, Atsushi Yamashita, Hajime Asama. *NeurIPS 2021*
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> We detail a novel class of implicit neural models. Leveraging time-parallel methods for differential equations, Multiple Shooting Layers (MSLs) seek solutions of initial value problems via parallelizable root-finding algorithms. MSLs broadly serve as drop-in replacements for neural ordinary differential equations (Neural ODEs) with improved efficiency in number of function evaluations (NFEs) and wall-clock inference time.
+
+- Self-Attention Between Datapoints: Going Beyond Individual Input-Output Pairs in Deep Learning. [[paper]](https://arxiv.org/abs/2106.02584) [[code]](https://github.com/OATML/Non-Parametric-Transformers)
+  - Jannik Kossen, Neil Band, Clare Lyle, Aidan N. Gomez, Tom Rainforth, Yarin Gal. *NeurIPS 2021*
+  - Key Word: Samplie-Wise Self-Attention; Meta Learning; Metric Learning.
+  - <details><summary>Digest</summary> We challenge a common assumption underlying most supervised deep learning: that a model makes a prediction depending only on its parameters and the features of a single input. To this end, we introduce a general-purpose deep learning architecture that takes as input the entire dataset instead of processing one datapoint at a time. Our approach uses self-attention to reason about relationships between datapoints explicitly, which can be seen as realizing non-parametric models using parametric attention mechanisms.
 
 - Fit without fear: remarkable mathematical phenomena of deep learning through the prism of interpolation. [[paper]](https://arxiv.org/abs/2105.14368)
   - Mikhail Belkin.
