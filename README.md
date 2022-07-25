@@ -188,7 +188,7 @@ Our understanding of modern neural networks lags behind their practical successe
   - <details><summary>Digest</summary> We study the interplay between memorization and generalization of overparameterized networks in the extreme case of a single training example and an identity-mapping task.  
 
 - Are All Layers Created Equal? [[paper]](https://arxiv.org/abs/1902.01996)  
-  - Chiyuan Zhang, Samy Bengio, Yoram Singer. *ICML 2019 Workshop*
+  - Chiyuan Zhang, Samy Bengio, Yoram Singer. *JMLR*
   - Key Word: Robustness.
   - <details><summary>Digest</summary> We show that the layers can be categorized as either "ambient" or "critical". Resetting the ambient layers to their initial values has no negative consequence, and in many cases they barely change throughout training. On the contrary, resetting the critical layers completely destroys the predictor and the performance drops to chance.  
 
