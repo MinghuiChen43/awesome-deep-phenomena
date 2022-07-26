@@ -679,6 +679,21 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Interactions with Neuroscience: 2022
 
+- Deep Problems with Neural Network Models of Human Vision. [[paper]](https://psyarxiv.com/5zf4s/)
+  - Jeffrey S BowersGaurav MalhotraMarin DujmovićMilton Llera MonteroChristian TsvetkovValerio BiscioneGuillermo PueblaFederico G AdolfiJohn HummelRachel Flood HeatonBenjamin EvansJeff MitchellRyan Blything.
+  - Key Word: Brain-Score; Computational Neuroscience; Convolutional Neural Networks; Representational Similarity Analysis.
+  - <details><summary>Digest</summary> We show that the good prediction on these datasets may be mediated by DNNs that share little overlap with biological vision. More problematically, we show that DNNs account for almost no results from psychological research. This contradicts the common claim that DNNs are good, let alone the best, models of human object recognition.
+
+- High-performing neural network models of visual cortex benefit from high latent dimensionality. [[paper]](https://www.biorxiv.org/content/10.1101/2022.07.13.499969v1)
+  - Eric Elmoznino, Michael F. Bonner.
+  - Key Word: Dimensionality and Alignment in Computational Brain Models.
+  - <details><summary>Digest</summary> The prevailing view holds that optimal DNNs compress their representations onto low-dimensional manifolds to achieve invariance and robustness, which suggests that better models of visual cortex should have low-dimensional geometries. Surprisingly, we found a strong trend in the opposite direction—neural networks with high-dimensional image manifolds tend to have better generalization performance when predicting cortical responses to held-out stimuli in both monkey electrophysiology and human fMRI data.
+
+- Reassessing hierarchical correspondences between brain and deep networks through direct interface. [[paper]](https://www.science.org/doi/10.1126/sciadv.abm2219)
+  - Nicholas J Sexton, Bradley C Love. *Science Advances*
+  - Key Word: Neural Interfacing Analysis; Shared Neural Variance.
+  - <details><summary>Digest</summary> Functional correspondences between deep convolutional neural networks (DCNNs) and the mammalian visual system support a hierarchical account in which successive stages of processing contain ever higher-level information. However, these correspondences between brain and model activity involve shared, not task-relevant, variance. We propose a stricter account of correspondence: If a DCNN layer corresponds to a brain region, then replacing model activity with brain activity should successfully drive the DCNN’s object recognition decision. Using this approach on three datasets, we found that all regions along the ventral visual stream best corresponded with later model layers, indicating that all stages of processing contained higher-level information about object category.
+
 - Wiring Up Vision: Minimizing Supervised Synaptic Updates Needed to Produce a Primate Ventral Stream. [[paper]](https://openreview.net/forum?id=g1SzIRLQXMM)
   - Franziska Geiger, Martin Schrimpf, Tiago Marques, James J. DiCarlo. *ICLR 2022*
   - Key Word: Computational Neuroscience; Primate Visual Ventral Stream.
