@@ -845,10 +845,20 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Information Bottleneck; Quantization.
   - <details><summary>Digest</summary> We study the IB principle in settings where MI is non-trivial and can be computed exactly. We monitor the dynamics of quantized neural networks, that is, we discretize the whole deep learning system so that no approximation is required when computing the MI. This allows us to quantify the information flow without measurement errors.
 
+- Compressive Visual Representations. [[paper]](https://arxiv.org/abs/2109.12909) [[code]](https://github.com/google-research/compressive-visual-representations)
+  - Kuang-Huei Lee, Anurag Arnab, Sergio Guadarrama, John Canny, Ian Fischer. *NeurIPS*
+  - Key Word: Self-Supervision; Contrastive Learning; Conditional Entropy Bottleneck; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> We hypothesize that adding explicit information compression to these algorithms yields better and more robust representations. We verify this by developing SimCLR and BYOL formulations compatible with the Conditional Entropy Bottleneck (CEB) objective, allowing us to both measure and control the amount of compression in the learned representation, and observe their impact on downstream tasks. Furthermore, we explore the relationship between Lipschitz continuity and compression, showing a tractable lower bound on the Lipschitz constant of the encoders we learn.
+
 - Invariance Principle Meets Information Bottleneck for Out-of-Distribution Generalization. [[paper]](https://arxiv.org/abs/2106.06607) [[code]](https://github.com/ahujak/IB-IRM)
   - Kartik Ahuja, Ethan Caballero, Dinghuai Zhang, Yoshua Bengio, Ioannis Mitliagkas, Irina Rish. *NeurIPS 2021*
   - Key Word: Information Bottleneck; Out-of-Distribution Generalization; Invarianct Risk Minimization.
   - <details><summary>Digest</summary> We revisit the fundamental assumptions in linear regression tasks, where invariance-based approaches were shown to provably generalize OOD. In contrast to the linear regression tasks, we show that for linear classification tasks we need much stronger restrictions on the distribution shifts, or otherwise OOD generalization is impossible.  Furthermore, even with appropriate restrictions on distribution shifts in place, we show that the invariance principle alone is insufficient. We prove that a form of the information bottleneck constraint along with invariance helps address the key failures when invariant features capture all the information about the label and also retains the existing success when they do not.
+
+- Perturbation Theory for the Information Bottleneck. [[paper]](https://arxiv.org/abs/2105.13977)
+  - Vudtiwat Ngampruetikorn, David J. Schwab. *NeurIPS 2021*
+  - Key Word: Information Bottleneck; Perturbation Theory.
+  - <details><summary>Digest</summary> Extracting relevant information from data is crucial for all forms of learning. The information bottleneck (IB) method formalizes this, offering a mathematically precise and conceptually appealing framework for understanding learning phenomena. However the nonlinearity of the IB problem makes it computationally expensive and analytically intractable in general. Here we derive a perturbation theory for the IB method and report the first complete characterization of the learning onset, the limit of maximum relevant information per bit extracted from data. 
 
 - A Critical Review of Information Bottleneck Theory and its Applications to Deep Learning. [[paper]](https://arxiv.org/abs/2105.04405)
   - Mohammad Ali Alomrani.
