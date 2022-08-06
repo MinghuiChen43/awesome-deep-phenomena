@@ -1001,6 +1001,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2020
 
+- Mathematical Models of Overparameterized Neural Networks. [[paper]](https://arxiv.org/abs/2012.13982) [[code]](https://github.com/hendrydong/NTK-and-MF-examples)\
+  - Cong Fang, Hanze Dong, Tong Zhang. *Proceedings of the IEEE*
+  - Key Word: Neural Tangent Kernel; Mean-Field Theory.
+  - <details><summary>Digest</summary> Known by practitioners that overparameterized neural networks are easy to learn, in the past few years there have been important theoretical developments in the analysis of overparameterized neural networks. In particular, it was shown that such systems behave like convex systems under various restricted settings, such as for two-layer NNs, and when learning is restricted locally in the so-called neural tangent kernel space around specialized initializations. This paper discusses some of these recent progresses leading to significant better understanding of neural networks. We will focus on the analysis of two-layer neural networks, and explain the key mathematical models, with their algorithmic implications.
+
 - Deep learning versus kernel learning: an empirical study of loss landscape geometry and the time evolution of the Neural Tangent Kernel. [[paper]](https://arxiv.org/abs/2010.15110)
   - Stanislav Fort, Gintare Karolina Dziugaite, Mansheej Paul, Sepideh Kharaghani, Daniel M. Roy, Surya Ganguli. *NeurIPS 2020*
   - Key Word: Neural Tangent Kernel.
