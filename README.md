@@ -1412,9 +1412,14 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Mean Field Theory.
   - <details><summary>Digest</summary> We leverage powerful tools from free probability theory to provide a detailed analytic understanding of how a deep network's Jacobian spectrum depends on various hyperparameters including the nonlinearity, the weight and bias distributions, and the depth. For a variety of nonlinearities, our work reveals the emergence of new universal limiting spectral distributions that remain concentrated around one even as the depth goes to infinity.
 
+- Generalization in Machine Learning via Analytical Learning Theory. [[paper]](https://arxiv.org/abs/1802.07426) [[code]](https://github.com/Learning-and-Intelligent-Systems/Analytical-Learning-Theory)
+  - Kenji Kawaguchi, Yoshua Bengio, Vikas Verma, Leslie Pack Kaelbling.
+  - Key Word: Regularization; Measure Theory.
+  - <details><summary>Digest</summary> This paper introduces a novel measure-theoretic theory for machine learning that does not require statistical assumptions. Based on this theory, a new regularization method in deep learning is derived and shown to outperform previous methods in CIFAR-10, CIFAR-100, and SVHN. Moreover, the proposed theory provides a theoretical basis for a family of practically successful regularization methods in deep learning. We discuss several consequences of our results on one-shot learning, representation learning, deep learning, and curriculum learning. Unlike statistical learning theory, the proposed learning theory analyzes each problem instance individually via measure theory, rather than a set of problem instances via statistics. As a result, it provides different types of results and insights when compared to statistical learning theory.
+
 - Stronger generalization bounds for deep nets via a compression approach [[paper]](https://arxiv.org/abs/1802.05296)
   - Sanjeev Arora, Rong Ge, Behnam Neyshabur, Yi Zhang. *ICML 2018*
-  - Key Word: PAC-Bayes.
+  - Key Word: PAC-Bayes; Compression-Based Generalization Bound.
   - <details><summary>Digest</summary> A simple compression framework for proving generalization bounds, perhaps a more explicit and intuitive form of the PAC-Bayes work. It also yields elementary short proofs of recent generalization results.
 
 - Which Neural Net Architectures Give Rise To Exploding and Vanishing Gradients? [[paper]](https://arxiv.org/abs/1801.03744)
