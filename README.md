@@ -1043,15 +1043,15 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2019
 
-- Simple and Effective Regularization Methods for Training on Noisily Labeled Data with Generalization Guarantee. [[paper]](https://arxiv.org/abs/1905.11368)
-  - Wei Hu, Zhiyuan Li, Dingli Yu. *ICLR 2020*
-  - Key Word: Neural Tangent Kernel; Regularization.
-  - <details><summary>Digest</summary> This paper proposes and analyzes two simple and intuitive regularization methods: (i) regularization by the distance between the network parameters to initialization, and (ii) adding a trainable auxiliary variable to the network output for each training example. Theoretically, we prove that gradient descent training with either of these two methods leads to a generalization guarantee on the clean data distribution despite being trained using noisy labels.
-
 - Disentangling Trainability and Generalization in Deep Neural Networks. [[paper]](https://arxiv.org/abs/1912.13053)
   - Lechao Xiao, Jeffrey Pennington, Samuel S. Schoenholz. *ICML 2020*
   - Key Word: Neural Tangent Kernel.
   - <details><summary>Digest</summary> We provide such a characterization in the limit of very wide and very deep networks, for which the analysis simplifies considerably. For wide networks, the trajectory under gradient descent is governed by the Neural Tangent Kernel (NTK), and for deep networks the NTK itself maintains only weak data dependence.
+
+- Simple and Effective Regularization Methods for Training on Noisily Labeled Data with Generalization Guarantee. [[paper]](https://arxiv.org/abs/1905.11368)
+  - Wei Hu, Zhiyuan Li, Dingli Yu. *ICLR 2020*
+  - Key Word: Neural Tangent Kernel; Regularization.
+  - <details><summary>Digest</summary> This paper proposes and analyzes two simple and intuitive regularization methods: (i) regularization by the distance between the network parameters to initialization, and (ii) adding a trainable auxiliary variable to the network output for each training example. Theoretically, we prove that gradient descent training with either of these two methods leads to a generalization guarantee on the clean data distribution despite being trained using noisy labels.
 
 - On Exact Computation with an Infinitely Wide Neural Net. [[paper]](https://arxiv.org/abs/1904.11955) [[code]](https://github.com/ruosongwang/CNTK)
   - Sanjeev Arora, Simon S. Du, Wei Hu, Zhiyuan Li, Ruslan Salakhutdinov, Ruosong Wang. *NeurIPS 2019*
