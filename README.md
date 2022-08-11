@@ -489,6 +489,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis.
   - <details><summary>Digest</summary> The lottery ticket hypothesis conjectures the existence of sparse subnetworks of large randomly initialized deep neural networks that can be successfully trained in isolation. Recent work has experimentally observed that some of these tickets can be practically reused across a variety of tasks, hinting at some form of universality. We formalize this concept and theoretically prove that not only do such universal tickets exist but they also do not require further training.
 
+- Universality of Winning Tickets: A Renormalization Group Perspective. [[paper]](https://arxiv.org/abs/2110.03210)
+  - William T. Redman, Tianlong Chen, Zhangyang Wang, Akshunna S. Dogra. *ICML 2022*
+  - Key Word: Lottery Ticket Hypothesis; Renormalization Group Theory.
+  - <details><summary>Digest</summary> Foundational work on the Lottery Ticket Hypothesis has suggested an exciting corollary: winning tickets found in the context of one task can be transferred to similar tasks, possibly even across different architectures. This has generated broad interest, but methods to study this universality are lacking. We make use of renormalization group theory, a powerful tool from theoretical physics, to address this need. We find that iterative magnitude pruning, the principal algorithm used for discovering winning tickets, is a renormalization group scheme, and can be viewed as inducing a flow in parameter space. 
+
 - How many degrees of freedom do we need to train deep networks: a loss landscape perspective. [[paper]](https://arxiv.org/abs/2107.05802) [[code]](https://github.com/ganguli-lab/degrees-of-freedom)
   - Brett W. Larsen, Stanislav Fort, Nic Becker, Surya Ganguli. *ICLR 2022*
   - Key Word: Loss Landscape; Lottery Ticket Hypothesis.
