@@ -252,6 +252,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Collapse 2022
 
+- Imbalance Trouble: Revisiting Neural-Collapse Geometry. [[paper]](https://arxiv.org/abs/2208.05512)
+  - Christos Thrampoulidis, Ganesh R. Kini, Vala Vakilian, Tina Behnia.
+  - Key Word: Neural Collapse; Class Imbalance.
+  - <details><summary>Digest</summary> Neural Collapse refers to the remarkable structural properties characterizing the geometry of class embeddings and classifier weights, found by deep nets when trained beyond zero training error. However, this characterization only holds for balanced data. Here we thus ask whether it can be made invariant to class imbalances. Towards this end, we adopt the unconstrained-features model (UFM), a recent theoretical model for studying neural collapse, and introduce Simplex-Encoded-Labels Interpolation (SELI) as an invariant characterization of the neural collapse phenomenon. 
+
 - Neural Collapse: A Review on Modelling Principles and Generalization. [[paper]](https://arxiv.org/abs/2206.04041)
   - Vignesh Kothapalli, Ebrahim Rasromani, Vasudev Awatramani.
   - Key Word: Neural Collapse.
