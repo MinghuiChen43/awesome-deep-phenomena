@@ -1248,6 +1248,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Benign Overfitting; Adversarial Robustness.
   - <details><summary>Digest</summary> We investigate two causes for adversarial vulnerability in deep neural networks: bad data and (poorly) trained models. When trained with SGD, deep neural networks essentially achieve zero training error, even in the presence of label noise, while also exhibiting good generalization on natural test data, something referred to as benign overfitting. However, these models are vulnerable to adversarial attacks. We identify label noise as one of the causes for adversarial vulnerability, and provide theoretical and empirical evidence in support of this. Surprisingly, we find several instances of label noise in datasets such as MNIST and CIFAR, and that robustly trained models incur training error on some of these, i.e. they don’t fit the noise.
 
+- On the Theory of Transfer Learning: The Importance of Task Diversity. [[paper]](https://arxiv.org/abs/2006.11650)
+  - Nilesh Tripuraneni, Michael I. Jordan, Chi Jin. *NeurIPS 2020*
+  - Key Word: Transfer Learning; Task Diversity; Generalization Bound.
+  - <details><summary>Digest</summary> We introduce a problem-agnostic definition of task diversity which can be integrated into a uniform convergence framework to provide generalization bounds for transfer learning problems with general losses, tasks, and features. Our framework puts this notion of diversity together with a common-design assumption across tasks to provide guarantees of a fast convergence rate, decaying with all of the samples for the transfer learning problem.
+
 - Neural Controlled Differential Equations for Irregular Time Series. [[paper]](https://arxiv.org/abs/2005.08926) [[code]](https://github.com/patrick-kidger/NeuralCDE)
   - Patrick Kidger, James Morrill, James Foster, Terry Lyons. *NeurIPS 2020*
   - Key Word: Ordinary Differential Equations.
