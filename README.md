@@ -1258,6 +1258,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> a fundamental issue is that the solution to an ordinary differential equation is determined by its initial condition, and there is no mechanism for adjusting the trajectory based on subsequent observations. Here, we demonstrate how this may be resolved through the well-understood mathematics of controlled differential equations.
 
+- Finite-sample Analysis of Interpolating Linear Classifiers in the Overparameterized Regime. [[paper]](https://arxiv.org/abs/2004.12019)
+  - Niladri S. Chatterji, Philip M. Long. *JMLR*
+  - Key Word: Benign Overfitting; Finite-Sample Analysis.
+  - <details><summary>Digest</summary> We prove bounds on the population risk of the maximum margin algorithm for two-class linear classification. For linearly separable training data, the maximum margin algorithm has been shown in previous work to be equivalent to a limit of training with logistic loss using gradient descent, as the training error is driven to zero. We analyze this algorithm applied to random data including misclassification noise. Our assumptions on the clean data include the case in which the class-conditional distributions are standard normal distributions. The misclassification noise may be chosen by an adversary, subject to a limit on the fraction of corrupted labels. Our bounds show that, with sufficient over-parameterization, the maximum margin algorithm trained on noisy data can achieve nearly optimal population risk.
+
 - Dissecting Neural ODEs. [[paper]](https://arxiv.org/abs/2002.08071) [[code]](https://github.com/DiffEqML/diffeqml-research/tree/master/dissecting-neural-odes)
   - Stefano Massaroli, Michael Poli, Jinkyoo Park, Atsushi Yamashita, Hajime Asama. *NeurIPS 2020*
   - Key Word: Ordinary Differential Equations.
@@ -1294,6 +1299,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Chulhee Yun, Suvrit Sra, Ali Jadbabaie. *NeurIPS 2019*
   - Key Word: ResNets; Local Minima.
   - <details><summary>Digest</summary> We investigated the question whether local minima of risk function of a deep ResNet are better than linear predictors. We showed two motivating examples showing 1) the advantage of ResNets over fully-connected networks, and 2) difficulty in analysis of deep ResNets.
+
+- Benign Overfitting in Linear Regression. [[paper]](https://arxiv.org/abs/1906.11300)
+  - Peter L. Bartlett, Philip M. Long, Gábor Lugosi, Alexander Tsigler. *PNAS*
+  - Key Word: Benign Overfitting.
+  - <details><summary>Digest</summary> The phenomenon of benign overfitting is one of the key mysteries uncovered by deep learning methodology: deep neural networks seem to predict well, even with a perfect fit to noisy training data. Motivated by this phenomenon, we consider when a perfect fit to training data in linear regression is compatible with accurate prediction. We give a characterization of linear regression problems for which the minimum norm interpolating prediction rule has near-optimal prediction accuracy. The characterization is in terms of two notions of the effective rank of the data covariance. It shows that overparameterization is essential for benign overfitting in this setting: the number of directions in parameter space that are unimportant for prediction must significantly exceed the sample size. 
 
 - Invariance-inducing regularization using worst-case transformations suffices to boost accuracy and spatial robustness. [[paper]](https://arxiv.org/abs/1906.11235)
   - Fanny Yang, Zuowen Wang, Christina Heinze-Deml. *NeurIPS 2019*
