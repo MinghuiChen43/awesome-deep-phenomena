@@ -947,6 +947,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2022
 
+- Neural Tangent Kernel: A Survey. [[paper]](https://arxiv.org/abs/2208.13614)
+  - Eugene Golikov, Eduard Pokonechnyy, Vladimir Korviakov.
+  - Key Word: Neural Tangent Kernel; Survey.
+  - <details><summary>Digest</summary> A seminal work [Jacot et al., 2018] demonstrated that training a neural network under specific parameterization is equivalent to performing a particular kernel method as width goes to infinity. This equivalence opened a promising direction for applying the results of the rich literature on kernel methods to neural nets which were much harder to tackle. The present survey covers key results on kernel convergence as width goes to infinity, finite-width corrections, applications, and a discussion of the limitations of the corresponding method.
+
 - Limitations of the NTK for Understanding Generalization in Deep Learning. [[paper]](https://arxiv.org/abs/2206.10012)
   - Nikhil Vyas, Yamini Bansal, Preetum Nakkiran.
   - Key Word: Neural Tangent Kernel.
