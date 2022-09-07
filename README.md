@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- A Review of Sparse Expert Models in Deep Learning. [[paper]](https://arxiv.org/abs/2209.01667)
+  - William Fedus, Jeff Dean, Barret Zoph.
+  - Key Word: Mixture-of-Experts.
+  - <details><summary>Digest</summary> Sparse expert models are a thirty-year old concept re-emerging as a popular architecture in deep learning. This class of architecture encompasses Mixture-of-Experts, Switch Transformers, Routing Networks, BASE layers, and others, all with the unifying idea that each example is acted on by a subset of the parameters. By doing so, the degree of sparsity decouples the parameter count from the compute per example allowing for extremely large, but efficient models. The resulting models have demonstrated significant improvements across diverse domains such as natural language processing, computer vision, and speech recognition. We review the concept of sparse expert models, provide a basic description of the common algorithms, contextualize the advances in the deep learning era, and conclude by highlighting areas for future work.
+
 - A Data-Based Perspective on Transfer Learning. [[paper]](https://arxiv.org/abs/2207.05739) [[code]](https://github.com/MadryLab/data-transfer)
   - Saachi Jain, Hadi Salman, Alaa Khaddaj, Eric Wong, Sung Min Park, Aleksander Madry.
   - Key Word: Transfer Learning; Influence Function; Data Leakage.
