@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- Revisiting Neural Scaling Laws in Language and Vision. [[paper]](https://arxiv.org/abs/2209.06640)
+  - Ibrahim Alabdulmohsin, Behnam Neyshabur, Xiaohua Zhai.
+  - Key Word: Neural Scaling Laws; Multi-modal Learning.
+  - <details><summary>Digest</summary> The remarkable progress in deep learning in recent years is largely driven by improvements in scale, where bigger models are trained on larger datasets for longer schedules. To predict the benefit of scale empirically, we argue for a more rigorous methodology based on the extrapolation loss, instead of reporting the best-fitting (interpolating) parameters. We then present a recipe for estimating scaling law parameters reliably from learning curves. We demonstrate that it extrapolates more accurately than previous methods in a wide range of architecture families across several domains, including image classification, neural machine translation (NMT) and language modeling, in addition to tasks from the BIG-Bench evaluation benchmark. 
+
 - A Review of Sparse Expert Models in Deep Learning. [[paper]](https://arxiv.org/abs/2209.01667)
   - William Fedus, Jeff Dean, Barret Zoph.
   - Key Word: Mixture-of-Experts.
@@ -426,6 +431,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Shaojin Ding, Tianlong Chen, Zhangyang Wang. *ICLR 2022*
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - <details><summary>Digest</summary> We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
+
+- One-shot Network Pruning at Initialization with Discriminative Image Patches. [[paper]](https://arxiv.org/abs/2209.05683)
+  - Yinan Yang, Ying Ji, Yu Wang, Heng Qi, Jien Kato.
+  - Key Word: One-Shot Network Pruning.
+  - <details><summary>Digest</summary> We propose two novel methods, Discriminative One-shot Network Pruning (DOP) and Super Stitching, to prune the network by high-level visual discriminative image patches. Our contributions are as follows. (1) Extensive experiments reveal that OPaI is data-dependent. (2) Super Stitching performs significantly better than the original OPaI method on benchmark ImageNet, especially in a highly compressed model.
 
 - SuperTickets: Drawing Task-Agnostic Lottery Tickets from Supernets via Jointly Architecture Searching and Parameter Pruning. [[paper]](https://arxiv.org/abs/2207.03677) [[code]](https://github.com/RICE-EIC/SuperTickets)
   - Haoran You, Baopu Li, Zhanyi Sun, Xu Ouyang, Yingyan Lin. *ECCV 2022*
