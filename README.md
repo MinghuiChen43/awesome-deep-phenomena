@@ -1104,6 +1104,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Robustness in deep learning: The good (width), the bad (depth), and the ugly (initialization). [[paper]](https://arxiv.org/abs/2209.07263)
+  - Zhenyu Zhu, Fanghui Liu, Grigorios G Chrysos, Volkan Cevher. *NeurIPS 2022*
+  - Key Word: Lazy Training; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We study the average robustness notion in deep neural networks in (selected) wide and narrow, deep and shallow, as well as lazy and non-lazy training settings. We prove that in the under-parameterized setting, width has a negative effect while it improves robustness in the over-parameterized setting. The effect of depth closely depends on the initialization and the training mode. In particular, when initialized with LeCun initialization, depth helps robustness with lazy training regime. In contrast, when initialized with Neural Tangent Kernel (NTK) and He-initialization, depth hurts the robustness. 
+
 - Normalization effects on deep neural networks. [[paper]](https://arxiv.org/abs/2209.01018)
   - Jiahui Yu, Konstantinos Spiliopoulos.
   - Key Word: Normalization.
@@ -1118,6 +1123,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Samy Jelassi, Yuanzhi Li. *ICML 2022*
   - Key Word: Gradient Descent with Momentum.
   - <details><summary>Digest</summary> We adopt another perspective and first empirically show that gradient descent with momentum (GD+M) significantly improves generalization compared to gradient descent (GD) in some deep learning problems. From this observation, we formally study how momentum improves generalization. We devise a binary classification setting where a one-hidden layer (over-parameterized) convolutional neural network trained with GD+M provably generalizes better than the same network trained with GD, when both algorithms are similarly initialized.
+
+- Git Re-Basin: Merging Models modulo Permutation Symmetries. [[paper]](https://arxiv.org/abs/2209.04836)
+  - Samuel K. Ainsworth, Jonathan Hayase, Siddhartha Srinivasa.
+  - Key Word: Mode Connectivity.
+  - <details><summary>Digest</summary> We argue that neural network loss landscapes contain (nearly) a single basin, after accounting for all possible permutation symmetries of hidden units. We introduce three algorithms to permute the units of one model to bring them into alignment with units of a reference model. This transformation produces a functionally equivalent set of weights that lie in an approximately convex basin near the reference model. Experimentally, we demonstrate the single basin phenomenon across a variety of model architectures and datasets, including the first (to our knowledge) demonstration of zero-barrier linear mode connectivity between independently trained ResNet models on CIFAR-10 and CIFAR-100. 
 
 - Synergy and Symmetry in Deep Learning: Interactions between the Data, Model, and Inference Algorithm. [[paper]](https://arxiv.org/abs/2207.04612)
   - Lechao Xiao, Jeffrey Pennington. *ICML 2022*
@@ -1268,6 +1278,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> Neural Controlled Differential Equations (Neural CDEs) are the continuous-time analogue of an RNN. However, as with RNNs, training can quickly become impractical for long time series. Here we use rough path theory to extend this formulation through application of a pre-existing mathematical tool from rough analysis - the log-ODE method - which allows us to take integration steps larger than the discretisation of the data, resulting in significantly faster training times, with retainment (and often even improvements) in model performance.
 
+- Optimizing Mode Connectivity via Neuron Alignment. [[paper]](https://arxiv.org/abs/2009.02439) [[code]](https://github.com/IBM/NeuronAlignment)
+  - N. Joseph Tatro, Pin-Yu Chen, Payel Das, Igor Melnyk, Prasanna Sattigeri, Rongjie Lai. *NeurIPS 2020*
+  - Key Word: Mode Connectivity; Neuron Alignment; Adversarial Training.
+  - <details><summary>Digest</summary> We propose a more general framework to investigate the effect of symmetry on landscape connectivity by accounting for the weight permutations of the networks being connected. To approximate the optimal permutation, we introduce an inexpensive heuristic referred to as neuron alignment. Neuron alignment promotes similarity between the distribution of intermediate activations of models along the curve. 
+
 - How benign is benign overfitting? [[paper]](https://arxiv.org/abs/2007.04028)
   - Amartya Sanyal, Puneet K Dokania, Varun Kanade, Philip H.S. Torr. *ICLR 2021*
   - Key Word: Benign Overfitting; Adversarial Robustness.
@@ -1354,6 +1369,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Jaehoon Lee, Lechao Xiao, Samuel S. Schoenholz, Yasaman Bahri, Roman Novak, Jascha Sohl-Dickstein, Jeffrey Pennington. *NeurIPS 2019*
   - Key Word: Mean Field Theory.
   - <details><summary>Digest</summary> We show that for wide neural networks the learning dynamics simplify considerably and that, in the infinite width limit, they are governed by a linear model obtained from the first-order Taylor expansion of the network around its initial parameters. Furthermore, mirroring the correspondence between wide Bayesian neural networks and Gaussian processes, gradient-based training of wide neural networks with a squared loss produces test set predictions drawn from a Gaussian process with a particular compositional kernel.
+
+- Superposition of many models into one. [[paper]](https://arxiv.org/abs/1902.05522) [[code]](https://github.com/briancheung/superposition)
+  - Brian Cheung, Alex Terekhov, Yubei Chen, Pulkit Agrawal, Bruno Olshausen. *NeurIPS 2019*
+  - Key Word: Parameter Superposition; Catastrophic Forgetting.
+  - <details><summary>Digest</summary> We present a method for storing multiple models within a single set of parameters. Models can coexist in superposition and still be retrieved individually. In experiments with neural networks, we show that a surprisingly large number of models can be effectively stored within a single parameter instance. Furthermore, each of these models can undergo thousands of training steps without significantly interfering with other models within the superposition. This approach may be viewed as the online complement of compression: rather than reducing the size of a network after training, we make use of the unrealized capacity of a network during training.
 
 - On Nonconvex Optimization for Machine Learning: Gradients, Stochasticity, and Saddle Points. [[paper]](https://arxiv.org/abs/1902.04811)
   - Chi Jin, Praneeth Netrapalli, Rong Ge, Sham M. Kakade, Michael I. Jordan. *ICML 2017*
