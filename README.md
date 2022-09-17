@@ -59,6 +59,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Self-Supervision; Autoencoders.
   - <details><summary>Digest</summary> This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for computer vision. Our MAE approach is simple: we mask random patches of the input image and reconstruct the missing pixels. It is based on two core designs. First, we develop an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens. Second, we find that masking a high proportion of the input image, e.g., 75%, yields a nontrivial and meaningful self-supervisory task.
 
+- Learning in High Dimension Always Amounts to Extrapolation. [[paper]](https://arxiv.org/abs/2110.09485)
+  - Randall Balestriero, Jerome Pesenti, Yann LeCun.
+  - Key Word: Interpolation and Extrapolation.
+  - <details><summary>Digest</summary> The notion of interpolation and extrapolation is fundamental in various fields from deep learning to function approximation. Interpolation occurs for a sample x whenever this sample falls inside or on the boundary of the given dataset's convex hull. Extrapolation occurs when x falls outside of that convex hull. One fundamental (mis)conception is that state-of-the-art algorithms work so well because of their ability to correctly interpolate training data. A second (mis)conception is that interpolation happens throughout tasks and datasets, in fact, many intuitions and theories rely on that assumption. We empirically and theoretically argue against those two points and demonstrate that on any high-dimensional (>100) dataset, interpolation almost surely never happens. 
+
 - Understanding Dataset Difficulty with V-Usable Information. [[paper]](https://arxiv.org/abs/2110.08420) [[code]](https://github.com/kawine/dataset_difficulty)
   - Kawin Ethayarajh, Yejin Choi, Swabha Swayamdipta. *ICML 2022*
   - Key Word: Dataset Difficulty Measures; Information Theory.
