@@ -473,12 +473,12 @@ Our understanding of modern neural networks lags behind their practical successe
   - <details><summary>Digest</summary> We propose HideNseek which employs one-shot data-agnostic pruning at initialization to get a subnetwork based on weights' synaptic saliency. Each client then optimizes a sign supermask multiplied by the unpruned weights to allow faster convergence with the same compression rates as state-of-the-art.
 
 - Lottery Tickets on a Data Diet: Finding Initializations with Sparse Trainable Networks. [[paper]](https://arxiv.org/abs/2206.01278) [[code]](https://github.com/mansheej/lth_diet)
-  - Mansheej Paul, Brett W. Larsen, Surya Ganguli, Jonathan Frankle, Gintare Karolina Dziugaite.
+  - Mansheej Paul, Brett W. Larsen, Surya Ganguli, Jonathan Frankle, Gintare Karolina Dziugaite. *NeurIPS 2022*
   - Key Word: Lottery Ticket Hypothesis; Pre-training.
   - <details><summary>Digest</summary> We seek to understand how this early phase of pre-training leads to a good initialization for IMP both through the lens of the data distribution and the loss landscape geometry. Empirically we observe that, holding the number of pre-training iterations constant, training on a small fraction of (randomly chosen) data suffices to obtain an equally good initialization for IMP. We additionally observe that by pre-training only on "easy" training data, we can decrease the number of steps necessary to find a good initialization for IMP compared to training on the full dataset or a randomly chosen subset. Finally, we identify novel properties of the loss landscape of dense networks that are predictive of IMP performance, showing in particular that more examples being linearly mode connected in the dense network correlates well with good initializations for IMP.
 
 - Analyzing Lottery Ticket Hypothesis from PAC-Bayesian Theory Perspective. [[paper]](https://arxiv.org/abs/2205.07320)
-  - Keitaro Sakamoto, Issei Sato.
+  - Keitaro Sakamoto, Issei Sato. *NeurIPS 2022*
   - Key Word: Lottery Ticket Hypothesis; PAC-Bayes.
   - <details><summary>Digest</summary> We confirm this hypothesis and show that the PAC-Bayesian theory can provide an explicit understanding of the relationship between LTH and generalization behavior. On the basis of our experimental findings that flatness is useful for improving accuracy and robustness to label noise and that the distance from the initial weights is deeply involved in winning tickets, we offer the PAC-Bayes bound using a spike-and-slab distribution to analyze winning tickets.
 
@@ -488,7 +488,7 @@ Our understanding of modern neural networks lags behind their practical successe
   - <details><summary>Digest</summary> This paper articulates a Dual Lottery Ticket Hypothesis (DLTH) as a dual format of original Lottery Ticket Hypothesis (LTH). Correspondingly, a simple regularization based sparse network training strategy, Random Sparse Network Transformation (RST), is proposed to validate DLTH and enhance sparse network training.
 
 - Rare Gems: Finding Lottery Tickets at Initialization. [[paper]](https://arxiv.org/abs/2202.12002)
-  - Kartik Sreenivasan, Jy-yong Sohn, Liu Yang, Matthew Grinde, Alliot Nagle, Hongyi Wang, Eric Xing, Kangwook Lee, Dimitris Papailiopoulos.
+  - Kartik Sreenivasan, Jy-yong Sohn, Liu Yang, Matthew Grinde, Alliot Nagle, Hongyi Wang, Eric Xing, Kangwook Lee, Dimitris Papailiopoulos. *NeurIPS 2022*
   - Key Word: Lottery Ticket Hypothesis; Sanity Checks; Pruning at Initialization.
   - <details><summary>Digest</summary> Finding lottery tickets that train to better accuracy compared to simple baselines remains an open problem. In this work, we resolve this open problem by proposing Gem-Miner which finds lottery tickets at initialization that beat current baselines. Gem-Miner finds lottery tickets trainable to accuracy competitive or better than Iterative Magnitude Pruning (IMP), and does so up to 19× faster.
 
