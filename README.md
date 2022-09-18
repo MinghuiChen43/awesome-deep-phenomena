@@ -1194,6 +1194,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Representation Learning; Pre-training; Regularization.
   - <details><summary>Digest</summary> Representation learning enables us to automatically extract generic feature representations from a dataset to solve another machine learning task. Recently, extracted feature representations by a representation learning algorithm and a simple predictor have exhibited state-of-the-art performance on several machine learning tasks. Despite its remarkable progress, there exist various ways to evaluate representation learning algorithms depending on the application because of the flexibility of representation learning. To understand the current representation learning, we review evaluation methods of representation learning algorithms and theoretical analyses.
 
+- The Effects of Regularization and Data Augmentation are Class Dependent. [[paper]](https://arxiv.org/abs/2204.03632)
+  - Randall Balestriero, Leon Bottou, Yann LeCun. *NeurIPS 2022*
+  - Key Word: Data Augmentation.
+  - <details><summary>Digest</summary> We demonstrate that techniques such as DA or weight decay produce a model with a reduced complexity that is unfair across classes. The optimal amount of DA or weight decay found from cross-validation leads to disastrous model performances on some classes e.g. on Imagenet with a resnet50, the "barn spider" classification test accuracy falls from 68% to 46% only by introducing random crop DA during training. Even more surprising, such performance drop also appears when introducing uninformative regularization techniques such as weight decay. 
+
 - Resonance in Weight Space: Covariate Shift Can Drive Divergence of SGD with Momentum. [[paper]](https://arxiv.org/abs/2203.11992)
   - Kirby Banman, Liam Peet-Pare, Nidhi Hegde, Alona Fyshe, Martha White. *ICLR 2022*
   - Key Word: Stochastic Gradient Descent; Covariate Shift.
@@ -1203,6 +1208,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Hongyang Zhang, Yihan Wu, Heng Huang.
   - Key Word: Robustness.
   - <details><summary>Digest</summary> In this work, we study the sample complexity of robust interpolation problem when the data are in a unit ball. We show that both too many data and small data hurt robustness.
+
+- A Data-Augmentation Is Worth A Thousand Samples: Exact Quantification From Analytical Augmented Sample Moments. [[paper]](https://arxiv.org/abs/2202.08325)
+  - Randall Balestriero, Ishan Misra, Yann LeCun. *NeurIPS 2022*
+  - Key Word: Data Augmentation.
+  - <details><summary>Digest</summary> We derive several quantities in close-form, such as the expectation and variance of an image, loss, and model's output under a given DA distribution. Those derivations open new avenues to quantify the benefits and limitations of DA. For example, we show that common DAs require tens of thousands of samples for the loss at hand to be correctly estimated and for the model training to converge.
 
 ### Others: 2021
 
