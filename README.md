@@ -1109,6 +1109,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Variational Inference for Infinitely Deep Neural Networks. [[paper]](https://arxiv.org/abs/2209.10091)
+  - Achille Nazaret, David Blei. *ICML 2022*
+  - Key Word: Unbounded Depth Neural Networks; Variational Inference.
+  - <details><summary>Digest</summary> We develop a novel variational inference algorithm to approximate this posterior, optimizing a distribution of the neural network weights and of the truncation depth L, and without any upper limit on L. To this end, the variational family has a special structure: it models neural network weights of arbitrary depth, and it dynamically creates or removes free variational parameters as its distribution of the truncation is optimized. 
+
 - Robustness in deep learning: The good (width), the bad (depth), and the ugly (initialization). [[paper]](https://arxiv.org/abs/2209.07263)
   - Zhenyu Zhu, Fanghui Liu, Grigorios G Chrysos, Volkan Cevher. *NeurIPS 2022*
   - Key Word: Lazy Training; Neural Tangent Kernel.
