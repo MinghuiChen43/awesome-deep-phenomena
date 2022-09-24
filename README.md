@@ -437,6 +437,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - <details><summary>Digest</summary> We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
 
+- SparCL: Sparse Continual Learning on the Edge. [[paper]](https://arxiv.org/abs/2209.09476)
+  - Zifeng Wang, Zheng Zhan, Yifan Gong, Geng Yuan, Wei Niu, Tong Jian, Bin Ren, Stratis Ioannidis, Yanzhi Wang, Jennifer Dy. *NeurIPS 2022*
+  - Key Word: Continual Learning; Sparse Training.
+  - <details><summary>Digest</summary> We propose a novel framework called Sparse Continual Learning(SparCL), which is the first study that leverages sparsity to enable cost-effective continual learning on edge devices. SparCL achieves both training acceleration and accuracy preservation through the synergy of three aspects: weight sparsity, data efficiency, and gradient sparsity. Specifically, we propose task-aware dynamic masking (TDM) to learn a sparse network throughout the entire CL process, dynamic data removal (DDR) to remove less informative training data, and dynamic gradient masking (DGM) to sparsify the gradient updates. 
+
 - One-shot Network Pruning at Initialization with Discriminative Image Patches. [[paper]](https://arxiv.org/abs/2209.05683)
   - Yinan Yang, Ying Ji, Yu Wang, Heng Qi, Jien Kato.
   - Key Word: One-Shot Network Pruning.
