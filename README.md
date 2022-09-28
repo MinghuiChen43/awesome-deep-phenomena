@@ -1114,6 +1114,16 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Scaling Laws For Deep Learning Based Image Reconstruction. [[paper]](https://arxiv.org/abs/2209.13435)
+  - Tobit Klug, Reinhard Heckel.
+  - Key Word: Scaling Laws; Inverse Problems.
+  - <details><summary>Digest</summary> We study whether major performance gains are expected from scaling up the training set size. We consider image denoising, accelerated magnetic resonance imaging, and super-resolution and empirically determine the reconstruction quality as a function of training set size, while optimally scaling the network size. For all three tasks we find that an initially steep power-law scaling slows significantly already at moderate training set sizes. Interpolating those scaling laws suggests that even training on millions of images would not significantly improve performance. 
+
+- Why neural networks find simple solutions: the many regularizers of geometric complexity. [[paper]](https://arxiv.org/abs/2209.13083)
+  - Benoit Dherin, Michael Munn, Mihaela C. Rosca, David G.T. Barrett. *NeurIPS 2022*
+  - Key Word: Regularization; Geometric Complexity; Dirichlet Energy.
+  - <details><summary>Digest</summary> In many contexts, simpler models are preferable to more complex models and the control of this model complexity is the goal for many methods in machine learning such as regularization, hyperparameter tuning and architecture design. In deep learning, it has been difficult to understand the underlying mechanisms of complexity control, since many traditional measures are not naturally suitable for deep neural networks. Here we develop the notion of geometric complexity, which is a measure of the variability of the model function, computed using a discrete Dirichlet energy. Using a combination of theoretical arguments and empirical results, we show that many common training heuristics such as parameter norm regularization, spectral norm regularization, flatness regularization, implicit gradient regularization, noise regularization and the choice of parameter initialization all act to control geometric complexity, providing a unifying framework in which to characterize the behavior of deep learning models.
+
 - Variational Inference for Infinitely Deep Neural Networks. [[paper]](https://arxiv.org/abs/2209.10091)
   - Achille Nazaret, David Blei. *ICML 2022*
   - Key Word: Unbounded Depth Neural Networks; Variational Inference.
