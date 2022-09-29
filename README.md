@@ -1129,6 +1129,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Unbounded Depth Neural Networks; Variational Inference.
   - <details><summary>Digest</summary> We develop a novel variational inference algorithm to approximate this posterior, optimizing a distribution of the neural network weights and of the truncation depth L, and without any upper limit on L. To this end, the variational family has a special structure: it models neural network weights of arbitrary depth, and it dynamically creates or removes free variational parameters as its distribution of the truncation is optimized. 
 
+- Deep Linear Networks can Benignly Overfit when Shallow Ones Do. [[paper]](https://arxiv.org/abs/2209.09315)
+  - Niladri S. Chatterji, Philip M. Long.
+  - Key Word: Benign Overfitting; Double Descent; Implicit Bias.
+  - <details><summary>Digest</summary> We bound the excess risk of interpolating deep linear networks trained using gradient flow. In a setting previously used to establish risk bounds for the minimum ℓ2-norm interpolant, we show that randomly initialized deep linear networks can closely approximate or even match known bounds for the minimum ℓ2-norm interpolant. Our analysis also reveals that interpolating deep linear models have exactly the same conditional variance as the minimum ℓ2-norm solution. 
+
 - Robustness in deep learning: The good (width), the bad (depth), and the ugly (initialization). [[paper]](https://arxiv.org/abs/2209.07263)
   - Zhenyu Zhu, Fanghui Liu, Grigorios G Chrysos, Volkan Cevher. *NeurIPS 2022*
   - Key Word: Lazy Training; Neural Tangent Kernel.
