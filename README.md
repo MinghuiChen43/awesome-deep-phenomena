@@ -84,6 +84,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Out-of-Distribution Generalization.
   - <details><summary>Digest</summary> In this paper we introduce a novel benchmark, Pointer Value Retrieval (PVR) tasks, that explore the limits of neural network generalization. We demonstrate that this task structure provides a rich testbed for understanding generalization, with our empirical study showing large variations in neural network performance based on dataset size, task complexity and model architecture.
 
+- What can linear interpolation of neural network loss landscapes tell us? [[paper]](https://arxiv.org/abs/2106.16004)
+  - Tiffany Vlaar, Jonathan Frankle. *ICML 2022*
+  - Key Word: Linear Interpolation; Loss Landscapes.
+  - <details><summary>Digest</summary> We put inferences of this kind to the test, systematically evaluating how linear interpolation and final performance vary when altering the data, choice of initialization, and other optimizer and architecture design choices. Further, we use linear interpolation to study the role played by individual layers and substructures of the network. We find that certain layers are more sensitive to the choice of initialization, but that the shape of the linear path is not indicative of the changes in test accuracy of the model. 
+
 ### Empirical Study: 2020
 
 - When Do Curricula Work? [[paper]](https://arxiv.org/abs/2012.03107) [[code]](https://github.com/google-research/understanding-curricula)
@@ -1290,6 +1295,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Mikhail Belkin.
   - Key Word: Interpolation; Over-parameterization.
   - <details><summary>Digest</summary> In the past decade the mathematical theory of machine learning has lagged far behind the triumphs of deep neural networks on practical challenges. However, the gap between theory and practice is gradually starting to close. In this paper I will attempt to assemble some pieces of the remarkable and still incomplete mathematical mosaic emerging from the efforts to understand the foundations of deep learning. The two key themes will be interpolation, and its sibling, over-parameterization. Interpolation corresponds to fitting data, even noisy data, exactly. Over-parameterization enables interpolation and provides flexibility to select a right interpolating model.
+
+- Analyzing Monotonic Linear Interpolation in Neural Network Loss Landscapes. [[paper]](https://arxiv.org/abs/2104.11044)
+  - James Lucas, Juhan Bae, Michael R. Zhang, Stanislav Fort, Richard Zemel, Roger Grosse.
+  - Key Word: Monotonic Linear Interpolation; Loss Landscapes.
+  - <details><summary>Digest</summary> We evaluate several hypotheses for this property that, to our knowledge, have not yet been explored. Using tools from differential geometry, we draw connections between the interpolated paths in function space and the monotonicity of the network - providing sufficient conditions for the MLI property under mean squared error. While the MLI property holds under various settings (e.g. network architectures and learning problems), we show in practice that networks violating the MLI property can be produced systematically, by encouraging the weights to move far from initialization. 
 
 - MALI: A memory efficient and reverse accurate integrator for Neural ODEs. [[paper]](https://arxiv.org/abs/2102.04668) [[code]](https://github.com/juntang-zhuang/TorchDiffEqPack)
   - Juntang Zhuang, Nicha C. Dvornek, Sekhar Tatikonda, James S. Duncan. *ICLR 2021*
