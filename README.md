@@ -94,6 +94,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Linear Interpolation; Loss Landscapes.
   - <details><summary>Digest</summary> We put inferences of this kind to the test, systematically evaluating how linear interpolation and final performance vary when altering the data, choice of initialization, and other optimizer and architecture design choices. Further, we use linear interpolation to study the role played by individual layers and substructures of the network. We find that certain layers are more sensitive to the choice of initialization, but that the shape of the linear path is not indicative of the changes in test accuracy of the model. 
 
+- Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability. [[paper]](https://arxiv.org/abs/2103.00065) [[code]](https://github.com/locuslab/edge-of-stability)
+  - Jeremy M. Cohen, Simran Kaur, Yuanzhi Li, J. Zico Kolter, Ameet Talwalkar. *ICLR 2021*
+  - Key Word: Edge of Stability.
+  - <details><summary>Digest</summary> We empirically demonstrate that full-batch gradient descent on neural network training objectives typically operates in a regime we call the Edge of Stability. In this regime, the maximum eigenvalue of the training loss Hessian hovers just above the numerical value 2/(step size), and the training loss behaves non-monotonically over short timescales, yet consistently decreases over long timescales. Since this behavior is inconsistent with several widespread presumptions in the field of optimization, our findings raise questions as to whether these presumptions are relevant to neural network training. 
+
 ### Empirical Study: 2020
 
 - When Do Curricula Work? [[paper]](https://arxiv.org/abs/2012.03107) [[code]](https://github.com/google-research/understanding-curricula)
@@ -1123,6 +1128,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Others
 
 ### Others: 2022
+
+- Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability. [[paper]](https://arxiv.org/abs/2209.15594)
+  - Alex Damian, Eshaan Nichani, Jason D. Lee.
+  - Key Word: Implicit Bias; Edge of Stability.
+  - <details><summary>Digest</summary> Traditional analyses of gradient descent show that when the largest eigenvalue of the Hessian, also known as the sharpness S(θ), is bounded by 2/η, training is "stable" and the training loss decreases monotonically. Recent works, however, have observed that this assumption does not hold when training modern neural networks with full batch or large batch gradient descent. Most recently, Cohen et al. (2021) observed two important phenomena. The first, dubbed progressive sharpening, is that the sharpness steadily increases throughout training until it reaches the instability cutoff 2/η. The second, dubbed edge of stability, is that the sharpness hovers at 2/η for the remainder of training while the loss continues decreasing, albeit non-monotonically. We demonstrate that, far from being chaotic, the dynamics of gradient descent at the edge of stability can be captured by a cubic Taylor expansion: as the iterates diverge in direction of the top eigenvector of the Hessian due to instability, the cubic term in the local Taylor expansion of the loss function causes the curvature to decrease until stability is restored.
 
 - Scaling Laws For Deep Learning Based Image Reconstruction. [[paper]](https://arxiv.org/abs/2209.13435)
   - Tobit Klug, Reinhard Heckel.
