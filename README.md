@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- Minimalistic Unsupervised Learning with the Sparse Manifold Transform. [[paper]](https://arxiv.org/abs/2209.15261)
+  - Yubei Chen, Zeyu Yun, Yi Ma, Bruno Olshausen, Yann LeCun.
+  - Key Word: Self-Supervision; Sparse Manifold Transform.
+  - <details><summary>Digest</summary> We describe a minimalistic and interpretable method for unsupervised learning, without resorting to data augmentation, hyperparameter tuning, or other engineering designs, that achieves performance close to the SOTA SSL methods. Our approach leverages the sparse manifold transform, which unifies sparse coding, manifold learning, and slow feature analysis. With a one-layer deterministic sparse manifold transform, one can achieve 99.3% KNN top-1 accuracy on MNIST, 81.1% KNN top-1 accuracy on CIFAR-10 and 53.2% on CIFAR-100. 
+
 - Revisiting Neural Scaling Laws in Language and Vision. [[paper]](https://arxiv.org/abs/2209.06640)
   - Ibrahim Alabdulmohsin, Behnam Neyshabur, Xiaohua Zhai.
   - Key Word: Neural Scaling Laws; Multi-modal Learning.
