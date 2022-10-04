@@ -1129,6 +1129,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Understanding Influence Functions and Datamodels via Harmonic Analysis. [[paper]](https://arxiv.org/abs/2210.01072)
+  - Nikunj Saunshi, Arushi Gupta, Mark Braverman, Sanjeev Arora.
+  - Key Word: Influence Functions; Harmonic Analysis.
+  - <details><summary>Digest</summary> The current paper seeks to provide a better theoretical understanding of such interesting empirical phenomena. The primary tool is harmonic analysis and the idea of noise stability. Contributions include: (a) Exact characterization of the learnt datamodel in terms of Fourier coefficients. (b) An efficient method to estimate the residual error and quality of the optimum linear datamodel without having to train the datamodel. (c) New insights into when influences of groups of datapoints may or may not add up linearly.
+
 - Plateau in Monotonic Linear Interpolation -- A "Biased" View of Loss Landscape for Deep Networks. [[paper]](https://arxiv.org/abs/2210.01019)
   - Xiang Wang, Annie N. Wang, Mo Zhou, Rong Ge.
   - Key Word: Monotonic Linear Interpolation; Loss Landscapes.
