@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- Omnigrok: Grokking Beyond Algorithmic Data. [[paper]](https://arxiv.org/abs/2210.01117)
+  - Ziming Liu, Eric J. Michaud, Max Tegmark.
+  - Key Word: Grokking Dynamics.
+  - <details><summary>Digest</summary> Grokking, the unusual phenomenon for algorithmic datasets where generalization happens long after overfitting the training data, has remained elusive. We aim to understand grokking by analyzing the loss landscapes of neural networks, identifying the mismatch between training and test losses as the cause for grokking. We refer to this as the "LU mechanism" because training and test losses (against model weight norm) typically resemble "L" and "U", respectively. This simple mechanism can nicely explain many aspects of grokking: data size dependence, weight decay dependence, the emergence of representations, etc.
+
 - Minimalistic Unsupervised Learning with the Sparse Manifold Transform. [[paper]](https://arxiv.org/abs/2209.15261)
   - Yubei Chen, Zeyu Yun, Yi Ma, Bruno Olshausen, Yann LeCun.
   - Key Word: Self-Supervision; Sparse Manifold Transform.
