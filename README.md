@@ -1129,6 +1129,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Plateau in Monotonic Linear Interpolation -- A "Biased" View of Loss Landscape for Deep Networks. [[paper]](https://arxiv.org/abs/2210.01019)
+  - Xiang Wang, Annie N. Wang, Mo Zhou, Rong Ge.
+  - Key Word: Monotonic Linear Interpolation; Loss Landscapes.
+  - <details><summary>Digest</summary> We show that the MLI property is not necessarily related to the hardness of optimization problems, and empirical observations on MLI for deep neural networks depend heavily on biases. In particular, we show that interpolating both weights and biases linearly leads to very different influences on the final output, and when different classes have different last-layer biases on a deep network, there will be a long plateau in both the loss and accuracy interpolation (which existing theory of MLI cannot explain). 
+
 - Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability. [[paper]](https://arxiv.org/abs/2209.15594)
   - Alex Damian, Eshaan Nichani, Jason D. Lee.
   - Key Word: Implicit Bias; Edge of Stability.
