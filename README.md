@@ -1071,6 +1071,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Neural Tangent Kernel.
   - <details><summary>Digest</summary> In suitably initialized wide networks, small learning rates transform deep neural networks (DNNs) into neural tangent kernel (NTK) machines, whose training dynamics is well-approximated by a linear weight expansion of the network at initialization. Standard training, however, diverges from its linearization in ways that are poorly understood. We study the relationship between the training dynamics of nonlinear deep networks, the geometry of the loss landscape, and the time evolution of a data-dependent NTK.
 
+- Increasing Depth Leads to U-Shaped Test Risk in Over-parameterized Convolutional Networks. [[paper]](https://arxiv.org/abs/2010.09610)
+  - Eshaan Nichani, Adityanarayanan Radhakrishnan, Caroline Uhler.
+  - Key Word: Convolutional Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We demonstrate that the test risk of over-parameterized convolutional networks is a U-shaped curve (i.e. monotonically decreasing, then increasing) with increasing depth. We first provide empirical evidence for this phenomenon via image classification experiments using both ResNets and the convolutional neural tangent kernel (CNTK). We then present a novel linear regression framework for characterizing the impact of depth on test risk, and show that increasing depth leads to a U-shaped test risk for the linear CNTK.
+
 - Finite Versus Infinite Neural Networks: an Empirical Study. [[paper]](https://arxiv.org/abs/2007.15801) [[code]](https://github.com/google/neural-tangents)
   - Jaehoon Lee, Samuel S. Schoenholz, Jeffrey Pennington, Ben Adlam, Lechao Xiao, Roman Novak, Jascha Sohl-Dickstein. *NeurIPS 2020*
   - Key Word: Neural Tangent Kernel.
@@ -1635,6 +1640,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Samuel S. Schoenholz, Justin Gilmer, Surya Ganguli, Jascha Sohl-Dickstein. *ICLR 2017*
   - Key Word: Mean Field Theory.
   - <details><summary>Digest</summary> We study the behavior of untrained neural networks whose weights and biases are randomly distributed using mean field theory. We show the existence of depth scales that naturally limit the maximum depth of signal propagation through these random networks. Our main practical result is to show that random networks may be trained precisely when information can travel through them. Thus, the depth scales that we identify provide bounds on how deep a network may be trained for a specific choice of hyperparameters.
+
+- Why Deep Neural Networks for Function Approximation? [[paper]](https://arxiv.org/abs/1610.04161)
+  - Shiyu Liang, R. Srikant. *ICLR 2017*
+  - Key Word: Function Approximation.
+  - <details><summary>Digest</summary> Recently there has been much interest in understanding why deep neural networks are preferred to shallow networks. We show that, for a large class of piecewise smooth functions, the number of neurons needed by a shallow network to approximate a function is exponentially larger than the corresponding number of neurons needed by a deep network for a given degree of function approximation. First, we consider univariate functions on a bounded interval and require a neural network to achieve an approximation error of ε uniformly over the interval. We show that shallow networks (i.e., networks whose depth does not depend on ε) require Ω(poly(1/ε)) neurons while deep networks (i.e., networks whose depth grows with 1/ε) require O(polylog(1/ε)) neurons. 
 
 - Why does deep and cheap learning work so well? [[paper]](https://arxiv.org/abs/1608.08225)
   - Henry W. Lin, Max Tegmark, David Rolnick. *Journal of Statistical Physics*
