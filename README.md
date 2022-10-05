@@ -1139,6 +1139,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- SAM as an Optimal Relaxation of Bayes. [[paper]](https://arxiv.org/abs/2210.01620)
+  - Thomas Möllenhoff, Mohammad Emtiyaz Khan.
+  - Key Word: Sharpness-Aware Minimization; Bayesian Methods.
+  - <details><summary>Digest</summary> Sharpness-aware minimization (SAM) and related adversarial deep-learning methods can drastically improve generalization, but their underlying mechanisms are not yet fully understood. Here, we establish SAM as a relaxation of the Bayes objective where the expected negative-loss is replaced by the optimal convex lower bound, obtained by using the so-called Fenchel biconjugate. The connection enables a new Adam-like extension of SAM to automatically obtain reasonable uncertainty estimates, while sometimes also improving its accuracy. By connecting adversarial and Bayesian methods, our work opens a new path to robustness.
+
 - Understanding Influence Functions and Datamodels via Harmonic Analysis. [[paper]](https://arxiv.org/abs/2210.01072)
   - Nikunj Saunshi, Arushi Gupta, Mark Braverman, Sanjeev Arora.
   - Key Word: Influence Functions; Harmonic Analysis.
