@@ -1144,6 +1144,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- The Dynamics of Sharpness-Aware Minimization: Bouncing Across Ravines and Drifting Towards Wide Minima. [[paper]](https://arxiv.org/abs/2210.01513)
+  - Peter L. Bartlett, Philip M. Long, Olivier Bousquet.
+  - Key Word: Sharpness-Aware Minimization.
+  - <details><summary>Digest</summary> We consider Sharpness-Aware Minimization (SAM), a gradient-based optimization method for deep networks that has exhibited performance improvements on image and language prediction problems. We show that when SAM is applied with a convex quadratic objective, for most random initializations it converges to a cycle that oscillates between either side of the minimum in the direction with the largest curvature, and we provide bounds on the rate of convergence.
+
 - SAM as an Optimal Relaxation of Bayes. [[paper]](https://arxiv.org/abs/2210.01620)
   - Thomas Möllenhoff, Mohammad Emtiyaz Khan.
   - Key Word: Sharpness-Aware Minimization; Bayesian Methods.
