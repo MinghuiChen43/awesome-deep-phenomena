@@ -457,6 +457,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - <details><summary>Digest</summary> We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
 
+- How Erdös and Rényi Win the Lottery. [[paper]](https://arxiv.org/abs/2210.02412)
+  - Advait Gadhikar, Sohum Mukherjee, Rebekka Burkholz.
+  - Key Word: Lottery Ticket Hypothesis; Erdös-Rényi Random Graphs.
+  - <details><summary>Digest</summary> Random masks define surprisingly effective sparse neural network models, as has been shown empirically. The resulting Erdös-Rényi (ER) random graphs can often compete with dense architectures and state-of-the-art lottery ticket pruning algorithms struggle to outperform them, even though the random baselines do not rely on computationally expensive pruning-training iterations but can be drawn initially without significant computational overhead. We offer a theoretical explanation of how such ER masks can approximate arbitrary target networks if they are wider by a logarithmic factor in the inverse sparsity 1/log(1/sparsity). 
+
 - SparCL: Sparse Continual Learning on the Edge. [[paper]](https://arxiv.org/abs/2209.09476)
   - Zifeng Wang, Zheng Zhan, Yifan Gong, Geng Yuan, Wei Niu, Tong Jian, Bin Ren, Stratis Ioannidis, Yanzhi Wang, Jennifer Dy. *NeurIPS 2022*
   - Key Word: Continual Learning; Sparse Training.
