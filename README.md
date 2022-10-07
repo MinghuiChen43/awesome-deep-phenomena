@@ -457,6 +457,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - <details><summary>Digest</summary> We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
 
+- Unmasking the Lottery Ticket Hypothesis: What's Encoded in a Winning Ticket's Mask? [[paper]](https://arxiv.org/abs/2210.03044)
+  - Mansheej Paul, Feng Chen, Brett W. Larsen, Jonathan Frankle, Surya Ganguli, Gintare Karolina Dziugaite.
+  - Key Word: Lottery Ticket Hypothesis; Mode Connectivity.
+  - <details><summary>Digest</summary> First, we find that—at higher sparsities—pairs of pruned networks at successive pruning iterations are connected by a linear path with zero error barrier if and only if they are matching. This indicates that masks found at the end of training convey the identity of an axial subspace that intersects a desired linearly connected mode of a matching sublevel set. Second, we show SGD can exploit this information due to a strong form of robustness: it can return to this mode despite strong perturbations early in training. Third, we show how the flatness of the error landscape at the end of training determines a limit on the fraction of weights that can be pruned at each iteration of IMP. Finally, we show that the role of retraining in IMP is to find a network with new small weights to prune.
+
 - How Erdös and Rényi Win the Lottery. [[paper]](https://arxiv.org/abs/2210.02412)
   - Advait Gadhikar, Sohum Mukherjee, Rebekka Burkholz.
   - Key Word: Lottery Ticket Hypothesis; Erdös-Rényi Random Graphs.
@@ -1143,6 +1148,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Others
 
 ### Others: 2022
+
+- Understanding Gradient Regularization in Deep Learning: Efficient Finite-Difference Computation and Implicit Bias. [[paper]](https://arxiv.org/abs/2210.02720)
+  - Ryo Karakida, Tomoumi Takase, Tomohiro Hayase, Kazuki Osawa.
+  - Key Word: Gradient Regularization; Implicit Bias.
+  - <details><summary>Digest</summary> We first reveal that a specific finite-difference computation, composed of both gradient ascent and descent steps, reduces the computational cost for GR. In addition, this computation empirically achieves better generalization performance. Next, we theoretically analyze a solvable model, a diagonal linear network, and clarify that GR has a desirable implicit bias in a certain problem. In particular, learning with the finite-difference GR chooses better minima as the ascent step size becomes larger. 
 
 - The Dynamics of Sharpness-Aware Minimization: Bouncing Across Ravines and Drifting Towards Wide Minima. [[paper]](https://arxiv.org/abs/2210.01513)
   - Peter L. Bartlett, Philip M. Long, Olivier Bousquet.
