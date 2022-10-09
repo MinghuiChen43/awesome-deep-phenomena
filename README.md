@@ -1475,6 +1475,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Mean Field Theory.
   - <details><summary>Digest</summary> We analyze multi-layer neural networks in the asymptotic regime of simultaneously (A) large network sizes and (B) large numbers of stochastic gradient descent training iterations. We rigorously establish the limiting behavior of the multi-layer neural network output. The limit procedure is valid for any number of hidden layers and it naturally also describes the limiting behavior of the training loss.
 
+- Machine learning meets quantum physics. [[paper]](https://arxiv.org/abs/1903.03516) [[book]](https://link.springer.com/book/10.1007/978-3-030-40245-7)
+  - Sankar Das Sarma, Dong-Ling Deng, Lu-Ming Duan.
+  - Key Word: Physics-based Machine Learning; Quantum Physics; Quantum Chemistry.
+  - <details><summary>Digest</summary> The marriage of machine learning and quantum physics may give birth to a new research frontier that could transform both.
+
 - A Mean Field Theory of Batch Normalization. [[paper]](https://arxiv.org/abs/1902.08129)
   - Greg Yang, Jeffrey Pennington, Vinay Rao, Jascha Sohl-Dickstein, Samuel S. Schoenholz. *ICLR 2019*
   - Key Word: Mean Field Theory.
