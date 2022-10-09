@@ -749,6 +749,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Interactions with Neuroscience: 2022
 
+- Multilevel development of cognitive abilities in an artificial neural network. [[paper]](https://www.pnas.org/doi/abs/10.1073/pnas.2201304119?af=R)
+  - Konstantin Volzhenin, Jean-Pierre Changeux, Guillaume Dumas. *PNAS*
+   - Key Word: Global Neuronal Workspace.
+   - <details><summary>Digest</summary> We introduce a three-level computational model of information processing and acquisition of cognitive abilities. We propose minimal architectural requirements to build these levels, and how the parameters affect their performance and relationships. The first sensorimotor level handles local nonconscious processing, here during a visual classification task. The second level or cognitive level globally integrates the information from multiple local processors via long-ranged connections and synthesizes it in a global, but still nonconscious, manner. The third and cognitively highest level handles the information globally and consciously. It is based on the global neuronal workspace (GNW) theory and is referred to as the conscious level. 
+
 - Deep Problems with Neural Network Models of Human Vision. [[paper]](https://psyarxiv.com/5zf4s/)
   - Jeffrey S BowersGaurav MalhotraMarin DujmovićMilton Llera MonteroChristian TsvetkovValerio BiscioneGuillermo PueblaFederico G AdolfiJohn HummelRachel Flood HeatonBenjamin EvansJeff MitchellRyan Blything.
   - Key Word: Brain-Score; Computational Neuroscience; Convolutional Neural Networks; Representational Similarity Analysis.
