@@ -1572,15 +1572,20 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Mean Field Theory; Fisher Information.
   - <details><summary>Digest</summary> The Fisher information matrix (FIM) is a fundamental quantity to represent the characteristics of a stochastic model, including deep neural networks (DNNs). The present study reveals novel statistics of FIM that are universal among a wide class of DNNs. To this end, we use random weights and large width limits, which enables us to utilize mean field theories. We investigate the asymptotic statistics of the FIM's eigenvalues and reveal that most of them are close to zero while the maximum eigenvalue takes a huge value.
 
+- Towards Understanding the Role of Over-Parametrization in Generalization of Neural Networks. [[paper]](https://arxiv.org/abs/1805.12076) [[code]](https://github.com/bneyshabur/over-parametrization)
+  - Behnam Neyshabur, Zhiyuan Li, Srinadh Bhojanapalli, Yann LeCun, Nathan Srebro. *ICLR 2019*
+  - Key Word: Over-Parametrization.
+  - <details><summary>Digest</summary> We suggest a novel complexity measure based on unit-wise capacities resulting in a tighter generalization bound for two layer ReLU networks. Our capacity bound correlates with the behavior of test error with increasing network sizes (within the range reported in the experiments), and could partly explain the improvement in generalization with over-parametrization.
+
 - Understanding Generalization and Optimization Performance of Deep CNNs. [[paper]](https://arxiv.org/abs/1805.10767)
   - Pan Zhou, Jiashi Feng. *ICML 2018*
   - Key Word: Generalization of CNNs.
   - <details><summary>Digest</summary> We make multiple contributions to understand deep CNNs theoretically. To our best knowledge, this work presents the first theoretical guarantees on both generalization error bound without exponential growth over network depth and optimization performance for deep CNNs.
 
-- Towards Understanding the Role of Over-Parametrization in Generalization of Neural Networks. [[paper]](https://arxiv.org/abs/1805.12076) [[code]](https://github.com/bneyshabur/over-parametrization)
-  - Behnam Neyshabur, Zhiyuan Li, Srinadh Bhojanapalli, Yann LeCun, Nathan Srebro. *ICLR 2019*
-  - Key Word: Over-Parametrization.
-  - <details><summary>Digest</summary> We suggest a novel complexity measure based on unit-wise capacities resulting in a tighter generalization bound for two layer ReLU networks. Our capacity bound correlates with the behavior of test error with increasing network sizes (within the range reported in the experiments), and could partly explain the improvement in generalization with over-parametrization.
+- Geometric Understanding of Deep Learning. [[paper]](https://arxiv.org/abs/1805.10451)
+  - Na Lei, Zhongxuan Luo, Shing-Tung Yau, David Xianfeng Gu.
+  - Key Word: Manifold Representation; Learning Capability; Learning Capability; Latent Probability Distribution Control.
+  - <details><summary>Digest</summary> In this work, we give a geometric view to understand deep learning: we show that the fundamental principle attributing to the success is the manifold structure in data, namely natural high dimensional data concentrates close to a low-dimensional manifold, deep learning learns the manifold and the probability distribution on it. 
 
 - Gaussian Process Behaviour in Wide Deep Neural Networks. [[paper]](https://arxiv.org/abs/1804.11271) [[code]](https://github.com/widedeepnetworks/widedeepnetworks)
   - Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani. *ICLR 2018*
