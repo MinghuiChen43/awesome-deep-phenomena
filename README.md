@@ -1552,6 +1552,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Mean Field Theory.
   - <details><summary>Digest</summary> We rigorously prove a central limit theorem for neural network models with a single hidden layer. The central limit theorem is proven in the asymptotic regime of simultaneously (A) large numbers of hidden units and (B) large numbers of stochastic gradient descent training iterations. Our result describes the neural network's fluctuations around its mean-field limit. The fluctuations have a Gaussian distribution and satisfy a stochastic partial differential equation.
 
+- An elementary introduction to information geometry. [[paper]](https://arxiv.org/abs/1808.08271)
+  - Frank Nielsen.
+  - Key Word: Survey; Information Geometry.
+  - <details><summary>Digest</summary> In this survey, we describe the fundamental differential-geometric structures of information manifolds, state the fundamental theorem of information geometry, and illustrate some use cases of these information manifolds in information sciences. The exposition is self-contained by concisely introducing the necessary concepts of differential geometry, but proofs are omitted for brevity.
+
 - Deep Convolutional Networks as shallow Gaussian Processes. [[paper]](https://arxiv.org/abs/1808.05587) [[code]](https://github.com/convnets-as-gps/convnets-as-gps)
   - Adrià Garriga-Alonso, Carl Edward Rasmussen, Laurence Aitchison. *ICLR 2019*
   - Key Word: Gaussian Process.
