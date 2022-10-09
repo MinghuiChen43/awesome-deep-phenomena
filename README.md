@@ -401,8 +401,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 - Triple descent and the two kinds of overfitting: Where & why do they appear? [[paper]](https://arxiv.org/abs/2006.03509) [[code]](https://github.com/sdascoli/triple-descent-paper)
   - Stéphane d'Ascoli, Levent Sagun, Giulio Biroli.
-  - <details><summary>Digest</summary> Deep Double Descent.
+  - Key Word:Deep Double Descent.
   - <details><summary>Digest</summary> In this paper, we show that despite their apparent similarity, these two scenarios are inherently different. In fact, both peaks can co-exist when neural networks are applied to noisy regression tasks. The relative size of the peaks is governed by the degree of nonlinearity of the activation function. Building on recent developments in the analysis of random feature models, we provide a theoretical ground for this sample-wise triple descent.  
+
+- A Brief Prehistory of Double Descent. [[paper]](https://arxiv.org/abs/2004.04328)
+  - Marco Loog, Tom Viering, Alexander Mey, Jesse H. Krijthe, David M.J. Tax.
+  - Key Word: Deep Double Descent.
+  - <details><summary>Digest</summary> This letter draws attention to some original, earlier findings, of interest to double descent. 
 
 - Double Trouble in Double Descent : Bias and Variance(s) in the Lazy Regime. [[paper]](https://arxiv.org/abs/2003.01054) [[code]](https://github.com/lightonai/double-trouble-in-double-descent)
   - Stéphane d'Ascoli, Maria Refinetti, Giulio Biroli, Florent Krzakala. *ICML 2020*
