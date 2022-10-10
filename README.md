@@ -1371,6 +1371,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Interpolation; Over-parameterization.
   - <details><summary>Digest</summary> In the past decade the mathematical theory of machine learning has lagged far behind the triumphs of deep neural networks on practical challenges. However, the gap between theory and practice is gradually starting to close. In this paper I will attempt to assemble some pieces of the remarkable and still incomplete mathematical mosaic emerging from the efforts to understand the foundations of deep learning. The two key themes will be interpolation, and its sibling, over-parameterization. Interpolation corresponds to fitting data, even noisy data, exactly. Over-parameterization enables interpolation and provides flexibility to select a right interpolating model.
 
+- A Universal Law of Robustness via Isoperimetry. [[paper]](https://arxiv.org/abs/2105.12806)
+  - Sébastien Bubeck, Mark Sellke.
+  - Key Word: Overparameterized Memorization; Lipschitz Neural Network.
+  - <details><summary>Digest</summary> A puzzling phenomenon in deep learning is that models are trained with many more parameters than what this classical theory would suggest. We propose a theoretical explanation for this phenomenon. We prove that for a broad class of data distributions and model classes, overparametrization is necessary if one wants to interpolate the data smoothly. Namely we show that smooth interpolation requires d times more parameters than mere interpolation, where d is the ambient data dimension. 
+
 - Analyzing Monotonic Linear Interpolation in Neural Network Loss Landscapes. [[paper]](https://arxiv.org/abs/2104.11044)
   - James Lucas, Juhan Bae, Michael R. Zhang, Stanislav Fort, Richard Zemel, Roger Grosse.
   - Key Word: Monotonic Linear Interpolation; Loss Landscapes.
