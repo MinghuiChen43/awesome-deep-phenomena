@@ -22,6 +22,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Grokking Dynamics.
   - <details><summary>Digest</summary> Grokking, the unusual phenomenon for algorithmic datasets where generalization happens long after overfitting the training data, has remained elusive. We aim to understand grokking by analyzing the loss landscapes of neural networks, identifying the mismatch between training and test losses as the cause for grokking. We refer to this as the "LU mechanism" because training and test losses (against model weight norm) typically resemble "L" and "U", respectively. This simple mechanism can nicely explain many aspects of grokking: data size dependence, weight decay dependence, the emergence of representations, etc.
 
+- Relative representations enable zero-shot latent space communication. [[paper]](https://arxiv.org/abs/2209.15430)
+  - Luca Moschella, Valentino Maiorca, Marco Fumero, Antonio Norelli, Francesco Locatello, Emanuele Rodolà.
+  - Key Word: Representation Similarity; Model stitching.
+  - <details><summary>Digest</summary> Neural networks embed the geometric structure of a data manifold lying in a high-dimensional space into latent representations. Ideally, the distribution of the data points in the latent space should depend only on the task, the data, the loss, and other architecture-specific constraints. However, factors such as the random weights initialization, training hyperparameters, or other sources of randomness in the training phase may induce incoherent latent spaces that hinder any form of reuse. Nevertheless, we empirically observe that, under the same data and modeling choices, distinct latent spaces typically differ by an unknown quasi-isometric transformation: that is, in each space, the distances between the encodings do not change. In this work, we propose to adopt pairwise similarities as an alternative data representation, that can be used to enforce the desired invariance without any additional training.
+
 - Minimalistic Unsupervised Learning with the Sparse Manifold Transform. [[paper]](https://arxiv.org/abs/2209.15261)
   - Yubei Chen, Zeyu Yun, Yi Ma, Bruno Olshausen, Yann LeCun.
   - Key Word: Self-Supervision; Sparse Manifold Transform.
