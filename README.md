@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- In What Ways Are Deep Neural Networks Invariant and How Should We Measure This? [[paper]](https://arxiv.org/abs/2210.03773) 
+  - Henry Kvinge, Tegan H. Emerson, Grayson Jorgenson, Scott Vasquez, Timothy Doster, Jesse D. Lew. *NeurIPS 2022*
+  - Key Word: Invariance and Equivariance.
+  - <details><summary>Digest</summary> We explore the nature of invariance and equivariance of deep learning models with the goal of better understanding the ways in which they actually capture these concepts on a formal level. We introduce a family of invariance and equivariance metrics that allows us to quantify these properties in a way that disentangles them from other metrics such as loss or accuracy. 
+
 - Omnigrok: Grokking Beyond Algorithmic Data. [[paper]](https://arxiv.org/abs/2210.01117)
   - Ziming Liu, Eric J. Michaud, Max Tegmark.
   - Key Word: Grokking Dynamics.
