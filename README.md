@@ -1169,6 +1169,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- The good, the bad and the ugly sides of data augmentation: An implicit spectral regularization perspective. [[paper]](https://arxiv.org/abs/2210.05021)
+  - Chi-Heng Lin, Chiraag Kaushik, Eva L. Dyer, Vidya Muthukumar. 
+  - Key Word: Data Augmentation; Spectral Regularization.
+  - <details><summary>Digest</summary> We develop a new theoretical framework to characterize the impact of a general class of DA on underparameterized and overparameterized linear model generalization. Our framework reveals that DA induces implicit spectral regularization through a combination of two distinct effects: a) manipulating the relative proportion of eigenvalues of the data covariance matrix in a training-data-dependent manner, and b) uniformly boosting the entire spectrum of the data covariance matrix through ridge regression. 
+
 - Understanding Gradient Regularization in Deep Learning: Efficient Finite-Difference Computation and Implicit Bias. [[paper]](https://arxiv.org/abs/2210.02720)
   - Ryo Karakida, Tomoumi Takase, Tomohiro Hayase, Kazuki Osawa.
   - Key Word: Gradient Regularization; Implicit Bias.
