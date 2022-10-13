@@ -1179,6 +1179,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: PAC-Bayes.
   - <details><summary>Digest</summary> Generalization bounds which assess the difference between the true risk and the empirical risk, have been studied extensively. However, to obtain bounds, current techniques use strict assumptions such as a uniformly bounded or a Lipschitz loss function. To avoid these assumptions, in this paper, we follow an alternative approach: we relax uniform bounds assumptions by using on-average bounded loss and on-average bounded gradient norm assumptions. Following this relaxation, we propose a new generalization bound that exploits the contractivity of the log-Sobolev inequalities. 
 
+- SGD with large step sizes learns sparse features. [[paper]](https://arxiv.org/abs/2210.05337)
+  - Maksym Andriushchenko, Aditya Varre, Loucas Pillaud-Vivien, Nicolas Flammarion.
+  - Key Word: Stochastic Gradient Descent; Sparse Features.
+  - <details><summary>Digest</summary> We showcase important features of the dynamics of the Stochastic Gradient Descent (SGD) in the training of neural networks. We present empirical observations that commonly used large step sizes (i) lead the iterates to jump from one side of a valley to the other causing loss stabilization, and (ii) this stabilization induces a hidden stochastic dynamics orthogonal to the bouncing directions that biases it implicitly toward simple predictors. 
+
 - The good, the bad and the ugly sides of data augmentation: An implicit spectral regularization perspective. [[paper]](https://arxiv.org/abs/2210.05021)
   - Chi-Heng Lin, Chiraag Kaushik, Eva L. Dyer, Vidya Muthukumar. 
   - Key Word: Data Augmentation; Spectral Regularization.
