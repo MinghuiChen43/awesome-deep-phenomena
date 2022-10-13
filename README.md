@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- How Much Data Are Augmentations Worth? An Investigation into Scaling Laws, Invariance, and Implicit Regularization. [[paper]](https://arxiv.org/abs/2210.06441) [[code]](https://github.com/JonasGeiping/dataaugs)
+  - Jonas Geiping, Micah Goldblum, Gowthami Somepalli, Ravid Shwartz-Ziv, Tom Goldstein, Andrew Gordon Wilson.
+  - Key Word: Data Augmentation; Neural Scaling Laws; Implicit Regularization.
+  - <details><summary>Digest</summary> Despite the clear performance benefits of data augmentations, little is known about why they are so effective. In this paper, we disentangle several key mechanisms through which data augmentations operate. Establishing an exchange rate between augmented and additional real data, we find that in out-of-distribution testing scenarios, augmentations which yield samples that are diverse, but inconsistent with the data distribution can be even more valuable than additional training data.
+
 - In What Ways Are Deep Neural Networks Invariant and How Should We Measure This? [[paper]](https://arxiv.org/abs/2210.03773) 
   - Henry Kvinge, Tegan H. Emerson, Grayson Jorgenson, Scott Vasquez, Timothy Doster, Jesse D. Lew. *NeurIPS 2022*
   - Key Word: Invariance and Equivariance.
@@ -1168,6 +1173,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Others
 
 ### Others: 2022
+
+- On the Importance of Gradient Norm in PAC-Bayesian Bounds. [[paper]](https://arxiv.org/abs/2210.06143)
+  - Itai Gat, Yossi Adi, Alexander Schwing, Tamir Hazan. *NeurIPS 2022*
+  - Key Word: PAC-Bayes.
+  - <details><summary>Digest</summary> Generalization bounds which assess the difference between the true risk and the empirical risk, have been studied extensively. However, to obtain bounds, current techniques use strict assumptions such as a uniformly bounded or a Lipschitz loss function. To avoid these assumptions, in this paper, we follow an alternative approach: we relax uniform bounds assumptions by using on-average bounded loss and on-average bounded gradient norm assumptions. Following this relaxation, we propose a new generalization bound that exploits the contractivity of the log-Sobolev inequalities. 
 
 - The good, the bad and the ugly sides of data augmentation: An implicit spectral regularization perspective. [[paper]](https://arxiv.org/abs/2210.05021)
   - Chi-Heng Lin, Chiraag Kaushik, Eva L. Dyer, Vidya Muthukumar. 
