@@ -22,6 +22,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Data Augmentation; Neural Scaling Laws; Implicit Regularization.
   - <details><summary>Digest</summary> Despite the clear performance benefits of data augmentations, little is known about why they are so effective. In this paper, we disentangle several key mechanisms through which data augmentations operate. Establishing an exchange rate between augmented and additional real data, we find that in out-of-distribution testing scenarios, augmentations which yield samples that are diverse, but inconsistent with the data distribution can be even more valuable than additional training data.
 
+- What does a deep neural network confidently perceive? The effective dimension of high certainty class manifolds and their low confidence boundaries. [[paper]](https://arxiv.org/abs/2210.05546) [[code]](https://github.com/stanislavfort/slice-dice-optimize/)
+  - Stanislav Fort, Ekin Dogus Cubuk, Surya Ganguli, Samuel S. Schoenholz. 
+  - Key Word: Class Manifold; Linear Region; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> Deep neural network classifiers partition input space into high confidence regions for each class. The geometry of these class manifolds (CMs) is widely studied and intimately related to model performance; for example, the margin depends on CM boundaries. We exploit the notions of Gaussian width and Gordon's escape theorem to tractably estimate the effective dimension of CMs and their boundaries through tomographic intersections with random affine subspaces of varying dimension. We show several connections between the dimension of CMs, generalization, and robustness.
+
 - In What Ways Are Deep Neural Networks Invariant and How Should We Measure This? [[paper]](https://arxiv.org/abs/2210.03773) 
   - Henry Kvinge, Tegan H. Emerson, Grayson Jorgenson, Scott Vasquez, Timothy Doster, Jesse D. Lew. *NeurIPS 2022*
   - Key Word: Invariance and Equivariance.
