@@ -136,6 +136,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Generalization Measures.
   - <details><summary>Digest</summary> One of the principal scientific challenges in deep learning is explaining generalization, i.e., why the particular way the community now trains networks to achieve small training error also leads to small error on held-out data from the same population. It is widely appreciated that some worst-case theories -- such as those based on the VC dimension of the class of predictors induced by modern neural network architectures -- are unable to explain empirical performance. A large volume of work aims to close this gap, primarily by developing bounds on generalization error, optimization error, and excess risk. When evaluated empirically, however, most of these bounds are numerically vacuous. Focusing on generalization bounds, this work addresses the question of how to evaluate such bounds empirically.
 
+- The Deep Bootstrap Framework: Good Online Learners are Good Offline Generalizers. [[paper]](https://arxiv.org/abs/2010.08127) [[code]](https://github.com/preetum/deep-bootstrap-code)
+  - Preetum Nakkiran, Behnam Neyshabur, Hanie Sedghi. *ICLR 2021*
+  - Key Word: Online Learning; Finite-Sample Deviations.
+  - <details><summary>Digest</summary> We propose a new framework for reasoning about generalization in deep learning. The core idea is to couple the Real World, where optimizers take stochastic gradient steps on the empirical loss, to an Ideal World, where optimizers take steps on the population loss. This leads to an alternate decomposition of test error into: (1) the Ideal World test error plus (2) the gap between the two worlds. If the gap (2) is universally small, this reduces the problem of generalization in offline learning to the problem of optimization in online learning. 
+
 - Characterising Bias in Compressed Models. [[paper]](https://arxiv.org/abs/2010.03058)
   - Sara Hooker, Nyalleng Moorosi, Gregory Clark, Samy Bengio, Emily Denton.
   - Key Word: Pruning; Fairness.
