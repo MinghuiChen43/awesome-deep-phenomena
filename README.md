@@ -1184,6 +1184,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- How Mask Matters: Towards Theoretical Understandings of Masked Autoencoders. [[paper]](https://arxiv.org/abs/2210.08344) [[code]](https://github.com/zhangq327/u-mae)
+  - Qi Zhang, Yifei Wang, Yisen Wang. *NeurIPS 2022*
+  - Key Word: Masked Autoencoders.
+  - <details><summary>Digest</summary> We propose a theoretical understanding of how masking matters for MAE to learn meaningful features. We establish a close connection between MAE and contrastive learning, which shows that MAE implicit aligns the mask-induced positive pairs. Built upon this connection, we develop the first downstream guarantees for MAE methods, and analyze the effect of mask ratio. Besides, as a result of the implicit alignment, we also point out the dimensional collapse issue of MAE, and propose a Uniformity-enhanced MAE (U-MAE) loss that can effectively address this issue and bring significant improvements on real-world datasets, including CIFAR-10, ImageNet-100, and ImageNet-1K.
+
 - On the Importance of Gradient Norm in PAC-Bayesian Bounds. [[paper]](https://arxiv.org/abs/2210.06143)
   - Itai Gat, Yossi Adi, Alexander Schwing, Tamir Hazan. *NeurIPS 2022*
   - Key Word: PAC-Bayes.
