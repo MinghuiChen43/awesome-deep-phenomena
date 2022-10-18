@@ -784,11 +784,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Brain-Score; Computational Neuroscience; Convolutional Neural Networks; Representational Similarity Analysis.
   - <details><summary>Digest</summary> We show that the good prediction on these datasets may be mediated by DNNs that share little overlap with biological vision. More problematically, we show that DNNs account for almost no results from psychological research. This contradicts the common claim that DNNs are good, let alone the best, models of human object recognition.
 
-- High-performing neural network models of visual cortex benefit from high latent dimensionality. [[paper]](https://www.biorxiv.org/content/10.1101/2022.07.13.499969v1)
-  - Eric Elmoznino, Michael F. Bonner.
-  - Key Word: Dimensionality and Alignment in Computational Brain Models.
-  - <details><summary>Digest</summary> The prevailing view holds that optimal DNNs compress their representations onto low-dimensional manifolds to achieve invariance and robustness, which suggests that better models of visual cortex should have low-dimensional geometries. Surprisingly, we found a strong trend in the opposite direction—neural networks with high-dimensional image manifolds tend to have better generalization performance when predicting cortical responses to held-out stimuli in both monkey electrophysiology and human fMRI data.
-
 - Reassessing hierarchical correspondences between brain and deep networks through direct interface. [[paper]](https://www.science.org/doi/10.1126/sciadv.abm2219)
   - Nicholas J Sexton, Bradley C Love. *Science Advances*
   - Key Word: Neural Interfacing Analysis; Shared Neural Variance.
@@ -803,6 +798,16 @@ Our understanding of modern neural networks lags behind their practical successe
   - Daniel R. Kepple, Rainer Engelken, Kanaka Rajan. *ICLR 2022*
   - Key Word: Curriculum Learning; Neuroscience.
   - <details><summary>Digest</summary> We present a novel approach to use curricula to identify principles by which a system learns. Previous work in curriculum learning has focused on how curricula can be designed to improve learning of a model on particular tasks. We consider the inverse problem: what can a curriculum tell us about how a learning system acquired a task? Using recurrent neural networks (RNNs) and models of common experimental neuroscience tasks, we demonstrate that curricula can be used to differentiate learning principles using target-based and a representation-based loss functions as use cases.
+
+- Building Transformers from Neurons and Astrocytes. [[paper]](https://www.biorxiv.org/content/10.1101/2022.10.12.511910v1)
+  - Leo Kozachkov, Ksenia V. Kastanenka, Dmitry Krotov.
+  - Key Word: Transformers; Glia; Astrocytes.
+  - <details><summary>Digest</summary> In this work we hypothesize that neuron-astrocyte networks can naturally implement the core computation performed by the Transformer block in AI. The omnipresence of astrocytes in almost any brain area may explain the success of Transformers across a diverse set of information domains and computational tasks. 
+
+- High-performing neural network models of visual cortex benefit from high latent dimensionality. [[paper]](https://www.biorxiv.org/content/10.1101/2022.07.13.499969v1)
+  - Eric Elmoznino, Michael F. Bonner.
+  - Key Word: Dimensionality and Alignment in Computational Brain Models.
+  - <details><summary>Digest</summary> The prevailing view holds that optimal DNNs compress their representations onto low-dimensional manifolds to achieve invariance and robustness, which suggests that better models of visual cortex should have low-dimensional geometries. Surprisingly, we found a strong trend in the opposite direction—neural networks with high-dimensional image manifolds tend to have better generalization performance when predicting cortical responses to held-out stimuli in both monkey electrophysiology and human fMRI data.
 
 - On the Principles of Parsimony and Self-Consistency for the Emergence of Intelligence. [[paper]](https://arxiv.org/abs/2207.04630)
   - Yi Ma, Doris Tsao, Heung-Yeung Shum.
