@@ -487,6 +487,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - <details><summary>Digest</summary> We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
 
+- Large Models are Parsimonious Learners: Activation Sparsity in Trained Transformers. [[paper]](https://arxiv.org/abs/2210.06313)
+  - Zonglin Li, Chong You, Srinadh Bhojanapalli, Daliang Li, Ankit Singh Rawat, Sashank J. Reddi, Ke Ye, Felix Chern, Felix Yu, Ruiqi Guo, Sanjiv Kumar.
+  - Key Word: Sparse Activation; Large Models; Transformers.
+  - <details><summary>Digest</summary> This paper studies the curious phenomenon for machine learning models with Transformer architectures that their activation maps are sparse. By activation map we refer to the intermediate output of the multi-layer perceptrons (MLPs) after a ReLU activation function, and by "sparse" we mean that on average very few entries (e.g., 3.0% for T5-Base and 6.3% for ViT-B16) are nonzero for each input to MLP. 
+
 - Unmasking the Lottery Ticket Hypothesis: What's Encoded in a Winning Ticket's Mask? [[paper]](https://arxiv.org/abs/2210.03044)
   - Mansheej Paul, Feng Chen, Brett W. Larsen, Jonathan Frankle, Surya Ganguli, Gintare Karolina Dziugaite.
   - Key Word: Lottery Ticket Hypothesis; Mode Connectivity.
@@ -618,6 +623,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Shiwei Liu, Lu Yin, Decebal Constantin Mocanu, Mykola Pechenizkiy. *ICML 2021*
   - Key Word: Lottery Ticket Hypothesis.
   - <details><summary>Digest</summary> In this paper, we introduce a new perspective on training deep neural networks capable of state-of-the-art performance without the need for the expensive over-parameterization by proposing the concept of In-Time Over-Parameterization (ITOP) in sparse training. By starting from a random sparse network and continuously exploring sparse connectivities during training, we can perform an Over-Parameterization in the space-time manifold, closing the gap in the expressibility between sparse training and dense training.
+
+- Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks. [[paper]](https://arxiv.org/abs/2102.00554)
+  - Torsten Hoefler, Dan Alistarh, Tal Ben-Nun, Nikoli Dryden, Alexandra Peste.
+  - Key Word: Sparsity; Survey.
+  - <details><summary>Digest</summary> We survey prior work on sparsity in deep learning and provide an extensive tutorial of sparsification for both inference and training. We describe approaches to remove and add elements of neural networks, different training strategies to achieve model sparsity, and mechanisms to exploit sparsity in practice. Our work distills ideas from more than 300 research papers and provides guidance to practitioners who wish to utilize sparsity today, as well as to researchers whose goal is to push the frontier forward. 
 
 - A Unified Paths Perspective for Pruning at Initialization. [[paper]](https://arxiv.org/abs/2101.10552)
   - Thomas Gebhart, Udit Saxena, Paul Schrater.
