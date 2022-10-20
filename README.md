@@ -1540,6 +1540,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> We show that Neural Ordinary Differential Equations (ODEs) learn representations that preserve the topology of the input space and prove that this implies the existence of functions Neural ODEs cannot represent. To address these limitations, we introduce Augmented Neural ODEs which, in addition to being more expressive models, are empirically more stable, generalize better and have a lower computational cost than Neural ODEs.
 
+- On the Power and Limitations of Random Features for Understanding Neural Networks. [[paper]](https://arxiv.org/abs/1904.00687)
+  - Gilad Yehudai, Ohad Shamir.
+  - Key Word: Random Features.
+  - <details><summary>Digest</summary> Recently, a spate of papers have provided positive theoretical results for training over-parameterized neural networks (where the network size is larger than what is needed to achieve low error). The key insight is that with sufficient over-parameterization, gradient-based methods will implicitly leave some components of the network relatively unchanged, so the optimization dynamics will behave as if those components are essentially fixed at their initial random values. In fact, fixing these explicitly leads to the well-known approach of learning with random features. In other words, these techniques imply that we can successfully learn with neural networks, whenever we can successfully learn with random features. In this paper, we first review these techniques, providing a simple and self-contained analysis for one-hidden-layer networks. 
+
 - Mean Field Analysis of Deep Neural Networks. [[paper]](https://arxiv.org/abs/1903.04440)
   - Justin Sirignano, Konstantinos Spiliopoulos.
   - Key Word: Mean Field Theory.
