@@ -1114,6 +1114,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Federated Learning; Neural Tangent Kernel.
   - <details><summary>Digest</summary> This paper presents a new class of convergence analysis for FL, Federated Learning Neural Tangent Kernel (FL-NTK), which corresponds to overparamterized ReLU neural networks trained by gradient descent in FL and is inspired by the analysis in Neural Tangent Kernel (NTK). Theoretically, FL-NTK converges to a global-optimal solution at a linear rate with properly tuned learning parameters. Furthermore, with proper distributional assumptions, FL-NTK can also achieve good generalization.
 
+- Random Features for the Neural Tangent Kernel. [[paper]](https://arxiv.org/abs/2104.01351)
+  - Insu Han, Haim Avron, Neta Shoham, Chaewon Kim, Jinwoo Shin. 
+  - Key Word: Neural Tangent Kernel; Random Features.
+  - <details><summary>Digest</summary> We propose an efficient feature map construction of the NTK of fully-connected ReLU network which enables us to apply it to large-scale datasets. We combine random features of the arc-cosine kernels with a sketching-based algorithm which can run in linear with respect to both the number of data points and input dimension. We show that dimension of the resulting features is much smaller than other baseline feature map constructions to achieve comparable error bounds both in theory and practice. 
+
 - Explaining Neural Scaling Laws. [[paper]](https://arxiv.org/abs/2102.06701) [[code]](https://github.com/google/neural-tangents)
   - Yasaman Bahri, Ethan Dyer, Jared Kaplan, Jaehoon Lee, Utkarsh Sharma. *ICLR 2022*
   - Key Word: Scaling Laws; Neural Tangent Kernel.
@@ -1198,6 +1203,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Others
 
 ### Others: 2022
+
+- Tighter PAC-Bayes Generalisation Bounds by Leveraging Example Difficulty. [[paper]](https://arxiv.org/abs/2210.11289)
+  - Felix Biggs, Benjamin Guedj.
+  - Key Word: PAC-Bayes.
+  - <details><summary>Digest</summary> We introduce a modified version of the excess risk, which can be used to obtain tighter, fast-rate PAC-Bayesian generalisation bounds. This modified excess risk leverages information about the relative hardness of data examples to reduce the variance of its empirical counterpart, tightening the bound. We combine this with a new bound for [−1,1]-valued (and potentially non-independent) signed losses, which is more favourable when they empirically have low variance around 0. The primary new technical tool is a novel result for sequences of interdependent random vectors which may be of independent interest. We empirically evaluate these new bounds on a number of real-world datasets.
 
 - How Mask Matters: Towards Theoretical Understandings of Masked Autoencoders. [[paper]](https://arxiv.org/abs/2210.08344) [[code]](https://github.com/zhangq327/u-mae)
   - Qi Zhang, Yifei Wang, Yisen Wang. *NeurIPS 2022*
