@@ -1204,6 +1204,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- A PAC-Bayesian Generalization Bound for Equivariant Networks. [[paper]](https://arxiv.org/abs/2210.13150)
+  - Arash Behboodi, Gabriele Cesa, Taco Cohen. *NeurIPS 2022*
+  - Key Word: PAC-Bayes; Equivariant Networks.
+  - <details><summary>Digest</summary> We study how equivariance relates to generalization error utilizing PAC Bayesian analysis for equivariant networks, where the transformation laws of feature spaces are determined by group representations. By using perturbation analysis of equivariant networks in Fourier domain for each layer, we derive norm-based PAC-Bayesian generalization bounds. The bound characterizes the impact of group size, and multiplicity and degree of irreducible representations on the generalization error and thereby provide a guideline for selecting them.
+
 - Tighter PAC-Bayes Generalisation Bounds by Leveraging Example Difficulty. [[paper]](https://arxiv.org/abs/2210.11289)
   - Felix Biggs, Benjamin Guedj.
   - Key Word: PAC-Bayes.
