@@ -1209,6 +1209,16 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- The Curious Case of Benign Memorization. [[paper]](https://arxiv.org/abs/2210.14019)
+  - Sotiris Anagnostidis, Gregor Bachmann, Lorenzo Noci, Thomas Hofmann.
+  - Key Word: Memorization; Data Augmentation.
+  - <details><summary>Digest</summary> We show that under training protocols that include data augmentation, neural networks learn to memorize entirely random labels in a benign way, i.e. they learn embeddings that lead to highly non-trivial performance under nearest neighbour probing. We demonstrate that deep models have the surprising ability to separate noise from signal by distributing the task of memorization and feature learning to different layers.
+
+- Provably Learning Diverse Features in Multi-View Data with Midpoint Mixup. [[paper]](https://arxiv.org/abs/2210.13512)
+  - Muthu Chidambaram, Xiang Wang, Chenwei Wu, Rong Ge.
+  - Key Word: Mixup; Feature Learning.
+  - <details><summary>Digest</summary> We try to explain some of this success from a feature learning perspective. We focus our attention on classification problems in which each class may have multiple associated features (or views) that can be used to predict the class correctly. Our main theoretical results demonstrate that, for a non-trivial class of data distributions with two features per class, training a 2-layer convolutional network using empirical risk minimization can lead to learning only one feature for almost all classes while training with a specific instantiation of Mixup succeeds in learning both features for every class. 
+
 - A PAC-Bayesian Generalization Bound for Equivariant Networks. [[paper]](https://arxiv.org/abs/2210.13150)
   - Arash Behboodi, Gabriele Cesa, Taco Cohen. *NeurIPS 2022*
   - Key Word: PAC-Bayes; Equivariant Networks.
