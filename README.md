@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- Pruning's Effect on Generalization Through the Lens of Training and Regularization. [[paper]](https://arxiv.org/abs/2210.13738)
+  - Tian Jin, Michael Carbin, Daniel M. Roy, Jonathan Frankle, Gintare Karolina Dziugaite.
+  - Key Word: Pruning; Regularization.
+  - <details><summary>Digest</summary> We show that size reduction cannot fully account for the generalization-improving effect of standard pruning algorithms. Instead, we find that pruning leads to better training at specific sparsities, improving the training loss over the dense model. We find that pruning also leads to additional regularization at other sparsities, reducing the accuracy degradation due to noisy examples over the dense model. Pruning extends model training time and reduces model size. These two factors improve training and add regularization respectively. We empirically demonstrate that both factors are essential to fully explaining pruning's impact on generalization.
+
 - How Much Data Are Augmentations Worth? An Investigation into Scaling Laws, Invariance, and Implicit Regularization. [[paper]](https://arxiv.org/abs/2210.06441) [[code]](https://github.com/JonasGeiping/dataaugs)
   - Jonas Geiping, Micah Goldblum, Gowthami Somepalli, Ravid Shwartz-Ziv, Tom Goldstein, Andrew Gordon Wilson.
   - Key Word: Data Augmentation; Neural Scaling Laws; Implicit Regularization.
