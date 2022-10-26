@@ -124,10 +124,20 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Linear Interpolation; Loss Landscapes.
   - <details><summary>Digest</summary> We put inferences of this kind to the test, systematically evaluating how linear interpolation and final performance vary when altering the data, choice of initialization, and other optimizer and architecture design choices. Further, we use linear interpolation to study the role played by individual layers and substructures of the network. We find that certain layers are more sensitive to the choice of initialization, but that the shape of the linear path is not indicative of the changes in test accuracy of the model. 
 
+- Can Vision Transformers Learn without Natural Images? [[paper]](https://arxiv.org/abs/2103.13023) [[code]](https://hirokatsukataoka16.github.io/Vision-Transformers-without-Natural-Images/)
+  - Kodai Nakashima, Hirokatsu Kataoka, Asato Matsumoto, Kenji Iwata, Nakamasa Inoue. *AAAI 2022*
+  - Key Word: Formula-driven Supervised Learning; Vision Transformer.
+  - <details><summary>Digest</summary> We pre-train ViT without any image collections and annotation labor. We experimentally verify that our proposed framework partially outperforms sophisticated Self-Supervised Learning (SSL) methods like SimCLRv2 and MoCov2 without using any natural images in the pre-training phase. Moreover, although the ViT pre-trained without natural images produces some different visualizations from ImageNet pre-trained ViT, it can interpret natural image datasets to a large extent. 
+
 - Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability. [[paper]](https://arxiv.org/abs/2103.00065) [[code]](https://github.com/locuslab/edge-of-stability)
   - Jeremy M. Cohen, Simran Kaur, Yuanzhi Li, J. Zico Kolter, Ameet Talwalkar. *ICLR 2021*
   - Key Word: Edge of Stability.
   - <details><summary>Digest</summary> We empirically demonstrate that full-batch gradient descent on neural network training objectives typically operates in a regime we call the Edge of Stability. In this regime, the maximum eigenvalue of the training loss Hessian hovers just above the numerical value 2/(step size), and the training loss behaves non-monotonically over short timescales, yet consistently decreases over long timescales. Since this behavior is inconsistent with several widespread presumptions in the field of optimization, our findings raise questions as to whether these presumptions are relevant to neural network training. 
+
+- Pre-training without Natural Images. [[paper]](https://arxiv.org/abs/2101.08515) [[code]](https://github.com/hirokatsukataoka16/FractalDB-Pretrained-ResNet-PyTorch)
+  - Hirokatsu Kataoka, Kazushige Okayasu, Asato Matsumoto, Eisuke Yamagata, Ryosuke Yamada, Nakamasa Inoue, Akio Nakamura, Yutaka Satoh. *ACCV 2020*
+  - Key Word: Formula-driven Supervised Learning.
+  - <details><summary>Digest</summary> The paper proposes a novel concept, Formula-driven Supervised Learning. We automatically generate image patterns and their category labels by assigning fractals, which are based on a natural law existing in the background knowledge of the real world. Theoretically, the use of automatically generated images instead of natural images in the pre-training phase allows us to generate an infinite scale dataset of labeled images. Although the models pre-trained with the proposed Fractal DataBase (FractalDB), a database without natural images, does not necessarily outperform models pre-trained with human annotated datasets at all settings, we are able to partially surpass the accuracy of ImageNet/Places pre-trained models. 
 
 ### Empirical Study: 2020
 
