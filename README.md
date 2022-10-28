@@ -327,6 +327,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Collapse 2022
 
+- Grokking phase transitions in learning local rules with gradient descent. [[paper]](https://arxiv.org/abs/2210.15435)
+  - Bojan Žunkovič, Enej Ilievski.
+  - Key Word: Tensor Network; Grokking; Many-Body Quantum Mechanics; Neural Collapse.
+  - <details><summary>Digest</summary> We discuss two solvable grokking (generalisation beyond overfitting) models in a rule learning scenario. We show that grokking is a phase transition and find exact analytic expressions for the critical exponents, grokking probability, and grokking time distribution. Further, we introduce a tensor-network map that connects the proposed grokking setup with the standard (perceptron) statistical learning theory and show that grokking is a consequence of the locality of the teacher model. As an example, we analyse the cellular automata learning task, numerically determine the critical exponent and the grokking time distributions and compare them with the prediction of the proposed grokking model. Finally, we numerically analyse the connection between structure formation and grokking.
+
 - Imbalance Trouble: Revisiting Neural-Collapse Geometry. [[paper]](https://arxiv.org/abs/2208.05512)
   - Christos Thrampoulidis, Ganesh R. Kini, Vala Vakilian, Tina Behnia.
   - Key Word: Neural Collapse; Class Imbalance.
