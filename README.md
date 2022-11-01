@@ -327,6 +327,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Collapse 2022
 
+- Perturbation Analysis of Neural Collapse. [[paper]](https://arxiv.org/abs/2210.16658)
+  - Tom Tirer, Haoxiang Huang, Jonathan Niles-Weed.
+  - Key Word: Neural Collapse.
+  - <details><summary>Digest</summary> We propose a richer model that can capture this phenomenon by forcing the features to stay in the vicinity of a predefined features matrix (e.g., intermediate features). We explore the model in the small vicinity case via perturbation analysis and establish results that cannot be obtained by the previously studied models. 
+
 - Grokking phase transitions in learning local rules with gradient descent. [[paper]](https://arxiv.org/abs/2210.15435)
   - Bojan Žunkovič, Enej Ilievski.
   - Key Word: Tensor Network; Grokking; Many-Body Quantum Mechanics; Neural Collapse.
@@ -506,6 +511,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Shaojin Ding, Tianlong Chen, Zhangyang Wang. *ICLR 2022*
   - Key Word: Lottery Ticket Hypothesis; Speech Recognition.
   - <details><summary>Digest</summary> We investigate the tantalizing possibility of using lottery ticket hypothesis to discover lightweight speech recognition models, that are (1) robust to various noise existing in speech; (2) transferable to fit the open-world personalization; and 3) compatible with structured sparsity.
+
+- Strong Lottery Ticket Hypothesis with ε--perturbation. [[paper]](https://arxiv.org/abs/2210.16589)
+  - Zheyang Xiong, Fangshuo Liao, Anastasios Kyrillidis.
+  - Key Word: Lottery Ticket Hypothesis.
+  - <details><summary>Digest</summary> The strong Lottery Ticket Hypothesis (LTH) claims the existence of a subnetwork in a sufficiently large, randomly initialized neural network that approximates some target neural network without the need of training. We extend the theoretical guarantee of the strong LTH literature to a scenario more similar to the original LTH, by generalizing the weight change in the pre-training step to some perturbation around initialization. 
 
 - Large Models are Parsimonious Learners: Activation Sparsity in Trained Transformers. [[paper]](https://arxiv.org/abs/2210.06313)
   - Zonglin Li, Chong You, Srinadh Bhojanapalli, Daliang Li, Ankit Singh Rawat, Sashank J. Reddi, Ke Ye, Felix Chern, Felix Yu, Ruiqi Guo, Sanjiv Kumar.
