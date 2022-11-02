@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- Broken Neural Scaling Laws. [[paper]](https://arxiv.org/abs/2210.14891) [[code]](https://github.com/ethancaballero/broken_neural_scaling_laws)
+  - Ethan Caballero, Kshitij Gupta, Irina Rish, David Krueger.
+  - Key Word: Neural Scaling Laws.
+  - <details><summary>Digest</summary> We present a smoothly broken power law functional form that accurately models and extrapolates the scaling behaviors of deep neural networks (i.e. how the evaluation metric of interest varies as the amount of compute used for training, number of model parameters, or training dataset size varies) for each task within a large and diverse set of upstream and downstream tasks, in zero-shot, prompted, and fine-tuned settings. This set includes large-scale vision and unsupervised language tasks, diffusion generative modeling of images, arithmetic, and reinforcement learning. 
+
 - Pruning's Effect on Generalization Through the Lens of Training and Regularization. [[paper]](https://arxiv.org/abs/2210.13738)
   - Tian Jin, Michael Carbin, Daniel M. Roy, Jonathan Frankle, Gintare Karolina Dziugaite.
   - Key Word: Pruning; Regularization.
@@ -1082,6 +1087,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2022
 
+- Transfer Learning with Kernel Methods. [[paper]](https://arxiv.org/abs/2211.00227)
+  - Adityanarayanan Radhakrishnan, Max Ruiz Luyten, Neha Prasad, Caroline Uhler. 
+  - Key Word: Transfer Learning; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We propose a transfer learning framework for kernel methods by projecting and translating the source model to the target task. We demonstrate the effectiveness of our framework in applications to image classification and virtual drug screening. In particular, we show that transferring modern kernels trained on large-scale image datasets can result in substantial performance increase as compared to using the same kernel trained directly on the target task.
+
 - Neural Tangent Kernel: A Survey. [[paper]](https://arxiv.org/abs/2208.13614)
   - Eugene Golikov, Eduard Pokonechnyy, Vladimir Korviakov.
   - Key Word: Neural Tangent Kernel; Survey.
@@ -1233,6 +1243,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Others
 
 ### Others: 2022
+
+- Augmentation Invariant Manifold Learning. [[paper]](https://arxiv.org/abs/2211.00460)
+  - Shulei Wang.
+  - Key Word: Manifold Learning; Data Augmentation.
+  - <details><summary>Digest</summary> We develop a statistical framework on a low-dimension product manifold to theoretically understand why the unlabeled augmented data can lead to useful data representation. Under this framework, we propose a new representation learning method called augmentation invariant manifold learning and develop the corresponding loss function, which can work with a deep neural network to learn data representations.
 
 - The Curious Case of Benign Memorization. [[paper]](https://arxiv.org/abs/2210.14019)
   - Sotiris Anagnostidis, Gregor Bachmann, Lorenzo Noci, Thomas Hofmann.
@@ -1522,6 +1537,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - N. Joseph Tatro, Pin-Yu Chen, Payel Das, Igor Melnyk, Prasanna Sattigeri, Rongjie Lai. *NeurIPS 2020*
   - Key Word: Mode Connectivity; Neuron Alignment; Adversarial Training.
   - <details><summary>Digest</summary> We propose a more general framework to investigate the effect of symmetry on landscape connectivity by accounting for the weight permutations of the networks being connected. To approximate the optimal permutation, we introduce an inexpensive heuristic referred to as neuron alignment. Neuron alignment promotes similarity between the distribution of intermediate activations of models along the curve. 
+
+- Benign Overfitting and Noisy Features. [[paper]](https://arxiv.org/abs/2008.02901)
+  - Zhu Li, Weijie Su, Dino Sejdinovic. 
+  - Key Word: Benign Overfitting; Random Feature Approximation; Deep Double Descent.
+  - <details><summary>Digest</summary> We examine the conditions under which Benign Overfitting occurs in the random feature (RF) models, i.e. in a two-layer neural network with fixed first layer weights. We adopt a new view of random feature and show that benign overfitting arises due to the noise which resides in such features (the noise may already be present in the data and propagate to the features or it may be added by the user to the features directly) and plays an important implicit regularization role in the phenomenon.
 
 - How benign is benign overfitting? [[paper]](https://arxiv.org/abs/2007.04028)
   - Amartya Sanyal, Puneet K Dokania, Varun Kanade, Philip H.S. Torr. *ICLR 2021*
