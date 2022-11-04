@@ -1244,6 +1244,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Instance-Dependent Generalization Bounds via Optimal Transport. [[paper]](https://arxiv.org/abs/2211.01258)
+  - Songyan Hou, Parnian Kassraie, Anastasis Kratsios, Jonas Rothfuss, Andreas Krause.
+  - Key Word: Generalization Bounds; Optimal Transport; Distribution Shifts.
+  - <details><summary>Digest</summary> We propose a novel optimal transport interpretation of the generalization problem. This allows us to derive instance-dependent generalization bounds that depend on the local Lipschitz regularity of the learned prediction function} in the data space. Therefore, our bounds are agnostic to the parametrization of the model and work well when the number of training samples is much smaller than the number of parameters. With small modifications, our approach yields accelerated rates for data on low-dimensional manifolds, and guarantees under distribution shifts. We empirically analyze our generalization bounds for neural networks, showing that the bound values are meaningful and capture the effect of popular regularization methods during training.
+
 - Augmentation Invariant Manifold Learning. [[paper]](https://arxiv.org/abs/2211.00460)
   - Shulei Wang.
   - Key Word: Manifold Learning; Data Augmentation.
