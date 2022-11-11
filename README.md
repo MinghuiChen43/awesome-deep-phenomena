@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- Harmonizing the object recognition strategies of deep neural networks with humans. [[paper]](https://arxiv.org/abs/2211.04533) [[code]](https://serre-lab.github.io/Harmonization/)
+  - Thomas Fel, Ivan Felipe, Drew Linsley, Thomas Serre.
+  - Key Word: Interpretation; Neural Harmonizer; Psychophysics.
+  - <details><summary>Digest</summary> Across 84 different DNNs trained on ImageNet and three independent datasets measuring the where and the how of human visual strategies for object recognition on those images, we find a systematic trade-off between DNN categorization accuracy and alignment with human visual strategies for object recognition. State-of-the-art DNNs are progressively becoming less aligned with humans as their accuracy improves. We rectify this growing issue with our neural harmonizer: a general-purpose training routine that both aligns DNN and human visual strategies and improves categorization accuracy. 
+
 - Broken Neural Scaling Laws. [[paper]](https://arxiv.org/abs/2210.14891) [[code]](https://github.com/ethancaballero/broken_neural_scaling_laws)
   - Ethan Caballero, Kshitij Gupta, Irina Rish, David Krueger.
   - Key Word: Neural Scaling Laws.
