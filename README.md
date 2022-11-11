@@ -171,6 +171,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Pruning; Fairness.
   - <details><summary>Digest</summary> The popularity and widespread use of pruning and quantization is driven by the severe resource constraints of deploying deep neural networks to environments with strict latency, memory and energy requirements. These techniques achieve high levels of compression with negligible impact on top-line metrics (top-1 and top-5 accuracy). However, overall accuracy hides disproportionately high errors on a small subset of examples; we call this subset Compression Identified Exemplars (CIE).
 
+- Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics. [[paper]](https://arxiv.org/abs/2009.10795) [[code]](https://github.com/allenai/cartography)
+  - Swabha Swayamdipta, Roy Schwartz, Nicholas Lourie, Yizhong Wang, Hannaneh Hajishirzi, Noah A. Smith, Yejin Choi. *EMNLP 2020*
+  - Key Word: Training Dynamics; Data Map; Curriculum Learning.
+  - <details><summary>Digest</summary> Large datasets have become commonplace in NLP research. However, the increased emphasis on data quantity has made it challenging to assess the quality of data. We introduce Data Maps---a model-based tool to characterize and diagnose datasets. We leverage a largely ignored source of information: the behavior of the model on individual instances during training (training dynamics) for building data maps.
+
 - What is being transferred in transfer learning? [[paper]](https://arxiv.org/abs/2008.11687) [[code]](https://github.com/google-research/understanding-transfer-learning)
   - Behnam Neyshabur, Hanie Sedghi, Chiyuan Zhang. *NeurIPS 2020*
   - Key Word: Transfer Learning.
@@ -283,6 +288,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Matthias Hein, Maksym Andriushchenko, Julian Bitterwolf. *CVPR 2019*
   - Key Word: ReLU.
   - <details><summary>Digest</summary> Classifiers used in the wild, in particular for safety-critical systems, should not only have good generalization properties but also should know when they don't know, in particular make low confidence predictions far away from the training data. We show that ReLU type neural networks which yield a piecewise linear classifier function fail in this regard as they produce almost always high confidence predictions far away from the training data.  
+
+- An Empirical Study of Example Forgetting during Deep Neural Network Learning. [[paper]](https://arxiv.org/abs/1812.05159) [[code]](https://github.com/mtoneva/example_forgetting)
+  - Mariya Toneva, Alessandro Sordoni, Remi Tachet des Combes, Adam Trischler, Yoshua Bengio, Geoffrey J. Gordon. *ICLR 2019*
+  - Key Word: Curriculum Learning; Sample Weighting; Example Forgetting.
+  - <details><summary>Digest</summary> We define a 'forgetting event' to have occurred when an individual training example transitions from being classified correctly to incorrectly over the course of learning. Across several benchmark data sets, we find that: (i) certain examples are forgotten with high frequency, and some not at all; (ii) a data set's (un)forgettable examples generalize across neural architectures; and (iii) based on forgetting dynamics, a significant fraction of examples can be omitted from the training data set while still maintaining state-of-the-art generalization performance.
 
 - On Implicit Filter Level Sparsity in Convolutional Neural Networks. [[paper]](https://arxiv.org/abs/1811.12495)
   - Dushyant Mehta, Kwang In Kim, Christian Theobalt. *CVPR 2019*
