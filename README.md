@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- What Images are More Memorable to Machines? [[paper]](https://arxiv.org/abs/2211.07625) [[code]](https://github.com/JunlinHan/MachineMem)
+  - Junlin Han, Huangying Zhan, Jie Hong, Pengfei Fang, Hongdong Li, Lars Petersson, Ian Reid.
+  - Key Word: Self-Supervised Memorization Quantification.
+  - <details><summary>Digest</summary> This paper studies the problem of measuring and predicting how memorable an image is to pattern recognition machines, as a path to explore machine intelligence. Firstly, we propose a self-supervised machine memory quantification pipeline, dubbed ``MachineMem measurer'', to collect machine memorability scores of images. Similar to humans, machines also tend to memorize certain kinds of images, whereas the types of images that machines and humans memorialize are different. 
+
 - Harmonizing the object recognition strategies of deep neural networks with humans. [[paper]](https://arxiv.org/abs/2211.04533) [[code]](https://serre-lab.github.io/Harmonization/)
   - Thomas Fel, Ivan Felipe, Drew Linsley, Thomas Serre.
   - Key Word: Interpretation; Neural Harmonizer; Psychophysics.
