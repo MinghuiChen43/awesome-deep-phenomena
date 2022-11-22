@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- Overfreezing Meets Overparameterization: A Double Descent Perspective on Transfer Learning of Deep Neural Networks. [[paper]](https://arxiv.org/abs/2211.11074)
+  - Yehuda Dar, Lorenzo Luzi, Richard G. Baraniuk.
+  - Key Word: Transfer Learning; Deep Double Descent; Overfreezing.
+  - <details><summary>Digest</summary> We study the generalization behavior of transfer learning of deep neural networks (DNNs). We adopt the overparameterization perspective -- featuring interpolation of the training data (i.e., approximately zero train error) and the double descent phenomenon -- to explain the delicate effect of the transfer learning setting on generalization performance. We study how the generalization behavior of transfer learning is affected by the dataset size in the source and target tasks, the number of transferred layers that are kept frozen in the target DNN training, and the similarity between the source and target tasks.
+
 - What Images are More Memorable to Machines? [[paper]](https://arxiv.org/abs/2211.07625) [[code]](https://github.com/JunlinHan/MachineMem)
   - Junlin Han, Huangying Zhan, Jie Hong, Pengfei Fang, Hongdong Li, Lars Petersson, Ian Reid.
   - Key Word: Self-Supervised Memorization Quantification.
