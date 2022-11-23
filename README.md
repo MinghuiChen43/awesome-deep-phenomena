@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2022
 
+- ModelDiff: A Framework for Comparing Learning Algorithms. [[paper]](https://arxiv.org/abs/2211.12491) [[code]](https://github.com/MadryLab/modeldiff)
+  - Harshay Shah, Sung Min Park, Andrew Ilyas, Aleksander Madry.
+  - Key Word: Representation-based Comparison; Example-level Comparisons; Comparing Feature Attributions.
+  - <details><summary>Digest</summary> We study the problem of (learning) algorithm comparison, where the goal is to find differences between models trained with two different learning algorithms. We begin by formalizing this goal as one of finding distinguishing feature transformations, i.e., input transformations that change the predictions of models trained with one learning algorithm but not the other. We then present ModelDiff, a method that leverages the datamodels framework (Ilyas et al., 2022) to compare learning algorithms based on how they use their training data.
+
 - Overfreezing Meets Overparameterization: A Double Descent Perspective on Transfer Learning of Deep Neural Networks. [[paper]](https://arxiv.org/abs/2211.11074)
   - Yehuda Dar, Lorenzo Luzi, Richard G. Baraniuk.
   - Key Word: Transfer Learning; Deep Double Descent; Overfreezing.
