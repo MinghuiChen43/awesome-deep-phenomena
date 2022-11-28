@@ -1274,6 +1274,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- PAC-Bayes Compression Bounds So Tight That They Can Explain Generalization. [[paper]](https://arxiv.org/abs/2211.13609) [[code]](https://github.com/activatedgeek/tight-pac-bayes)
+  - Sanae Lotfi, Marc Finzi, Sanyam Kapoor, Andres Potapczynski, Micah Goldblum, Andrew Gordon Wilson. 
+  - Key Word: PAC-Bayes; Model Compression.
+  - <details><summary>Digest</summary> We develop a compression approach based on quantizing neural network parameters in a linear subspace, profoundly improving on previous results to provide state-of-the-art generalization bounds on a variety of tasks, including transfer learning. We use these tight bounds to better understand the role of model size, equivariance, and the implicit biases of optimization, for generalization in deep learning. 
+
 - Instance-Dependent Generalization Bounds via Optimal Transport. [[paper]](https://arxiv.org/abs/2211.01258)
   - Songyan Hou, Parnian Kassraie, Anastasis Kratsios, Jonas Rothfuss, Andreas Krause.
   - Key Word: Generalization Bounds; Optimal Transport; Distribution Shifts.
