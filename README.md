@@ -1117,6 +1117,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2022
 
+- A Kernel Perspective of Skip Connections in Convolutional Networks. [[paper]](https://arxiv.org/abs/2211.14810)
+  - Daniel Barzilai, Amnon Geifman, Meirav Galun, Ronen Basri.
+  - Key Word: Neural Tangent Kernel; Gaussian Process; Understanding Skip Connections.
+  - <details><summary>Digest</summary> Over-parameterized residual networks (ResNets) are amongst the most successful convolutional neural architectures for image processing. Here we study their properties through their Gaussian Process and Neural Tangent kernels. We derive explicit formulas for these kernels, analyze their spectra, and provide bounds on their implied condition numbers. Our results indicate that (1) with ReLU activation, the eigenvalues of these residual kernels decay polynomially at a similar rate compared to the same kernels when skip connections are not used, thus maintaining a similar frequency bias; (2) however, residual kernels are more locally biased. 
+
 - Transfer Learning with Kernel Methods. [[paper]](https://arxiv.org/abs/2211.00227)
   - Adityanarayanan Radhakrishnan, Max Ruiz Luyten, Neha Prasad, Caroline Uhler. 
   - Key Word: Transfer Learning; Neural Tangent Kernel.
