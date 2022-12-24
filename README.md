@@ -27,6 +27,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Transfer Learning; Deep Double Descent; Overfreezing.
   - <details><summary>Digest</summary> We study the generalization behavior of transfer learning of deep neural networks (DNNs). We adopt the overparameterization perspective -- featuring interpolation of the training data (i.e., approximately zero train error) and the double descent phenomenon -- to explain the delicate effect of the transfer learning setting on generalization performance. We study how the generalization behavior of transfer learning is affected by the dataset size in the source and target tasks, the number of transferred layers that are kept frozen in the target DNN training, and the similarity between the source and target tasks.
 
+- How to Fine-Tune Vision Models with SGD. [[paper]](https://arxiv.org/abs/2211.09359)
+  - Ananya Kumar, Ruoqi Shen, Sébastien Bubeck, Suriya Gunasekar.
+  - Key Word: Fine-Tuning; Out-of-Distribution Generalization.
+  - <details><summary>Digest</summary> We show that fine-tuning with AdamW performs substantially better than SGD on modern Vision Transformer and ConvNeXt models. We find that large gaps in performance between SGD and AdamW occur when the fine-tuning gradients in the first "embedding" layer are much larger than in the rest of the model. Our analysis suggests an easy fix that works consistently across datasets and models: merely freezing the embedding layer (less than 1\% of the parameters) leads to SGD performing competitively with AdamW while using less memory. 
+
 - What Images are More Memorable to Machines? [[paper]](https://arxiv.org/abs/2211.07625) [[code]](https://github.com/JunlinHan/MachineMem)
   - Junlin Han, Huangying Zhan, Jie Hong, Pengfei Fang, Hongdong Li, Lars Petersson, Ian Reid.
   - Key Word: Self-Supervised Memorization Quantification.
@@ -1478,6 +1483,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Kirby Banman, Liam Peet-Pare, Nidhi Hegde, Alona Fyshe, Martha White. *ICLR 2022*
   - Key Word: Stochastic Gradient Descent; Covariate Shift.
   - <details><summary>Digest</summary> We show that SGDm under covariate shift with a fixed step-size can be unstable and diverge. In particular, we show SGDm under covariate shift is a parametric oscillator, and so can suffer from a phenomenon known as resonance. We approximate the learning system as a time varying system of ordinary differential equations, and leverage existing theory to characterize the system's divergence/convergence as resonant/nonresonant modes.
+
+- Data Augmentation as Feature Manipulation. [[paper]](https://arxiv.org/abs/2203.01572)
+  - Ruoqi Shen, Sébastien Bubeck, Suriya Gunasekar.
+  - Key Word: Data Augmentation; Feature Learning.
+  - <details><summary>Digest</summary> In this work we consider another angle, and we study the effect of data augmentation on the dynamic of the learning process. We find that data augmentation can alter the relative importance of various features, effectively making certain informative but hard to learn features more likely to be captured in the learning process. Importantly, we show that this effect is more pronounced for non-linear models, such as neural networks. Our main contribution is a detailed analysis of data augmentation on the learning dynamic for a two layer convolutional neural network in the recently proposed multi-view data model by Allen-Zhu and Li [2020]. 
 
 - How Many Data Are Needed for Robust Learning? [[paper]](https://arxiv.org/abs/2202.11592)
   - Hongyang Zhang, Yihan Wu, Heng Huang.
