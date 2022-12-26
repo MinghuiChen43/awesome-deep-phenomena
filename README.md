@@ -367,6 +367,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Collapse 2022
 
+- Principled and Efficient Transfer Learning of Deep Models via Neural Collapse. [[paper]](https://arxiv.org/abs/2212.12206)
+  - Xiao Li, Sheng Liu, Jinxin Zhou, Xinyu Lu, Carlos Fernandez-Granda, Zhihui Zhu, Qing Qu.
+  - Key Word: Neural Collapse; Transfer Learning.
+  - <details><summary>Digest</summary> This work delves into the mystery of transfer learning through an intriguing phenomenon termed neural collapse (NC), where the last-layer features and classifiers of learned deep networks satisfy: (i) the within-class variability of the features collapses to zero, and (ii) the between-class feature means are maximally and equally separated. Through the lens of NC, our findings for transfer learning are the following: (i) when pre-training models, preventing intra-class variability collapse (to a certain extent) better preserves the intrinsic structures of the input data, so that it leads to better model transferability; (ii) when fine-tuning models on downstream tasks, obtaining features with more NC on downstream data results in better test accuracy on the given task. 
+
 - Perturbation Analysis of Neural Collapse. [[paper]](https://arxiv.org/abs/2210.16658)
   - Tom Tirer, Haoxiang Huang, Jonathan Niles-Weed.
   - Key Word: Neural Collapse.
