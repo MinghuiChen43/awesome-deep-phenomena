@@ -1289,6 +1289,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2022
 
+- Feature learning in neural networks and kernel machines that recursively learn features. [[paper]](https://arxiv.org/abs/2212.13881) [[code]](https://github.com/aradha/recursive_feature_machines)
+  - Adityanarayanan Radhakrishnan, Daniel Beaglehole, Parthe Pandit, Mikhail Belkin.
+  - Key Word: Feature Learning; Kernel Machines; Grokking; Lottery Ticket Hypothesis.
+  - <details><summary>Digest</summary> We isolate the key mechanism driving feature learning in fully connected neural networks by connecting neural feature learning to the average gradient outer product. We subsequently leverage this mechanism to design Recursive Feature Machines (RFMs), which are kernel machines that learn features. We show that RFMs (1) accurately capture features learned by deep fully connected neural networks, (2) close the gap between kernel machines and fully connected networks, and (3) surpass a broad spectrum of models including neural networks on tabular data. 
+
 - PAC-Bayes Compression Bounds So Tight That They Can Explain Generalization. [[paper]](https://arxiv.org/abs/2211.13609) [[code]](https://github.com/activatedgeek/tight-pac-bayes)
   - Sanae Lotfi, Marc Finzi, Sanyam Kapoor, Andres Potapczynski, Micah Goldblum, Andrew Gordon Wilson. 
   - Key Word: PAC-Bayes; Model Compression.
