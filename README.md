@@ -365,7 +365,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Neural Collapse
 
-### Neural Collapse 2022
+### Neural Collapse: 2023
+
+- Neural Collapse in Deep Linear Network: From Balanced to Imbalanced Data. [[paper]](https://arxiv.org/abs/2301.00437)
+  - Hien Dang, Tan Nguyen, Tho Tran, Hung Tran, Nhat Ho.
+  - Key Word: Neural Collapse; Imbalanced Learning.
+  - <details><summary>Digest</summary> We take a step further and prove the Neural Collapse occurrence for deep linear network for the popular mean squared error (MSE) and cross entropy (CE) loss. Furthermore, we extend our research to imbalanced data for MSE loss and present the first geometric analysis for Neural Collapse under this setting.
+
+### Neural Collapse: 2022
 
 - Principled and Efficient Transfer Learning of Deep Models via Neural Collapse. [[paper]](https://arxiv.org/abs/2212.12206)
   - Xiao Li, Sheng Liu, Jinxin Zhou, Xinyu Lu, Carlos Fernandez-Granda, Zhihui Zhu, Qing Qu.
@@ -402,7 +409,7 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Neural Collapse.
   - <details><summary>Digest</summary> We point out that Neural Collapse is primarily an optimization phenomenon, not a generalization one, by investigating the train collapse and test collapse on various dataset and architecture combinations. We propose more precise definitions — "strong" and "weak" Neural Collapse for both the train set and the test set — and discuss their theoretical feasibility.
 
-### Neural Collapse 2021
+### Neural Collapse: 2021
 
 - On the Role of Neural Collapse in Transfer Learning. [[paper]](https://arxiv.org/abs/2112.15121)
   - Tomer Galanti, András György, Marcus Hutter. *ICLR 2022*
@@ -429,7 +436,7 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Neural Collapse; Imbalanced Training.
   - <details><summary>Digest</summary> In this paper, we introduce the Layer-Peeled Model, a nonconvex yet analytically tractable optimization program, in a quest to better understand deep neural networks that are trained for a sufficiently long time. As the name suggests, this new model is derived by isolating the topmost layer from the remainder of the neural network, followed by imposing certain constraints separately on the two parts of the network. When moving to the imbalanced case, our analysis of the Layer-Peeled Model reveals a hitherto unknown phenomenon that we term Minority Collapse, which fundamentally limits the performance of deep learning models on the minority classes.
 
-### Neural Collapse 2020
+### Neural Collapse: 2020
 
 - Prevalence of Neural Collapse during the terminal phase of deep learning training. [[paper]](https://arxiv.org/abs/2008.08186) [[code]](https://github.com/neuralcollapse/neuralcollapse)
   - Vardan Papyan, X.Y. Han, David L. Donoho. *PNAS*
@@ -438,7 +445,7 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Deep Double Descent
 
-### Deep Double Descent 2022
+### Deep Double Descent: 2022
 
 - Sparse Double Descent: Where Network Pruning Aggravates Overfitting. [[paper]](https://arxiv.org/abs/2206.08684) [[code]](https://github.com/hezheug/sparse-double-descent)
   - Zheng He, Zeke Xie, Quanzhi Zhu, Zengchang Qin. *ICML 2022*
@@ -455,7 +462,7 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Deep Double Descent.
   - <details><summary>Digest</summary> 'Double descent' delineates the generalization behaviour of models depending on the regime they belong to: under- or over-parameterized. The current theoretical understanding behind the occurrence of this phenomenon is primarily based on linear and kernel regression models -- with informal parallels to neural networks via the Neural Tangent Kernel. Therefore such analyses do not adequately capture the mechanisms behind double descent in finite-width neural networks, as well as, disregard crucial components -- such as the choice of the loss function. We address these shortcomings by leveraging influence functions in order to derive suitable expressions of the population loss and its lower bound, while imposing minimal assumptions on the form of the parametric model.
 
-### Deep Double Descent 2021
+### Deep Double Descent: 2021
 
 - Multi-scale Feature Learning Dynamics: Insights for Double Descent. [[paper]](https://arxiv.org/abs/2112.03215) [[code]](https://github.com/nndoubledescent/doubledescent)
   - Mohammad Pezeshki, Amartya Mitra, Yoshua Bengio, Guillaume Lajoie.
@@ -539,6 +546,13 @@ Our understanding of modern neural networks lags behind their practical successe
   - <details><summary>Digest</summary> The bias-variance tradeoff tells us that as model complexity increases, bias falls and variances increases, leading to a U-shaped test error curve. However, recent empirical results with over-parameterized neural networks are marked by a striking absence of the classic U-shaped test error curve: test error keeps decreasing in wider networks. Motivated by the shaky evidence used to support this claim in neural networks, we measure bias and variance in the modern setting. We find that both bias and variance can decrease as the number of parameters grows. To better understand this, we introduce a new decomposition of the variance to disentangle the effects of optimization and data sampling.
 
 ## Lottery Ticket Hypothesis
+
+### Lottery Ticket Hypothesis: 2023
+
+- Theoretical Characterization of How Neural Network Pruning Affects its Generalization. [[paper]](https://arxiv.org/abs/2301.00335)
+  - Hongru Yang, Yingbin Liang, Xiaojie Guo, Lingfei Wu, Zhangyang Wang.
+  - Key Word: Lottery Ticket Hypothesis; Generalization Bound.
+  - <details><summary>Digest</summary> This work considers a classification task for overparameterized two-layer neural networks, where the network is randomly pruned according to different rates at the initialization. It is shown that as long as the pruning fraction is below a certain threshold, gradient descent can drive the training loss toward zero and the network exhibits good generalization performance. More surprisingly, the generalization bound gets better as the pruning fraction gets larger.
 
 ### Lottery Ticket Hypothesis: 2022
 
