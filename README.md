@@ -15,6 +15,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Empirical Study
 
+### Empirical Study: 2023
+
+- Grokking modular arithmetic. [[paper]](https://arxiv.org/abs/2301.02679)
+  - Andrey Gromov.
+  - Key Word: Grokking; Modular Addition; Interpretability.
+  - <details><summary>Digest</summary> We present a simple neural network that can learn modular arithmetic tasks and exhibits a sudden jump in generalization known as ``grokking''. Concretely, we present (i) fully-connected two-layer networks that exhibit grokking on various modular arithmetic tasks under vanilla gradient descent with the MSE loss function in the absence of any regularization.
+
 ### Empirical Study: 2022
 
 - ModelDiff: A Framework for Comparing Learning Algorithms. [[paper]](https://arxiv.org/abs/2211.12491) [[code]](https://github.com/MadryLab/modeldiff)
