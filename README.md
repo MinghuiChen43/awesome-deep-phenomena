@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- Progress measures for grokking via mechanistic interpretability. [[paper]](https://arxiv.org/abs/2301.05217)
+  - Neel Nanda, Lawrence Chan, Tom Liberum, Jess Smith, Jacob Steinhardt.
+  - Key Work: Grokking; Interpretability.
+  - <details><summary>Digest</summary> We argue that progress measures can be found via mechanistic interpretability: reverse-engineering learned behaviors into their individual components. As a case study, we investigate the recently-discovered phenomenon of ``grokking'' exhibited by small transformers trained on modular addition tasks. 
+
 - Grokking modular arithmetic. [[paper]](https://arxiv.org/abs/2301.02679)
   - Andrey Gromov.
   - Key Word: Grokking; Modular Addition; Interpretability.
