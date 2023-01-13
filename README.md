@@ -561,6 +561,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Lottery Ticket Hypothesis: 2023
 
+- Why is the State of Neural Network Pruning so Confusing? On the Fairness, Comparison Setup, and Trainability in Network Pruning. [[paper]](https://arxiv.org/abs/2301.05219) [[code]](https://github.com/mingsun-tse/why-the-state-of-pruning-so-confusing)
+  - Huan Wang, Can Qin, Yue Bai, Yun Fu.
+  - Key Word: Pruning; Empirical Study.
+  - <details><summary>Digest</summary> Two mysteries in pruning represent such a confusing status: the performance-boosting effect of a larger finetuning learning rate, and the no-value argument of inheriting pretrained weights in filter pruning. In this work, we attempt to explain the confusing state of network pruning by demystifying the two mysteries. 
+
 - Theoretical Characterization of How Neural Network Pruning Affects its Generalization. [[paper]](https://arxiv.org/abs/2301.00335)
   - Hongru Yang, Yingbin Liang, Xiaojie Guo, Lingfei Wu, Zhangyang Wang.
   - Key Word: Lottery Ticket Hypothesis; Generalization Bound.
