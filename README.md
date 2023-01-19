@@ -1318,6 +1318,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Others
 
+### Others: 2023
+
+- Strong inductive biases provably prevent harmless interpolation. [[paper]](https://arxiv.org/abs/2301.07605) [[code]](https://github.com/michaelaerni/iclr23-inductivebiasesharmlessinterpolation)
+  - Michael Aerni, Marco Milanta, Konstantin Donhauser, Fanny Yang.
+  - Key Word: Benign Overfitting; Inductive Bias.
+  - <details><summary>Digest</summary> This paper argues that the degree to which interpolation is harmless hinges upon the strength of an estimator's inductive bias, i.e., how heavily the estimator favors solutions with a certain structure: while strong inductive biases prevent harmless interpolation, weak inductive biases can even require fitting noise to generalize well. 
+
 ### Others: 2022
 
 - Feature learning in neural networks and kernel machines that recursively learn features. [[paper]](https://arxiv.org/abs/2212.13881) [[code]](https://github.com/aradha/recursive_feature_machines)
