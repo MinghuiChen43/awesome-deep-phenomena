@@ -1442,6 +1442,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lazy Training; Neural Tangent Kernel.
   - <details><summary>Digest</summary> We study the average robustness notion in deep neural networks in (selected) wide and narrow, deep and shallow, as well as lazy and non-lazy training settings. We prove that in the under-parameterized setting, width has a negative effect while it improves robustness in the over-parameterized setting. The effect of depth closely depends on the initialization and the training mode. In particular, when initialized with LeCun initialization, depth helps robustness with lazy training regime. In contrast, when initialized with Neural Tangent Kernel (NTK) and He-initialization, depth hurts the robustness. 
 
+- Git Re-Basin: Merging Models modulo Permutation Symmetries. [[paper]](https://arxiv.org/abs/2209.04836)
+  - Samuel K. Ainsworth, Jonathan Hayase, Siddhartha Srinivasa.
+  - Key Word: Mode Connectivity.
+  - <details><summary>Digest</summary> We argue that neural network loss landscapes contain (nearly) a single basin, after accounting for all possible permutation symmetries of hidden units. We introduce three algorithms to permute the units of one model to bring them into alignment with units of a reference model. This transformation produces a functionally equivalent set of weights that lie in an approximately convex basin near the reference model. Experimentally, we demonstrate the single basin phenomenon across a variety of model architectures and datasets, including the first (to our knowledge) demonstration of zero-barrier linear mode connectivity between independently trained ResNet models on CIFAR-10 and CIFAR-100. 
+
 - Normalization effects on deep neural networks. [[paper]](https://arxiv.org/abs/2209.01018)
   - Jiahui Yu, Konstantinos Spiliopoulos.
   - Key Word: Normalization.
@@ -1457,11 +1462,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Gradient Descent with Momentum.
   - <details><summary>Digest</summary> We adopt another perspective and first empirically show that gradient descent with momentum (GD+M) significantly improves generalization compared to gradient descent (GD) in some deep learning problems. From this observation, we formally study how momentum improves generalization. We devise a binary classification setting where a one-hidden layer (over-parameterized) convolutional neural network trained with GD+M provably generalizes better than the same network trained with GD, when both algorithms are similarly initialized.
 
-- Git Re-Basin: Merging Models modulo Permutation Symmetries. [[paper]](https://arxiv.org/abs/2209.04836)
-  - Samuel K. Ainsworth, Jonathan Hayase, Siddhartha Srinivasa.
-  - Key Word: Mode Connectivity.
-  - <details><summary>Digest</summary> We argue that neural network loss landscapes contain (nearly) a single basin, after accounting for all possible permutation symmetries of hidden units. We introduce three algorithms to permute the units of one model to bring them into alignment with units of a reference model. This transformation produces a functionally equivalent set of weights that lie in an approximately convex basin near the reference model. Experimentally, we demonstrate the single basin phenomenon across a variety of model architectures and datasets, including the first (to our knowledge) demonstration of zero-barrier linear mode connectivity between independently trained ResNet models on CIFAR-10 and CIFAR-100. 
-
 - Synergy and Symmetry in Deep Learning: Interactions between the Data, Model, and Inference Algorithm. [[paper]](https://arxiv.org/abs/2207.04612)
   - Lechao Xiao, Jeffrey Pennington. *ICML 2022*
   - Key Word: Synergy; Symmetry; Implicit Bias; Neural Tangent Kernel; Neural Scaling Laws.
@@ -1471,6 +1471,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Zhiyuan Li, Tianhao Wang, JasonD. Lee, Sanjeev Arora.
   - Key Word: Implicit Bias; Mirror Descent.
   - <details><summary>Digest</summary> As part of the effort to understand implicit bias of gradient descent in overparametrized models, several results have shown how the training trajectory on the overparametrized model can be understood as mirror descent on a different objective. The main result here is a characterization of this phenomenon under a notion termed commuting parametrization, which encompasses all the previous results in this setting. It is shown that gradient flow with any commuting parametrization is equivalent to continuous mirror descent with a related Legendre function.
+
+- A law of adversarial risk, interpolation, and label noise. [[paper]](https://arxiv.org/abs/2207.03933)
+  - Daniel Paleka, Amartya Sanyal. *ICLR 2023*
+  - Key Word: Benign Overfitting; Adversarial Robustness.
+  - <details><summary>Digest</summary> We show that interpolating label noise induces adversarial vulnerability, and prove the first theorem showing the relationship between label noise and adversarial risk for any data distribution. Our results are almost tight if we do not make any assumptions on the inductive bias of the learning algorithm. 
 
 - Beyond neural scaling laws: beating power law scaling via data pruning. [[paper]](https://arxiv.org/abs/2206.14486)
   - Ben Sorscher, Robert Geirhos, Shashank Shekhar, Surya Ganguli, Ari S. Morcos.
