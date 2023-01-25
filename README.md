@@ -1320,6 +1320,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2023
 
+- A Stability Analysis of Fine-Tuning a Pre-Trained Model. [[paper]](https://arxiv.org/abs/2301.09820)
+  - Zihao Fu, Anthony Man-Cho So, Nigel Collier.
+  - Key Word: Fine-Tuning; Stability Analysis.
+  - <details><summary>Digest</summary> We propose a novel theoretical stability analysis of fine-tuning that focuses on two commonly used settings, namely, full fine-tuning and head tuning. We define the stability under each setting and prove the corresponding stability bounds. The theoretical bounds explain why and how several existing methods can stabilize the fine-tuning procedure. 
+
 - Strong inductive biases provably prevent harmless interpolation. [[paper]](https://arxiv.org/abs/2301.07605) [[code]](https://github.com/michaelaerni/iclr23-inductivebiasesharmlessinterpolation)
   - Michael Aerni, Marco Milanta, Konstantin Donhauser, Fanny Yang.
   - Key Word: Benign Overfitting; Inductive Bias.
