@@ -1156,6 +1156,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Neural Tangent Kernel
 
+### Neural Tangent Kernel: 2023
+
+- Beyond the Universal Law of Robustness: Sharper Laws for Random Features and Neural Tangent Kernels. [[paper]](https://arxiv.org/abs/2302.01629)
+  - Simone Bombari, Shayan Kiyani, Marco Mondelli.
+  - Key Word: Neural Tangent Kernel; Random Feature.
+  - <details><summary>Digest</summary> Machine learning models are vulnerable to adversarial perturbations, and a thought-provoking paper by Bubeck and Sellke has analyzed this phenomenon through the lens of over-parameterization: interpolating smoothly the data requires significantly more parameters than simply memorizing it. However, this "universal" law provides only a necessary condition for robustness, and it is unable to discriminate between models. In this paper, we address these gaps by focusing on empirical risk minimization in two prototypical settings, namely, random features and the neural tangent kernel (NTK). 
+
 ### Neural Tangent Kernel: 2022
 
 - A Kernel Perspective of Skip Connections in Convolutional Networks. [[paper]](https://arxiv.org/abs/2211.14810)
