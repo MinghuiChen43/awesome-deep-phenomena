@@ -379,6 +379,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Collapse: 2023
 
+- Neural Collapse Inspired Feature-Classifier Alignment for Few-Shot Class Incremental Learning. [[paper]](https://arxiv.org/abs/2302.03004) [[code]](https://github.com/NeuralCollapseApplications/FSCIL)
+  - Yibo Yang, Haobo Yuan, Xiangtai Li, Zhouchen Lin, Philip Torr, Dacheng Tao. *ICLR 2023*
+  - Key Word: Few-Shot Class Incremental Learning; Neural Collapse.
+  - <details><summary>Digest</summary> We deal with this misalignment dilemma in FSCIL inspired by the recently discovered phenomenon named neural collapse, which reveals that the last-layer features of the same class will collapse into a vertex, and the vertices of all classes are aligned with the classifier prototypes, which are formed as a simplex equiangular tight frame (ETF). It corresponds to an optimal geometric structure for classification due to the maximized Fisher Discriminant Ratio. 
+
 - Neural Collapse in Deep Linear Network: From Balanced to Imbalanced Data. [[paper]](https://arxiv.org/abs/2301.00437)
   - Hien Dang, Tan Nguyen, Tho Tran, Hung Tran, Nhat Ho.
   - Key Word: Neural Collapse; Imbalanced Learning.
@@ -1326,6 +1331,11 @@ Our understanding of modern neural networks lags behind their practical successe
 ## Others
 
 ### Others: 2023
+
+- The SSL Interplay: Augmentations, Inductive Bias, and Generalization. [[paper]](https://arxiv.org/abs/2302.02774)
+  - Vivien Cabannes, Bobak T. Kiani, Randall Balestriero, Yann LeCun, Alberto Bietti.
+  - Key Word: Self-Supervised Learning; Data Augmentation; Inductive Bias.
+  - <details><summary>Digest</summary> Self-supervised learning (SSL) has emerged as a powerful framework to learn representations from raw data without supervision. Yet in practice, engineers face issues such as instability in tuning optimizers and collapse of representations during training. Such challenges motivate the need for a theory to shed light on the complex interplay between the choice of data augmentation, network architecture, and training algorithm. We study such an interplay with a precise analysis of generalization performance on both pretraining and downstream tasks in a theory friendly setup, and highlight several insights for SSL practitioners that arise from our theory.
 
 - A Stability Analysis of Fine-Tuning a Pre-Trained Model. [[paper]](https://arxiv.org/abs/2301.09820)
   - Zihao Fu, Anthony Man-Cho So, Nigel Collier.
