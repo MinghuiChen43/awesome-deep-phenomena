@@ -1332,6 +1332,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2023
 
+- A unified recipe for deriving (time-uniform) PAC-Bayes bounds. [[paper]](https://arxiv.org/abs/2302.03421)
+  - Ben Chugg, Hongjian Wang, Aaditya Ramdas.
+  - Key Word: PAC-Bayes Bounds.
+  - <details><summary>Digest</summary> We present a unified framework for deriving PAC-Bayesian generalization bounds. Unlike most previous literature on this topic, our bounds are anytime-valid (i.e., time-uniform), meaning that they hold at all stopping times, not only for a fixed sample size. Our approach combines four tools in the following order: (a) nonnegative supermartingales or reverse submartingales, (b) the method of mixtures, (c) the Donsker-Varadhan formula (or other convex duality principles), and (d) Ville's inequality. 
+
 - The SSL Interplay: Augmentations, Inductive Bias, and Generalization. [[paper]](https://arxiv.org/abs/2302.02774)
   - Vivien Cabannes, Bobak T. Kiani, Randall Balestriero, Yann LeCun, Alberto Bietti.
   - Key Word: Self-Supervised Learning; Data Augmentation; Inductive Bias.
