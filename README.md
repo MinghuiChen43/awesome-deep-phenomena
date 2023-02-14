@@ -566,6 +566,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Lottery Ticket Hypothesis: 2023
 
+- Pruning Deep Neural Networks from a Sparsity Perspective. [[paper]](https://arxiv.org/abs/2302.05601) [[code]](https://github.com/dem123456789/Pruning-Deep-Neural-Networks-from-a-Sparsity-Perspective)
+  - Enmao Diao, Ganghua Wang, Jiawei Zhan, Yuhong Yang, Jie Ding, Vahid Tarokh. *ICLR 2023*
+  - Key Word: Theory of Model Compression; Sparsity Measure.
+  - <details><summary>Digest</summary> Many deep pruning algorithms have been proposed with impressive empirical success. However, existing approaches lack a quantifiable measure to estimate the compressibility of a sub-network during each pruning iteration and thus may under-prune or over-prune the model. In this work, we propose PQ Index (PQI) to measure the potential compressibility of deep neural networks and use this to develop a Sparsity-informed Adaptive Pruning (SAP) algorithm. 
+
 - Why is the State of Neural Network Pruning so Confusing? On the Fairness, Comparison Setup, and Trainability in Network Pruning. [[paper]](https://arxiv.org/abs/2301.05219) [[code]](https://github.com/mingsun-tse/why-the-state-of-pruning-so-confusing)
   - Huan Wang, Can Qin, Yue Bai, Yun Fu.
   - Key Word: Pruning; Empirical Study.
