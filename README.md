@@ -1342,6 +1342,16 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2023
 
+- A Theoretical Understanding of shallow Vision Transformers: Learning, Generalization, and Sample Complexity. [[paper]](https://arxiv.org/abs/2302.06015)
+  - Hongkang Li, Meng Wang, Sijia Liu, Pin-yu Chen. *ICLR 2023*
+  - Key Word: Vision Transformer; Token Sparsification; Sample Complexity Bound.
+  - <details><summary>Digest</summary> Based on a data model characterizing both label-relevant and label-irrelevant tokens, this paper provides the first theoretical analysis of training a shallow ViT, i.e., one self-attention layer followed by a two-layer perceptron, for a classification task. We characterize the sample complexity to achieve a zero generalization error. Our sample complexity bound is positively correlated with the inverse of the fraction of label-relevant tokens, the token noise level, and the initial model error. 
+
+- Tighter PAC-Bayes Bounds Through Coin-Betting. [[paper]](https://arxiv.org/abs/2302.05829)
+  - Kyoungseok Jang, Kwang-Sung Jun, Ilja Kuzborskij, Francesco Orabona.
+  - Key Word: PAC-Bayes Bounds.
+  - <details><summary>Digest</summary> Recently, the PAC-Bayes framework has been proposed as a better alternative for this class of problems for its ability to often give numerically non-vacuous bounds. In this paper, we show that we can do even better: we show how to refine the proof strategy of the PAC-Bayes bounds and achieve even tighter guarantees. Our approach is based on the coin-betting framework that derives the numerically tightest known time-uniform concentration inequalities from the regret guarantees of online gambling algorithms. 
+
 - A unified recipe for deriving (time-uniform) PAC-Bayes bounds. [[paper]](https://arxiv.org/abs/2302.03421)
   - Ben Chugg, Hongjian Wang, Aaditya Ramdas.
   - Key Word: PAC-Bayes Bounds.
