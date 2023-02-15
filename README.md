@@ -1342,6 +1342,16 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2023
 
+- A modern look at the relationship between sharpness and generalization. [[paper]](https://arxiv.org/abs/2302.07011)
+  - Maksym Andriushchenko, Francesco Croce, Maximilian Müller, Matthias Hein, Nicolas Flammarion.
+  - Key Word: Sharpness; Generalization.
+  - <details><summary>Digest</summary> We comprehensively explore this question in a detailed study of various definitions of adaptive sharpness in settings ranging from training from scratch on ImageNet and CIFAR-10 to fine-tuning CLIP on ImageNet and BERT on MNLI. We focus mostly on transformers for which little is known in terms of sharpness despite their widespread usage. Overall, we observe that sharpness does not correlate well with generalization but rather with some training parameters like the learning rate that can be positively or negatively correlated with generalization depending on the setup.
+
+- Data pruning and neural scaling laws: fundamental limitations of score-based algorithms. [[paper]](https://arxiv.org/abs/2302.06960)
+  - Fadhel Ayed, Soufiane Hayou.
+  - Key Word: Data Pruning; Neural Scaling Laws.
+  - <details><summary>Digest</summary> In this work, we focus on score-based data pruning algorithms and show theoretically and empirically why such algorithms fail in the high compression regime. We demonstrate ``No Free Lunch" theorems for data pruning and present calibration protocols that enhance the performance of existing pruning algorithms in this high compression regime using randomization.
+
 - A Theoretical Understanding of shallow Vision Transformers: Learning, Generalization, and Sample Complexity. [[paper]](https://arxiv.org/abs/2302.06015)
   - Hongkang Li, Meng Wang, Sijia Liu, Pin-yu Chen. *ICLR 2023*
   - Key Word: Vision Transformer; Token Sparsification; Sample Complexity Bound.
