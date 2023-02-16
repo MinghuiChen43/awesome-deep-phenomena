@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- Cliff-Learning. [[paper]](https://arxiv.org/abs/2302.07348)
+  - Tony T. Wang, Igor Zablotchi, Nir Shavit, Jonathan S. Rosenfeld.
+  - Key Word: Foundation Models; Fine-Tuning.
+  - <details><summary>Digest</summary> We study the data-scaling of transfer learning from foundation models in the low-downstream-data regime. We observe an intriguing phenomenon which we call cliff-learning. Cliff-learning refers to regions of data-scaling laws where performance improves at a faster than power law rate (i.e. regions of concavity on a log-log scaling plot). 
+
 - Progress measures for grokking via mechanistic interpretability. [[paper]](https://arxiv.org/abs/2301.05217)
   - Neel Nanda, Lawrence Chan, Tom Liberum, Jess Smith, Jacob Steinhardt.
   - Key Work: Grokking; Interpretability.
