@@ -1347,6 +1347,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2023
 
+- Interpolation Learning With Minimum Description Length. [[paper]](https://arxiv.org/abs/2302.07263)
+  - Naren Sarayu Manoj, Nathan Srebro.
+  - Key Word: Minimum Description Length; Benign Overfitting; Tempered Overfitting.
+  - <details><summary>Digest</summary> We prove that the Minimum Description Length learning rule exhibits tempered overfitting. We obtain tempered agnostic finite sample learning guarantees and characterize the asymptotic behavior in the presence of random label noise.
+
 - A modern look at the relationship between sharpness and generalization. [[paper]](https://arxiv.org/abs/2302.07011)
   - Maksym Andriushchenko, Francesco Croce, Maximilian Müller, Matthias Hein, Nicolas Flammarion.
   - Key Word: Sharpness; Generalization.
