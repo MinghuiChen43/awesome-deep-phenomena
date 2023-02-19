@@ -1347,6 +1347,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2023
 
+- Learning Theory from First Principles. [[paper]](https://www.di.ens.fr/~fbach/ltfp/)
+  - Francis Bach.
+  - Key Word: Learning Theory; Book.
+  - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
+
 - Interpolation Learning With Minimum Description Length. [[paper]](https://arxiv.org/abs/2302.07263)
   - Naren Sarayu Manoj, Nathan Srebro.
   - Key Word: Minimum Description Length; Benign Overfitting; Tempered Overfitting.
@@ -1651,6 +1656,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> Neural controlled differential equations (Neural CDEs) are state-of-the-art models for irregular time series. However, due to current implementations relying on non-causal interpolation schemes, Neural CDEs cannot currently be used in online prediction tasks; that is, in real-time as data arrives. This is in contrast to similar ODE models such as the ODE-RNN which can already operate in continuous time. Here we introduce and benchmark new interpolation schemes, most notably, rectilinear interpolation, which allows for an online everywhere causal solution to be defined.
 
+- The Principles of Deep Learning Theory. [[paper]](https://arxiv.org/abs/2106.10165)
+  - Daniel A. Roberts, Sho Yaida, Boris Hanin.
+  - Key Word: Bayesian Learning; Neural Tangent Kernel; Statistical Physics; Information Theory; Residual Learning; Book.
+  - <details><summary>Digest</summary> This book develops an effective theory approach to understanding deep neural networks of practical relevance. Beginning from a first-principles component-level picture of networks, we explain how to determine an accurate description of the output of trained networks by solving layer-to-layer iteration equations and nonlinear learning dynamics. 
+
 - Why Do Pretrained Language Models Help in Downstream Tasks? An Analysis of Head and Prompt Tuning. [[paper]](https://arxiv.org/abs/2106.09226) [[code]](https://github.com/sangmichaelxie/pretraining_analysis)
   - Colin Wei, Sang Michael Xie, Tengyu Ma. *NeurIPS 2021*
   - Key Word: Natural Language Processing; Pre-training; Prompting.
@@ -1692,6 +1702,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Vaishnavh Nagarajan, Anders Andreassen, Behnam Neyshabur. *ICLR 2021*
   - Key Word: Out-of-Distribution Generalization.
   - <details><summary>Digest</summary> We identify that spurious correlations during training can induce two distinct skews in the training set, one geometric and another statistical. These skews result in two complementary ways by which empirical risk minimization (ERM) via gradient descent is guaranteed to rely on those spurious correlations.
+
+- Deep Networks from the Principle of Rate Reduction. [[paper]](https://arxiv.org/abs/2010.14765) [[code]](https://github.com/Ma-Lab-Berkeley/ReduNet)
+  - Kwan Ho Ryan Chan, Yaodong Yu, Chong You, Haozhi Qi, John Wright, Yi Ma.
+  - Key Word: Maximal Coding Rate Reduction.
+  - <details><summary>Digest</summary> This work attempts to interpret modern deep (convolutional) networks from the principles of rate reduction and (shift) invariant classification. We show that the basic iterative gradient ascent scheme for optimizing the rate reduction of learned features naturally leads to a multi-layer deep network, one iteration per layer. The layered architectures, linear and nonlinear operators, and even parameters of the network are all explicitly constructed layer-by-layer in a forward propagation fashion by emulating the gradient scheme. 
 
 - Sharpness-Aware Minimization for Efficiently Improving Generalization. [[paper]](https://arxiv.org/abs/2010.01412) [[code]](https://github.com/google-research/sam)
   - Pierre Foret, Ariel Kleiner, Hossein Mobahi, Behnam Neyshabur. *ICLR 2021*
