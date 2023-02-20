@@ -1352,6 +1352,16 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- PAC-Bayesian Generalization Bounds for Adversarial Generative Models. [[paper]](https://arxiv.org/abs/2302.08942)
+  - Sokhna Diarra Mbacke, Florence Clerc, Pascal Germain.
+  - Key Word: PAC-Bayes; Generative Model Generalization Bound.
+  - <details><summary>Digest</summary> We extend PAC-Bayesian theory to generative models and develop generalization bounds for models based on the Wasserstein distance and the total variation distance. Our first result on the Wasserstein distance assumes the instance space is bounded, while our second result takes advantage of dimensionality reduction. Our results naturally apply to Wasserstein GANs and Energy-Based GANs, and our bounds provide new training objectives for these two. 
+
+- SAM operates far from home: eigenvalue regularization as a dynamical phenomenon. [[paper]](https://arxiv.org/abs/2302.08692)
+  - Atish Agarwala, Yann N. Dauphin.
+  - Key Word: Sharpness-Aware Minimization.
+  - <details><summary>Digest</summary> Our work reveals that SAM provides a strong regularization of the eigenvalues throughout the learning trajectory. We show that in a simplified setting, SAM dynamically induces a stabilization related to the edge of stability (EOS) phenomenon observed in large learning rate gradient descent. Our theory predicts the largest eigenvalue as a function of the learning rate and SAM radius parameters. 
+
 - Interpolation Learning With Minimum Description Length. [[paper]](https://arxiv.org/abs/2302.07263)
   - Naren Sarayu Manoj, Nathan Srebro.
   - Key Word: Minimum Description Length; Benign Overfitting; Tempered Overfitting.
