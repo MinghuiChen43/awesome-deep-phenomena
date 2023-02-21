@@ -1542,6 +1542,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Normalization.
   - <details><summary>Digest</summary> We find that in terms of variance of the neural network's output and test accuracy the best choice is to choose the γi's to be equal to one, which is the mean-field scaling. We also find that this is particularly true for the outer layer, in that the neural network's behavior is more sensitive in the scaling of the outer layer as opposed to the scaling of the inner layers. The mechanism for the mathematical analysis is an asymptotic expansion for the neural network's output.
 
+- Do Quantum Circuit Born Machines Generalize? [[paper]](https://arxiv.org/abs/2207.13645)
+  - Kaitlin Gili, Mohamed Hibat-Allah, Marta Mauri, Chris Ballance, Alejandro Perdomo-Ortiz.
+  - Key Word: Quantum Machine Learning; Quantum Circuit Born Machines; Unsupervised Generative Models.
+  - <details><summary>Digest</summary> There has been little understanding of a model's generalization performance and the relation between such capability and the resource requirements, e.g., the circuit depth and the amount of training data. In this work, we leverage upon a recently proposed generalization evaluation framework to begin addressing this knowledge gap. We first investigate the QCBM's learning process of a cardinality-constrained distribution and see an increase in generalization performance while increasing the circuit depth. 
+
 - Benign, Tempered, or Catastrophic: A Taxonomy of Overfitting. [[paper]](https://arxiv.org/abs/2207.06569)
   - Neil Mallinar, James B. Simon, Amirhesam Abedsoltan, Parthe Pandit, Mikhail Belkin, Preetum Nakkiran.
   - Key Word: Overfitting; Kernel Regression.
