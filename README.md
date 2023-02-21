@@ -1649,6 +1649,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Representation Bottleneck; Explanation.
   - <details><summary>Digest</summary> This paper explores the bottleneck of feature representations of deep neural networks (DNNs), from the perspective of the complexity of interactions between input variables encoded in DNNs. To this end, we focus on the multi-order interaction between input variables, where the order represents the complexity of interactions. We discover that a DNN is more likely to encode both too simple and too complex interactions, but usually fails to learn interactions of intermediate complexity. Such a phenomenon is widely shared by different DNNs for different tasks. This phenomenon indicates a cognition gap between DNNs and humans, and we call it a representation bottleneck. We theoretically prove the underlying reason for the representation bottleneck.
 
+- Generalization in quantum machine learning from few training data. [[paper]](https://arxiv.org/abs/2111.05292)
+  - Matthias C. Caro, Hsin-Yuan Huang, M. Cerezo, Kunal Sharma, Andrew Sornborger, Lukasz Cincio, Patrick J. Coles. *Nature Communications*
+  - Key Word: Quantum Machine Learning; Generalization Bounds.
+  - <details><summary>Digest</summary> We provide a comprehensive study of generalization performance in QML after training on a limited number N of training data points. We also show that classification of quantum states across a phase transition with a quantum convolutional neural network requires only a very small training data set. Other potential applications include learning quantum error correcting codes or quantum dynamical simulation. Our work injects new hope into the field of QML, as good generalization is guaranteed from few training data.
+
 - The Equilibrium Hypothesis: Rethinking implicit regularization in Deep Neural Networks. [[paper]](https://arxiv.org/abs/2110.11749)
   - Yizhang Lou, Chris Mingard, Soufiane Hayou.
   - Key Word: Implicit Regularization.
