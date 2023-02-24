@@ -1352,6 +1352,16 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Phase diagram of training dynamics in deep neural networks: effect of learning rate, depth, and width. [[paper]](https://arxiv.org/abs/2302.12250)
+  - Dayal Singh Kalra, Maissam Barkeshli.
+  - Key Word: Sharpness; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> By analyzing the maximum eigenvalue λHt of the Hessian of the loss, which is a measure of sharpness of the loss landscape, we find that the dynamics can show four distinct regimes: (i) an early time transient regime, (ii) an intermediate saturation regime, (iii) a progressive sharpening regime, and finally (iv) a late time ``edge of stability" regime. 
+
+- Sharpness-Aware Minimization: An Implicit Regularization Perspective. [[paper]](https://arxiv.org/abs/2302.11836)
+  - Kayhan Behdin, Rahul Mazumder.
+  - Key Word: Sharpness-Aware Minimization; Implicit Regularization.
+  - <details><summary>Digest</summary> We study SAM through an implicit regularization lens, and present a new theoretical explanation of why SAM generalizes well. To this end, we study the least-squares linear regression problem and show a bias-variance trade-off for SAM's error over the course of the algorithm. We show SAM has lower bias compared to Gradient Descent (GD), while having higher variance.
+
 - Modular Deep Learning. [[paper]](https://arxiv.org/abs/2302.11529)
   - Jonas Pfeiffer, Sebastian Ruder, Ivan Vulić, Edoardo Maria Ponti.
   - Key Word: Parameter-Efficient Fine-Tuning; Mixture-of-Expert; Rounting; Model Aggregation.
