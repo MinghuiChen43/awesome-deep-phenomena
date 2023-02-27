@@ -1352,6 +1352,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Hiding Data Helps: On the Benefits of Masking for Sparse Coding. [[paper]](https://arxiv.org/abs/2302.12715)
+  - Muthu Chidambaram, Chenwei Wu, Yu Cheng, Rong Ge.
+  - Key Word: Sparse Coding; Self-Supervised Learning.
+  - <details><summary>Digest</summary> We show that for over-realized sparse coding in the presence of noise, minimizing the standard dictionary learning objective can fail to recover the ground-truth dictionary, regardless of the magnitude of the signal in the data-generating process. Furthermore, drawing from the growing body of work on self-supervised learning, we propose a novel masking objective and we prove that minimizing this new objective can recover the ground-truth dictionary. 
+
 - Phase diagram of training dynamics in deep neural networks: effect of learning rate, depth, and width. [[paper]](https://arxiv.org/abs/2302.12250)
   - Dayal Singh Kalra, Maissam Barkeshli.
   - Key Word: Sharpness; Neural Tangent Kernel.
