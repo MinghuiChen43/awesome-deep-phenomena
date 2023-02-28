@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- The Role of Pre-training Data in Transfer Learning. [[paper]](https://arxiv.org/abs/2302.13464)
+  - Rahim Entezari, Mitchell Wortsman, Olga Saukh, M.Moein Shariatnia, Hanie Sedghi, Ludwig Schmidt.
+  - Key Word: Pre-training; Transfer Learning.
+  - <details><summary>Digest</summary> We investigate the impact of pre-training data distribution on the few-shot and full fine-tuning performance using 3 pre-training methods (supervised, contrastive language-image and image-image), 7 pre-training datasets, and 9 downstream datasets. Through extensive controlled experiments, we find that the choice of the pre-training data source is essential for the few-shot transfer, but its role decreases as more data is made available for fine-tuning.
+
 - Cliff-Learning. [[paper]](https://arxiv.org/abs/2302.07348)
   - Tony T. Wang, Igor Zablotchi, Nir Shavit, Jonathan S. Rosenfeld.
   - Key Word: Foundation Models; Fine-Tuning.
