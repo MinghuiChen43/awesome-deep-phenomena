@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- Dropout Reduces Underfitting. [[paper]](https://arxiv.org/abs/2303.01500) [[code]](https://github.com/facebookresearch/dropout)
+  - Zhuang Liu, Zhiqiu Xu, Joseph Jin, Zhiqiang Shen, Trevor Darrell.
+  - Key Word: Dropout; Overfitting.
+  - <details><summary>Digest</summary> In this study, we demonstrate that dropout can also mitigate underfitting when used at the start of training. During the early phase, we find dropout reduces the directional variance of gradients across mini-batches and helps align the mini-batch gradients with the entire dataset's gradient. This helps counteract the stochasticity of SGD and limit the influence of individual batches on model training. 
+
 - The Role of Pre-training Data in Transfer Learning. [[paper]](https://arxiv.org/abs/2302.13464)
   - Rahim Entezari, Mitchell Wortsman, Olga Saukh, M.Moein Shariatnia, Hanie Sedghi, Ludwig Schmidt.
   - Key Word: Pre-training; Transfer Learning.
@@ -1356,6 +1361,16 @@ Our understanding of modern neural networks lags behind their practical successe
   - Francis Bach.
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
+
+- Benign Overfitting in Linear Classifiers and Leaky ReLU Networks from KKT Conditions for Margin Maximization. [[paper]](https://arxiv.org/abs/2303.01462)
+  - Spencer Frei, Gal Vardi, Peter L. Bartlett, Nathan Srebro.
+  - Key Word: Benign Overfitting; Implicit Bias.
+  - <details><summary>Digest</summary> Linear classifiers and leaky ReLU networks trained by gradient flow on the logistic loss have an implicit bias towards solutions which satisfy the Karush--Kuhn--Tucker (KKT) conditions for margin maximization. In this work we establish a number of settings where the satisfaction of these KKT conditions implies benign overfitting in linear classifiers and in two-layer leaky ReLU networks: the estimators interpolate noisy training data and simultaneously generalize well to test data.
+
+- The Double-Edged Sword of Implicit Bias: Generalization vs. Robustness in ReLU Networks. [[paper]](https://arxiv.org/abs/2303.01456)
+  - Spencer Frei, Gal Vardi, Peter L. Bartlett, Nathan Srebro.
+  - Key Word: Implicit Bias; Adversarial Robustness.
+  - <details><summary>Digest</summary> In this work, we study the implications of the implicit bias of gradient flow on generalization and adversarial robustness in ReLU networks. We focus on a setting where the data consists of clusters and the correlations between cluster means are small, and show that in two-layer ReLU networks gradient flow is biased towards solutions that generalize well, but are highly vulnerable to adversarial examples. Our results hold even in cases where the network has many more parameters than training examples.
 
 - Hiding Data Helps: On the Benefits of Masking for Sparse Coding. [[paper]](https://arxiv.org/abs/2302.12715)
   - Muthu Chidambaram, Chenwei Wu, Yu Cheng, Rong Ge.
