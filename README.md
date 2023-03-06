@@ -581,6 +581,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Lottery Ticket Hypothesis: 2023
 
+- Sparsity May Cry: Let Us Fail (Current) Sparse Neural Networks Together! [[paper]](https://arxiv.org/abs/2303.02141) [[code]](https://github.com/VITA-Group/SMC-Bench)
+  - Shiwei Liu, Tianlong Chen, Zhenyu Zhang, Xuxi Chen, Tianjin Huang, Ajay Jaiswal, Zhangyang Wang. *ICLR 2023*
+  - Key Word: Sparse Neural Network; Benchmark.
+  - <details><summary>Digest</summary> In absence of a carefully crafted evaluation benchmark, most if not all, sparse algorithms are evaluated against fairly simple and naive tasks (eg. CIFAR, ImageNet, GLUE, etc.), which can potentially camouflage many advantages as well unexpected predicaments of SNNs. In pursuit of a more general evaluation and unveiling the true potential of sparse algorithms, we introduce "Sparsity May Cry" Benchmark (SMC-Bench), a collection of carefully-curated 4 diverse tasks with 10 datasets, that accounts for capturing a wide range of domain-specific and sophisticated knowledge. 
+
 - Pruning Deep Neural Networks from a Sparsity Perspective. [[paper]](https://arxiv.org/abs/2302.05601) [[code]](https://github.com/dem123456789/Pruning-Deep-Neural-Networks-from-a-Sparsity-Perspective)
   - Enmao Diao, Ganghua Wang, Jiawei Zhan, Yuhong Yang, Jie Ding, Vahid Tarokh. *ICLR 2023*
   - Key Word: Theory of Model Compression; Sparsity Measure.
