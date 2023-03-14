@@ -477,6 +477,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Deep Double Descent
 
+### Deep Double Descent: 2023
+
+- Unifying Grokking and Double Descent. [[paper]](https://arxiv.org/abs/2303.06173) [[code]](https://github.com/xanderdavies/unifying-grok-dd)
+  - Xander Davies, Lauro Langosco, David Krueger.
+  - Key Word: Deep Double Descent; Grokking.
+  - <details><summary>Digest</summary> We hypothesize that grokking and double descent can be understood as instances of the same learning dynamics within a framework of pattern learning speeds. We propose that this framework also applies when varying model capacity instead of optimization steps, and provide the first demonstration of model-wise grokking.
+
 ### Deep Double Descent: 2022
 
 - Sparse Double Descent: Where Network Pruning Aggravates Overfitting. [[paper]](https://arxiv.org/abs/2206.08684) [[code]](https://github.com/hezheug/sparse-double-descent)
