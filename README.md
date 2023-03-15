@@ -1374,6 +1374,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Bayes Complexity of Learners vs Overfitting. [[paper]](https://arxiv.org/abs/2303.07874)
+  - Grzegorz Głuch, Rudiger Urbanke.
+  - Key Word: PAC-Bayes; Bayes Complexity; Overfitting.
+  - <details><summary>Digest</summary> We introduce a new notion of complexity of functions and we show that it has the following properties: (i) it governs a PAC Bayes-like generalization bound, (ii) for neural networks it relates to natural notions of complexity of functions (such as the variation), and (iii) it explains the generalization gap between neural networks and linear schemes. 
+
 - Benign Overfitting in Linear Classifiers and Leaky ReLU Networks from KKT Conditions for Margin Maximization. [[paper]](https://arxiv.org/abs/2303.01462)
   - Spencer Frei, Gal Vardi, Peter L. Bartlett, Nathan Srebro.
   - Key Word: Benign Overfitting; Implicit Bias.
