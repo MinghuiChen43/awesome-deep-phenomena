@@ -1379,6 +1379,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- The Benefits of Mixup for Feature Learning. [[paper]](https://arxiv.org/abs/2303.08433)
+  - Difan Zou, Yuan Cao, Yuanzhi Li, Quanquan Gu.
+  - Key Word: Mixup; Data Augmentation; Feature Learning.
+  - <details><summary>Digest</summary> We first show that Mixup using different linear interpolation parameters for features and labels can still achieve similar performance to the standard Mixup. This indicates that the intuitive linearity explanation in Zhang et al., (2018) may not fully explain the success of Mixup. Then we perform a theoretical study of Mixup from the feature learning perspective. We consider a feature-noise data model and show that Mixup training can effectively learn the rare features (appearing in a small fraction of data) from its mixture with the common features (appearing in a large fraction of data). In contrast, standard training can only learn the common features but fails to learn the rare features, thus suffering from bad generalization performance. Moreover, our theoretical analysis also shows that the benefits of Mixup for feature learning are mostly gained in the early training phase, based on which we propose to apply early stopping in Mixup.
+
 - Bayes Complexity of Learners vs Overfitting. [[paper]](https://arxiv.org/abs/2303.07874)
   - Grzegorz Głuch, Rudiger Urbanke.
   - Key Word: PAC-Bayes; Bayes Complexity; Overfitting.
