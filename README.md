@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- Is forgetting less a good inductive bias for forward transfer? [[paper]](https://arxiv.org/abs/2303.08207)
+  - Jiefeng Chen, Timothy Nguyen, Dilan Gorur, Arslan Chaudhry. *ICLR 2023*
+  - Key Word: Continual Learning; Catastrophic Forgetting; Forward Transfer; Inductive Bias.
+  - <details><summary>Digest</summary> One of the main motivations of studying continual learning is that the problem setting allows a model to accrue knowledge from past tasks to learn new tasks more efficiently. However, recent studies suggest that the key metric that continual learning algorithms optimize, reduction in catastrophic forgetting, does not correlate well with the forward transfer of knowledge. We believe that the conclusion previous works reached is due to the way they measure forward transfer. We argue that the measure of forward transfer to a task should not be affected by the restrictions placed on the continual learner in order to preserve knowledge of previous tasks. 
+
 - Dropout Reduces Underfitting. [[paper]](https://arxiv.org/abs/2303.01500) [[code]](https://github.com/facebookresearch/dropout)
   - Zhuang Liu, Zhiqiu Xu, Joseph Jin, Zhiqiang Shen, Trevor Darrell.
   - Key Word: Dropout; Overfitting.
