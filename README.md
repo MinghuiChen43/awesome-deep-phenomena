@@ -17,6 +17,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- Sparks of Artificial General Intelligence: Early experiments with GPT-4. [[paper]](https://arxiv.org/abs/2303.12712)
+  - Sébastien Bubeck, Varun Chandrasekaran, Ronen Eldan, Johannes Gehrke, Eric Horvitz, Ece Kamar, Peter Lee, Yin Tat Lee, Yuanzhi Li, Scott Lundberg, Harsha Nori, Hamid Palangi, Marco Tulio Ribeiro, Yi Zhang.
+  - Key Word: Artificial General Intelligence; Benchmarking; GPT.
+  - <details><summary>Digest</summary> We discuss the rising capabilities and implications of these models. We demonstrate that, beyond its mastery of language, GPT-4 can solve novel and difficult tasks that span mathematics, coding, vision, medicine, law, psychology and more, without needing any special prompting. Moreover, in all of these tasks, GPT-4's performance is strikingly close to human-level performance, and often vastly surpasses prior models such as ChatGPT. 
+
 - Is forgetting less a good inductive bias for forward transfer? [[paper]](https://arxiv.org/abs/2303.08207)
   - Jiefeng Chen, Timothy Nguyen, Dilan Gorur, Arslan Chaudhry. *ICLR 2023*
   - Key Word: Continual Learning; Catastrophic Forgetting; Forward Transfer; Inductive Bias.
