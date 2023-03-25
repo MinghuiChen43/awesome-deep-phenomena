@@ -196,6 +196,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Formula-driven Supervised Learning; Vision Transformer.
   - <details><summary>Digest</summary> We pre-train ViT without any image collections and annotation labor. We experimentally verify that our proposed framework partially outperforms sophisticated Self-Supervised Learning (SSL) methods like SimCLRv2 and MoCov2 without using any natural images in the pre-training phase. Moreover, although the ViT pre-trained without natural images produces some different visualizations from ImageNet pre-trained ViT, it can interpret natural image datasets to a large extent. 
 
+- The Low-Rank Simplicity Bias in Deep Networks. [[paper]](https://arxiv.org/abs/2103.10427)
+  - Minyoung Huh, Hossein Mobahi, Richard Zhang, Brian Cheung, Pulkit Agrawal, Phillip Isola.
+  - Key Word: Low-Rank Embedding; Inductive Bias.
+  - <details><summary>Digest</summary> We make a series of empirical observations that investigate and extend the hypothesis that deeper networks are inductively biased to find solutions with lower effective rank embeddings. We conjecture that this bias exists because the volume of functions that maps to low effective rank embedding increases with depth. We show empirically that our claim holds true on finite width linear and non-linear models on practical learning paradigms and show that on natural data, these are often the solutions that generalize well. 
+
 - Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability. [[paper]](https://arxiv.org/abs/2103.00065) [[code]](https://github.com/locuslab/edge-of-stability)
   - Jeremy M. Cohen, Simran Kaur, Yuanzhi Li, J. Zico Kolter, Ameet Talwalkar. *ICLR 2021*
   - Key Word: Edge of Stability.
