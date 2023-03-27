@@ -494,6 +494,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Deep Double Descent: 2023
 
+- Double Descent Demystified: Identifying, Interpreting & Ablating the Sources of a Deep Learning Puzzle. [[paper]](https://arxiv.org/abs/2303.14151)
+  - Rylan Schaeffer, Mikail Khona, Zachary Robertson, Akhilan Boopathy, Kateryna Pistunova, Jason W. Rocks, Ila Rani Fiete, Oluwasanmi Koyejo.
+  - Key Word: Deep Double Descent; Tutorial.
+  - <details><summary>Digest</summary> We briefly describe double descent, then provide an explanation of why double descent occurs in an informal and approachable manner, requiring only familiarity with linear algebra and introductory probability. We provide visual intuition using polynomial regression, then mathematically analyze double descent with ordinary linear regression and identify three interpretable factors that, when simultaneously all present, together create double descent.
+
 - Unifying Grokking and Double Descent. [[paper]](https://arxiv.org/abs/2303.06173) [[code]](https://github.com/xanderdavies/unifying-grok-dd)
   - Xander Davies, Lauro Langosco, David Krueger.
   - Key Word: Deep Double Descent; Grokking.
