@@ -1414,6 +1414,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Implicit Bias; Adversarial Robustness.
   - <details><summary>Digest</summary> In this work, we study the implications of the implicit bias of gradient flow on generalization and adversarial robustness in ReLU networks. We focus on a setting where the data consists of clusters and the correlations between cluster means are small, and show that in two-layer ReLU networks gradient flow is biased towards solutions that generalize well, but are highly vulnerable to adversarial examples. Our results hold even in cases where the network has many more parameters than training examples.
 
+- Why (and When) does Local SGD Generalize Better than SGD? [[paper]](https://arxiv.org/abs/2303.01215)
+  - Xinran Gu, Kaifeng Lyu, Longbo Huang, Sanjeev Arora. *ICLR 2023*
+  - Key Word: Local Stochastic Gradient Descent; Stochastic Differential Equations.
+  - <details><summary>Digest</summary> This paper aims to understand why (and when) Local SGD generalizes better based on Stochastic Differential Equation (SDE) approximation. The main contributions of this paper include (i) the derivation of an SDE that captures the long-term behavior of Local SGD in the small learning rate regime, showing how noise drives the iterate to drift and diffuse after it has reached close to the manifold of local minima, (ii) a comparison between the SDEs of Local SGD and SGD, showing that Local SGD induces a stronger drift term that can result in a stronger effect of regularization, e.g., a faster reduction of sharpness, and (iii) empirical evidence validating that having a small learning rate and long enough training time enables the generalization improvement over SGD but removing either of the two conditions leads to no improvement.
+
 - Hiding Data Helps: On the Benefits of Masking for Sparse Coding. [[paper]](https://arxiv.org/abs/2302.12715)
   - Muthu Chidambaram, Chenwei Wu, Yu Cheng, Rong Ge.
   - Key Word: Sparse Coding; Self-Supervised Learning.
@@ -1811,6 +1816,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Monotonic Linear Interpolation; Loss Landscapes.
   - <details><summary>Digest</summary> We evaluate several hypotheses for this property that, to our knowledge, have not yet been explored. Using tools from differential geometry, we draw connections between the interpolated paths in function space and the monotonicity of the network - providing sufficient conditions for the MLI property under mean squared error. While the MLI property holds under various settings (e.g. network architectures and learning problems), we show in practice that networks violating the MLI property can be produced systematically, by encouraging the weights to move far from initialization. 
 
+- On the Validity of Modeling SGD with Stochastic Differential Equations (SDEs). [[paper]](https://arxiv.org/abs/2102.12470)
+  - Zhiyuan Li, Sadhika Malladi, Sanjeev Arora. *NeurIPS 2021*
+  - Key Word: Stochastic Gradient Descent Dynamics; Stochastic Differential Equations.
+  - <details><summary>Digest</summary> The current paper clarifies the picture with the following contributions: (a) An efficient simulation algorithm SVAG that provably converges to the conventionally used Ito SDE approximation. (b) A theoretically motivated testable necessary condition for the SDE approximation and its most famous implication, the linear scaling rule (Goyal et al., 2017), to hold. (c) Experiments using this simulation to demonstrate that the previously proposed SDE approximation can meaningfully capture the training and generalization properties of common deep nets.
+
 - MALI: A memory efficient and reverse accurate integrator for Neural ODEs. [[paper]](https://arxiv.org/abs/2102.04668) [[code]](https://github.com/juntang-zhuang/TorchDiffEqPack)
   - Juntang Zhuang, Nicha C. Dvornek, Sekhar Tatikonda, James S. Duncan. *ICLR 2021*
   - Key Word: Ordinary Differential Equations.
@@ -2128,6 +2138,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Simon S. Du, Chi Jin, Jason D. Lee, Michael I. Jordan, Barnabas Poczos, Aarti Singh. *NeurIPS 2017*
   - Key Word: Gradient Descent; Saddle Points.
   - <details><summary>Digest</summary> We established the failure of gradient descent to efficiently escape saddle points for general non-convex smooth functions. We showed that even under a very natural initialization scheme, gradient descent can require exponential time to converge to a local minimum whereas perturbed gradient descent converges in polynomial time. Our results demonstrate the necessity of adding perturbations for efficient non-convex optimization.
+
+- Stochastic Gradient Descent as Approximate Bayesian Inference. [[paper]](https://arxiv.org/abs/1704.04289#)
+  - Stephan Mandt, Matthew D. Hoffman, David M. Blei. *JMLR*
+  - Key Word: Stochastic Gradient Descent; Stochastic Differential Equations; Ornstein-Uhlenbeck Process.
+  - <details><summary>Digest</summary> The article discusses the use of Stochastic Gradient Descent (SGD) with a constant learning rate as a simulation of a Markov chain with a stationary distribution. This perspective leads to several new findings, including using constant SGD as an approximate Bayesian posterior inference algorithm by adjusting tuning parameters to match the stationary distribution to a posterior. Additionally, constant SGD can optimize hyperparameters in complex probabilistic models and be used for sampling with momentum. The article also analyzes MCMC algorithms and provides a proof of why Polyak averaging is optimal. Finally, a scalable approximate MCMC algorithm, the Averaged Stochastic Gradient Sampler, is proposed based on this stochastic process perspective.
 
 - How to Escape Saddle Points Efficiently. [[paper]](https://arxiv.org/abs/1703.00887)
   - Chi Jin, Rong Ge, Praneeth Netrapalli, Sham M. Kakade, Michael I. Jordan. *ICML 2017*
