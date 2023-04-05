@@ -1,8 +1,8 @@
 # Awesome Deep Phenomena [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-Our understanding of modern neural networks lags behind their practical successes. This growing gap poses a challenge to the pace of progress in machine learning because fewer pillars of knowledge are available to designers of models and algorithms [(Hanie Sedghi)](https://odsc.com/speakers/understanding-deep-learning-phenomena/). Inspired by the [ICML 2019 workshop Identifying and Understanding Deep Learning Phenomena](http://deep-phenomena.org/), I collect papers which present interesting empirical study and insight into the nature of deep learning.  
+Our understanding of modern neural networks lags behind their practical successes. This growing gap poses a challenge to the pace of progress in machine learning because fewer pillars of knowledge are available to designers of models and algorithms [(Hanie Sedghi)](https://odsc.com/speakers/understanding-deep-learning-phenomena/). Inspired by the [ICML 2019 workshop Identifying and Understanding Deep Learning Phenomena](http://deep-phenomena.org/), I collect papers and related resources which present interesting empirical study and insight into the nature of deep learning.  
 
-## Table of Contents
+# Table of Contents
 
 - [Empirical Study](#empirical-study)
 - [Neural Collapse](#neural-collapse)
@@ -12,6 +12,7 @@ Our understanding of modern neural networks lags behind their practical successe
 - [Information Bottleneck](#information-bottleneck)
 - [Neural Tangent Kernel](#neural-tangent-kernel)
 - [Others](#others)
+- [Related Resources](#related-resources)
 
 ## Empirical Study
 
@@ -2180,3 +2181,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Ben Poole, Subhaneil Lahiri, Maithra Raghu, Jascha Sohl-Dickstein, Surya Ganguli. *NeurIPS 2016*
   - Key Word: Mean Field Theory; Riemannian Geometry.
   - <details><summary>Digest</summary> We combine Riemannian geometry with the mean field theory of high dimensional chaos to study the nature of signal propagation in deep neural networks with random weights. Our results reveal a phase transition in the expressivity of random deep networks, with networks in the chaotic phase computing nonlinear functions whose global curvature grows exponentially with depth, but not with width. We prove that this generic class of random functions cannot be efficiently computed by any shallow network, going beyond prior work that restricts their analysis to single functions.
+
+## Related Resources
+
+- [Awesome Information Bottleneck Paper List](https://github.com/ZIYU-DEEP/Awesome-Information-Bottleneck) ![ ](https://img.shields.io/github/stars/ZIYU-DEEP/Awesome-Information-Bottleneck) ![ ](https://img.shields.io/github/last-commit/ZIYU-DEEP/Awesome-Information-Bottleneck)
+
+- [Neural Tangent Kernel Papers](https://github.com/kwignb/NeuralTangentKernel-Papers) ![ ](https://img.shields.io/github/stars/kwignb/NeuralTangentKernel-Papers) ![ ](https://img.shields.io/github/last-commit/kwignb/NeuralTangentKernel-Papers)
+
+- [Awesome Trustworthy Deep Learning](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning) ![ ](https://img.shields.io/github/stars/MinghuiChen43/awesome-trustworthy-deep-learning) ![ ](https://img.shields.io/github/last-commit/MinghuiChen43/awesome-trustworthy-deep-learning)
