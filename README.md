@@ -2184,6 +2184,10 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Related Resources
 
+- [Off the Convex Path Blog](https://www.offconvex.org/)
+
+- [Machine Learning Research Blog](https://francisbach.com/)
+
 - [Awesome Information Bottleneck Paper List](https://github.com/ZIYU-DEEP/Awesome-Information-Bottleneck) ![ ](https://img.shields.io/github/stars/ZIYU-DEEP/Awesome-Information-Bottleneck) ![ ](https://img.shields.io/github/last-commit/ZIYU-DEEP/Awesome-Information-Bottleneck)
 
 - [Neural Tangent Kernel Papers](https://github.com/kwignb/NeuralTangentKernel-Papers) ![ ](https://img.shields.io/github/stars/kwignb/NeuralTangentKernel-Papers) ![ ](https://img.shields.io/github/last-commit/kwignb/NeuralTangentKernel-Papers)
