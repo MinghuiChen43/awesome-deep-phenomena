@@ -11,8 +11,8 @@ Our understanding of modern neural networks lags behind their practical successe
 - [Interactions with Neuroscience](#interactions-with-neuroscience)
 - [Information Bottleneck](#information-bottleneck)
 - [Neural Tangent Kernel](#neural-tangent-kernel)
-- [Others](#others)
-- [Related Resources](#related-resources)
+- [Other Papers](#others)
+- [Resources](#related-resources)
 
 ## Empirical Study
 
