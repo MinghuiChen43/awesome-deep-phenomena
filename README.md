@@ -1221,6 +1221,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2023
 
+- Effective Theory of Transformers at Initialization. [[paper]](https://arxiv.org/abs/2304.02034)
+  - Emily Dinan, Sho Yaida, Susan Zhang.
+  - Key Word: Transformers; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We perform an effective-theory analysis of forward-backward signal propagation in wide and deep Transformers, i.e., residual neural networks with multi-head self-attention blocks and multilayer perceptron blocks. This analysis suggests particular width scalings of initialization and training hyperparameters for these models. We then take up such suggestions, training Vision and Language Transformers in practical setups.
+
 - Beyond the Universal Law of Robustness: Sharper Laws for Random Features and Neural Tangent Kernels. [[paper]](https://arxiv.org/abs/2302.01629)
   - Simone Bombari, Shayan Kiyani, Marco Mondelli.
   - Key Word: Neural Tangent Kernel; Random Feature.
