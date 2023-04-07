@@ -614,6 +614,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Lottery Ticket Hypothesis: 2023
 
+- NTK-SAP: Improving neural network pruning by aligning training dynamics. [[paper]](https://arxiv.org/abs/2304.02840) [[code]](https://github.com/YiteWang/NTK-SAP)
+  - Yite Wang, Dawei Li, Ruoyu Sun. *ICLR 2023*
+  - Key Word: Pruning at Ininitialization; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We propose to prune the connections that have the least influence on the spectrum of the NTK. This method can help maintain the NTK spectrum, which may help align the training dynamics to that of its dense counterpart. However, one possible issue is that the fixed-weight-NTK corresponding to a given initial point can be very different from the NTK corresponding to later iterates during the training phase. 
+
 - Sparsity May Cry: Let Us Fail (Current) Sparse Neural Networks Together! [[paper]](https://arxiv.org/abs/2303.02141) [[code]](https://github.com/VITA-Group/SMC-Bench)
   - Shiwei Liu, Tianlong Chen, Zhenyu Zhang, Xuxi Chen, Tianjin Huang, Ajay Jaiswal, Zhangyang Wang. *ICLR 2023*
   - Key Word: Sparse Neural Network; Benchmark.
