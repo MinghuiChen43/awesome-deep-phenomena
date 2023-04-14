@@ -1415,6 +1415,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Do deep neural networks have an inbuilt Occam's razor? [[paper]](https://arxiv.org/abs/2304.06670)
+  - Key Word: Kolmogorov Complexity; Inductive Bias; Occam’s Razor; No Free Lunch Theorems.
+  - <details><summary>Digest</summary> The remarkable performance of overparameterized deep neural networks (DNNs) must arise from an interplay between network architecture, training algorithms, and structure in the data. To disentangle these three components, we apply a Bayesian picture, based on the functions expressed by a DNN, to supervised learning. The prior over functions is determined by the network, and is varied by exploiting a transition between ordered and chaotic regimes. For Boolean function classification, we approximate the likelihood using the error spectrum of functions on data. When combined with the prior, this accurately predicts the posterior, measured for DNNs trained with stochastic gradient descent. This analysis reveals that structured data, combined with an intrinsic Occam's razor-like inductive bias towards (Kolmogorov) simple functions that is strong enough to counteract the exponential growth of the number of functions with complexity, is a key to the success of DNNs.
+
 - The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning. [[paper]](https://arxiv.org/abs/2304.05366)
   - Micah Goldblum, Marc Finzi, Keefer Rowan, Andrew Gordon Wilson.
   - Key Word: No Free Lunch Theorem; Kolmogorov Complexity; Model Selection.
