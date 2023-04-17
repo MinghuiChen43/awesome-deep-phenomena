@@ -1415,6 +1415,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Wasserstein PAC-Bayes Learning: A Bridge Between Generalisation and Optimisation. [[paper]](https://arxiv.org/abs/2304.07048)
+  - Maxime Haddouche, Benjamin Guedj.
+  - Key Word: PAC-Bayes Bound; Wasserstein Distances.
+  - <details><summary>Digest</summary> PAC-Bayes learning is an established framework to assess the generalisation ability of learning algorithm during the training phase. However, it remains challenging to know whether PAC-Bayes is useful to understand, before training, why the output of well-known algorithms generalise well. We positively answer this question by expanding the Wasserstein PAC-Bayes framework, briefly introduced in \cite{amit2022ipm}. We provide new generalisation bounds exploiting geometric assumptions on the loss function. Using our framework, we prove, before any training, that the output of an algorithm from \citet{lambert2022variational} has a strong asymptotic generalisation ability. More precisely, we show that it is possible to incorporate optimisation results within a generalisation framework, building a bridge between PAC-Bayes and optimisation algorithms.
+
 - Do deep neural networks have an inbuilt Occam's razor? [[paper]](https://arxiv.org/abs/2304.06670)
   - Key Word: Kolmogorov Complexity; Inductive Bias; Occam’s Razor; No Free Lunch Theorems.
   - <details><summary>Digest</summary> The remarkable performance of overparameterized deep neural networks (DNNs) must arise from an interplay between network architecture, training algorithms, and structure in the data. To disentangle these three components, we apply a Bayesian picture, based on the functions expressed by a DNN, to supervised learning. The prior over functions is determined by the network, and is varied by exploiting a transition between ordered and chaotic regimes. For Boolean function classification, we approximate the likelihood using the error spectrum of functions on data. When combined with the prior, this accurately predicts the posterior, measured for DNNs trained with stochastic gradient descent. This analysis reveals that structured data, combined with an intrinsic Occam's razor-like inductive bias towards (Kolmogorov) simple functions that is strong enough to counteract the exponential growth of the number of functions with complexity, is a key to the success of DNNs.
@@ -1698,6 +1703,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Daniel Paleka, Amartya Sanyal. *ICLR 2023*
   - Key Word: Benign Overfitting; Adversarial Robustness.
   - <details><summary>Digest</summary> We show that interpolating label noise induces adversarial vulnerability, and prove the first theorem showing the relationship between label noise and adversarial risk for any data distribution. Our results are almost tight if we do not make any assumptions on the inductive bias of the learning algorithm. 
+
+- Integral Probability Metrics PAC-Bayes Bounds. [[paper]](https://arxiv.org/abs/2207.00614)
+  - Ron Amit, Baruch Epstein, Shay Moran, Ron Meir. *NeurIPS 2022*
+  - Key Word: PAC-Bayes Bound.
+  - <details><summary>Digest</summary> We present a PAC-Bayes-style generalization bound which enables the replacement of the KL-divergence with a variety of Integral Probability Metrics (IPM). We provide instances of this bound with the IPM being the total variation metric and the Wasserstein distance. A notable feature of the obtained bounds is that they naturally interpolate between classical uniform convergence bounds in the worst case (when the prior and posterior are far away from each other), and improved bounds in favorable cases (when the posterior and prior are close). This illustrates the possibility of reinforcing classical generalization bounds with algorithm- and data-dependent components, thus making them more suitable to analyze algorithms that use a large hypothesis space.
 
 - Beyond neural scaling laws: beating power law scaling via data pruning. [[paper]](https://arxiv.org/abs/2206.14486)
   - Ben Sorscher, Robert Geirhos, Shashank Shekhar, Surya Ganguli, Ari S. Morcos.
