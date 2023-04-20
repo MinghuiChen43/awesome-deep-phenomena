@@ -1115,6 +1115,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Information Bottleneck
 
+### Information Bottleneck: 2023
+
+- To Compress or Not to Compress -- Self-Supervised Learning and Information Theory: A Review. [[paper]](https://arxiv.org/abs/2304.09355)
+  - Ravid Shwartz-Ziv, Yann LeCun.
+  - Key Word: Self-Supervised Learning; Information Theory; Survey.
+  - <details><summary>Digest</summary> We review various approaches to self-supervised learning from an information-theoretic standpoint and present a unified framework that formalizes the self-supervised information-theoretic learning problem. We integrate existing research into a coherent framework, examine recent self-supervised methods, and identify research opportunities and challenges.
+
 ### Information Bottleneck: 2022
 
 - Sparsity-Inducing Categorical Prior Improves Robustness of the Information Bottleneck. [[paper]](https://arxiv.org/abs/2203.02592)
