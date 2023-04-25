@@ -165,6 +165,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Natural Language Processing; In-Context Learning.
   - <details><summary>Digest</summary> We show that ground truth demonstrations are in fact not required -- randomly replacing labels in the demonstrations barely hurts performance, consistently over 12 different models including GPT-3. Instead, we find that other aspects of the demonstrations are the key drivers of end task performance, including the fact that they provide a few examples of (1) the label space, (2) the distribution of the input text, and (3) the overall format of the sequence.
 
+- Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets. [[paper]](https://arxiv.org/abs/2201.02177) [[code]](https://github.com/openai/grok)
+  - Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra. 
+  - Key Word: Grokking; Overfitting.
+  - <details><summary>Digest</summary> In this paper we propose to study generalization of neural networks on small algorithmically generated datasets. In this setting, questions about data efficiency, memorization, generalization, and speed of learning can be studied in great detail. In some situations we show that neural networks learn through a process of "grokking" a pattern in the data, improving generalization performance from random chance level to perfect generalization, and that this improvement in generalization can happen well past the point of overfitting.
+
 ### Empirical Study: 2021
 
 - Masked Autoencoders Are Scalable Vision Learners. [[paper]](https://arxiv.org/abs/2111.06377) [[code]](https://github.com/facebookresearch/mae)
