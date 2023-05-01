@@ -18,6 +18,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- Are Emergent Abilities of Large Language Models a Mirage? [[paper]](https://arxiv.org/abs/2304.15004)
+  - Rylan Schaeffer, Brando Miranda, Sanmi Koyejo.
+  - Key Word: Large Language Models; Neural Scaling Laws; Emergent Abilities.
+  - <details><summary>Digest</summary> Recent work claims that large language models display emergent abilities, abilities not present in smaller-scale models that are present in larger-scale models. What makes emergent abilities intriguing is two-fold: their sharpness, transitioning seemingly instantaneously from not present to present, and their unpredictability, appearing at seemingly unforeseeable model scales. Here, we present an alternative explanation for emergent abilities: that for a particular task and model family, when analyzing fixed model outputs, one can choose a metric which leads to the inference of an emergent ability or another metric which does not. We find strong supporting evidence that emergent abilities may not be a fundamental property of scaling AI models.
+
 - A surprisingly simple technique to control the pretraining bias for better transfer: Expand or Narrow your representation. [[paper]](https://arxiv.org/abs/2304.05369)
   - Florian Bordes, Samuel Lavoie, Randall Balestriero, Nicolas Ballas, Pascal Vincent.
   - Key Word: Pretraining; Fine-Tuning; Information Bottleneck.
