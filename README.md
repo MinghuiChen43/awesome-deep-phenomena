@@ -971,6 +971,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Interactions with Neuroscience
 
+### Interactions with Neuroscience: 2023
+
+- Finding Neurons in a Haystack: Case Studies with Sparse Probing. [[paper]](https://arxiv.org/abs/2305.01610) [[code]](https://github.com/wesg52/sparse-probing-paper)
+  - Wes Gurnee, Neel Nanda, Matthew Pauly, Katherine Harvey, Dmitrii Troitskii, Dimitris Bertsimas. 
+  - Key Word: Probing; Mechanistic Interpretability; Superposition; Sparse Coding.
+  - <details><summary>Digest</summary> We seek to understand how high-level human-interpretable features are represented within the internal neuron activations of LLMs. We train k-sparse linear classifiers (probes) on these internal activations to predict the presence of features in the input; by varying the value of k we study the sparsity of learned representations and how this varies with model scale. With k=1, we localize individual neurons which are highly relevant for a particular feature, and perform a number of case studies to illustrate general properties of LLMs.
+
 ### Interactions with Neuroscience: 2022
 
 - Multilevel development of cognitive abilities in an artificial neural network. [[paper]](https://www.pnas.org/doi/abs/10.1073/pnas.2201304119?af=R)
