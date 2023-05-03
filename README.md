@@ -1432,6 +1432,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Model-agnostic Measure of Generalization Difficulty. [[paper]](https://arxiv.org/abs/2305.01034) [[code]](https://github.com/fietelab/inductive-bias-complexity)
+  - Akhilan Boopathy, Kevin Liu, Jaedong Hwang, Shu Ge, Asaad Mohammedsaleh, Ila Fiete. *ICML 2023*
+  - Key Word: Generalization Difficulty; Information Content of Inductive Biases.
+  - <details><summary>Digest</summary> The measure of a machine learning algorithm is the difficulty of the tasks it can perform, and sufficiently difficult tasks are critical drivers of strong machine learning models. However, quantifying the generalization difficulty of machine learning benchmarks has remained challenging. We propose what is to our knowledge the first model-agnostic measure of the inherent generalization difficulty of tasks. Our inductive bias complexity measure quantifies the total information required to generalize well on a task minus the information provided by the data. 
+
 - Wasserstein PAC-Bayes Learning: A Bridge Between Generalisation and Optimisation. [[paper]](https://arxiv.org/abs/2304.07048)
   - Maxime Haddouche, Benjamin Guedj.
   - Key Word: PAC-Bayes Bound; Wasserstein Distances.
