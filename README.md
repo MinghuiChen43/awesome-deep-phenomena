@@ -1091,6 +1091,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Interactions with Neuroscience: 2019
 
+- A deep learning framework for neuroscience. [[paper]](https://www.nature.com/articles/s41593-019-0520-2)
+  - <details><summary>Author List</summary> Blake A. Richards, Timothy P. Lillicrap, Philippe Beaudoin, Yoshua Bengio, Rafal Bogacz, Amelia Christensen, Claudia Clopath, Rui Ponte Costa, Archy de Berker, Surya Ganguli, Colleen J. Gillon, Danijar Hafner, Adam Kepecs, Nikolaus Kriegeskorte, Peter Latham, Grace W. Lindsay, Kenneth D. Miller, Richard Naud, Christopher C. Pack, Panayiota Poirazi, Pieter Roelfsema, João Sacramento, Andrew Saxe, Benjamin Scellier, Anna C. Schapiro, Walter Senn, Greg Wayne, Daniel Yamins, Friedemann Zenke, Joel Zylberberg, Denis Therien & Konrad P. Kording. *Nature Neuroscience*
+  - Key Word: Deep Learning; Neuroscience.
+  - <details><summary>Digest</summary> The article discusses the similarities and differences between systems neuroscience and artificial intelligence. It argues that the three components in artificial neural networks - objective functions, learning rules, and architectures - are crucial for modeling and optimizing complex artificial learning systems. The authors suggest that a greater focus on these components could benefit systems neuroscience and drive theoretical and experimental progress. 
+
 - White Noise Analysis of Neural Networks. [[paper]](https://arxiv.org/abs/1912.12106) [[code]](https://github.com/aliborji/WhiteNoiseAnalysis)
   - Ali Borji, Sikun Lin. *ICLR 2020*
   - Key Word: Spike-Triggered Analysis.
