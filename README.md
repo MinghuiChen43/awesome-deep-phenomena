@@ -1900,6 +1900,12 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> Based on the asynchronous leapfrog (ALF) solver, we propose the Memory-efficient ALF Integrator (MALI), which has a constant memory cost w.r.t number of solver steps in integration similar to the adjoint method, and guarantees accuracy in reverse-time trajectory (hence accuracy in gradient estimation). We validate MALI in various tasks: on image recognition tasks, to our knowledge, MALI is the first to enable feasible training of a Neural ODE on ImageNet and outperform a well-tuned ResNet, while existing methods fail due to either heavy memory burden or inaccuracy.
 
+- Learning Curve Theory. [[paper]](https://arxiv.org/abs/2102.04074)
+  - Marcus Hutter.
+  - Key Word: Neural Scaling Law; Learning Curve Theory.
+  - <details><summary>Digest</summary> Recently a number of empirical "universal" scaling law papers have been published, most notably by OpenAI. `Scaling laws' refers to power-law decreases of training or test error w.r.t. more data, larger neural networks, and/or more compute. In this work we focus on scaling w.r.t. data size n. Theoretical understanding of this phenomenon is largely lacking, except in finite-dimensional models for which error typically decreases with n−1/2 or n−1, where n is the sample size. We develop and theoretically analyse the simplest possible (toy) model that can exhibit n−β learning curves for arbitrary power β>0, and determine whether power laws are universal or depend on the data distribution.
+
+
 ### Others: 2020
 
 - Understanding the Failure Modes of Out-of-Distribution Generalization. [[paper]](https://arxiv.org/abs/2010.15775) [[code]](https://github.com/google-research/OOD-failures)
