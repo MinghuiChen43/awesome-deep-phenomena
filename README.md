@@ -1948,6 +1948,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Benign Overfitting; Random Feature Approximation; Deep Double Descent.
   - <details><summary>Digest</summary> We examine the conditions under which Benign Overfitting occurs in the random feature (RF) models, i.e. in a two-layer neural network with fixed first layer weights. We adopt a new view of random feature and show that benign overfitting arises due to the noise which resides in such features (the noise may already be present in the data and propagate to the features or it may be added by the user to the features directly) and plays an important implicit regularization role in the phenomenon.
 
+- Expressivity of Deep Neural Networks. [[paper]](https://arxiv.org/abs/2007.04759)
+  - Ingo Gühring, Mones Raslan, Gitta Kutyniok.
+  - Key Word: Approximation; Expressivity; Function Classes
+  - <details><summary>Digest</summary> In this review paper, we give a comprehensive overview of the large variety of approximation results for neural networks. Approximation rates for classical function spaces as well as benefits of deep neural networks over shallow ones for specifically structured function classes are discussed. While the mainbody of existing results is for general feedforward architectures, we also depict approximation results for convolutional, residual and recurrent neural networks.
+
 - How benign is benign overfitting? [[paper]](https://arxiv.org/abs/2007.04028)
   - Amartya Sanyal, Puneet K Dokania, Varun Kanade, Philip H.S. Torr. *ICLR 2021*
   - Key Word: Benign Overfitting; Adversarial Robustness.
