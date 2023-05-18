@@ -1444,6 +1444,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- The Hessian perspective into the Nature of Convolutional Neural Networks. [[paper]](https://arxiv.org/abs/2305.09088)
+  - Sidak Pal Singh, Thomas Hofmann, Bernhard Schölkopf. *ICML 2023*
+  - Key Word: Hessian Maps; Convolutional Neural Networks.
+  - <details><summary>Digest</summary> We provide a novel perspective on Convolutional Neural Networks (CNNs) by studying their Hessian maps, which capture parameter interactions. Using a Toeplitz representation framework, we reveal the Hessian structure and establish tight upper bounds on its rank. Our findings show that the Hessian rank in CNNs grows as the square root of the number of parameters, challenging previous assumptions.
+
 - Model-agnostic Measure of Generalization Difficulty. [[paper]](https://arxiv.org/abs/2305.01034) [[code]](https://github.com/fietelab/inductive-bias-complexity)
   - Akhilan Boopathy, Kevin Liu, Jaedong Hwang, Shu Ge, Asaad Mohammedsaleh, Ila Fiete. *ICML 2023*
   - Key Word: Generalization Difficulty; Information Content of Inductive Biases.
