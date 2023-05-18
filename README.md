@@ -2152,6 +2152,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Manifold Representation; Learning Capability; Learning Capability; Latent Probability Distribution Control.
   - <details><summary>Digest</summary> In this work, we give a geometric view to understand deep learning: we show that the fundamental principle attributing to the success is the manifold structure in data, namely natural high dimensional data concentrates close to a low-dimensional manifold, deep learning learns the manifold and the probability distribution on it. 
 
+- Tropical Geometry of Deep Neural Networks. [[paper]](https://arxiv.org/abs/1805.07091)
+  - Liwen Zhang, Gregory Naitzat, Lek-Heng Lim.
+  - Key Word: Tropical Geometry; Geometric Complexity.
+  -  <details><summary>Digest</summary> We establish a novel connection between feedforward neural networks with ReLU activation and tropical geometry. This equivalence allows us to characterize these neural networks using zonotopes, relate decision boundaries to tropical hypersurfaces, and establish a correspondence between linear regions and vertices of polytopes associated with tropical rational functions. Our tropical formulation reveals that deeper networks exhibit exponentially higher expressiveness compared to shallow networks. This work provides new insights into the relationship between neural networks and tropical geometry.
+
 - Gaussian Process Behaviour in Wide Deep Neural Networks. [[paper]](https://arxiv.org/abs/1804.11271) [[code]](https://github.com/widedeepnetworks/widedeepnetworks)
   - Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani. *ICLR 2018*
   - Key Word: Gaussian Process.
