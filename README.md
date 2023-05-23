@@ -1449,6 +1449,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- When are ensembles really effective? [[paper]](https://arxiv.org/abs/2305.12313)
+  - Ryan Theisen, Hyunsuk Kim, Yaoqing Yang, Liam Hodgkinson, Michael W. Mahoney.
+  - Key Word: Ensemble; Disagreement-Error Ratio.
+  - <details><summary>Digest</summary> Ensembling is a machine learning technique that combines multiple models to improve the overall performance. Ensembling has a long history in statistical data analysis, but its benefits are not always obvious in modern machine learning settings. We study the fundamental question of when ensembling yields significant performance improvements in classification tasks. We prove new results relating the ensemble improvement rate to the disagreement-error ratio. We show that ensembling improves performance significantly whenever the disagreement rate is large relative to the average error rate. 
+
 - The Hessian perspective into the Nature of Convolutional Neural Networks. [[paper]](https://arxiv.org/abs/2305.09088)
   - Sidak Pal Singh, Thomas Hofmann, Bernhard Schölkopf. *ICML 2023*
   - Key Word: Hessian Maps; Convolutional Neural Networks.
