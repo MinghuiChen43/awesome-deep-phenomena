@@ -1260,6 +1260,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2023
 
+- The NTK approximation is valid for longer than you think. [[paper]](https://arxiv.org/abs/2305.13141)
+  - Enric Boix-Adsera, Etai Littwin.
+  - Key Word: Neural Tangent Kernel Approximation.
+  - <details><summary>Digest</summary> We study when the neural tangent kernel (NTK) approximation is valid for training a model with the square loss. In the lazy training setting of Chizat et al. 2019, we show that rescaling the model by a factor of α=O(T) suffices for the NTK approximation to be valid until training time T. Our bound is tight and improves on the previous bound of Chizat et al. 2019, which required a larger rescaling factor of α=O(T2).
+
 - Effective Theory of Transformers at Initialization. [[paper]](https://arxiv.org/abs/2304.02034)
   - Emily Dinan, Sho Yaida, Susan Zhang.
   - Key Word: Transformers; Neural Tangent Kernel.
