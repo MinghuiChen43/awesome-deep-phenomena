@@ -1449,6 +1449,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- The Crucial Role of Normalization in Sharpness-Aware Minimization. [[paper]](https://arxiv.org/abs/2305.15287)
+  - Yan Dai, Kwangjun Ahn, Suvrit Sra.
+  - Key Word: Sharpness-Awareness Minimization; Normalization.
+  - <details><summary>Digest</summary> Sharpness-Aware Minimization (SAM) is a recently proposed gradient-based optimizer that greatly improves the prediction performance of deep neural networks. There has been a surge of interest in explaining its empirical success. We focus on understanding the role played by normalization, a key component of the SAM updates. We study the effect of normalization in SAM for both convex and non-convex functions, revealing two key roles played by normalization. These two properties of normalization make SAM robust against the choice of hyper-parameters, supporting the practicality of SAM.
+
 - When are ensembles really effective? [[paper]](https://arxiv.org/abs/2305.12313)
   - Ryan Theisen, Hyunsuk Kim, Yaoqing Yang, Liam Hodgkinson, Michael W. Mahoney.
   - Key Word: Ensemble; Disagreement-Error Ratio.
