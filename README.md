@@ -1454,6 +1454,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Sharpness-Awareness Minimization; Normalization.
   - <details><summary>Digest</summary> Sharpness-Aware Minimization (SAM) is a recently proposed gradient-based optimizer that greatly improves the prediction performance of deep neural networks. There has been a surge of interest in explaining its empirical success. We focus on understanding the role played by normalization, a key component of the SAM updates. We study the effect of normalization in SAM for both convex and non-convex functions, revealing two key roles played by normalization. These two properties of normalization make SAM robust against the choice of hyper-parameters, supporting the practicality of SAM.
 
+- From Tempered to Benign Overfitting in ReLU Neural Networks. [[paper]](https://arxiv.org/abs/2305.15141)
+  - Guy Kornowski, Gilad Yehudai, Ohad Shamir.
+  - Key Word: Overparameterized neural networks; Benign overfitting; Tempered overfitting.
+  - <details><summary>Digest</summary> Overparameterized neural networks (NNs) are observed to generalize well even when trained to perfectly fit noisy data. This phenomenon motivated a large body of work on “benign overfitting”, where interpolating predictors achieve near-optimal performance. Recently, it was conjectured and empirically observed that the behavior of NNs is often better described as “tempered overfitting”. In this work, we provide several results that aim at bridging these complementing views. We study a simple classification setting with 2-layer ReLU NNs, and prove that under various assumptions, the type of overfitting transitions from tempered in the extreme case of one-dimensional data, to benign in high dimensions.
+
 - When are ensembles really effective? [[paper]](https://arxiv.org/abs/2305.12313)
   - Ryan Theisen, Hyunsuk Kim, Yaoqing Yang, Liam Hodgkinson, Michael W. Mahoney.
   - Key Word: Ensemble; Disagreement-Error Ratio.
