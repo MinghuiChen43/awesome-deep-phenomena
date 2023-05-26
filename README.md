@@ -18,6 +18,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- Sharpness-Aware Minimization Leads to Low-Rank Features. [[paper]](https://arxiv.org/abs/2305.16292)
+  - Maksym Andriushchenko, Dara Bahri, Hossein Mobahi, Nicolas Flammarion. 
+  - Key Word: Sharpness-Aware Minimization; Low-Rank Features.
+  - <details><summary>Digest</summary> Sharpness-aware minimization (SAM) is a method that minimizes the sharpness of the training loss of a neural network. It improves generalization and reduces the feature rank at different layers of a neural network. This low-rank effect occurs for different architectures and objectives. A significant number of activations get pruned by SAM, contributing to rank reduction. This effect can also occur in deep networks.
+
 - Are Emergent Abilities of Large Language Models a Mirage? [[paper]](https://arxiv.org/abs/2304.15004)
   - Rylan Schaeffer, Brando Miranda, Sanmi Koyejo.
   - Key Word: Large Language Models; Neural Scaling Laws; Emergent Abilities.
