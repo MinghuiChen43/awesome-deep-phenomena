@@ -520,6 +520,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Deep Double Descent: 2023
 
+- Dropout Drops Double Descent. [[paper]](https://arxiv.org/abs/2305.16179)
+  - Tian-Le Yang, Joe Suzuki.
+  - Key Word: Dropout; Deep Double Descent.
+  - <details><summary>Digest</summary> The paper finds that adding a dropout layer before the fully-connected linear layer can drop the double descent phenomenon. Double descent is when the prediction error rises and drops as sample or model size increases. Optimal dropout can alleviate this in linear and nonlinear regression models, both theoretically and empirically. Optimal dropout can achieve a monotonic test error curve in nonlinear neural networks. Previous deep learning models do not encounter double-descent because they already apply regularization approaches like dropout.
+
 - Double Descent Demystified: Identifying, Interpreting & Ablating the Sources of a Deep Learning Puzzle. [[paper]](https://arxiv.org/abs/2303.14151)
   - Rylan Schaeffer, Mikail Khona, Zachary Robertson, Akhilan Boopathy, Kateryna Pistunova, Jason W. Rocks, Ila Rani Fiete, Oluwasanmi Koyejo.
   - Key Word: Deep Double Descent; Tutorial.
