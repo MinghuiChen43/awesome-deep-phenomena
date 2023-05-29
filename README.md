@@ -1464,6 +1464,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Most Neural Networks Are Almost Learnable. [[paper]](https://arxiv.org/abs/2305.16508)
+  - Amit Daniely, Nathan Srebro, Gal Vardi.
+  - Key Word: Neural Network Learnability.
+  - <details><summary>Digest</summary> They assume that the network’s weights are initialized randomly using a standard scheme and that the input distribution is uniform on a sphere. They show that random networks with Lipschitz activation functions can be approximated by low-degree polynomials, and use this to derive a polynomial-time approximation scheme (PTAS) for learning them. They also show that for sigmoid and ReLU-like activation functions, the PTAS can be improved to a quasi-polynomial-time algorithm. They support their theory with experiments on three network architectures and three datasets.
+
 - The Crucial Role of Normalization in Sharpness-Aware Minimization. [[paper]](https://arxiv.org/abs/2305.15287)
   - Yan Dai, Kwangjun Ahn, Suvrit Sra.
   - Key Word: Sharpness-Awareness Minimization; Normalization.
