@@ -435,6 +435,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Collapse: 2023
 
+- Neural (Tangent Kernel) Collapse. [[paper]](https://arxiv.org/abs/2305.16427)
+  - Mariia Seleznova, Dana Weitzner, Raja Giryes, Gitta Kutyniok, Hung-Hsu Chou.
+  - Key Word: Neural Collapse; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> This paper investigates how the Neural Tangent Kernel (NTK), which tracks how deep neural networks (DNNs) change during training, and the Neural Collapse (NC) phenomenon, which refers to the symmetry and structure in the last-layer features of trained classification DNNs, are related. They assume that the empirical NTK has a block structure that matches the class labels, meaning that samples of the same class are more correlated than samples of different classes. They show how this assumption leads to the dynamics of DNNs trained with mean squared (MSE) loss and the emergence of NC in DNNs with block-structured NTK. They support their theory with large-scale experiments on three DNN architectures and three datasets.
+
 - Neural Collapse Inspired Feature-Classifier Alignment for Few-Shot Class Incremental Learning. [[paper]](https://arxiv.org/abs/2302.03004) [[code]](https://github.com/NeuralCollapseApplications/FSCIL)
   - Yibo Yang, Haobo Yuan, Xiangtai Li, Zhouchen Lin, Philip Torr, Dacheng Tao. *ICLR 2023*
   - Key Word: Few-Shot Class Incremental Learning; Neural Collapse.
