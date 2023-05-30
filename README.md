@@ -644,6 +644,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Lottery Ticket Hypothesis: 2023
 
+- Pruning at Initialization -- A Sketching Perspective. [[paper]](https://arxiv.org/abs/2305.17559)
+  - Noga Bar, Raja Giryes.
+  - Key Word: Pruning at Ininitialization; Sketching Algorithm; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> The paper studies how to prune linear neural networks before training. They show that this problem is related to the sketching problem for fast matrix multiplication. They use this connection to analyze the error and data dependence of pruning at initialization. They also propose a general improvement to existing pruning algorithms based on sketching techniques.
+
 - NTK-SAP: Improving neural network pruning by aligning training dynamics. [[paper]](https://arxiv.org/abs/2304.02840) [[code]](https://github.com/YiteWang/NTK-SAP)
   - Yite Wang, Dawei Li, Ruoyu Sun. *ICLR 2023*
   - Key Word: Pruning at Ininitialization; Neural Tangent Kernel.
