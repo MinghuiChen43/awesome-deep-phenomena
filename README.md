@@ -1169,6 +1169,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Information Bottleneck: 2023
 
+- How Does Information Bottleneck Help Deep Learning? [[paper]](https://arxiv.org/abs/2305.18887)
+  - Kenji Kawaguchi, Zhun Deng, Xu Ji, Jiaoyang Huang.
+  - Key Word: Information Bottleneck; Generalization Bound.
+  - <details><summary>Digest</summary> This paper shows that information bottleneck, the idea of minimizing unnecessary information while maximizing task-relevant information, can help to reduce generalization errors in deep learning. The paper proves a new learning theory that connects information bottleneck to generalization errors and validates it with experiments. The paper also compares the new bounds with existing bounds based on other complexity measures.
+
 - To Compress or Not to Compress -- Self-Supervised Learning and Information Theory: A Review. [[paper]](https://arxiv.org/abs/2304.09355)
   - Ravid Shwartz-Ziv, Yann LeCun.
   - Key Word: Self-Supervised Learning; Information Theory; Survey.
