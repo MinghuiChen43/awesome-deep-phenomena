@@ -644,6 +644,16 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Lottery Ticket Hypothesis: 2023
 
+- A Three-regime Model of Network Pruning. [[paper]](https://arxiv.org/abs/2305.18383)
+  - Yefan Zhou, Yaoqing Yang, Arin Chang, Michael W. Mahoney.
+  - Key Word: Pruning; Linear Mode Connectivity.
+  - <details><summary>Digest</summary> This paper proposes a model based on statistical mechanics to predict how training hyperparameters affect pruning performance of neural networks. The paper finds a sharp transition phenomenon that depends on two parameters in the pre-pruned and pruned models. The paper also identifies three types of global structures in the pruned loss landscape and applies the model to three practical scenarios.
+
+- Generalization Bounds for Magnitude-Based Pruning via Sparse Matrix Sketching. [[paper]](https://arxiv.org/abs/2305.18789)
+  - Etash Kumar Guha, Prasanjit Dubey, Xiaoming Huo.
+  - Key Word: Magnitude-Based Pruning; Norm-based Generalization Bound; Sparse Matrix Sketching.
+  - <details><summary>Digest</summary> This paper proposes a new bound on the generalization error of Magnitude-Based pruning1, a technique that removes weights with small magnitudes from neural networks. The paper improves on previous bounds by using Sparse Matrix Sketching, a method that compresses pruned matrices into smaller dimensions. The paper also extends the results to Iterative Pruning, a process that prunes and retrains the network multiple times. The paper shows that the new method achieves better generalization than existing methods on some datasets.
+
 - Pruning at Initialization -- A Sketching Perspective. [[paper]](https://arxiv.org/abs/2305.17559)
   - Noga Bar, Raja Giryes.
   - Key Word: Pruning at Ininitialization; Sketching Algorithm; Neural Tangent Kernel.
