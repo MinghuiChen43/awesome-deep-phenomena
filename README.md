@@ -1489,6 +1489,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: In-Context Learning; Transformer; Bayesian Model Avaraging.
   - <details><summary>Digest</summary> This paper studies In-Context Learning (ICL), which is the ability of large language models to learn new tasks from a few examples in the context1. The paper answers three questions: (a) How do language models perform ICL? (b) How to measure ICL performance and error rates? © What makes the transformer architecture suitable for ICL? The paper shows that ICL can be seen as an implicit Bayesian inference process that leverages the attention mechanism. The paper also analyzes the ICL regret, approximation and generalization bounds from an online learning perspective. The paper provides a comprehensive understanding of the transformer and its ICL ability with theoretical and empirical evidence.
 
+- Benign Overfitting in Deep Neural Networks under Lazy Training. [[paper]](https://arxiv.org/abs/2305.19377)
+  - Zhenyu Zhu, Fanghui Liu, Grigorios G Chrysos, Francesco Locatello, Volkan Cevher. *ICML 2023*
+  - Key Word: Benign Overfitting; Lazy Training; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> The paper studies how gradient descent trains over-parameterized deep ReLU networks to achieve optimal classification performance under certain conditions. The paper connects over-parameterization, benign overfitting, and Lipschitz constant of the networks. The paper also shows that smoother functions and Neural Tangent Kernel regime improve generalization. The paper gives lower bounds on margin and eigenvalue for non-smooth activation functions.
+
 - Most Neural Networks Are Almost Learnable. [[paper]](https://arxiv.org/abs/2305.16508)
   - Amit Daniely, Nathan Srebro, Gal Vardi.
   - Key Word: Neural Network Learnability.
