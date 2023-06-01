@@ -1484,6 +1484,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- What and How does In-Context Learning Learn? Bayesian Model Averaging, Parameterization, and Generalization. [[paper]](https://arxiv.org/abs/2305.19420)
+  - Yufeng Zhang, Fengzhuo Zhang, Zhuoran Yang, Zhaoran Wang.
+  - Key Word: In-Context Learning; Transformer; Bayesian Model Avaraging.
+  - <details><summary>Digest</summary> This paper studies In-Context Learning (ICL), which is the ability of large language models to learn new tasks from a few examples in the context1. The paper answers three questions: (a) How do language models perform ICL? (b) How to measure ICL performance and error rates? © What makes the transformer architecture suitable for ICL? The paper shows that ICL can be seen as an implicit Bayesian inference process that leverages the attention mechanism. The paper also analyzes the ICL regret, approximation and generalization bounds from an online learning perspective. The paper provides a comprehensive understanding of the transformer and its ICL ability with theoretical and empirical evidence.
+
 - Most Neural Networks Are Almost Learnable. [[paper]](https://arxiv.org/abs/2305.16508)
   - Amit Daniely, Nathan Srebro, Gal Vardi.
   - Key Word: Neural Network Learnability.
