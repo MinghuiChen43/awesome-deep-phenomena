@@ -1484,6 +1484,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Inconsistency, Instability, and Generalization Gap of Deep Neural Network Training. [[paper]](https://arxiv.org/abs/2306.00169)
+  - Rie Johnson, Tong Zhang.
+  - Key Word: Generalization Gap; Inconsistency; Instability.
+  - <details><summary>Digest</summary> The authors study how the stochasticity of training deep neural networks affects their generalization gap. They propose two measures, inconsistency and instability, that can be computed on unlabeled data and show that they are correlated with the generalization gap. They also suggest ways to reduce inconsistency and improve performance. They claim that inconsistency is more informative than the loss sharpness for predicting generalization gap. 
+
 - What and How does In-Context Learning Learn? Bayesian Model Averaging, Parameterization, and Generalization. [[paper]](https://arxiv.org/abs/2305.19420)
   - Yufeng Zhang, Fengzhuo Zhang, Zhuoran Yang, Zhaoran Wang.
   - Key Word: In-Context Learning; Transformer; Bayesian Model Avaraging.
