@@ -1484,6 +1484,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Learning via Wasserstein-Based High Probability Generalisation Bounds. [[paper]](https://arxiv.org/abs/2306.04375)
+  - Paul Viallard, Maxime Haddouche, Umut Simsekli, Benjamin Guedj.
+  - Key Word: Generalization Bounds; PAC-Bayes; Wasserstein Distance.
+  - <details><summary>Digest</summary> This work addresses the limitations of the PAC-Bayesian framework and introduces novel Wasserstein distance-based PAC-Bayesian generalization bounds. Previous bounds relying on the Kullback-Leibler (KL) divergence were limited in capturing the geometric structure of learning problems. The proposed bounds overcome this by utilizing the Wasserstein distance, which offers stronger guarantees in terms of high probability, applicability to unbounded losses, and optimizable training objectives. The derived Wasserstein-based PAC-Bayesian learning algorithms demonstrate empirical advantages in various experiments.
+
 - Inconsistency, Instability, and Generalization Gap of Deep Neural Network Training. [[paper]](https://arxiv.org/abs/2306.00169)
   - Rie Johnson, Tong Zhang.
   - Key Word: Generalization Gap; Inconsistency; Instability.
