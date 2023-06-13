@@ -1482,7 +1482,12 @@ Our understanding of modern neural networks lags behind their practical successe
 - Learning Theory from First Principles. [[paper]](https://www.di.ens.fr/~fbach/ltfp/)
   - Francis Bach.
   - Key Word: Learning Theory; Book.
-  - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
+  - The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
+
+- Transformers learn through gradual rank increase. [[paper]](https://arxiv.org/abs/2306.07042)
+  - Enric Boix-Adsera, Etai Littwin, Emmanuel Abbe, Samy Bengio, Joshua Susskind.
+  - Key Word: Transformer; Gradual Rank.
+  - <details><summary>Digest</summary> The paper identifies incremental learning dynamics in transformers, where the difference between trained and initial weights progressively increases in rank, supported by theoretical proofs and experimental results.
 
 - Learning via Wasserstein-Based High Probability Generalisation Bounds. [[paper]](https://arxiv.org/abs/2306.04375)
   - Paul Viallard, Maxime Haddouche, Umut Simsekli, Benjamin Guedj.
