@@ -1045,6 +1045,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Dimensionality and Alignment in Computational Brain Models.
   - <details><summary>Digest</summary> The prevailing view holds that optimal DNNs compress their representations onto low-dimensional manifolds to achieve invariance and robustness, which suggests that better models of visual cortex should have low-dimensional geometries. Surprisingly, we found a strong trend in the opposite direction—neural networks with high-dimensional image manifolds tend to have better generalization performance when predicting cortical responses to held-out stimuli in both monkey electrophysiology and human fMRI data.
 
+- Constrained Predictive Coding as a Biologically Plausible Model of the Cortical Hierarchy. [[paper]](https://arxiv.org/abs/2210.15752) [[code]](https://github.com/ttesileanu/bio-pcn)
+  - Siavash Golkar, Tiberiu Tesileanu, Yanis Bahroun, Anirvan M. Sengupta, Dmitri B. Chklovskii. *NeurIPS 2022*
+  - Key Word: Predictive Coding Theory.
+  - <details><summary>Digest</summary> The paper presents a modified version of the Predictive Coding (PC) framework, called Constrained Predictive Coding, which addresses unresolved issues and controversies in mapping PC onto the cortical hierarchy. The authors introduce a disentangling-inspired constraint on hidden-layer neural activities, derive an upper bound for the PC objective, and optimize it to develop a biologically plausible network that performs as well as the original PC objective.
+
 - On the Principles of Parsimony and Self-Consistency for the Emergence of Intelligence. [[paper]](https://arxiv.org/abs/2207.04630)
   - Yi Ma, Doris Tsao, Heung-Yeung Shum.
   - Key Word: Intelligence; Parsimony; Self-Consistency; Rate Reduction.
