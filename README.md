@@ -1489,6 +1489,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Practical Sharpness-Aware Minimization Cannot Converge All the Way to Optima. [[paper]](https://arxiv.org/abs/2306.09850) 
+  - Dongkuk Si, Chulhee Yun.
+  - Key Word: Shaprness-Aware Minimization; Convergence.
+  - <details><summary>Digest</summary> This paper explores the convergence properties of Sharpness-Aware Minimization (SAM) optimizer when used with practical configurations, such as a constant perturbation size and gradient normalization, and finds that SAM has limited capability to converge to global minima or stationary points in many scenarios.
+
 - Transformers learn through gradual rank increase. [[paper]](https://arxiv.org/abs/2306.07042)
   - Enric Boix-Adsera, Etai Littwin, Emmanuel Abbe, Samy Bengio, Joshua Susskind.
   - Key Word: Transformer; Gradual Rank.
