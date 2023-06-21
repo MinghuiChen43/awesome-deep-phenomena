@@ -644,6 +644,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Lottery Ticket Hypothesis: 2023
 
+- Instant Soup: Cheap Pruning Ensembles in A Single Pass Can Draw Lottery Tickets from Large Models. [[paper]](https://arxiv.org/abs/2306.10460)
+  - Ajay Jaiswal, Shiwei Liu, Tianlong Chen, Ying Ding, Zhangyang Wang.
+  - Key Word: Lottery Tickets; Model Soup.
+  - <details><summary>Digest</summary> The paper introduces Instant Soup Pruning (ISP), a novel approach that leverages the idea of model soups to generate high-quality subnetworks from large pre-trained models, reducing the computational cost compared to traditional iterative magnitude pruning (IMP) methods.
+
 - A Three-regime Model of Network Pruning. [[paper]](https://arxiv.org/abs/2305.18383)
   - Yefan Zhou, Yaoqing Yang, Arin Chang, Michael W. Mahoney.
   - Key Word: Pruning; Linear Mode Connectivity.
