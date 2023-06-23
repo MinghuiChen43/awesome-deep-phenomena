@@ -18,6 +18,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths. [[paper]](https://arxiv.org/abs/2306.11922)
+  - Charles Guille-Escuret, Hiroki Naganuma, Kilian Fatras, Ioannis Mitliagkas.
+  - Key Word: Restricted Secant Inequality; Error Bound; Loss Landscape Geometry.
+  - <details><summary>Digest</summary> The paper explores the geometric properties of optimization paths in neural networks and reveals that the quantities related to the restricted secant inequality and error bound exhibit consistent behavior during training, suggesting that optimization trajectories encounter no significant obstacles and maintain stable dynamics, leading to linear convergence and supporting commonly used learning rate schedules.
+
 - Sharpness-Aware Minimization Leads to Low-Rank Features. [[paper]](https://arxiv.org/abs/2305.16292)
   - Maksym Andriushchenko, Dara Bahri, Hossein Mobahi, Nicolas Flammarion. 
   - Key Word: Sharpness-Aware Minimization; Low-Rank Features.
