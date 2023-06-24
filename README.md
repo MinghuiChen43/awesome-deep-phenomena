@@ -1714,6 +1714,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Memorization; Data Augmentation.
   - <details><summary>Digest</summary> We show that under training protocols that include data augmentation, neural networks learn to memorize entirely random labels in a benign way, i.e. they learn embeddings that lead to highly non-trivial performance under nearest neighbour probing. We demonstrate that deep models have the surprising ability to separate noise from signal by distributing the task of memorization and feature learning to different layers.
 
+- Symmetries, flat minima, and the conserved quantities of gradient flow. [[paper]](https://arxiv.org/abs/2210.17216)
+  - Bo Zhao, Iordan Ganev, Robin Walters, Rose Yu, Nima Dehmamy.
+  - Key Word: Conserved quantities; Mode Connectivity; Flat Minimia; Parameter Space Symmetry.
+  - <details><summary>Digest</summary> The paper presents a general framework that identifies continuous symmetries in the parameter space of deep neural networks, which create low-loss valleys and connect local minima. The framework utilizes equivariances of activation functions and introduces nonlinear, data-dependent symmetries for nonlinear neural networks. The authors demonstrate that conserved quantities associated with linear symmetries can be used to define coordinates along low-loss valleys. Additionally, they relate these conserved quantities to convergence rate and sharpness of the minimum, shedding light on the limitations of gradient flow exploration.
+
 - Provably Learning Diverse Features in Multi-View Data with Midpoint Mixup. [[paper]](https://arxiv.org/abs/2210.13512)
   - Muthu Chidambaram, Xiang Wang, Chenwei Wu, Rong Ge.
   - Key Word: Mixup; Feature Learning.
@@ -1894,6 +1899,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: One-Shot Generalization; PAC Learning; Neural Tangent Kernel.
   - <details><summary>Digest</summary> We provide a theoretical framework to study a phenomenon that we call one-shot generalization. This phenomenon refers to the ability of an algorithm to perform transfer learning within a single task, meaning that it correctly classifies a test point that has a single exemplar in the training set. We propose a simple data model and use it to study this phenomenon in two ways. First, we prove a non-asymptotic base-line -- kernel methods based on nearest-neighbor classification cannot perform one-shot generalization, independently of the choice of the kernel and the size of the training set. Second, we empirically show that the most direct neural network architecture for our data model performs one-shot generalization almost perfectly. This stark differential leads us to believe that the one-shot generalization mechanism is partially responsible for the empirical success of neural networks.
 
+- Exact Phase Transitions in Deep Learning. [[paper]](https://arxiv.org/abs/2205.12510)
+  - Liu Ziyin, Masahito Ueda.
+  - Key Word: Phase Transitions; Symmetry Breaking; Mean-Field Analysis; Statistical Physics.
+  - <details><summary>Digest</summary> The paper presents a theory that demonstrates the existence of first-order and second-order phase transitions in deep learning, similar to those observed in statistical physics, by analyzing the interplay between prediction error and model complexity in the training loss. The findings have implications for neural network optimization and shed light on the origin of the posterior collapse problem in Bayesian deep learning.
+
 - Towards Understanding Grokking: An Effective Theory of Representation Learning. [[paper]](https://arxiv.org/abs/2205.10343)
   - Ziming Liu, Ouail Kitouni, Niklas Nolte, Eric J. Michaud, Max Tegmark, Mike Williams.
   - Key Word: Grokking; Physics of Learning; Deep Double Descent.
@@ -1995,6 +2005,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Sébastien Bubeck, Mark Sellke.
   - Key Word: Overparameterized Memorization; Lipschitz Neural Network.
   - <details><summary>Digest</summary> A puzzling phenomenon in deep learning is that models are trained with many more parameters than what this classical theory would suggest. We propose a theoretical explanation for this phenomenon. We prove that for a broad class of data distributions and model classes, overparametrization is necessary if one wants to interpolate the data smoothly. Namely we show that smooth interpolation requires d times more parameters than mere interpolation, where d is the ambient data dimension. 
+
+- Noether's Learning Dynamics: Role of Symmetry Breaking in Neural Networks. [[paper]](https://arxiv.org/abs/2105.02716)
+  - Hidenori Tanaka, Daniel Kunin.
+  - Key Word: Geometry of Learning Dynamics; Symmetry Breaking.
+  - <details><summary>Digest</summary> The paper develops a theoretical framework to investigate the "geometry of learning dynamics" in neural networks and uncovers the significance of explicit symmetry breaking in achieving efficiency and stability. It introduces "kinetic symmetry breaking" (KSB) as a condition where the kinetic energy breaks the symmetry of the potential function and applies Noether's theorem to derive "Noether's Learning Dynamics" (NLD) as a result.
 
 - Analyzing Monotonic Linear Interpolation in Neural Network Loss Landscapes. [[paper]](https://arxiv.org/abs/2104.11044)
   - James Lucas, Juhan Bae, Michael R. Zhang, Stanislav Fort, Richard Zemel, Roger Grosse.
