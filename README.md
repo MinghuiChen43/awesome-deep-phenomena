@@ -1497,7 +1497,12 @@ Our understanding of modern neural networks lags behind their practical successe
 - Learning Theory from First Principles. [[paper]](https://www.di.ens.fr/~fbach/ltfp/)
   - Francis Bach.
   - Key Word: Learning Theory; Book.
-  - The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
+  - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
+
+- The Underlying Scaling Laws and Universal Statistical Structure of Complex Datasets. [[paper]](https://arxiv.org/abs/2306.14975)
+  - Noam Levi, Yaron Oz.
+  - Key Word: Neural Scaling Laws; Random Matrix Theory.
+  - <details><summary>Digest</summary> The paper explores the underlying scaling laws and universal statistical structure of complex datasets, using tools from statistical physics and Random Matrix Theory (RMT). They analyze the feature-feature covariance matrix and observe that the power-law scalings of eigenvalues differ between uncorrelated random data and real-world data. They find that introducing long-range correlations can recover the scaling behavior in synthetic data, and both synthetic and real-world datasets belong to the same universality class as chaotic systems rather than integrable systems. The expected RMT statistical behavior is evident in empirical covariance matrices at smaller dataset sizes than traditionally used for training, and it can be related to the number of samples needed to approximate the population power-law scaling behavior.
 
 - Practical Sharpness-Aware Minimization Cannot Converge All the Way to Optima. [[paper]](https://arxiv.org/abs/2306.09850) 
   - Dongkuk Si, Chulhee Yun.
