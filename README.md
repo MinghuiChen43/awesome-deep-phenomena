@@ -440,6 +440,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Collapse: 2023
 
+- Are Neurons Actually Collapsed? On the Fine-Grained Structure in Neural Representations. [[paper]](https://arxiv.org/abs/2306.17105)
+  - Yongyi Yang, Jacob Steinhardt, Wei Hu. *ICML 2023*
+  - Key Word: Neural Collapse.
+  - <details><summary>Digest</summary> The paper challenges the notion of "Neural Collapse" in well-trained neural networks, arguing that while the last-layer representations may appear to collapse, there is still fine-grained structure present in the representations that captures the intrinsic structure of the input distribution.
+
 - Neural (Tangent Kernel) Collapse. [[paper]](https://arxiv.org/abs/2305.16427)
   - Mariia Seleznova, Dana Weitzner, Raja Giryes, Gitta Kutyniok, Hung-Hsu Chou.
   - Key Word: Neural Collapse; Neural Tangent Kernel.
