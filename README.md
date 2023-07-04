@@ -1504,10 +1504,20 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Neural Hilbert Ladders: Multi-Layer Neural Networks in Function Space. [[paper]](https://arxiv.org/abs/2307.01177)
+  - Zhengdao Chen.
+  - Key Word: Reproducing Kernel Hilbert Spaces; Mean-Field Theory.
+  - <details><summary>Digest</summary> The paper introduces the concept of Neural Hilbert Ladders (NHL), which views a multi-layer neural network as a hierarchy of reproducing kernel Hilbert spaces (RKHSs). It provides a generalized function space and complexity measure for deep neural networks (DNNs) and explores their theoretical properties and implications. The paper establishes a correspondence between L-layer neural networks and L-level NHLs, proves generalization guarantees for learning an NHL, analyzes the dynamics of NHLs in the infinite-width mean-field limit, demonstrates depth separation in NHLs under different activation functions, and supports the theory with numerical results.
+
 - Sparsity aware generalization theory for deep neural networks. [[paper]](https://arxiv.org/abs/2307.00426)
   - Ramchandran Muthukumar, Jeremias Sulam.
   - Key Word: Sparse Activation; Sensitivity Analysis; PAC-Bayes Bounds.
   - <details><summary>Digest</summary> The paper presents a novel approach to analyzing the generalization capabilities of deep feed-forward ReLU networks by considering the degree of sparsity in the hidden layer activations, revealing trade-offs between sparsity and generalization without strong assumptions about sparsity levels.
+
+- Abide by the Law and Follow the Flow: Conservation Laws for Gradient Flows. [[paper]](https://arxiv.org/abs/2307.00144)
+  - Sibylle Marcotte, Rémi Gribonval, Gabriel Peyré.
+  - Key Word: Gradient Flow; Conservation Laws; Lie Algebra.
+  - <details><summary>Digest</summary> This paper explores the concept of "conservation laws" in gradient flows and their relevance to understanding the implicit bias and generalization properties of over-parameterized machine learning models, presenting a rigorous definition of conservation laws, methods to determine the number of these quantities, and algorithms to compute polynomial and non-polynomial conservation laws.
 
 - The Underlying Scaling Laws and Universal Statistical Structure of Complex Datasets. [[paper]](https://arxiv.org/abs/2306.14975)
   - Noam Levi, Yaron Oz.
