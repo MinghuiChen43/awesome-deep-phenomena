@@ -1504,6 +1504,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Sparsity aware generalization theory for deep neural networks. [[paper]](https://arxiv.org/abs/2307.00426)
+  - Ramchandran Muthukumar, Jeremias Sulam.
+  - Key Word: Sparse Activation; Sensitivity Analysis; PAC-Bayes Bounds.
+  - <details><summary>Digest</summary> The paper presents a novel approach to analyzing the generalization capabilities of deep feed-forward ReLU networks by considering the degree of sparsity in the hidden layer activations, revealing trade-offs between sparsity and generalization without strong assumptions about sparsity levels.
+
 - The Underlying Scaling Laws and Universal Statistical Structure of Complex Datasets. [[paper]](https://arxiv.org/abs/2306.14975)
   - Noam Levi, Yaron Oz.
   - Key Word: Neural Scaling Laws; Random Matrix Theory.
