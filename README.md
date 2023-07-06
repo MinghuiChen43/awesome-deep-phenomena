@@ -2129,6 +2129,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis.
   - <details><summary>Digest</summary> The lottery ticket hypothesis (Frankle and Carbin, 2018), states that a randomly-initialized network contains a small subnetwork such that, when trained in isolation, can compete with the performance of the original network. We prove an even stronger hypothesis (as was also conjectured in Ramanujan et al., 2019), showing that for every bounded distribution and every target network with bounded weights, a sufficiently over-parameterized neural network with random weights contains a subnetwork with roughly the same accuracy as the target network, without any further training.
 
+- Relative Flatness and Generalization. [[paper]](https://arxiv.org/abs/2001.00939) [[code]](https://github.com/kampmichael/RelativeFlatnessAndGeneralization)
+  - Henning Petzka, Michael Kamp, Linara Adilova, Cristian Sminchisescu, Mario Boley. *NeurIPS 2021*
+  - Key Word: Relative Flatness; Loss Landscape.
+  - <details><summary>Digest</summary> The paper investigates the connection between flatness, a property of the loss curve, and generalization ability in machine learning models, particularly neural networks, providing insights into the conditions under which this connection holds and introducing a novel relative flatness measure that correlates strongly with generalization and resolves the reparameterization issue. 
+
 ### Others: 2019
 
 - Deep Learning via Dynamical Systems: An Approximation Perspective. [[paper]](https://arxiv.org/abs/1912.10382)
