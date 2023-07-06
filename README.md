@@ -1504,6 +1504,16 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Absorbing Phase Transitions in Artificial Deep Neural Networks. [[paper]](https://arxiv.org/abs/2307.02284)
+  - Keiichi Tamai, Tsuyoshi Okubo, Truong Vinh Truong Duy, Naotake Natori, Synge Todo.
+  - Key Word: Phase Transitions; Neural Scaling Laws.
+  - <details><summary>Digest</summary> This paper presents a framework for understanding the behavior of finite artificial deep neural networks by drawing parallels to universal critical phenomena in absorbing phase transitions. The authors investigate order-to-chaos transitions in fully-connected feedforward and convolutional neural networks, demonstrating that these transitions exist even in finite networks and that the architecture influences the universality class of the transition. Finite-size scaling is also successfully applied, allowing for a semi-quantitative description of signal propagation dynamics.
+
+- How Deep Neural Networks Learn Compositional Data: The Random Hierarchy Model. [[paper]](https://arxiv.org/abs/2307.02129)
+  - Leonardo Petrini, Francesco Cagnetta, Umberto M. Tomasini, Alessandro Favero, Matthieu Wyart.
+  - Key Word: Synonymic Invariance; Random Hierarchy Model.
+  - <details><summary>Digest</summary> This paper explores how deep convolutional neural networks (CNNs) learn compositional data by investigating the Random Hierarchy Model, demonstrating that the number of training data required by deep CNNs grows asymptotically as a polynomial function of the input dimensionality.
+
 - Neural Hilbert Ladders: Multi-Layer Neural Networks in Function Space. [[paper]](https://arxiv.org/abs/2307.01177)
   - Zhengdao Chen.
   - Key Word: Reproducing Kernel Hilbert Spaces; Mean-Field Theory.
