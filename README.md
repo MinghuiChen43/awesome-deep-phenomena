@@ -1504,6 +1504,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Scaling Laws Do Not Scale. [[paper]](https://arxiv.org/abs/2307.03201)
+  - Fernando Diaz, Michael Madaio.
+  - Key Word: Neural Scaling Laws.
+  - <details><summary>Digest</summary> This papepr challenges the notion of scaling laws in artificial intelligence (AI) models, arguing that as dataset sizes increase, the diverse values and preferences of different communities represented in the data may not align with the metrics used to evaluate model performance.
+
 - Absorbing Phase Transitions in Artificial Deep Neural Networks. [[paper]](https://arxiv.org/abs/2307.02284)
   - Keiichi Tamai, Tsuyoshi Okubo, Truong Vinh Truong Duy, Naotake Natori, Synge Todo.
   - Key Word: Phase Transitions; Neural Scaling Laws.
