@@ -14,6 +14,8 @@ Our understanding of modern neural networks lags behind their practical successe
 - [Other Papers](#others)
 - [Resources](#related-resources)
 
+[//:]:(group_emmergence_and_phase_transition_paper:https://sites.google.com/mila.quebec/5thnslw)
+
 ## Empirical Study
 
 ### Empirical Study: 2023
