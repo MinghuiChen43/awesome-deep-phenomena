@@ -1504,6 +1504,16 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- On the curvature of the loss landscape. [[paper]](https://arxiv.org/abs/2307.04719)
+  - Alison Pouplin, Hrittik Roy, Sidak Pal Singh, Georgios Arvanitidis.
+  - Key Word: Loss Landscape; Scalar Curvature; Riemannian Manifold.
+  - <details><summary>Digest</summary> The paper investigates the challenge of understanding the excellent performance of over-parameterized deep learning models when trained on limited data. It proposes analyzing the generalization abilities of deep neural networks by treating the loss landscape as an embedded Riemannian manifold, focusing on the computable scalar curvature and its connections to potential generalization.
+
+- Trajectory Alignment: Understanding the Edge of Stability Phenomenon via Bifurcation Theory. [[paper]](https://arxiv.org/abs/2307.04204)
+  - Minhak Song, Chulhee Yun.
+  - Key Word: Edge of Stability; Bifurcation Theory.
+  - <details><summary>Digest</summary> The paper explores the Edge of Stability (EoS) phenomenon observed in the evolution of the largest eigenvalue of the loss Hessian during gradient descent (GD) training. It demonstrates that GD trajectories, when EoS occurs, align on a specific bifurcation diagram, independent of initialization, and provides rigorous proofs for this trajectory alignment in specific network architectures.
+
 - Scaling Laws Do Not Scale. [[paper]](https://arxiv.org/abs/2307.03201)
   - Fernando Diaz, Michael Madaio.
   - Key Word: Neural Scaling Laws.
