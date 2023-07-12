@@ -18,6 +18,8 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Empirical Study
 
+![avatar](https://danieltakeshi.github.io/assets/understanding_dl_rethinking_gen.png)
+
 ### Empirical Study: 2023
 
 - No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths. [[paper]](https://arxiv.org/abs/2306.11922)
@@ -397,6 +399,8 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Neural Collapse
 
+![avatar](https://aihub.org/wp-content/uploads/2022/05/NC_animation.gif)
+
 ### Neural Collapse: 2023
 
 - Are Neurons Actually Collapsed? On the Fine-Grained Structure in Neural Representations. [[paper]](https://arxiv.org/abs/2306.17105)
@@ -486,6 +490,8 @@ Our understanding of modern neural networks lags behind their practical successe
   - <details><summary>Digest</summary> This paper studied the terminal phase of training (TPT) of today’s canonical deepnet training protocol. It documented that during TPT a process called Neural Collapse takes place, involving four fundamental and interconnected phenomena: (NC1)-(NC4).
 
 ## Deep Double Descent
+
+![avatar](https://miro.medium.com/v2/resize:fit:1400/1*-TnyYQwbN0g6ghkFqjd7-A.png)
 
 ### Deep Double Descent: 2023
 
@@ -605,6 +611,8 @@ Our understanding of modern neural networks lags behind their practical successe
   - <details><summary>Digest</summary> The bias-variance tradeoff tells us that as model complexity increases, bias falls and variances increases, leading to a U-shaped test error curve. However, recent empirical results with over-parameterized neural networks are marked by a striking absence of the classic U-shaped test error curve: test error keeps decreasing in wider networks. Motivated by the shaky evidence used to support this claim in neural networks, we measure bias and variance in the modern setting. We find that both bias and variance can decrease as the number of parameters grows. To better understand this, we introduce a new decomposition of the variance to disentangle the effects of optimization and data sampling.
 
 ## Lottery Ticket Hypothesis
+
+![avatar](https://miro.medium.com/v2/resize:fit:1400/1*jb07XiONxy2jMpRqQYjDqw.png)
 
 ### Lottery Ticket Hypothesis: 2023
 
@@ -971,6 +979,8 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Emergence and Phase Transitions
 
+![avatar](https://i0.wp.com/thelowdown.momentum.asia/wp-content/uploads/2023/03/LLMs-featured-img.jpg?fit=1024%2C512&ssl=1)
+
 ### Emergence and Phase Transitions: 2023
 
 - Scaling Laws Do Not Scale. [[paper]](https://arxiv.org/abs/2307.03201)
@@ -1091,6 +1101,8 @@ Our understanding of modern neural networks lags behind their practical successe
 
 
 ## Interactions with Neuroscience
+
+![avatar](https://miro.medium.com/v2/resize:fit:1200/1*hkYlTODpjJgo32DoCOWN5w.png)
 
 ### Interactions with Neuroscience: 2023
 
@@ -1258,6 +1270,8 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Information Bottleneck
 
+![avatar](https://lilianweng.github.io/posts/2017-09-28-information-bottleneck/ib-layers.png)
+
 ### Information Bottleneck: 2023
 
 - How Does Information Bottleneck Help Deep Learning? [[paper]](https://arxiv.org/abs/2305.18887)
@@ -1383,6 +1397,8 @@ Our understanding of modern neural networks lags behind their practical successe
   - <details><summary>Digest</summary> [Previous work](https://arxiv.org/abs/1503.02406) proposed to analyze DNNs in the *Information Plane*; i.e., the plane of the Mutual Information values that each layer preserves on the input and output variables. They suggested that the goal of the network is to optimize the Information Bottleneck (IB) tradeoff between compression and prediction, successively, for each layer. In this work we follow up on this idea and demonstrate the effectiveness of the Information-Plane visualization of DNNs.  
 
 ## Neural Tangent Kernel
+
+![avatar](https://i.ytimg.com/vi/raT2ECrvbag/maxresdefault.jpg)
 
 ### Neural Tangent Kernel: 2023
 
