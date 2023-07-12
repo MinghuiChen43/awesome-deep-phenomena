@@ -399,7 +399,7 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Neural Collapse
 
-![avatar](https://aihub.org/wp-content/uploads/2022/05/NC_animation.gif)
+![avatar](./img/NC_animation.gif)
 
 ### Neural Collapse: 2023
 
