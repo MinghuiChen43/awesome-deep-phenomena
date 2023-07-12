@@ -15,6 +15,7 @@ Our understanding of modern neural networks lags behind their practical successe
 - [Resources](#related-resources)
 
 [//:]:(group_emmergence_and_phase_transition_paper:https://sites.google.com/mila.quebec/5thnslw)
+[//:]:(key_word_grokking_neural_scaling_law)
 
 ## Empirical Study
 
