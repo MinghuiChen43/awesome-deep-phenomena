@@ -8,14 +8,13 @@ Our understanding of modern neural networks lags behind their practical successe
 - [Neural Collapse](#neural-collapse)
 - [Deep Double Descent](#deep-double-descent)
 - [Lottery Ticket Hypothesis](#lottery-ticket-hypothesis)
+- [Emergence and Phase Transitions](#emergence-and-phase-transitions)
 - [Interactions with Neuroscience](#interactions-with-neuroscience)
 - [Information Bottleneck](#information-bottleneck)
 - [Neural Tangent Kernel](#neural-tangent-kernel)
 - [Other Papers](#others)
 - [Resources](#related-resources)
 
-[//:]:(group_emmergence_and_phase_transition_paper:https://sites.google.com/mila.quebec/5thnslw)
-[//:]:(key_word_grokking_neural_scaling_law)
 
 ## Empirical Study
 
@@ -30,11 +29,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Maksym Andriushchenko, Dara Bahri, Hossein Mobahi, Nicolas Flammarion. 
   - Key Word: Sharpness-Aware Minimization; Low-Rank Features.
   - <details><summary>Digest</summary> Sharpness-aware minimization (SAM) is a method that minimizes the sharpness of the training loss of a neural network. It improves generalization and reduces the feature rank at different layers of a neural network. This low-rank effect occurs for different architectures and objectives. A significant number of activations get pruned by SAM, contributing to rank reduction. This effect can also occur in deep networks.
-
-- Are Emergent Abilities of Large Language Models a Mirage? [[paper]](https://arxiv.org/abs/2304.15004)
-  - Rylan Schaeffer, Brando Miranda, Sanmi Koyejo.
-  - Key Word: Large Language Models; Neural Scaling Laws; Emergent Abilities.
-  - <details><summary>Digest</summary> Recent work claims that large language models display emergent abilities, abilities not present in smaller-scale models that are present in larger-scale models. What makes emergent abilities intriguing is two-fold: their sharpness, transitioning seemingly instantaneously from not present to present, and their unpredictability, appearing at seemingly unforeseeable model scales. Here, we present an alternative explanation for emergent abilities: that for a particular task and model family, when analyzing fixed model outputs, one can choose a metric which leads to the inference of an emergent ability or another metric which does not. We find strong supporting evidence that emergent abilities may not be a fundamental property of scaling AI models.
 
 - A surprisingly simple technique to control the pretraining bias for better transfer: Expand or Narrow your representation. [[paper]](https://arxiv.org/abs/2304.05369)
   - Florian Bordes, Samuel Lavoie, Randall Balestriero, Nicolas Ballas, Pascal Vincent.
@@ -71,15 +65,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Foundation Models; Fine-Tuning.
   - <details><summary>Digest</summary> We study the data-scaling of transfer learning from foundation models in the low-downstream-data regime. We observe an intriguing phenomenon which we call cliff-learning. Cliff-learning refers to regions of data-scaling laws where performance improves at a faster than power law rate (i.e. regions of concavity on a log-log scaling plot). 
 
-- Progress measures for grokking via mechanistic interpretability. [[paper]](https://arxiv.org/abs/2301.05217)
-  - Neel Nanda, Lawrence Chan, Tom Liberum, Jess Smith, Jacob Steinhardt.
-  - Key Work: Grokking; Interpretability.
-  - <details><summary>Digest</summary> We argue that progress measures can be found via mechanistic interpretability: reverse-engineering learned behaviors into their individual components. As a case study, we investigate the recently-discovered phenomenon of ``grokking'' exhibited by small transformers trained on modular addition tasks. 
-
-- Grokking modular arithmetic. [[paper]](https://arxiv.org/abs/2301.02679)
-  - Andrey Gromov.
-  - Key Word: Grokking; Modular Addition; Interpretability.
-  - <details><summary>Digest</summary> We present a simple neural network that can learn modular arithmetic tasks and exhibits a sudden jump in generalization known as ``grokking''. Concretely, we present (i) fully-connected two-layer networks that exhibit grokking on various modular arithmetic tasks under vanilla gradient descent with the MSE loss function in the absence of any regularization.
 
 ### Empirical Study: 2022
 
@@ -108,20 +93,10 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Interpretation; Neural Harmonizer; Psychophysics.
   - <details><summary>Digest</summary> Across 84 different DNNs trained on ImageNet and three independent datasets measuring the where and the how of human visual strategies for object recognition on those images, we find a systematic trade-off between DNN categorization accuracy and alignment with human visual strategies for object recognition. State-of-the-art DNNs are progressively becoming less aligned with humans as their accuracy improves. We rectify this growing issue with our neural harmonizer: a general-purpose training routine that both aligns DNN and human visual strategies and improves categorization accuracy. 
 
-- Broken Neural Scaling Laws. [[paper]](https://arxiv.org/abs/2210.14891) [[code]](https://github.com/ethancaballero/broken_neural_scaling_laws)
-  - Ethan Caballero, Kshitij Gupta, Irina Rish, David Krueger.
-  - Key Word: Neural Scaling Laws.
-  - <details><summary>Digest</summary> We present a smoothly broken power law functional form that accurately models and extrapolates the scaling behaviors of deep neural networks (i.e. how the evaluation metric of interest varies as the amount of compute used for training, number of model parameters, or training dataset size varies) for each task within a large and diverse set of upstream and downstream tasks, in zero-shot, prompted, and fine-tuned settings. This set includes large-scale vision and unsupervised language tasks, diffusion generative modeling of images, arithmetic, and reinforcement learning. 
-
 - Pruning's Effect on Generalization Through the Lens of Training and Regularization. [[paper]](https://arxiv.org/abs/2210.13738)
   - Tian Jin, Michael Carbin, Daniel M. Roy, Jonathan Frankle, Gintare Karolina Dziugaite.
   - Key Word: Pruning; Regularization.
   - <details><summary>Digest</summary> We show that size reduction cannot fully account for the generalization-improving effect of standard pruning algorithms. Instead, we find that pruning leads to better training at specific sparsities, improving the training loss over the dense model. We find that pruning also leads to additional regularization at other sparsities, reducing the accuracy degradation due to noisy examples over the dense model. Pruning extends model training time and reduces model size. These two factors improve training and add regularization respectively. We empirically demonstrate that both factors are essential to fully explaining pruning's impact on generalization.
-
-- How Much Data Are Augmentations Worth? An Investigation into Scaling Laws, Invariance, and Implicit Regularization. [[paper]](https://arxiv.org/abs/2210.06441) [[code]](https://github.com/JonasGeiping/dataaugs)
-  - Jonas Geiping, Micah Goldblum, Gowthami Somepalli, Ravid Shwartz-Ziv, Tom Goldstein, Andrew Gordon Wilson.
-  - Key Word: Data Augmentation; Neural Scaling Laws; Implicit Regularization.
-  - <details><summary>Digest</summary> Despite the clear performance benefits of data augmentations, little is known about why they are so effective. In this paper, we disentangle several key mechanisms through which data augmentations operate. Establishing an exchange rate between augmented and additional real data, we find that in out-of-distribution testing scenarios, augmentations which yield samples that are diverse, but inconsistent with the data distribution can be even more valuable than additional training data.
 
 - What does a deep neural network confidently perceive? The effective dimension of high certainty class manifolds and their low confidence boundaries. [[paper]](https://arxiv.org/abs/2210.05546) [[code]](https://github.com/stanislavfort/slice-dice-optimize/)
   - Stanislav Fort, Ekin Dogus Cubuk, Surya Ganguli, Samuel S. Schoenholz. 
@@ -133,11 +108,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Invariance and Equivariance.
   - <details><summary>Digest</summary> We explore the nature of invariance and equivariance of deep learning models with the goal of better understanding the ways in which they actually capture these concepts on a formal level. We introduce a family of invariance and equivariance metrics that allows us to quantify these properties in a way that disentangles them from other metrics such as loss or accuracy. 
 
-- Omnigrok: Grokking Beyond Algorithmic Data. [[paper]](https://arxiv.org/abs/2210.01117)
-  - Ziming Liu, Eric J. Michaud, Max Tegmark.
-  - Key Word: Grokking Dynamics.
-  - <details><summary>Digest</summary> Grokking, the unusual phenomenon for algorithmic datasets where generalization happens long after overfitting the training data, has remained elusive. We aim to understand grokking by analyzing the loss landscapes of neural networks, identifying the mismatch between training and test losses as the cause for grokking. We refer to this as the "LU mechanism" because training and test losses (against model weight norm) typically resemble "L" and "U", respectively. This simple mechanism can nicely explain many aspects of grokking: data size dependence, weight decay dependence, the emergence of representations, etc.
-
 - Relative representations enable zero-shot latent space communication. [[paper]](https://arxiv.org/abs/2209.15430)
   - Luca Moschella, Valentino Maiorca, Marco Fumero, Antonio Norelli, Francesco Locatello, Emanuele Rodolà.
   - Key Word: Representation Similarity; Model stitching.
@@ -148,11 +118,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Self-Supervision; Sparse Manifold Transform.
   - <details><summary>Digest</summary> We describe a minimalistic and interpretable method for unsupervised learning, without resorting to data augmentation, hyperparameter tuning, or other engineering designs, that achieves performance close to the SOTA SSL methods. Our approach leverages the sparse manifold transform, which unifies sparse coding, manifold learning, and slow feature analysis. With a one-layer deterministic sparse manifold transform, one can achieve 99.3% KNN top-1 accuracy on MNIST, 81.1% KNN top-1 accuracy on CIFAR-10 and 53.2% on CIFAR-100. 
 
-- Revisiting Neural Scaling Laws in Language and Vision. [[paper]](https://arxiv.org/abs/2209.06640)
-  - Ibrahim Alabdulmohsin, Behnam Neyshabur, Xiaohua Zhai.
-  - Key Word: Neural Scaling Laws; Multi-modal Learning.
-  - <details><summary>Digest</summary> The remarkable progress in deep learning in recent years is largely driven by improvements in scale, where bigger models are trained on larger datasets for longer schedules. To predict the benefit of scale empirically, we argue for a more rigorous methodology based on the extrapolation loss, instead of reporting the best-fitting (interpolating) parameters. We then present a recipe for estimating scaling law parameters reliably from learning curves. We demonstrate that it extrapolates more accurately than previous methods in a wide range of architecture families across several domains, including image classification, neural machine translation (NMT) and language modeling, in addition to tasks from the BIG-Bench evaluation benchmark. 
-
 - A Review of Sparse Expert Models in Deep Learning. [[paper]](https://arxiv.org/abs/2209.01667)
   - William Fedus, Jeff Dean, Barret Zoph.
   - Key Word: Mixture-of-Experts.
@@ -162,11 +127,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Saachi Jain, Hadi Salman, Alaa Khaddaj, Eric Wong, Sung Min Park, Aleksander Madry.
   - Key Word: Transfer Learning; Influence Function; Data Leakage.
   - <details><summary>Digest</summary> It is commonly believed that in transfer learning including more pre-training data translates into better performance. However, recent evidence suggests that removing data from the source dataset can actually help too. In this work, we take a closer look at the role of the source dataset's composition in transfer learning and present a framework for probing its impact on downstream performance. Our framework gives rise to new capabilities such as pinpointing transfer learning brittleness as well as detecting pathologies such as data-leakage and the presence of misleading examples in the source dataset.
-
-- How Much More Data Do I Need? Estimating Requirements for Downstream Tasks. [[paper]](https://arxiv.org/abs/2207.01725)
-  - Rafid Mahmood, James Lucas, David Acuna, Daiqing Li, Jonah Philion, Jose M. Alvarez, Zhiding Yu, Sanja Fidler, Marc T. Law. *CVPR 2022*
-  - Key Word: Neural Scaling Laws; Active Learning.
-  - <details><summary>Digest</summary> Prior work on neural scaling laws suggest that the power-law function can fit the validation performance curve and extrapolate it to larger data set sizes. We find that this does not immediately translate to the more difficult downstream task of estimating the required data set size to meet a target performance. In this work, we consider a broad class of computer vision tasks and systematically investigate a family of functions that generalize the power-law function to allow for better estimation of data requirements.
 
 - When Does Re-initialization Work? [[paper]](https://arxiv.org/abs/2206.10011)
   - Sheheryar Zaidi, Tudor Berariu, Hyunjik Kim, Jörg Bornschein, Claudia Clopath, Yee Whye Teh, Razvan Pascanu.
@@ -183,10 +143,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Natural Language Processing; In-Context Learning.
   - <details><summary>Digest</summary> We show that ground truth demonstrations are in fact not required -- randomly replacing labels in the demonstrations barely hurts performance, consistently over 12 different models including GPT-3. Instead, we find that other aspects of the demonstrations are the key drivers of end task performance, including the fact that they provide a few examples of (1) the label space, (2) the distribution of the input text, and (3) the overall format of the sequence.
 
-- Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets. [[paper]](https://arxiv.org/abs/2201.02177) [[code]](https://github.com/openai/grok)
-  - Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra. 
-  - Key Word: Grokking; Overfitting.
-  - <details><summary>Digest</summary> In this paper we propose to study generalization of neural networks on small algorithmically generated datasets. In this setting, questions about data efficiency, memorization, generalization, and speed of learning can be studied in great detail. In some situations we show that neural networks learn through a process of "grokking" a pattern in the data, improving generalization performance from random chance level to perfect generalization, and that this improvement in generalization can happen well past the point of overfitting.
 
 ### Empirical Study: 2021
 
@@ -474,11 +430,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Tom Tirer, Haoxiang Huang, Jonathan Niles-Weed.
   - Key Word: Neural Collapse.
   - <details><summary>Digest</summary> We propose a richer model that can capture this phenomenon by forcing the features to stay in the vicinity of a predefined features matrix (e.g., intermediate features). We explore the model in the small vicinity case via perturbation analysis and establish results that cannot be obtained by the previously studied models. 
-
-- Grokking phase transitions in learning local rules with gradient descent. [[paper]](https://arxiv.org/abs/2210.15435)
-  - Bojan Žunkovič, Enej Ilievski.
-  - Key Word: Tensor Network; Grokking; Many-Body Quantum Mechanics; Neural Collapse.
-  - <details><summary>Digest</summary> We discuss two solvable grokking (generalisation beyond overfitting) models in a rule learning scenario. We show that grokking is a phase transition and find exact analytic expressions for the critical exponents, grokking probability, and grokking time distribution. Further, we introduce a tensor-network map that connects the proposed grokking setup with the standard (perceptron) statistical learning theory and show that grokking is a consequence of the locality of the teacher model. As an example, we analyse the cellular automata learning task, numerically determine the critical exponent and the grokking time distributions and compare them with the prediction of the proposed grokking model. Finally, we numerically analyse the connection between structure formation and grokking.
 
 - Imbalance Trouble: Revisiting Neural-Collapse Geometry. [[paper]](https://arxiv.org/abs/2208.05512)
   - Christos Thrampoulidis, Ganesh R. Kini, Vala Vakilian, Tina Behnia.
@@ -1017,6 +968,128 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Lottery Ticket Hypothesis.
   - <details><summary>Digest</summary> We find that a standard pruning technique naturally uncovers subnetworks whose initializations made them capable of training effectively. Based on these results, we articulate the "lottery ticket hypothesis:" dense, randomly-initialized, feed-forward networks contain subnetworks ("winning tickets") that - when trained in isolation - reach test accuracy comparable to the original network in a similar number of iterations.  
 
+
+## Emergence and Phase Transitions
+
+### Emergence and Phase Transitions: 2023
+
+- Scaling Laws Do Not Scale. [[paper]](https://arxiv.org/abs/2307.03201)
+  - Fernando Diaz, Michael Madaio.
+  - Key Word: Neural Scaling Laws.
+  - <details><summary>Digest</summary> This papepr challenges the notion of scaling laws in artificial intelligence (AI) models, arguing that as dataset sizes increase, the diverse values and preferences of different communities represented in the data may not align with the metrics used to evaluate model performance.
+
+- Absorbing Phase Transitions in Artificial Deep Neural Networks. [[paper]](https://arxiv.org/abs/2307.02284)
+  - Keiichi Tamai, Tsuyoshi Okubo, Truong Vinh Truong Duy, Naotake Natori, Synge Todo.
+  - Key Word: Phase Transitions; Neural Scaling Laws.
+  - <details><summary>Digest</summary> This paper presents a framework for understanding the behavior of finite artificial deep neural networks by drawing parallels to universal critical phenomena in absorbing phase transitions. The authors investigate order-to-chaos transitions in fully-connected feedforward and convolutional neural networks, demonstrating that these transitions exist even in finite networks and that the architecture influences the universality class of the transition. Finite-size scaling is also successfully applied, allowing for a semi-quantitative description of signal propagation dynamics.
+
+- The Underlying Scaling Laws and Universal Statistical Structure of Complex Datasets. [[paper]](https://arxiv.org/abs/2306.14975)
+  - Noam Levi, Yaron Oz.
+  - Key Word: Neural Scaling Laws; Random Matrix Theory.
+  - <details><summary>Digest</summary> The paper explores the underlying scaling laws and universal statistical structure of complex datasets, using tools from statistical physics and Random Matrix Theory (RMT). They analyze the feature-feature covariance matrix and observe that the power-law scalings of eigenvalues differ between uncorrelated random data and real-world data. They find that introducing long-range correlations can recover the scaling behavior in synthetic data, and both synthetic and real-world datasets belong to the same universality class as chaotic systems rather than integrable systems. The expected RMT statistical behavior is evident in empirical covariance matrices at smaller dataset sizes than traditionally used for training, and it can be related to the number of samples needed to approximate the population power-law scaling behavior.
+
+- Are Emergent Abilities of Large Language Models a Mirage? [[paper]](https://arxiv.org/abs/2304.15004)
+  - Rylan Schaeffer, Brando Miranda, Sanmi Koyejo.
+  - Key Word: Large Language Models; Neural Scaling Laws; Emergent Abilities.
+  - <details><summary>Digest</summary> Recent work claims that large language models display emergent abilities, abilities not present in smaller-scale models that are present in larger-scale models. What makes emergent abilities intriguing is two-fold: their sharpness, transitioning seemingly instantaneously from not present to present, and their unpredictability, appearing at seemingly unforeseeable model scales. Here, we present an alternative explanation for emergent abilities: that for a particular task and model family, when analyzing fixed model outputs, one can choose a metric which leads to the inference of an emergent ability or another metric which does not. We find strong supporting evidence that emergent abilities may not be a fundamental property of scaling AI models.
+
+- Data pruning and neural scaling laws: fundamental limitations of score-based algorithms. [[paper]](https://arxiv.org/abs/2302.06960)
+  - Fadhel Ayed, Soufiane Hayou.
+  - Key Word: Data Pruning; Neural Scaling Laws.
+  - <details><summary>Digest</summary> In this work, we focus on score-based data pruning algorithms and show theoretically and empirically why such algorithms fail in the high compression regime. We demonstrate ``No Free Lunch" theorems for data pruning and present calibration protocols that enhance the performance of existing pruning algorithms in this high compression regime using randomization.
+
+- Progress measures for grokking via mechanistic interpretability. [[paper]](https://arxiv.org/abs/2301.05217)
+  - Neel Nanda, Lawrence Chan, Tom Liberum, Jess Smith, Jacob Steinhardt.
+  - Key Work: Grokking; Interpretability.
+  - <details><summary>Digest</summary> We argue that progress measures can be found via mechanistic interpretability: reverse-engineering learned behaviors into their individual components. As a case study, we investigate the recently-discovered phenomenon of ``grokking'' exhibited by small transformers trained on modular addition tasks. 
+
+- Grokking modular arithmetic. [[paper]](https://arxiv.org/abs/2301.02679)
+  - Andrey Gromov.
+  - Key Word: Grokking; Modular Addition; Interpretability.
+  - <details><summary>Digest</summary> We present a simple neural network that can learn modular arithmetic tasks and exhibits a sudden jump in generalization known as ``grokking''. Concretely, we present (i) fully-connected two-layer networks that exhibit grokking on various modular arithmetic tasks under vanilla gradient descent with the MSE loss function in the absence of any regularization.
+
+
+### Emergence and Phase Transitions: 2022
+
+- Feature learning in neural networks and kernel machines that recursively learn features. [[paper]](https://arxiv.org/abs/2212.13881) [[code]](https://github.com/aradha/recursive_feature_machines)
+  - Adityanarayanan Radhakrishnan, Daniel Beaglehole, Parthe Pandit, Mikhail Belkin.
+  - Key Word: Feature Learning; Kernel Machines; Grokking; Lottery Ticket Hypothesis.
+  - <details><summary>Digest</summary> We isolate the key mechanism driving feature learning in fully connected neural networks by connecting neural feature learning to the average gradient outer product. We subsequently leverage this mechanism to design Recursive Feature Machines (RFMs), which are kernel machines that learn features. We show that RFMs (1) accurately capture features learned by deep fully connected neural networks, (2) close the gap between kernel machines and fully connected networks, and (3) surpass a broad spectrum of models including neural networks on tabular data. 
+
+- Grokking phase transitions in learning local rules with gradient descent. [[paper]](https://arxiv.org/abs/2210.15435)
+  - Bojan Žunkovič, Enej Ilievski.
+  - Key Word: Tensor Network; Grokking; Many-Body Quantum Mechanics; Neural Collapse.
+  - <details><summary>Digest</summary> We discuss two solvable grokking (generalisation beyond overfitting) models in a rule learning scenario. We show that grokking is a phase transition and find exact analytic expressions for the critical exponents, grokking probability, and grokking time distribution. Further, we introduce a tensor-network map that connects the proposed grokking setup with the standard (perceptron) statistical learning theory and show that grokking is a consequence of the locality of the teacher model. As an example, we analyse the cellular automata learning task, numerically determine the critical exponent and the grokking time distributions and compare them with the prediction of the proposed grokking model. Finally, we numerically analyse the connection between structure formation and grokking.
+
+- Broken Neural Scaling Laws. [[paper]](https://arxiv.org/abs/2210.14891) [[code]](https://github.com/ethancaballero/broken_neural_scaling_laws)
+  - Ethan Caballero, Kshitij Gupta, Irina Rish, David Krueger.
+  - Key Word: Neural Scaling Laws.
+  - <details><summary>Digest</summary> We present a smoothly broken power law functional form that accurately models and extrapolates the scaling behaviors of deep neural networks (i.e. how the evaluation metric of interest varies as the amount of compute used for training, number of model parameters, or training dataset size varies) for each task within a large and diverse set of upstream and downstream tasks, in zero-shot, prompted, and fine-tuned settings. This set includes large-scale vision and unsupervised language tasks, diffusion generative modeling of images, arithmetic, and reinforcement learning. 
+
+- How Much Data Are Augmentations Worth? An Investigation into Scaling Laws, Invariance, and Implicit Regularization. [[paper]](https://arxiv.org/abs/2210.06441) [[code]](https://github.com/JonasGeiping/dataaugs)
+  - Jonas Geiping, Micah Goldblum, Gowthami Somepalli, Ravid Shwartz-Ziv, Tom Goldstein, Andrew Gordon Wilson.
+  - Key Word: Data Augmentation; Neural Scaling Laws; Implicit Regularization.
+  - <details><summary>Digest</summary> Despite the clear performance benefits of data augmentations, little is known about why they are so effective. In this paper, we disentangle several key mechanisms through which data augmentations operate. Establishing an exchange rate between augmented and additional real data, we find that in out-of-distribution testing scenarios, augmentations which yield samples that are diverse, but inconsistent with the data distribution can be even more valuable than additional training data.
+
+- Omnigrok: Grokking Beyond Algorithmic Data. [[paper]](https://arxiv.org/abs/2210.01117)
+  - Ziming Liu, Eric J. Michaud, Max Tegmark.
+  - Key Word: Grokking Dynamics.
+  - <details><summary>Digest</summary> Grokking, the unusual phenomenon for algorithmic datasets where generalization happens long after overfitting the training data, has remained elusive. We aim to understand grokking by analyzing the loss landscapes of neural networks, identifying the mismatch between training and test losses as the cause for grokking. We refer to this as the "LU mechanism" because training and test losses (against model weight norm) typically resemble "L" and "U", respectively. This simple mechanism can nicely explain many aspects of grokking: data size dependence, weight decay dependence, the emergence of representations, etc.
+
+- Revisiting Neural Scaling Laws in Language and Vision. [[paper]](https://arxiv.org/abs/2209.06640)
+  - Ibrahim Alabdulmohsin, Behnam Neyshabur, Xiaohua Zhai.
+  - Key Word: Neural Scaling Laws; Multi-modal Learning.
+  - <details><summary>Digest</summary> The remarkable progress in deep learning in recent years is largely driven by improvements in scale, where bigger models are trained on larger datasets for longer schedules. To predict the benefit of scale empirically, we argue for a more rigorous methodology based on the extrapolation loss, instead of reporting the best-fitting (interpolating) parameters. We then present a recipe for estimating scaling law parameters reliably from learning curves. We demonstrate that it extrapolates more accurately than previous methods in a wide range of architecture families across several domains, including image classification, neural machine translation (NMT) and language modeling, in addition to tasks from the BIG-Bench evaluation benchmark. 
+
+- On the Principles of Parsimony and Self-Consistency for the Emergence of Intelligence. [[paper]](https://arxiv.org/abs/2207.04630)
+  - Yi Ma, Doris Tsao, Heung-Yeung Shum.
+  - Key Word: Intelligence; Parsimony; Self-Consistency; Rate Reduction.
+  - <details><summary>Digest</summary> Ten years into the revival of deep networks and artificial intelligence, we propose a theoretical framework that sheds light on understanding deep networks within a bigger picture of Intelligence in general. We introduce two fundamental principles, Parsimony and Self-consistency, that we believe to be cornerstones for the emergence of Intelligence, artificial or natural. While these two principles have rich classical roots, we argue that they can be stated anew in entirely measurable and computable ways.
+
+- Synergy and Symmetry in Deep Learning: Interactions between the Data, Model, and Inference Algorithm. [[paper]](https://arxiv.org/abs/2207.04612)
+  - Lechao Xiao, Jeffrey Pennington. *ICML 2022*
+  - Key Word: Synergy; Symmetry; Implicit Bias; Neural Tangent Kernel; Neural Scaling Laws.
+  - <details><summary>Digest</summary> Although learning in high dimensions is commonly believed to suffer from the curse of dimensionality, modern machine learning methods often exhibit an astonishing power to tackle a wide range of challenging real-world learning problems without using abundant amounts of data. How exactly these methods break this curse remains a fundamental open question in the theory of deep learning. While previous efforts have investigated this question by studying the data (D), model (M), and inference algorithm (I) as independent modules, in this paper, we analyze the triplet (D, M, I) as an integrated system and identify important synergies that help mitigate the curse of dimensionality.
+
+- How Much More Data Do I Need? Estimating Requirements for Downstream Tasks. [[paper]](https://arxiv.org/abs/2207.01725)
+  - Rafid Mahmood, James Lucas, David Acuna, Daiqing Li, Jonah Philion, Jose M. Alvarez, Zhiding Yu, Sanja Fidler, Marc T. Law. *CVPR 2022*
+  - Key Word: Neural Scaling Laws; Active Learning.
+  - <details><summary>Digest</summary> Prior work on neural scaling laws suggest that the power-law function can fit the validation performance curve and extrapolate it to larger data set sizes. We find that this does not immediately translate to the more difficult downstream task of estimating the required data set size to meet a target performance. In this work, we consider a broad class of computer vision tasks and systematically investigate a family of functions that generalize the power-law function to allow for better estimation of data requirements.
+
+- Beyond neural scaling laws: beating power law scaling via data pruning. [[paper]](https://arxiv.org/abs/2206.14486)
+  - Ben Sorscher, Robert Geirhos, Shashank Shekhar, Surya Ganguli, Ari S. Morcos.
+  - Key Word: Dataset Pruning; Ensemble Active Learning.
+  - <details><summary>Digest</summary> Widely observed neural scaling laws, in which error falls off as a power of the training set size, model size, or both, have driven substantial performance improvements in deep learning. However, these improvements through scaling alone require considerable costs in compute and energy. Here we focus on the scaling of error with dataset size and show how both in theory and practice we can break beyond power law scaling and reduce it to exponential scaling instead if we have access to a high-quality data pruning metric that ranks the order in which training examples should be discarded to achieve any pruned dataset size. We then test this new exponential scaling prediction with pruned dataset size empirically, and indeed observe better than power law scaling performance on ResNets trained on CIFAR-10, SVHN, and ImageNet.
+
+- Exact Phase Transitions in Deep Learning. [[paper]](https://arxiv.org/abs/2205.12510)
+  - Liu Ziyin, Masahito Ueda.
+  - Key Word: Phase Transitions; Symmetry Breaking; Mean-Field Analysis; Statistical Physics.
+  - <details><summary>Digest</summary> The paper presents a theory that demonstrates the existence of first-order and second-order phase transitions in deep learning, similar to those observed in statistical physics, by analyzing the interplay between prediction error and model complexity in the training loss. The findings have implications for neural network optimization and shed light on the origin of the posterior collapse problem in Bayesian deep learning.
+
+- Towards Understanding Grokking: An Effective Theory of Representation Learning. [[paper]](https://arxiv.org/abs/2205.10343)
+  - Ziming Liu, Ouail Kitouni, Niklas Nolte, Eric J. Michaud, Max Tegmark, Mike Williams.
+  - Key Word: Grokking; Physics of Learning; Deep Double Descent.
+  - <details><summary>Digest</summary> We aim to understand grokking, a phenomenon where models generalize long after overfitting their training set. We present both a microscopic analysis anchored by an effective theory and a macroscopic analysis of phase diagrams describing learning performance across hyperparameters. We find that generalization originates from structured representations whose training dynamics and dependence on training set size can be predicted by our effective theory in a toy setting. We observe empirically the presence of four learning phases: comprehension, grokking, memorization, and confusion.
+
+- Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets. [[paper]](https://arxiv.org/abs/2201.02177) [[code]](https://github.com/openai/grok)
+  - Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra. 
+  - Key Word: Grokking; Overfitting.
+  - <details><summary>Digest</summary> In this paper we propose to study generalization of neural networks on small algorithmically generated datasets. In this setting, questions about data efficiency, memorization, generalization, and speed of learning can be studied in great detail. In some situations we show that neural networks learn through a process of "grokking" a pattern in the data, improving generalization performance from random chance level to perfect generalization, and that this improvement in generalization can happen well past the point of overfitting.
+
+
+### Emergence and Phase Transitions: 2021
+
+- Learning Curve Theory. [[paper]](https://arxiv.org/abs/2102.04074)
+  - Marcus Hutter.
+  - Key Word: Neural Scaling Law; Learning Curve Theory.
+  - <details><summary>Digest</summary> Recently a number of empirical "universal" scaling law papers have been published, most notably by OpenAI. `Scaling laws' refers to power-law decreases of training or test error w.r.t. more data, larger neural networks, and/or more compute. In this work we focus on scaling w.r.t. data size n. Theoretical understanding of this phenomenon is largely lacking, except in finite-dimensional models for which error typically decreases with n−1/2 or n−1, where n is the sample size. We develop and theoretically analyse the simplest possible (toy) model that can exhibit n−β learning curves for arbitrary power β>0, and determine whether power laws are universal or depend on the data distribution.
+
+- Explaining Neural Scaling Laws. [[paper]](https://arxiv.org/abs/2102.06701) [[code]](https://github.com/google/neural-tangents)
+  - Yasaman Bahri, Ethan Dyer, Jared Kaplan, Jaehoon Lee, Utkarsh Sharma. *ICLR 2022*
+  - Key Word: Scaling Laws; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> We propose a theory that explains and connects these scaling laws. We identify variance-limited and resolution-limited scaling behavior for both dataset and model size, for a total of four scaling regimes. The variance-limited scaling follows simply from the existence of a well-behaved infinite data or infinite width limit, while the resolution-limited regime can be explained by positing that models are effectively resolving a smooth data manifold.
+
+
 ## Interactions with Neuroscience
 
 ### Interactions with Neuroscience: 2023
@@ -1067,11 +1140,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Siavash Golkar, Tiberiu Tesileanu, Yanis Bahroun, Anirvan M. Sengupta, Dmitri B. Chklovskii. *NeurIPS 2022*
   - Key Word: Predictive Coding Theory.
   - <details><summary>Digest</summary> The paper presents a modified version of the Predictive Coding (PC) framework, called Constrained Predictive Coding, which addresses unresolved issues and controversies in mapping PC onto the cortical hierarchy. The authors introduce a disentangling-inspired constraint on hidden-layer neural activities, derive an upper bound for the PC objective, and optimize it to develop a biologically plausible network that performs as well as the original PC objective.
-
-- On the Principles of Parsimony and Self-Consistency for the Emergence of Intelligence. [[paper]](https://arxiv.org/abs/2207.04630)
-  - Yi Ma, Doris Tsao, Heung-Yeung Shum.
-  - Key Word: Intelligence; Parsimony; Self-Consistency; Rate Reduction.
-  - <details><summary>Digest</summary> Ten years into the revival of deep networks and artificial intelligence, we propose a theoretical framework that sheds light on understanding deep networks within a bigger picture of Intelligence in general. We introduce two fundamental principles, Parsimony and Self-consistency, that we believe to be cornerstones for the emergence of Intelligence, artificial or natural. While these two principles have rich classical roots, we argue that they can be stated anew in entirely measurable and computable ways.
 
 - Painful intelligence: What AI can tell us about human suffering. [[paper]](https://arxiv.org/abs/2205.15409)
   - Aapo Hyvärinen.
@@ -1417,10 +1485,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Neural Tangent Kernel; Random Features.
   - <details><summary>Digest</summary> We propose an efficient feature map construction of the NTK of fully-connected ReLU network which enables us to apply it to large-scale datasets. We combine random features of the arc-cosine kernels with a sketching-based algorithm which can run in linear with respect to both the number of data points and input dimension. We show that dimension of the resulting features is much smaller than other baseline feature map constructions to achieve comparable error bounds both in theory and practice. 
 
-- Explaining Neural Scaling Laws. [[paper]](https://arxiv.org/abs/2102.06701) [[code]](https://github.com/google/neural-tangents)
-  - Yasaman Bahri, Ethan Dyer, Jared Kaplan, Jaehoon Lee, Utkarsh Sharma. *ICLR 2022*
-  - Key Word: Scaling Laws; Neural Tangent Kernel.
-  - <details><summary>Digest</summary> We propose a theory that explains and connects these scaling laws. We identify variance-limited and resolution-limited scaling behavior for both dataset and model size, for a total of four scaling regimes. The variance-limited scaling follows simply from the existence of a well-behaved infinite data or infinite width limit, while the resolution-limited regime can be explained by positing that models are effectively resolving a smooth data manifold.
 
 ### Neural Tangent Kernel: 2020
 
@@ -1517,16 +1581,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Edge of Stability; Bifurcation Theory.
   - <details><summary>Digest</summary> The paper explores the Edge of Stability (EoS) phenomenon observed in the evolution of the largest eigenvalue of the loss Hessian during gradient descent (GD) training. It demonstrates that GD trajectories, when EoS occurs, align on a specific bifurcation diagram, independent of initialization, and provides rigorous proofs for this trajectory alignment in specific network architectures.
 
-- Scaling Laws Do Not Scale. [[paper]](https://arxiv.org/abs/2307.03201)
-  - Fernando Diaz, Michael Madaio.
-  - Key Word: Neural Scaling Laws.
-  - <details><summary>Digest</summary> This papepr challenges the notion of scaling laws in artificial intelligence (AI) models, arguing that as dataset sizes increase, the diverse values and preferences of different communities represented in the data may not align with the metrics used to evaluate model performance.
-
-- Absorbing Phase Transitions in Artificial Deep Neural Networks. [[paper]](https://arxiv.org/abs/2307.02284)
-  - Keiichi Tamai, Tsuyoshi Okubo, Truong Vinh Truong Duy, Naotake Natori, Synge Todo.
-  - Key Word: Phase Transitions; Neural Scaling Laws.
-  - <details><summary>Digest</summary> This paper presents a framework for understanding the behavior of finite artificial deep neural networks by drawing parallels to universal critical phenomena in absorbing phase transitions. The authors investigate order-to-chaos transitions in fully-connected feedforward and convolutional neural networks, demonstrating that these transitions exist even in finite networks and that the architecture influences the universality class of the transition. Finite-size scaling is also successfully applied, allowing for a semi-quantitative description of signal propagation dynamics.
-
 - How Deep Neural Networks Learn Compositional Data: The Random Hierarchy Model. [[paper]](https://arxiv.org/abs/2307.02129)
   - Leonardo Petrini, Francesco Cagnetta, Umberto M. Tomasini, Alessandro Favero, Matthieu Wyart.
   - Key Word: Synonymic Invariance; Random Hierarchy Model.
@@ -1546,11 +1600,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Sibylle Marcotte, Rémi Gribonval, Gabriel Peyré.
   - Key Word: Gradient Flow; Conservation Laws; Lie Algebra.
   - <details><summary>Digest</summary> This paper explores the concept of "conservation laws" in gradient flows and their relevance to understanding the implicit bias and generalization properties of over-parameterized machine learning models, presenting a rigorous definition of conservation laws, methods to determine the number of these quantities, and algorithms to compute polynomial and non-polynomial conservation laws.
-
-- The Underlying Scaling Laws and Universal Statistical Structure of Complex Datasets. [[paper]](https://arxiv.org/abs/2306.14975)
-  - Noam Levi, Yaron Oz.
-  - Key Word: Neural Scaling Laws; Random Matrix Theory.
-  - <details><summary>Digest</summary> The paper explores the underlying scaling laws and universal statistical structure of complex datasets, using tools from statistical physics and Random Matrix Theory (RMT). They analyze the feature-feature covariance matrix and observe that the power-law scalings of eigenvalues differ between uncorrelated random data and real-world data. They find that introducing long-range correlations can recover the scaling behavior in synthetic data, and both synthetic and real-world datasets belong to the same universality class as chaotic systems rather than integrable systems. The expected RMT statistical behavior is evident in empirical covariance matrices at smaller dataset sizes than traditionally used for training, and it can be related to the number of samples needed to approximate the population power-law scaling behavior.
 
 - Practical Sharpness-Aware Minimization Cannot Converge All the Way to Optima. [[paper]](https://arxiv.org/abs/2306.09850) 
   - Dongkuk Si, Chulhee Yun.
@@ -1700,11 +1749,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Sharpness; Generalization.
   - <details><summary>Digest</summary> We comprehensively explore this question in a detailed study of various definitions of adaptive sharpness in settings ranging from training from scratch on ImageNet and CIFAR-10 to fine-tuning CLIP on ImageNet and BERT on MNLI. We focus mostly on transformers for which little is known in terms of sharpness despite their widespread usage. Overall, we observe that sharpness does not correlate well with generalization but rather with some training parameters like the learning rate that can be positively or negatively correlated with generalization depending on the setup.
 
-- Data pruning and neural scaling laws: fundamental limitations of score-based algorithms. [[paper]](https://arxiv.org/abs/2302.06960)
-  - Fadhel Ayed, Soufiane Hayou.
-  - Key Word: Data Pruning; Neural Scaling Laws.
-  - <details><summary>Digest</summary> In this work, we focus on score-based data pruning algorithms and show theoretically and empirically why such algorithms fail in the high compression regime. We demonstrate ``No Free Lunch" theorems for data pruning and present calibration protocols that enhance the performance of existing pruning algorithms in this high compression regime using randomization.
-
 - A Theoretical Understanding of shallow Vision Transformers: Learning, Generalization, and Sample Complexity. [[paper]](https://arxiv.org/abs/2302.06015)
   - Hongkang Li, Meng Wang, Sijia Liu, Pin-yu Chen. *ICLR 2023*
   - Key Word: Vision Transformer; Token Sparsification; Sample Complexity Bound.
@@ -1735,12 +1779,8 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Benign Overfitting; Inductive Bias.
   - <details><summary>Digest</summary> This paper argues that the degree to which interpolation is harmless hinges upon the strength of an estimator's inductive bias, i.e., how heavily the estimator favors solutions with a certain structure: while strong inductive biases prevent harmless interpolation, weak inductive biases can even require fitting noise to generalize well. 
 
-### Others: 2022
 
-- Feature learning in neural networks and kernel machines that recursively learn features. [[paper]](https://arxiv.org/abs/2212.13881) [[code]](https://github.com/aradha/recursive_feature_machines)
-  - Adityanarayanan Radhakrishnan, Daniel Beaglehole, Parthe Pandit, Mikhail Belkin.
-  - Key Word: Feature Learning; Kernel Machines; Grokking; Lottery Ticket Hypothesis.
-  - <details><summary>Digest</summary> We isolate the key mechanism driving feature learning in fully connected neural networks by connecting neural feature learning to the average gradient outer product. We subsequently leverage this mechanism to design Recursive Feature Machines (RFMs), which are kernel machines that learn features. We show that RFMs (1) accurately capture features learned by deep fully connected neural networks, (2) close the gap between kernel machines and fully connected networks, and (3) surpass a broad spectrum of models including neural networks on tabular data. 
+### Others: 2022
 
 - PAC-Bayes Compression Bounds So Tight That They Can Explain Generalization. [[paper]](https://arxiv.org/abs/2211.13609) [[code]](https://github.com/activatedgeek/tight-pac-bayes)
   - Sanae Lotfi, Marc Finzi, Sanyam Kapoor, Andres Potapczynski, Micah Goldblum, Andrew Gordon Wilson. 
@@ -1892,11 +1932,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Gradient Descent with Momentum.
   - <details><summary>Digest</summary> We adopt another perspective and first empirically show that gradient descent with momentum (GD+M) significantly improves generalization compared to gradient descent (GD) in some deep learning problems. From this observation, we formally study how momentum improves generalization. We devise a binary classification setting where a one-hidden layer (over-parameterized) convolutional neural network trained with GD+M provably generalizes better than the same network trained with GD, when both algorithms are similarly initialized.
 
-- Synergy and Symmetry in Deep Learning: Interactions between the Data, Model, and Inference Algorithm. [[paper]](https://arxiv.org/abs/2207.04612)
-  - Lechao Xiao, Jeffrey Pennington. *ICML 2022*
-  - Key Word: Synergy; Symmetry; Implicit Bias; Neural Tangent Kernel; Neural Scaling Laws.
-  - <details><summary>Digest</summary> Although learning in high dimensions is commonly believed to suffer from the curse of dimensionality, modern machine learning methods often exhibit an astonishing power to tackle a wide range of challenging real-world learning problems without using abundant amounts of data. How exactly these methods break this curse remains a fundamental open question in the theory of deep learning. While previous efforts have investigated this question by studying the data (D), model (M), and inference algorithm (I) as independent modules, in this paper, we analyze the triplet (D, M, I) as an integrated system and identify important synergies that help mitigate the curse of dimensionality.
-
 - Implicit Bias of Gradient Descent on Reparametrized Models: On Equivalence to Mirror Descent. [[paper]](https://arxiv.org/abs/2207.04036)
   - Zhiyuan Li, Tianhao Wang, JasonD. Lee, Sanjeev Arora.
   - Key Word: Implicit Bias; Mirror Descent.
@@ -1911,11 +1946,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Ron Amit, Baruch Epstein, Shay Moran, Ron Meir. *NeurIPS 2022*
   - Key Word: PAC-Bayes Bound.
   - <details><summary>Digest</summary> We present a PAC-Bayes-style generalization bound which enables the replacement of the KL-divergence with a variety of Integral Probability Metrics (IPM). We provide instances of this bound with the IPM being the total variation metric and the Wasserstein distance. A notable feature of the obtained bounds is that they naturally interpolate between classical uniform convergence bounds in the worst case (when the prior and posterior are far away from each other), and improved bounds in favorable cases (when the posterior and prior are close). This illustrates the possibility of reinforcing classical generalization bounds with algorithm- and data-dependent components, thus making them more suitable to analyze algorithms that use a large hypothesis space.
-
-- Beyond neural scaling laws: beating power law scaling via data pruning. [[paper]](https://arxiv.org/abs/2206.14486)
-  - Ben Sorscher, Robert Geirhos, Shashank Shekhar, Surya Ganguli, Ari S. Morcos.
-  - Key Word: Dataset Pruning; Ensemble Active Learning.
-  - <details><summary>Digest</summary> Widely observed neural scaling laws, in which error falls off as a power of the training set size, model size, or both, have driven substantial performance improvements in deep learning. However, these improvements through scaling alone require considerable costs in compute and energy. Here we focus on the scaling of error with dataset size and show how both in theory and practice we can break beyond power law scaling and reduce it to exponential scaling instead if we have access to a high-quality data pruning metric that ranks the order in which training examples should be discarded to achieve any pruned dataset size. We then test this new exponential scaling prediction with pruned dataset size empirically, and indeed observe better than power law scaling performance on ResNets trained on CIFAR-10, SVHN, and ImageNet.
 
 - Robustness Implies Generalization via Data-Dependent Generalization Bounds. [[paper]](https://arxiv.org/abs/2206.13497)
   - Kenji Kawaguchi, Zhun Deng, Kyle Luh, Jiaoyang Huang. *ICML 2022*
@@ -1951,16 +1981,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Thomas Laurent, James H. von Brecht, Xavier Bresson.
   - Key Word: One-Shot Generalization; PAC Learning; Neural Tangent Kernel.
   - <details><summary>Digest</summary> We provide a theoretical framework to study a phenomenon that we call one-shot generalization. This phenomenon refers to the ability of an algorithm to perform transfer learning within a single task, meaning that it correctly classifies a test point that has a single exemplar in the training set. We propose a simple data model and use it to study this phenomenon in two ways. First, we prove a non-asymptotic base-line -- kernel methods based on nearest-neighbor classification cannot perform one-shot generalization, independently of the choice of the kernel and the size of the training set. Second, we empirically show that the most direct neural network architecture for our data model performs one-shot generalization almost perfectly. This stark differential leads us to believe that the one-shot generalization mechanism is partially responsible for the empirical success of neural networks.
-
-- Exact Phase Transitions in Deep Learning. [[paper]](https://arxiv.org/abs/2205.12510)
-  - Liu Ziyin, Masahito Ueda.
-  - Key Word: Phase Transitions; Symmetry Breaking; Mean-Field Analysis; Statistical Physics.
-  - <details><summary>Digest</summary> The paper presents a theory that demonstrates the existence of first-order and second-order phase transitions in deep learning, similar to those observed in statistical physics, by analyzing the interplay between prediction error and model complexity in the training loss. The findings have implications for neural network optimization and shed light on the origin of the posterior collapse problem in Bayesian deep learning.
-
-- Towards Understanding Grokking: An Effective Theory of Representation Learning. [[paper]](https://arxiv.org/abs/2205.10343)
-  - Ziming Liu, Ouail Kitouni, Niklas Nolte, Eric J. Michaud, Max Tegmark, Mike Williams.
-  - Key Word: Grokking; Physics of Learning; Deep Double Descent.
-  - <details><summary>Digest</summary> We aim to understand grokking, a phenomenon where models generalize long after overfitting their training set. We present both a microscopic analysis anchored by an effective theory and a macroscopic analysis of phase diagrams describing learning performance across hyperparameters. We find that generalization originates from structured representations whose training dynamics and dependence on training set size can be predicted by our effective theory in a toy setting. We observe empirically the presence of four learning phases: comprehension, grokking, memorization, and confusion.
 
 - Empirical Evaluation and Theoretical Analysis for Representation Learning: A Survey. [[paper]](https://arxiv.org/abs/2204.08226)
   - Kento Nozawa, Issei Sato. *IJCAI 2022*
@@ -2078,11 +2098,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Juntang Zhuang, Nicha C. Dvornek, Sekhar Tatikonda, James S. Duncan. *ICLR 2021*
   - Key Word: Ordinary Differential Equations.
   - <details><summary>Digest</summary> Based on the asynchronous leapfrog (ALF) solver, we propose the Memory-efficient ALF Integrator (MALI), which has a constant memory cost w.r.t number of solver steps in integration similar to the adjoint method, and guarantees accuracy in reverse-time trajectory (hence accuracy in gradient estimation). We validate MALI in various tasks: on image recognition tasks, to our knowledge, MALI is the first to enable feasible training of a Neural ODE on ImageNet and outperform a well-tuned ResNet, while existing methods fail due to either heavy memory burden or inaccuracy.
-
-- Learning Curve Theory. [[paper]](https://arxiv.org/abs/2102.04074)
-  - Marcus Hutter.
-  - Key Word: Neural Scaling Law; Learning Curve Theory.
-  - <details><summary>Digest</summary> Recently a number of empirical "universal" scaling law papers have been published, most notably by OpenAI. `Scaling laws' refers to power-law decreases of training or test error w.r.t. more data, larger neural networks, and/or more compute. In this work we focus on scaling w.r.t. data size n. Theoretical understanding of this phenomenon is largely lacking, except in finite-dimensional models for which error typically decreases with n−1/2 or n−1, where n is the sample size. We develop and theoretically analyse the simplest possible (toy) model that can exhibit n−β learning curves for arbitrary power β>0, and determine whether power laws are universal or depend on the data distribution.
 
 
 ### Others: 2020
