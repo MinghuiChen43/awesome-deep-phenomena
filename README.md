@@ -22,6 +22,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- Can Neural Network Memorization Be Localized? [[paper]](https://arxiv.org/abs/2307.09542)
+  - Pratyush Maini, Michael C. Mozer, Hanie Sedghi, Zachary C. Lipton, J. Zico Kolter, Chiyuan Zhang. *ICML 2023*
+  - Key Word: Atypical Example Memorization; Location of Memorization; Task Specific Neurons.
+  - <details><summary>Digest</summary> The paper demonstrates that memorization in deep overparametrized networks is not limited to individual layers but rather confined to a small set of neurons across various layers of the model. Through experimental evidence from gradient accounting, layer rewinding, and retraining, the study reveals that most layers are redundant for example memorization, and the contributing layers are typically not the final layers. Additionally, the authors propose a new form of dropout called example-tied dropout, which allows them to selectively direct memorization to a pre-defined set of neurons, effectively reducing memorization accuracy while also reducing the generalization gap.
+
 - No Wrong Turns: The Simple Geometry Of Neural Networks Optimization Paths. [[paper]](https://arxiv.org/abs/2306.11922)
   - Charles Guille-Escuret, Hiroki Naganuma, Kilian Fatras, Ioannis Mitliagkas.
   - Key Word: Restricted Secant Inequality; Error Bound; Loss Landscape Geometry.
