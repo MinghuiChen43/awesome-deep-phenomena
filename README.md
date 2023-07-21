@@ -1592,6 +1592,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Sharpness Minimization Algorithms Do Not Only Minimize Sharpness To Achieve Better Generalization. [[paper]](https://arxiv.org/abs/2307.11007)
+  - Kaiyue Wen, Tengyu Ma, Zhiyuan Li.
+  - Key Word: Sharpness-Aware Minimization.
+  - <details><summary>Digest</summary>  The paper investigates the relationship between flatness and generalization in overparameterized neural networks. It identifies three scenarios for two-layer ReLU networks: (1) flatness implies generalization, (2) non-generalizing flattest models exist, and sharpness minimization algorithms fail to generalize, and (3) non-generalizing flattest models exist, but sharpness minimization algorithms still generalize. These findings indicate that the connection between sharpness and generalization depends on data distributions and model architectures, prompting the need to explore alternative explanations for the generalization of overparameterized neural networks.
+
 - On the curvature of the loss landscape. [[paper]](https://arxiv.org/abs/2307.04719)
   - Alison Pouplin, Hrittik Roy, Sidak Pal Singh, Georgios Arvanitidis.
   - Key Word: Loss Landscape; Scalar Curvature; Riemannian Manifold.
