@@ -1008,6 +1008,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Neural Scaling Laws; Random Matrix Theory.
   - <details><summary>Digest</summary> The paper explores the underlying scaling laws and universal statistical structure of complex datasets, using tools from statistical physics and Random Matrix Theory (RMT). They analyze the feature-feature covariance matrix and observe that the power-law scalings of eigenvalues differ between uncorrelated random data and real-world data. They find that introducing long-range correlations can recover the scaling behavior in synthetic data, and both synthetic and real-world datasets belong to the same universality class as chaotic systems rather than integrable systems. The expected RMT statistical behavior is evident in empirical covariance matrices at smaller dataset sizes than traditionally used for training, and it can be related to the number of samples needed to approximate the population power-law scaling behavior.
 
+- Hidden symmetries of ReLU networks. [[paper]](https://arxiv.org/abs/2306.06179)
+  - J. Elisenda Grigsby, Kathryn Lindsey, David Rolnick. *ICML 2023*
+  - Key Word: Permutation Symmetries.
+  - <details><summary>Digest</summary> The paper explores the representation of feedforward ReLU neural networks using their parameter space during training, investigating the existence of hidden symmetries that result in different parameter settings producing the same function. The authors prove that networks without narrow layers have parameter settings without hidden symmetries. They also identify mechanisms that lead to hidden symmetries and conduct experiments indicating that the probability of networks having no hidden symmetries decreases as depth increases, but increases as width and input dimension increase.
+
 - Are Emergent Abilities of Large Language Models a Mirage? [[paper]](https://arxiv.org/abs/2304.15004)
   - Rylan Schaeffer, Brando Miranda, Sanmi Koyejo.
   - Key Word: Large Language Models; Neural Scaling Laws; Emergent Abilities.
