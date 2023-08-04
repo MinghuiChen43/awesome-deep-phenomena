@@ -1417,6 +1417,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2023
 
+- Tensor Programs IVb: Adaptive Optimization in the Infinite-Width Limit. [[paper]](https://arxiv.org/abs/2308.01814)
+  - Greg Yang, Etai Littwin.
+  - Key Word: Tensor Programs.
+  - <details><summary>Digest</summary> The paper explores the behavior of wide neural networks trained with adaptive optimizers like Adam beyond stochastic gradient descent (SGD). It reveals that the dichotomy between feature learning and kernel behaviors, observed in SGD, also applies to Adam with a nonlinear notion of "kernel." The study derives the "neural tangent" and "maximal update" limits for any architecture. The paper introduces a new Tensor Program language, NEXORT, to express how adaptive optimizers process gradients into updates, and utilizes bra-ket notation to simplify expressions and calculations in Tensor Programs. The work provides a comprehensive summary and generalization of previous results in the Tensor Programs series of papers.
+
 - The NTK approximation is valid for longer than you think. [[paper]](https://arxiv.org/abs/2305.13141)
   - Enric Boix-Adsera, Etai Littwin.
   - Key Word: Neural Tangent Kernel Approximation.
