@@ -1114,6 +1114,13 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Scaling Laws; Neural Tangent Kernel.
   - <details><summary>Digest</summary> We propose a theory that explains and connects these scaling laws. We identify variance-limited and resolution-limited scaling behavior for both dataset and model size, for a total of four scaling regimes. The variance-limited scaling follows simply from the existence of a well-behaved infinite data or infinite width limit, while the resolution-limited regime can be explained by positing that models are effectively resolving a smooth data manifold.
 
+### Emergence and Phase Transitions: 2020
+
+- A Neural Scaling Law from the Dimension of the Data Manifold. [[paper]](https://arxiv.org/abs/2004.10802)
+  - Utkarsh Sharma, Jared Kaplan.
+  - Key Word: Neural Scaling Law; Manifold Intrinsic Dimension; Fractal Dimension.
+  - <details><summary>Digest</summary> This paper investigates neural network performance with abundant data, finding that well-trained networks exhibit power-law loss scaling (L∝N−α) based on network parameters (N). The phenomenon applies broadly across diverse data types and scales. The study proposes that this behavior stems from neural models effectively conducting regression on an intrinsic dimension (d) data manifold. The theory predicts α≈4/d scaling exponents for cross-entropy and mean-squared error losses. Empirical validation occurs via independent measurements of intrinsic dimension and scaling exponents in a teacher/student framework, including various d and α values through random teacher network adjustments. CNN classifiers and GPT-style language models further test the theory's applicability across datasets.
+
 
 ## Interactions with Neuroscience
 
@@ -1226,11 +1233,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Manish V. Reddy, Andrzej Banburski, Nishka Pant, Tomaso Poggio. *NeurIPS 2020*
   - Key Word: Robustness; Retinal Fixations.
   - <details><summary>Digest</summary> A convolutional neural network strongly robust to adversarial perturbations at reasonable computational and performance cost has not yet been demonstrated. The primate visual ventral stream seems to be robust to small perturbations in visual stimuli but the underlying mechanisms that give rise to this robust perception are not understood. In this work, we investigate the role of two biologically plausible mechanisms in adversarial robustness. We demonstrate that the non-uniform sampling performed by the primate retina and the presence of multiple receptive fields with a range of receptive field sizes at each eccentricity improve the robustness of neural networks to small adversarial perturbations
-
-- A Neural Scaling Law from the Dimension of the Data Manifold. [[paper]](https://arxiv.org/abs/2004.10802)
-  - Utkarsh Sharma, Jared Kaplan.
-  - Key Word: Neural Scaling Law; Manifold Intrinsic Dimension; Fractal Dimension.
-  - <details><summary>Digest</summary> This paper investigates neural network performance with abundant data, finding that well-trained networks exhibit power-law loss scaling (L∝N−α) based on network parameters (N). The phenomenon applies broadly across diverse data types and scales. The study proposes that this behavior stems from neural models effectively conducting regression on an intrinsic dimension (d) data manifold. The theory predicts α≈4/d scaling exponents for cross-entropy and mean-squared error losses. Empirical validation occurs via independent measurements of intrinsic dimension and scaling exponents in a teacher/student framework, including various d and α values through random teacher network adjustments. CNN classifiers and GPT-style language models further test the theory's applicability across datasets.
 
 - Five Points to Check when Comparing Visual Perception in Humans and Machines. [[paper]](https://arxiv.org/abs/2004.09406) [[code]](https://github.com/bethgelab/notorious_difficulty_of_comparing_human_and_machine_perception)
   - Christina M. Funke, Judy Borowski, Karolina Stosio, Wieland Brendel, Thomas S. A. Wallis, Matthias Bethge. *JOV*
