@@ -1614,6 +1614,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- On the Implicit Bias of Adam. [[paper]](https://arxiv.org/abs/2309.00079)
+  - Matias D. Cattaneo, Jason M. Klusowski, Boris Shigida.
+  - Key Word: Adam; Implicit Bias; Ordinary Differential Equations.
+  - <details><summary>Digest</summary> This paper explores the concept of implicit regularization in optimization algorithms like RMSProp and Adam, comparing it to previous work on gradient descent trajectories. It demonstrates that these algorithms exhibit implicit regularization effects influenced by their hyperparameters and training stage. Specifically, they either penalize the one-norm of loss gradients or hinder its decrease. The paper supports these findings with numerical experiments and discusses their potential impact on generalization in machine learning. 
+
 - Sharpness Minimization Algorithms Do Not Only Minimize Sharpness To Achieve Better Generalization. [[paper]](https://arxiv.org/abs/2307.11007)
   - Kaiyue Wen, Tengyu Ma, Zhiyuan Li.
   - Key Word: Sharpness-Aware Minimization.
