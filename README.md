@@ -1614,10 +1614,20 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Implicit regularization of deep residual networks towards neural ODEs. [[paper]](https://arxiv.org/abs/2309.01213)
+  - Pierre Marion, Yu-Han Wu, Michael E. Sander, Gérard Biau.
+  - Key Word: Implicit Regularization; Neural Ordinary Differential Equations.
+  - <details><summary>Digest</summary> This paper establishes an implicit regularization connection between deep residual networks and neural ordinary differential equations (ODEs) when trained with gradient flow. It proves that if the network is initially set up as a discretization of a neural ODE, this relationship persists during training. These findings are valid for both finite training times and in the limit of infinite training time under certain conditions. The paper also demonstrates this connection in the context of specific residual network architectures and shows numerical experiments to support the results.
+
 - On the Implicit Bias of Adam. [[paper]](https://arxiv.org/abs/2309.00079)
   - Matias D. Cattaneo, Jason M. Klusowski, Boris Shigida.
   - Key Word: Adam; Implicit Bias; Ordinary Differential Equations.
   - <details><summary>Digest</summary> This paper explores the concept of implicit regularization in optimization algorithms like RMSProp and Adam, comparing it to previous work on gradient descent trajectories. It demonstrates that these algorithms exhibit implicit regularization effects influenced by their hyperparameters and training stage. Specifically, they either penalize the one-norm of loss gradients or hinder its decrease. The paper supports these findings with numerical experiments and discusses their potential impact on generalization in machine learning. 
+
+- Transformers as Support Vector Machines. [[paper]](https://arxiv.org/abs/2308.16898)
+  - Davoud Ataee Tarzanagh, Yingcong Li, Christos Thrampoulidis, Samet Oymak.
+  - Key Word: Transformer; Implicit Regularization.
+  - <details><summary>Digest</summary> This paper establishes a formal equivalence between self-attention in transformers and a hard-margin SVM problem. It characterizes the convergence behavior of 1-layer transformers optimized with gradient descent, showing that it can converge towards locally-optimal directions. The paper also demonstrates that over-parameterization facilitates global convergence and introduces a more general SVM equivalence for nonlinear heads. These findings suggest interpreting transformers as a hierarchy of SVMs for token selection and separation.
 
 - Sharpness Minimization Algorithms Do Not Only Minimize Sharpness To Achieve Better Generalization. [[paper]](https://arxiv.org/abs/2307.11007)
   - Kaiyue Wen, Tengyu Ma, Zhiyuan Li.
