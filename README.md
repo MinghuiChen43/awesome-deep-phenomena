@@ -993,6 +993,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2023
 
+- Explaining grokking through circuit efficiency. [[paper]](https://arxiv.org/abs/2309.02390)
+  - Vikrant Varma, Rohin Shah, Zachary Kenton, János Kramár, Ramana Kumar.
+  - Key Word: Grokking.
+  - <details><summary>Digest</summary> This paper addresses the phenomenon of "grokking" in neural networks, where a network initially achieves perfect training accuracy but poor generalization. The authors propose that grokking happens when a task allows both a generalizing solution (slower but more efficient) and a memorizing solution. They suggest that memorization becomes less efficient with larger training datasets, while generalization remains unaffected. This implies a critical dataset size where both approaches become equally efficient. The paper makes and confirms four novel predictions about grokking, including the surprising observations of "ungrokking" (regression from perfect to low test accuracy) and "semi-grokking" (delayed generalization to partial test accuracy).
+
 - Scaling Laws Do Not Scale. [[paper]](https://arxiv.org/abs/2307.03201)
   - Fernando Diaz, Michael Madaio.
   - Key Word: Neural Scaling Laws.
