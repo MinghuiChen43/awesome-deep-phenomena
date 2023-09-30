@@ -1429,6 +1429,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2023
 
+- Fixing the NTK: From Neural Network Linearizations to Exact Convex Programs. [[paper]](https://arxiv.org/abs/2309.15096)
+  - Rajat Vadiraj Dwaraknath, Tolga Ergen, Mert Pilanci.
+  - Key Word: Neural Tangent Kernel; Convex Optimization.
+  - <details><summary>Digest</summary> This paper explores theoretical aspects of deep neural networks in two main directions: 1) Understanding neural network training with SGD under specific conditions like infinite hidden-layer width and infinitesimally small learning rates using the Neural Tangent Kernel (NTK), and 2) Optimizing the training objective for ReLU networks through convex reformulations, leading to gated ReLU networks that are globally optimizable. The paper connects these two directions by interpreting the convex program for gated ReLU networks as a Multiple Kernel Learning (MKL) model. It establishes a relationship between the NTK and the optimal MKL kernel for a specific choice of mask weights. The NTK's lack of dependence on learning targets means it can't outperform the optimal MKL kernel on the training data. The paper proposes an iterative reweighting method to improve NTK weights, obtaining the optimal MKL kernel equivalent to the convex reformulation of the gated ReLU network. Numerical simulations support the theory, and the paper also analyzes prediction errors using group lasso consistency results.
+
 - Tensor Programs IVb: Adaptive Optimization in the Infinite-Width Limit. [[paper]](https://arxiv.org/abs/2308.01814)
   - Greg Yang, Etai Littwin.
   - Key Word: Tensor Programs.
