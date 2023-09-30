@@ -1624,6 +1624,16 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Physics of Language Models: Part 3.1, Knowledge Storage and Extraction. [[paper]](https://arxiv.org/abs/2309.14316)
+  - Zeyuan Allen Zhu, Yuanzhi Li.
+  - Key Word: Large Language Models.
+  - <details><summary>Digest</summary> This paper investigates how large language models answer questions, specifically whether they rely on memorization or genuine knowledge extraction. Using controlled semi-synthetic biography data, the study reveals a connection between the model's knowledge extraction ability and diversity measures of the training data. The paper employs linear probing techniques, showing a strong correlation between this relationship and whether the model encodes knowledge attributes in a linear fashion within the entity names' hidden embeddings or across other tokens in the training text.
+
+- Fantastic Generalization Measures are Nowhere to be Found. [[paper]](https://arxiv.org/abs/2309.13658)
+  - Michael Gastpar, Ido Nachum, Jonathan Shafer, Thomas Weinberger.
+  - Key Word: Generalization Bound; Overparameterization.
+  - <details><summary>Digest</summary> The paper discusses generalization bounds for neural networks in the overparameterized setting. It highlights that existing generalization bounds are not tight enough to explain neural network performance. The paper examines two common types of generalization bounds: those depending on training data and output and those considering the learning algorithm. It mathematically proves that no bound of the first type can be uniformly tight in the overparameterized setting. For the second type, it shows a trade-off between algorithm performance and bound tightness, suggesting that tight generalization bounds are not possible without suitable assumptions on the population distribution.
+
 - Implicit regularization of deep residual networks towards neural ODEs. [[paper]](https://arxiv.org/abs/2309.01213)
   - Pierre Marion, Yu-Han Wu, Michael E. Sander, Gérard Biau.
   - Key Word: Implicit Regularization; Neural Ordinary Differential Equations.
