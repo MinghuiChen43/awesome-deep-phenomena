@@ -1629,6 +1629,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Physics of Language Models: Part 3.2, Knowledge Manipulation. [[paper]](https://arxiv.org/abs/2309.14402)
+  - Zeyuan Allen-Zhu, Yuanzhi Li.
+  - Key Word: Large Language Models.
+  - <details><summary>Digest</summary> This paper investigates a language model's ability to use its stored knowledge for various types of logical reasoning, including retrieval, classification, comparison, and inverse search. The study finds that pre-trained language models like GPT2/3/4 perform well in knowledge retrieval but struggle with classification and comparison tasks unless Chain of Thoughts (CoTs) are used during both training and inference. They also perform poorly in inverse knowledge search, regardless of the prompts. The paper's main contribution is a synthetic dataset that confirms these limitations, showing that language models cannot efficiently manipulate their stored knowledge from pre-training data, even when the knowledge is perfectly stored and extractable in the models, and despite fine-tuning with appropriate instructions.
+
 - Physics of Language Models: Part 3.1, Knowledge Storage and Extraction. [[paper]](https://arxiv.org/abs/2309.14316)
   - Zeyuan Allen Zhu, Yuanzhi Li.
   - Key Word: Large Language Models.
