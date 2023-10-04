@@ -1429,6 +1429,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2023
 
+- On the Disconnect Between Theory and Practice of Overparametrized Neural Networks. [[paper]](https://arxiv.org/abs/2310.00137)
+  - Jonathan Wenger, Felix Dangel, Agustinus Kristiadi.
+  - Key Word: Overparameterized Neural Networks; Neural Tangent Kernel.
+  - <details><summary>Digest</summary> This paper explores the theoretical concept of the infinite-width limit of neural networks, which relates them to kernel methods. While previous research suggested potential advantages in optimization, uncertainty quantification, and continual learning, the paper's empirical findings indicate that these benefits do not apply to practical, large-width neural network architectures. This disconnect between theory and practice questions the practical significance of the infinite-width limit.
+
 - Fixing the NTK: From Neural Network Linearizations to Exact Convex Programs. [[paper]](https://arxiv.org/abs/2309.15096)
   - Rajat Vadiraj Dwaraknath, Tolga Ergen, Mert Pilanci.
   - Key Word: Neural Tangent Kernel; Convex Optimization.
