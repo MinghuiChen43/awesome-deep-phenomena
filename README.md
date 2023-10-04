@@ -1629,6 +1629,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Understanding Transferable Representation Learning and Zero-shot Transfer in CLIP. [[paper]](https://arxiv.org/abs/2310.00927)
+  - Zixiang Chen, Yihe Deng, Yuanzhi Li, Quanquan Gu.
+  - Key Word: Zero-Shot Transfer; Multi-Modal Foundation Models.
+  - <details><summary>Digest</summary> This paper focuses on multi-modal learning, which combines information from different data sources like text and images to enhance model performance. It highlights the success of CLIP, a method that learns joint image and text representations through contrastive pretraining. While CLIP has shown practical success, this paper aims to provide a formal theoretical understanding of its representation learning and how it aligns features from different modalities. The paper also analyzes CLIP's performance in zero-shot transfer tasks and introduces a new CLIP-type approach inspired by their analysis, which outperforms CLIP and other state-of-the-art methods on benchmark datasets.
+
 - Physics of Language Models: Part 3.2, Knowledge Manipulation. [[paper]](https://arxiv.org/abs/2309.14402)
   - Zeyuan Allen-Zhu, Yuanzhi Li.
   - Key Word: Large Language Models.
