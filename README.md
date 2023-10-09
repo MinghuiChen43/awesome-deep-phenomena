@@ -993,6 +993,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2023
 
+- Droplets of Good Representations: Grokking as a First Order Phase Transition in Two Layer Networks. [[paper]](https://arxiv.org/abs/2310.03789)
+  - Noa Rubin, Inbar Seroussi, Zohar Ringel.
+  - Key Word: Grokking.
+  - <details><summary>Digest</summary> This paper explores the phenomenon of Grokking in deep neural networks (DNNs) and its connection to feature learning. It applies the adaptive kernel approach to two teacher-student models and provides analytical predictions on feature learning and Grokking properties. The paper suggests that Grokking in DNNs is akin to a phase transition, resulting in distinct internal representations of the teacher after the transition.
+
 - Explaining grokking through circuit efficiency. [[paper]](https://arxiv.org/abs/2309.02390)
   - Vikrant Varma, Rohin Shah, Zachary Kenton, János Kramár, Ramana Kumar.
   - Key Word: Grokking.
