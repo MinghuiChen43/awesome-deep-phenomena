@@ -22,6 +22,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- What do larger image classifiers memorise? [[paper]](https://arxiv.org/abs/2310.05337)
+  - Michal Lukasik, Vaishnavh Nagarajan, Ankit Singh Rawat, Aditya Krishna Menon, Sanjiv Kumar.
+  - Key Word: Large Model; Memorization.
+  - <details><summary>Digest</summary> This paper explores the relationship between memorization and generalization in modern neural networks. It discusses Feldman's metric for measuring memorization and applies it to ResNet models for image classification. The paper then investigates whether larger neural models memorize more and finds that memorization trajectories vary across different training examples and model sizes. Additionally, it notes that knowledge distillation, a model compression technique, tends to inhibit memorization while improving generalization, particularly on examples with increasing memorization trajectories.
+
 - Can Neural Network Memorization Be Localized? [[paper]](https://arxiv.org/abs/2307.09542)
   - Pratyush Maini, Michael C. Mozer, Hanie Sedghi, Zachary C. Lipton, J. Zico Kolter, Chiyuan Zhang. *ICML 2023*
   - Key Word: Atypical Example Memorization; Location of Memorization; Task Specific Neurons.
