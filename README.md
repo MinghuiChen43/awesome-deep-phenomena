@@ -998,6 +998,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2023
 
+- Grokking as the Transition from Lazy to Rich Training Dynamics. [[paper]](https://arxiv.org/abs/2310.06110)
+  - Tanishq Kumar, Blake Bordelon, Samuel J. Gershman, Cengiz Pehlevan.
+  - Key Word: Grokking; Kernel Dynamics; Feature Learning.
+  - <details><summary>Digest</summary> The paper explores the phenomenon of "grokking" in neural networks, where the training loss decreases much earlier than the test loss. It suggests that grokking occurs as neural networks transition from lazy training dynamics to rich feature learning. The study uses a simple polynomial regression problem with a two-layer neural network to illustrate this mechanism and identifies key factors contributing to grokking. These factors include the rate of feature learning, alignment of initial features with the target function, dataset size, and the network's initial training regime. The paper argues that this transition from lazy to rich training dynamics can also impact grokking in more general settings, such as MNIST, one-layer Transformers, and student-teacher networks.
+
 - Droplets of Good Representations: Grokking as a First Order Phase Transition in Two Layer Networks. [[paper]](https://arxiv.org/abs/2310.03789)
   - Noa Rubin, Inbar Seroussi, Zohar Ringel.
   - Key Word: Grokking.
