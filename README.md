@@ -1644,6 +1644,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Why Does Sharpness-Aware Minimization Generalize Better Than SGD? [[paper]](https://arxiv.org/abs/2310.07269)
+  - Zixiang Chen, Junkai Zhang, Yiwen Kou, Xiangning Chen, Cho-Jui Hsieh, Quanquan Gu. *NeurIPS 2023*
+  - Key Word: Sharpness-Aware Minimization.
+  - <details><summary>Digest</summary> This paper addresses the problem of overfitting in large neural networks and introduces Sharpness-Aware Minimization (SAM) as a method to improve generalization, even in the presence of label noise. It specifically investigates why SAM outperforms Stochastic Gradient Descent (SGD) in certain scenarios, using two-layer convolutional ReLU networks and a nonsmooth loss landscape. The paper's findings suggest that SAM prevents early noise learning, making feature learning more effective. Experimental results on synthetic and real data support these theoretical insights.
+
 - Understanding Transferable Representation Learning and Zero-shot Transfer in CLIP. [[paper]](https://arxiv.org/abs/2310.00927)
   - Zixiang Chen, Yihe Deng, Yuanzhi Li, Quanquan Gu.
   - Key Word: Zero-Shot Transfer; Multi-Modal Foundation Models.
