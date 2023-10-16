@@ -1644,6 +1644,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- It's an Alignment, Not a Trade-off: Revisiting Bias and Variance in Deep Models. [[paper]](https://arxiv.org/abs/2310.09250)
+  - Lin Chen, Michal Lukasik, Wittawat Jitkrittum, Chong You, Sanjiv Kumar.
+  - Key Word: Bias and Variance.
+  - <details><summary>Digest</summary> This paper challenges the conventional idea that bias and variance in machine learning trade off against each other. Instead, it demonstrates that, in deep learning ensemble models, bias and variance are closely related for correctly classified samples. The paper provides empirical evidence across different deep learning models and datasets. It also explores this phenomenon theoretically from two perspectives: calibration and neural collapse. The findings suggest a connection between bias and variance in these models.
+
 - Why Does Sharpness-Aware Minimization Generalize Better Than SGD? [[paper]](https://arxiv.org/abs/2310.07269)
   - Zixiang Chen, Junkai Zhang, Yiwen Kou, Xiangning Chen, Cho-Jui Hsieh, Quanquan Gu. *NeurIPS 2023*
   - Key Word: Sharpness-Aware Minimization.
