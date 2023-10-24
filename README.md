@@ -1444,6 +1444,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2023
 
+- On the Neural Tangent Kernel of Equilibrium Models. [[paper]](https://arxiv.org/abs/2310.14062)
+  - Zhili Feng, J.Zico Kolter.
+  - Key Word: Neural Tangent Kernel; Deep Equilibrium Models.
+  - <details><summary>Digest</summary> This paper examines the neural tangent kernel (NTK) of the deep equilibrium (DEQ) model, an architecture that computes the infinite-depth limit of a weight-tied network through root-finding. It demonstrates that, unlike fully-connected neural networks, the NTK of the DEQ model remains deterministic even when both width and depth tend to infinity simultaneously, and it can be efficiently computed using root-finding.
+
 - On the Disconnect Between Theory and Practice of Overparametrized Neural Networks. [[paper]](https://arxiv.org/abs/2310.00137)
   - Jonathan Wenger, Felix Dangel, Agustinus Kristiadi.
   - Key Word: Overparameterized Neural Networks; Neural Tangent Kernel.
