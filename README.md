@@ -1649,6 +1649,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Benign Oscillation of Stochastic Gradient Descent with Large Learning Rates. [[paper]](https://arxiv.org/abs/2310.17074)
+  - Miao Lu, Beining Wu, Xiaodong Yang, Difan Zou.
+  - Key Word: Stochastic Gradient Descent; Large Learning Rate; Feature Learning.
+  - <details><summary>Digest</summary> This paper investigates the generalization of neural networks trained using a stochastic gradient descent (SGD) algorithm with large learning rates. The key finding is that the weight oscillations caused by this training regime, termed "benign oscillation," can improve generalization compared to networks trained with smaller learning rates that converge more smoothly. The theory is based on a feature learning perspective and demonstrates that large learning rate SGD allows networks to effectively learn weak features in the presence of strong features. Experimental results support the concept of "benign oscillation."
+
 - It's an Alignment, Not a Trade-off: Revisiting Bias and Variance in Deep Models. [[paper]](https://arxiv.org/abs/2310.09250)
   - Lin Chen, Michal Lukasik, Wittawat Jitkrittum, Chong You, Sanjiv Kumar.
   - Key Word: Bias and Variance.
