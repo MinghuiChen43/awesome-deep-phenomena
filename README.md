@@ -1444,6 +1444,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2023
 
+- A Spectral Condition for Feature Learning. [[paper]](https://arxiv.org/abs/2310.17813)
+  - Greg Yang, James B. Simon, Jeremy Bernstein.
+  - Key Word: Feature Learning; Spectral Normalization; Parametrizations for Wide Neural Networks
+  - <details><summary>Digest</summary> This abstract discusses the motivation to train larger neural networks and the importance of feature learning. It highlights that scaling the spectral norm of weight matrices and their updates is key to achieving feature learning. This approach differs from common heuristics based on Frobenius norm and entry size. The abstract also introduces the concept of "maximal update parametrization" and aims to provide a solid conceptual understanding of feature learning in neural networks.
+
 - On the Neural Tangent Kernel of Equilibrium Models. [[paper]](https://arxiv.org/abs/2310.14062)
   - Zhili Feng, J.Zico Kolter.
   - Key Word: Neural Tangent Kernel; Deep Equilibrium Models.
