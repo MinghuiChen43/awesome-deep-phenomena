@@ -1659,6 +1659,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Proving Linear Mode Connectivity of Neural Networks via Optimal Transport. [[paper]](https://arxiv.org/abs/2310.19103)
+  - Damien Ferbach, Baptiste Goujaud, Gauthier Gidel, Aymeric Dieuleveut.
+  - Key Word: Linear Mode Connectivity; Optimal Transport.
+  - <details><summary>Digest</summary> This paper explores the energy landscape of high-dimensional non-convex optimization problems in deep neural networks. It theoretically explains the empirical observation that different solutions found in stochastic training are often connected by simple continuous paths, such as linear ones. The framework is based on convergence rates in Wasserstein distance, showing that wide two-layer neural networks trained with stochastic gradient descent are linearly connected with high probability. The paper also provides upper and lower bounds on the layer width for linear connectivity in deep neural networks. Empirical evidence supports the approach, linking the dimension of weight distribution support with Wasserstein convergence rates and linear mode connectivity.
+
 - Benign Oscillation of Stochastic Gradient Descent with Large Learning Rates. [[paper]](https://arxiv.org/abs/2310.17074)
   - Miao Lu, Beining Wu, Xiaodong Yang, Difan Zou.
   - Key Word: Stochastic Gradient Descent; Large Learning Rate; Feature Learning.
