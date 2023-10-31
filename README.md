@@ -510,6 +510,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Deep Double Descent: 2023
 
+- A U-turn on Double Descent: Rethinking Parameter Counting in Statistical Learning. [[paper]](https://arxiv.org/abs/2310.18988)
+  - Alicia Curth, Alan Jeffares, Mihaela van der Schaar.
+  - Key Word: Deep Double Descent.
+  - <details><summary>Digest</summary> This paper challenges the conventional understanding of the relationship between model complexity and prediction error. It explores the phenomenon of "double descent," which suggests that test error can decrease as the parameter count exceeds the sample size. While this phenomenon has been observed in deep learning and other models like linear regression, trees, and boosting, the paper argues that the interpretation is influenced by multiple complexity axes. It demonstrates that the second descent occurs when the transition between these underlying axes happens and is not inherently tied to the interpolation threshold. The paper proposes a generalized measure for the effective number of parameters, which resolves tensions between double descent and traditional statistical intuition.
+
 - Dropout Drops Double Descent. [[paper]](https://arxiv.org/abs/2305.16179)
   - Tian-Le Yang, Joe Suzuki.
   - Key Word: Dropout; Deep Double Descent.
