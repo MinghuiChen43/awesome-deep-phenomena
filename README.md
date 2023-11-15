@@ -22,6 +22,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- The Transient Nature of Emergent In-Context Learning in Transformers. [[paper]](https://arxiv.org/abs/2311.08360)
+  - Aaditya K. Singh, Stephanie C.Y. Chan, Ted Moskovitz, Erin Grant, Andrew M. Saxe, Felix Hill. *NeurIPS 2023*
+  - Key Word: In-Context Learning.
+  - <details><summary>Digest</summary> This paper shows that in-context learning (ICL) in transformers, where models exhibit abilities not explicitly trained for, is often transient rather than persistent during training. The authors find ICL emerges then disappears, giving way to in-weights learning (IWL). This occurs across model sizes and datasets, raising questions around stopping training early for ICL vs later for IWL. They suggest L2 regularization may lead to more persistent ICL, removing the need for early stopping based on ICL validation. The transience may be caused by competition between emerging ICL and IWL circuits in the model.
+
 - What do larger image classifiers memorise? [[paper]](https://arxiv.org/abs/2310.05337)
   - Michal Lukasik, Vaishnavh Nagarajan, Ankit Singh Rawat, Aditya Krishna Menon, Sanjiv Kumar.
   - Key Word: Large Model; Memorization.
