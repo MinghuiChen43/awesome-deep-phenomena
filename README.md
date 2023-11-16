@@ -1004,7 +1004,7 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Emergence and Phase Transitions
 
-![avatar](https://i0.wp.com/thelowdown.momentum.asia/wp-content/uploads/2023/03/LLMs-featured-img.jpg?fit=1024%2C512&ssl=1)
+![avatar](https://github.com/Hannibal046/Awesome-LLM/blob/main/resources/image8.gif)
 
 ### Emergence and Phase Transitions: 2023
 
