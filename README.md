@@ -1008,6 +1008,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2023
 
+- More is Better in Modern Machine Learning: when Infinite Overparameterization is Optimal and Overfitting is Obligatory. [[paper]](https://arxiv.org/abs/2311.14646)
+  - James B. Simon, Dhruva Karkada, Nikhil Ghosh, Mikhail Belkin.
+  - Key Word: Overparameterization; Random Feature Regression.
+  - <details><summary>Digest</summary> This paper highlights the empirical observation that larger model size, more data, and more computation improve performance in deep learning. The paper provides theoretical backing to these observations by showing that these properties hold in random feature regression, equivalent to shallow networks with only the last layer trained. The study demonstrates that the test risk of random feature regression decreases with the number of features and samples, implying that infinite width random feature architectures are preferable. Additionally, it emphasizes the importance of training to near-zero training loss for achieving near-optimal performance, especially for tasks characterized by power law eigenstructure. The findings suggest the benefits of overparameterization, overfitting, and more data in random feature models.
+
 - Grokking as the Transition from Lazy to Rich Training Dynamics. [[paper]](https://arxiv.org/abs/2310.06110)
   - Tanishq Kumar, Blake Bordelon, Samuel J. Gershman, Cengiz Pehlevan.
   - Key Word: Grokking; Kernel Dynamics; Feature Learning.
