@@ -1669,6 +1669,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Challenges with unsupervised LLM knowledge discovery. [[paper]](https://arxiv.org/abs/2312.10029)
+  - Sebastian Farquhar, Vikrant Varma, Zachary Kenton, Johannes Gasteiger, Vladimir Mikulik, Rohin Shah.
+  - Key Word: Large Language Model; Unsuperivsed Knowledge Discovery.
+  - <details><summary>Digest</summary> The paper demonstrates that current unsupervised methods for large language models do not effectively uncover knowledge, but rather emphasize prominent features of the model's activations. It introduces the concept of consistency structure for knowledge elicitation and presents experiments revealing that unsupervised methods may prioritize a different prominent feature over knowledge. The paper concludes that existing unsupervised methods are inadequate for discovering latent knowledge and suggests sanity checks for evaluating future knowledge elicitation methods. Additionally, it hypothesizes that identification issues, such as distinguishing a model's knowledge from that of a simulated character's, will persist in future unsupervised methods.
+
 - Proving Linear Mode Connectivity of Neural Networks via Optimal Transport. [[paper]](https://arxiv.org/abs/2310.19103)
   - Damien Ferbach, Baptiste Goujaud, Gauthier Gidel, Aymeric Dieuleveut.
   - Key Word: Linear Mode Connectivity; Optimal Transport.
