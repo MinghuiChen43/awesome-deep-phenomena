@@ -1669,6 +1669,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Learning Theory; Book.
   - <details><summary>Digest</summary> The goal of the class (and thus of this textbook) is to present old and recent results in learning theory for the most widely-used learning architectures. This class is geared towards theory-oriented students as well as students who want to acquire a basic mathematical understanding of algorithms used throughout machine learning and associated fields that are significant users of learning methods such as computer vision or natural language processing.
 
+- Understanding the Regularity of Self-Attention with Optimal Transport. [[paper]](https://arxiv.org/abs/2312.14820)
+  - Valérie Castin, Pierre Ablin, Gabriel Peyré.
+  - Key Word: Self-Attention; Optimal Transport.
+  - <details><summary>Digest</summary> This paper analyzes the robustness of self-attention mechanisms in Transformers from a theoretical perspective. It studies the local Lipschitz constant of self-attention as a way to measure robustness agnostic to specific attacks. Using a measure-theoretic framework with the Wasserstein distance, it derives bounds on the Lipschitz constant on compact input spaces, showing it grows exponentially with input radius. It also finds measures with high Lipschitz constants typically have unbalanced mass concentrated in a few locations. Finally, it examines self-attention stability under perturbations changing token numbers, identifying a "mass splitting" phenomenon where duplicating tokens before perturbation can be a more effective attack.
+
 - Challenges with unsupervised LLM knowledge discovery. [[paper]](https://arxiv.org/abs/2312.10029)
   - Sebastian Farquhar, Vikrant Varma, Zachary Kenton, Johannes Gasteiger, Vladimir Mikulik, Rohin Shah.
   - Key Word: Large Language Model; Unsuperivsed Knowledge Discovery.
