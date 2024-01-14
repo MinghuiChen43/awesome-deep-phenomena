@@ -22,6 +22,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2023
 
+- Truth is in There: Improving Reasoning in Language Models with Layer-Selective Rank Reduction. [[paper]](https://arxiv.org/abs/2312.13558) [[code]](https://github.com/pratyushasharma/laser)
+  - Pratyusha Sharma, Jordan T. Ash, Dipendra Misra
+  - Key Word: Large Language Models; Reasoning.
+  - <details><summary>Digest</summary> Transformer-based Large Language Models (LLMs) have become a fixture in modern machine learning. Correspondingly, significant resources are allocated towards research that aims to further advance this technology, typically resulting in models of increasing size that are trained on increasing amounts of data. This work, however, demonstrates the surprising result that it is often possible to significantly improve the performance of LLMs by selectively removing higher-order components of their weight matrices. This simple intervention, which we call LAyer-SElective Rank reduction (LASER), can be done on a model after training has completed, and requires no additional parameters or data. We show extensive experiments demonstrating the generality of this finding across language models and datasets, and provide in-depth analyses offering insights into both when LASER is effective and the mechanism by which it operates.
+
 - The Transient Nature of Emergent In-Context Learning in Transformers. [[paper]](https://arxiv.org/abs/2311.08360)
   - Aaditya K. Singh, Stephanie C.Y. Chan, Ted Moskovitz, Erin Grant, Andrew M. Saxe, Felix Hill. *NeurIPS 2023*
   - Key Word: In-Context Learning.
