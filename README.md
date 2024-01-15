@@ -2651,3 +2651,14 @@ Our understanding of modern neural networks lags behind their practical successe
 - [Awesome Feature Learning in Deep Learning Theory](https://github.com/WeiHuang05/Awesome-Feature-Learning-in-Deep-Learning-Thoery) ![ ](https://img.shields.io/github/stars/WeiHuang05/Awesome-Feature-Learning-in-Deep-Learning-Thoery) ![ ](https://img.shields.io/github/last-commit/WeiHuang05/Awesome-Feature-Learning-in-Deep-Learning-Thoery)
 
 - [Awesome Trustworthy Deep Learning](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning) ![ ](https://img.shields.io/github/stars/MinghuiChen43/awesome-trustworthy-deep-learning) ![ ](https://img.shields.io/github/last-commit/MinghuiChen43/awesome-trustworthy-deep-learning)
+
+
+# Contributing
+
+Welcome to recommend papers that you find interesting and focused on deep phenomena. You can submit an issue or contact me via [[email]](mailto:ming_hui.chen@outlook.com). Also, if there are any errors in the paper information, please feel free to correct me.
+
+Formatting (The order of the papers is reversed based on the initial submission time to arXiv)
+- Paper Title [[paper]](https://arxiv.org/abs/xxxx.xxxx)
+  - Authors. *Published Conference or Journal*
+  - Key Word: XXX.
+  - <details><summary>Digest</summary> XXXXXX
