@@ -8,7 +8,7 @@
 
 # Awesome Deep Phenomena [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-![avatar](img/DALL·E%202024-01-15%2016.00.13%20-%20An%20abstract%20composition%20featuring%20a%20human%20brain%20made%20of%20digital%20circuits%20and%20data%20lines,%20symbolizing%20deep%20learning.%20The%20brain%20is%20surrounded%20by%20etherea.png#5 "Created by DALLE")
+![avatar](img/DALL·E%202024-01-15%2016.00.13%20-%20An%20abstract%20composition%20featuring%20a%20human%20brain%20made%20of%20digital%20circuits%20and%20data%20lines,%20symbolizing%20deep%20learning.%20The%20brain%20is%20surrounded%20by%20etherea.png#1 "Created by DALLE")
 
 Our understanding of modern neural networks lags behind their practical successes. This growing gap poses a challenge to the pace of progress in machine learning because fewer pillars of knowledge are available to designers of models and algorithms [(Hanie Sedghi)](https://odsc.com/speakers/understanding-deep-learning-phenomena/). Inspired by the [ICML 2019 workshop Identifying and Understanding Deep Learning Phenomena](http://deep-phenomena.org/), I collect papers and related resources which present interesting empirical study and insight into the nature of deep learning.  
 
