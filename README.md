@@ -12,7 +12,7 @@ Our understanding of modern neural networks lags behind their practical successe
 
 # Table of Contents
 
-<img width="50%" align="right" alt="DALLE" src="img/DALL·E 2024-01-15 16.32.32 - A highly detailed digital art piece featuring an artificial brain integrated with advanced technology and physics concepts. The brain, depicted in the.png" />
+<img width="30%" align="right" alt="DALLE" src="img/DALL·E 2024-01-15 16.32.32 - A highly detailed digital art piece featuring an artificial brain integrated with advanced technology and physics concepts. The brain, depicted in the.png" />
 
 - [Empirical Study](#empirical-study)
 - [Neural Collapse](#neural-collapse)
@@ -25,7 +25,6 @@ Our understanding of modern neural networks lags behind their practical successe
 - [Other Papers](#others)
 - [Resources](#related-resources)
 
-<!-- ![avatar](img/DALL·E%202024-01-15%2016.32.32%20-%20A%20highly%20detailed%20digital%20art%20piece%20featuring%20an%20artificial%20brain%20integrated%20with%20advanced%20technology%20and%20physics%20concepts.%20The%20brain,%20depicted%20in%20the.png "Created by DALLE") -->
 
 ## Empirical Study
 
