@@ -23,7 +23,7 @@ Our understanding of modern neural networks lags behind their practical successe
 - [Other Papers](#others)
 - [Resources](#related-resources)
 
-![avatar](img/DALL·E%202024-01-15%2016.00.13%20-%20An%20abstract%20composition%20featuring%20a%20human%20brain%20made%20of%20digital%20circuits%20and%20data%20lines,%20symbolizing%20deep%20learning.%20The%20brain%20is%20surrounded%20by%20etherea.png#1 "Created by DALLE")
+![avatar](img/DALL·E%202024-01-15%2016.00.13%20-%20An%20abstract%20composition%20featuring%20a%20human%20brain%20made%20of%20digital%20circuits%20and%20data%20lines,%20symbolizing%20deep%20learning.%20The%20brain%20is%20surrounded%20by%20etherea.png "Created by DALLE")
 
 ## Empirical Study
 
