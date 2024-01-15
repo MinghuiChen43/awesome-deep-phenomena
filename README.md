@@ -1,3 +1,11 @@
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)](https://github.com/MinghuiChen43/awesome-deep-phenomena/graphs/commit-activity)
+![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![ ](https://img.shields.io/github/last-commit/MinghuiChen43/awesome-deep-phenomena)
+[![GitHub stars](https://img.shields.io/github/stars/MinghuiChen43/awesome-deep-phenomena?color=blue&style=plastic)](https://github.com/MinghuiChen43/awesome-deep-phenomena/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/MinghuiChen43/awesome-deep-phenomena?color=yellow&style=plastic)](https://github.com/MinghuiChen43/awesome-deep-phenomena)
+[![GitHub forks](https://img.shields.io/github/forks/MinghuiChen43/awesome-deep-phenomena?color=red&style=plastic)](https://github.com/MinghuiChen43/awesome-deep-phenomena/watchers)
+[![GitHub Contributors](https://img.shields.io/github/contributors/MinghuiChen43/awesome-deep-phenomena?color=green&style=plastic)](https://github.com/MinghuiChen43/awesome-deep-phenomena/network/members)
+
 # Awesome Deep Phenomena [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 Our understanding of modern neural networks lags behind their practical successes. This growing gap poses a challenge to the pace of progress in machine learning because fewer pillars of knowledge are available to designers of models and algorithms [(Hanie Sedghi)](https://odsc.com/speakers/understanding-deep-learning-phenomena/). Inspired by the [ICML 2019 workshop Identifying and Understanding Deep Learning Phenomena](http://deep-phenomena.org/), I collect papers and related resources which present interesting empirical study and insight into the nature of deep learning.  
