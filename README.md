@@ -1677,6 +1677,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Others
 
+### Others: 2024
+
+- A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models. [[paper]](https://arxiv.org/abs/2401.07187)
+  - Namjoon Suh, Guang Cheng.
+  - Key Word: Survey; Learning Theory; Neural Tangent Kernel; Mean-Field Theory; Approximation Theory; Generative Modeling.
+  - <details><summary>Digest</summary> The paper reviews statistical theories of neural networks, focusing on three areas: first, it analyzes neural network risks and construction within nonparametric frameworks, noting limitations in the analysis of deep networks. Second, it discusses training dynamics, especially how networks trained via gradient-based methods generalize. This section reviews two key paradigms: Neural Tangent Kernel (NTK) and Mean-Field (MF). Finally, it examines advances in generative models, notably Generative Adversarial Networks (GANs), diffusion models, and in-context learning in Large Language Models. The paper concludes with future directions for deep learning theory.
+
 ### Others: 2023
 
 - Learning Theory from First Principles. [[paper]](https://www.di.ens.fr/~fbach/ltfp/)
