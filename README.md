@@ -1679,6 +1679,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Residual Alignment: Uncovering the Mechanisms of Residual Networks. [[paper]](https://arxiv.org/abs/2401.09018)
+  - Jianing Li, Vardan Papyan. *NeurIPS 2023*
+  - Key Word: ResNet; Neural Collapse; Neural ODE; Optimal Transport.
+  - <details><summary>Digest</summary> This paper examines the ResNet architecture in deep learning, focusing on understanding its effectiveness through an analysis of its residual blocks. The study uncovers a phenomenon called Residual Alignment (RA), characterized by: Even distribution of intermediate representations in high-dimensional space (RA1). Alignment of singular vectors in Residual Jacobians across different network depths (RA2). Limitation of Residual Jacobians' rank by the number of classes in fully-connected ResNets (RA3). Inverse scaling of top singular values with network depth (RA4). Residual Alignment is found to be crucial for the model's performance, occurring in well-generalizing models across various architectures and datasets. The absence of RA when skip connections are removed highlights their importance. The paper also proposes a mathematical model supporting these findings.
+
 - A Survey on Statistical Theory of Deep Learning: Approximation, Training Dynamics, and Generative Models. [[paper]](https://arxiv.org/abs/2401.07187)
   - Namjoon Suh, Guang Cheng.
   - Key Word: Survey; Learning Theory; Neural Tangent Kernel; Mean-Field Theory; Approximation Theory; Generative Modeling.
