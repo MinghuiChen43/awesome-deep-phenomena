@@ -1679,6 +1679,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Understanding the Expressive Power and Mechanisms of Transformer for Sequence Modeling. [[paper]](https://arxiv.org/abs/2402.00522)
+  - Mingze Wang, Weinan E.
+  - Key Word: Expressivity; Transformer; Self-Attent Mechanism; Positional Ecoding.
+  - <details><summary>Digest</summary> We conduct a systematic study of the approximation properties of Transformer for sequence modeling with long, sparse and complicated memory. We investigate the mechanisms through which different components of Transformer, such as the dot-product self-attention, positional encoding and feed-forward layer, affect its expressive power, and we study their combined effects through establishing explicit approximation rates. Our study reveals the roles of critical parameters in the Transformer, such as the number of layers and the number of attention heads, and these insights also provide natural suggestions for alternative architectures.
+
 - Residual Alignment: Uncovering the Mechanisms of Residual Networks. [[paper]](https://arxiv.org/abs/2401.09018)
   - Jianing Li, Vardan Papyan. *NeurIPS 2023*
   - Key Word: ResNet; Neural Collapse; Neural ODE; Optimal Transport.
