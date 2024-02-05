@@ -654,6 +654,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://miro.medium.com/v2/resize:fit:1400/1*jb07XiONxy2jMpRqQYjDqw.png)
 
+
+### Lottery Ticket Hypothesis: 2024
+
+- No Free Prune: Information-Theoretic Barriers to Pruning at Initialization. [[paper]](https://arxiv.org/abs/2402.01089)
+  - Tanishq Kumar, Kevin Luo, Mark Sellke.
+  - Key Word: Lottery Tickets; Overparameterization; Mutual Information.
+  - <details><summary>Digest</summary> This paper investigates the concept of "lottery tickets" in deep learning, questioning the necessity of large models versus identifying and training sparse networks from the start. Despite attempts, finding these efficient subnetworks without training the full model has largely failed. The study proposes a theoretical reason for this, focusing on the effective parameter count, which includes non-zero weights and the data-related information within the sparsity mask. It extends the Law of Robustness to sparse networks, suggesting that data-dependent masks are crucial for robust performance. The findings indicate that masks created during or after training contain more information than those at initialization, affecting the network's effective capacity. This explains the difficulty in finding lottery tickets without full model training, as confirmed by experimental results on neural networks.
+
 ### Lottery Ticket Hypothesis: 2023
 
 - Instant Soup: Cheap Pruning Ensembles in A Single Pass Can Draw Lottery Tickets from Large Models. [[paper]](https://arxiv.org/abs/2306.10460)
