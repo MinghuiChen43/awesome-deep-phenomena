@@ -1480,6 +1480,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://i.ytimg.com/vi/raT2ECrvbag/maxresdefault.jpg)
 
+### Neural Tangent Kernel: 2024
+
+- Gradient descent induces alignment between weights and the empirical NTK for deep non-linear networks. [[paper]](https://arxiv.org/abs/2402.05271)
+  - Daniel Beaglehole, Ioannis Mitliagkas, Atish Agarwala.
+  - Key Word: Neural Tangent Kernel; Neural Feature Ansatz.
+  - <details><summary>Digest</summary> This paper explores a key unsolved issue in supervised learning: how neural networks process and learn from the statistical relationships between inputs and labels. It delves into the previously observed phenomenon where the gram matrices of neural network weights align with the model's average gradient outer product, a concept known as the Neural Feature Ansatz (NFA). The study clarifies why these elements correlate during training by linking the NFA to the alignment between the weight matrices' left singular structure and key components of the empirical neural tangent kernels. It introduces the idea of a centered NFA that underscores this alignment and demonstrates that the development speed of the NFA can be analytically predicted early in training based on input and label statistics. Additionally, the paper presents a novel method to enhance NFA correlation in neural networks, significantly improving the learned features' quality.
+
+
 ### Neural Tangent Kernel: 2023
 
 - A Spectral Condition for Feature Learning. [[paper]](https://arxiv.org/abs/2310.17813)
