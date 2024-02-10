@@ -30,6 +30,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://danieltakeshi.github.io/assets/understanding_dl_rethinking_gen.png)
 
+### Empirical Study: 2024
+
+- How Good is a Single Basin? [[paper]](https://arxiv.org/abs/2402.03187)
+  - Kai Lion, Lorenzo Noci, Thomas Hofmann, Gregor Bachmann.
+  - Key Word: Linear Mode Connectivity; Deep Ensembles.
+  - <details><summary>Digest</summary> This paper investigates the assumption that the multi-modal nature of neural loss landscapes is key to the success of deep ensembles. By creating "connected" ensembles that are confined to a single basin, the study finds that this limitation indeed reduces performance. However, it also discovers that distilling knowledge from multiple basins into these connected ensembles can offset the performance deficit, effectively creating multi-basin deep ensembles within a single basin. This suggests that while knowledge from outside a given basin exists within it, it is not readily accessible without learning from other basins.
+
 ### Empirical Study: 2023
 
 - Truth is in There: Improving Reasoning in Language Models with Layer-Selective Rank Reduction. [[paper]](https://arxiv.org/abs/2312.13558) [[code]](https://github.com/pratyushasharma/laser)
