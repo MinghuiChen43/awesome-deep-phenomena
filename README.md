@@ -1695,6 +1695,16 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Tighter Generalisation Bounds via Interpolation. [[paper]](https://arxiv.org/abs/2402.05101)
+  - Paul Viallard, Maxime Haddouche, Umut Şimşekli, Benjamin Guedj.
+  - Key Word: PAC-Bayes Generalization Bounds.
+  - <details><summary>Digest</summary> This paper introduces a method for creating new PAC-Bayes generalization bounds using the (f,Γ)-divergence. It also presents interpolated PAC-Bayes bounds across various probability divergences, such as KL, Wasserstein, and total variation, tailored to the properties of posterior distributions. The study evaluates the tightness of these bounds and links them to established results in statistical learning, identifying them as specific instances. Furthermore, by implementing these bounds as training objectives, the paper demonstrates their effectiveness in providing significant guarantees and practical performance improvements in machine learning models.
+
+- Provably learning a multi-head attention layer. [[paper]](https://arxiv.org/abs/2402.04084)
+  - Sitan Chen, Yuanzhi Li.
+  - Key Word: Multi-Head Attention; Learning Theory.
+  - <details><summary>Digest</summary> The paper discusses the multi-head attention layer, a crucial feature of the transformer architecture that differentiates it from conventional feed-forward models. It explores the theoretical aspects of learning a multi-head attention layer through random examples, presenting the first significant upper and lower bounds for this challenge. The findings include a method that can learn the function of the multi-head attention layer with small error under specific conditions, using random labeled examples from a defined set. The study also indicates that an exponential dependency on the number of attention heads (m) is inevitable in the worst-case scenarios. This research uses Boolean inputs to reflect the discrete nature of tokens in large language models but notes that the approach can be adapted to continuous settings. The proposed algorithm, which diverges from traditional methods by focusing on shaping a convex body around unknown parameters, offers a new direction in provable learning algorithms beyond the common reliance on the Gaussian distribution's properties.
+
 - Understanding the Expressive Power and Mechanisms of Transformer for Sequence Modeling. [[paper]](https://arxiv.org/abs/2402.00522)
   - Mingze Wang, Weinan E.
   - Key Word: Expressivity; Transformer; Self-Attent Mechanism; Positional Ecoding.
