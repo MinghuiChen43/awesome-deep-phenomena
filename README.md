@@ -448,6 +448,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](./img/NC_animation.gif)
 
+### Neural Collapse: 2024
+
+- Pushing Boundaries: Mixup's Influence on Neural Collapse. [[paper]](https://arxiv.org/abs/2402.06171)
+  - Quinn Fisher, Haoming Meng, Vardan Papyan.
+  - Key Word: Mixup; Neural Collapse.
+  - <details><summary>Digest</summary> The abstract investigates "Mixup," a technique enhancing deep neural network robustness by blending training data and labels, focusing on its success through geometric configurations of network activations. It finds that mixup leads to a unique alignment of last-layer activations that challenges prior expectations, with mixed examples of the same class aligning with the classifier and different classes marking distinct boundaries. This unexpected behavior suggests mixup affects deeper network layers in a novel way, diverging from simple convex combinations of class features. The study connects these findings to improved model calibration and supports them with a theoretical analysis, highlighting the role of a specific geometric pattern (simplex equiangular tight frame) in optimizing last-layer features for better performance.
+
+
 ### Neural Collapse: 2023
 
 - Are Neurons Actually Collapsed? On the Fine-Grained Structure in Neural Representations. [[paper]](https://arxiv.org/abs/2306.17105)
