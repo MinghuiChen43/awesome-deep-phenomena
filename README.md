@@ -32,6 +32,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2024
 
+- Rethink Model Re-Basin and the Linear Mode Connectivity. [[paper]](https://arxiv.org/abs/2402.05966)
+  - Xingyu Qu, Samuel Horvath.
+  - Key Word: Linear Mode Connectivity; Model Merging; Re-Normalization; Pruning.
+  - <details><summary>Digest</summary> The paper discusses the "model re-basin regime," where most solutions found by stochastic gradient descent (SGD) in sufficiently wide models converge to similar states, impacting model averaging. It identifies limitations in current strategies due to a poor understanding of the mechanisms involved. The study critiques existing matching algorithms for their inadequacies and proposes that proper re-normalization can address these issues. By adopting a more analytical approach, the paper reveals how matching algorithms and re-normalization interact, offering clearer insights and improvements over previous work. This includes a connection between linear mode connectivity and pruning, leading to a new lightweight post-pruning method that enhances existing pruning techniques.
+
 - How Good is a Single Basin? [[paper]](https://arxiv.org/abs/2402.03187)
   - Kai Lion, Lorenzo Noci, Thomas Hofmann, Gregor Bachmann.
   - Key Word: Linear Mode Connectivity; Deep Ensembles.
