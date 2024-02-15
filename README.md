@@ -1715,6 +1715,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- A PAC-Bayesian Link Between Generalisation and Flat Minima. [[paper]](https://arxiv.org/abs/2402.08508)
+  - Maxime Haddouche, Paul Viallard, Umut Simsekli, Benjamin Guedj.
+  - Key Word: PAC-Bayes Generalization; Flat Minima.
+  - <details><summary>Digest</summary> The paper presents new generalization bounds for machine learning predictors in overparameterized settings, where the number of parameters exceeds dataset size. These bounds, which focus on gradient terms, are derived using the PAC-Bayes framework along with Poincaré and Log-Sobolev inequalities, circumventing the need for explicit consideration of predictor space dimension. The findings emphasize the beneficial impact of flat minima on generalization performance, underscoring the advantage of the optimization phase in enhancing model generalizability without directly depending on the model's complexity or dataset size.
+
 - Tighter Generalisation Bounds via Interpolation. [[paper]](https://arxiv.org/abs/2402.05101)
   - Paul Viallard, Maxime Haddouche, Umut Şimşekli, Benjamin Guedj.
   - Key Word: PAC-Bayes Generalization Bounds.
