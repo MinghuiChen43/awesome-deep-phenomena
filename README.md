@@ -1502,6 +1502,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2024
 
+- LoRA Training in the NTK Regime has No Spurious Local Minima. [[paper]](https://arxiv.org/abs/2402.11867)
+  - Uijeong Jang, Jason D. Lee, Ernest K. Ryu.
+  - Key Word: Low-Rank Adaptation; Neural Tangent Kernel Regime.
+  - <details><summary>Digest</summary> The paper provides a theoretical analysis of Low-rank adaptation (LoRA), a method for efficiently fine-tuning large language models (LLMs), in the context of the neural tangent kernel (NTK) regime with \(N\) data points. It reveals three key findings: (i) full fine-tuning without LoRA naturally leads to a low-rank solution with rank approximately \(\sqrt{N}\); (ii) employing LoRA with a rank slightly larger than \(\sqrt{N}\) helps avoid spurious local minima, enabling gradient descent to effectively identify these low-rank solutions; (iii) the low-rank solutions obtained through LoRA exhibit good generalization. This work deepens our understanding of why LoRA is effective for parameter-efficient fine-tuning of LLMs.
+
 - Gradient descent induces alignment between weights and the empirical NTK for deep non-linear networks. [[paper]](https://arxiv.org/abs/2402.05271)
   - Daniel Beaglehole, Ioannis Mitliagkas, Atish Agarwala.
   - Key Word: Neural Tangent Kernel; Neural Feature Ansatz.
