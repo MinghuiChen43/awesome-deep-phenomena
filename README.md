@@ -450,6 +450,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Collapse: 2024
 
+- Average gradient outer product as a mechanism for deep neural collapse. [[paper]](https://arxiv.org/abs/2402.13728)
+  - Daniel Beaglehole, Peter Súkeník, Marco Mondelli, Mikhail Belkin.
+  - Key Word: Neural Collapse; Average Gradient Outer Product.
+  - <details><summary>Digest</summary> This paper investigates the phenomenon of Deep Neural Collapse (DNC), where the final layers of Deep Neural Networks (DNNs) exhibit a highly structured representation of data. The study presents significant evidence that DNC primarily occurs through the process of deep feature learning, facilitated by the average gradient outer product (AGOP). This approach marks a departure from previous explanations that relied on feature-agnostic models. The authors highlight the role of the right singular vectors and values of the network weights in reducing within-class variability, a key aspect of DNC. They establish a link between this singular structure and the AGOP, further demonstrating experimentally and theoretically that AGOP can induce DNC even in randomly initialized neural networks. The paper also discusses Deep Recursive Feature Machines, a conceptual method representing AGOP feature learning in convolutional neural networks, and shows its capability to exhibit DNC.
+
 - Pushing Boundaries: Mixup's Influence on Neural Collapse. [[paper]](https://arxiv.org/abs/2402.06171)
   - Quinn Fisher, Haoming Meng, Vardan Papyan.
   - Key Word: Mixup; Neural Collapse.
