@@ -1725,6 +1725,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Categorical Deep Learning: An Algebraic Theory of Architectures. [[paper]](https://arxiv.org/abs/2402.15332)
+  - Bruno Gavranović, Paul Lessard, Andrew Dudzik, Tamara von Glehn, João G. M. Araújo, Petar Veličković.
+  - Key Word: Category Theory.
+  - <details><summary>Digest</summary> The abstract discusses the challenge of creating a universal framework for defining and analyzing deep learning architectures. It criticizes previous efforts for failing to effectively link the theoretical constraints of models with their practical implementations. The authors suggest using category theory, specifically the universal algebra of monads within a 2-category of parametric maps, as a comprehensive theory that can encompass both theoretical and practical aspects of neural network design. They argue that this approach can accurately represent constraints found in geometric deep learning and implementations across various neural network architectures, including Recurrent Neural Networks (RNNs). Additionally, they demonstrate how their theory can naturally express standard concepts in computer science and automata theory.
+
 - A PAC-Bayesian Link Between Generalisation and Flat Minima. [[paper]](https://arxiv.org/abs/2402.08508)
   - Maxime Haddouche, Paul Viallard, Umut Simsekli, Benjamin Guedj.
   - Key Word: PAC-Bayes Generalization; Flat Minima.
