@@ -2737,6 +2737,8 @@ Our understanding of modern neural networks lags behind their practical successe
 
 - [Francis Bach: Machine Learning Research Blog](https://francisbach.com/)
 
+- [John Langford: Machine Learning (Theory) Blog](https://hunch.net/)
+
 - [Awesome Information Bottleneck Paper List](https://github.com/ZIYU-DEEP/Awesome-Information-Bottleneck) ![ ](https://img.shields.io/github/stars/ZIYU-DEEP/Awesome-Information-Bottleneck) ![ ](https://img.shields.io/github/last-commit/ZIYU-DEEP/Awesome-Information-Bottleneck)
 
 - [Neural Tangent Kernel Papers](https://github.com/kwignb/NeuralTangentKernel-Papers) ![ ](https://img.shields.io/github/stars/kwignb/NeuralTangentKernel-Papers) ![ ](https://img.shields.io/github/last-commit/kwignb/NeuralTangentKernel-Papers)
