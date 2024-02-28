@@ -32,6 +32,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2024
 
+- When Scaling Meets LLM Finetuning: The Effect of Data, Model and Finetuning Method. [[paper]](https://arxiv.org/abs/2402.17193)
+  - Biao Zhang, Zhongtao Liu, Colin Cherry, Orhan Firat.
+  - Key Word: Neural Scaling Laws; Large Language Model; Fine-Tuning.
+  - <details><summary>Digest</summary> This study investigates how scaling factors—model size, pretraining data size, finetuning parameter size, and finetuning data size—affect finetuning performance of large language models (LLMs) across two methods: full-model tuning (FMT) and parameter efficient tuning (PET). Experiments on bilingual LLMs for translation and summarization tasks reveal that finetuning performance scales multiplicatively with data size and other factors, favoring model scaling over pretraining data scaling, with PET parameter scaling showing limited effectiveness. These insights suggest the choice of finetuning method is highly task- and data-dependent, offering guidance for optimizing LLM finetuning strategies.
+
 - Rethink Model Re-Basin and the Linear Mode Connectivity. [[paper]](https://arxiv.org/abs/2402.05966)
   - Xingyu Qu, Samuel Horvath.
   - Key Word: Linear Mode Connectivity; Model Merging; Re-Normalization; Pruning.
