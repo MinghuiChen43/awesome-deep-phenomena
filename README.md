@@ -1216,6 +1216,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Interactions with Neuroscience: 2023
 
+- How deep is the brain? The shallow brain hypothesis. [[paper]](https://www.nature.com/articles/s41583-023-00756-z)
+  - Mototaka Suzuki; Cyriel M. A. Pennartz; Jaan Aru.
+  - Key Word: Shallow Brain Hypothesis.
+  - <details><summary>Digest</summary> This paper critiques the common assumption in deep learning and predictive coding that neural network inference is hierarchical, pointing out the overlooked neurobiological evidence of direct interactions between all cortical areas and subcortical regions. It challenges the prevalent cortico-centric, hierarchical models in current neural networks, suggesting they miss key computational principles used by the brain. Introducing the "shallow brain hypothesis," the authors propose that hierarchical cortical processing works in tandem with a parallel process significantly involving subcortical areas. They argue this integrated architecture, which leverages the computational abilities of cortical microcircuits and thalamo-cortical loops absent in conventional models, offers crucial advantages for achieving the rapid and flexible computational capabilities seen in mammalian brains.
+
 - Finding Neurons in a Haystack: Case Studies with Sparse Probing. [[paper]](https://arxiv.org/abs/2305.01610) [[code]](https://github.com/wesg52/sparse-probing-paper)
   - Wes Gurnee, Neel Nanda, Matthew Pauly, Katherine Harvey, Dmitrii Troitskii, Dimitris Bertsimas. 
   - Key Word: Probing; Mechanistic Interpretability; Superposition; Sparse Coding.
