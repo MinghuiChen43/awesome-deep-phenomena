@@ -32,6 +32,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2024
 
+- Unfamiliar Finetuning Examples Control How Language Models Hallucinate. [[paper]](https://arxiv.org/abs/2403.05612)
+  - Katie Kang, Eric Wallace, Claire Tomlin, Aviral Kumar, Sergey Levine.
+  - Key Word: Large Language Model; Hallucination; Supervised Fine-Tuning.
+  - <details><summary>Digest</summary> This study investigates the propensity of large language models (LLMs) to produce plausible but factually incorrect responses, focusing on their behavior with unfamiliar concepts. The research identifies a pattern where LLMs resort to hedged predictions for unfamiliar inputs, influenced by the supervision of such examples during fine-tuning. By adjusting the supervision of these examples, it's possible to direct LLM responses towards acknowledging their uncertainty (e.g., by saying "I don't know"). 
+
 - When Scaling Meets LLM Finetuning: The Effect of Data, Model and Finetuning Method. [[paper]](https://arxiv.org/abs/2402.17193)
   - Biao Zhang, Zhongtao Liu, Colin Cherry, Orhan Firat.
   - Key Word: Neural Scaling Laws; Large Language Model; Fine-Tuning.
