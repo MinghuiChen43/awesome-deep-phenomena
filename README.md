@@ -32,6 +32,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2024
 
+- The Unreasonable Ineffectiveness of the Deeper Layers. [[paper]](https://arxiv.org/abs/2403.17887)
+  - Andrey Gromov, Kushal Tirumala, Hassan Shapourian, Paolo Glorioso, Daniel A. Roberts.
+  - Key Word: Large Language Model; Pruning.
+  - <details><summary>Digest</summary> This study explores a straightforward layer-pruning approach on widely-used pretrained large language models (LLMs), showing that removing up to half of the layers results in only minimal performance decline on various question-answering benchmarks. The method involves selecting the best layers to prune based on layer similarity, followed by minimal finetuning to mitigate any loss in performance. Specifically, it employs parameter-efficient finetuning techniques like quantization and Low Rank Adapters (QLoRA), enabling experiments on a single A100 GPU. The findings indicate that layer pruning could both reduce finetuning computational demands and enhance inference speed and memory efficiency. Moreover, the resilience of LLMs to layer removal raises questions about the effectiveness of current pretraining approaches or highlights the significant knowledge-storing capacity of the models' shallower layers.
+
 - Unfamiliar Finetuning Examples Control How Language Models Hallucinate. [[paper]](https://arxiv.org/abs/2403.05612)
   - Katie Kang, Eric Wallace, Claire Tomlin, Aviral Kumar, Sergey Levine.
   - Key Word: Large Language Model; Hallucination; Supervised Fine-Tuning.
