@@ -1527,6 +1527,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2024
 
+- The lazy (NTK) and rich (μP) regimes: a gentle tutorial. [[paper]](https://arxiv.org/abs/2404.19719)
+  - Dhruva Karkada.
+  - Key Work: Neural Tangent Kernel; Feature Learning; Tensor Programs; Tutorial.
+  - <details><summary>Digest</summary> The paper discusses the training of wide neural networks and the role of hyperparameters in controlling the richness of training behavior. It highlights that there is only one degree of freedom in choosing hyperparameters such as the learning rate and the size of the initial weights to effectively train wide networks. This degree of freedom determines the richness of training behavior, ranging from lazy training similar to a kernel machine to feature learning in the μP regime. The paper synthesizes recent research results, offers new perspectives and intuitions, and provides empirical evidence supporting these claims. The authors hope that further study of the richness scale will contribute to the development of a scientific theory of feature learning in practical deep neural networks.
+
 - LoRA Training in the NTK Regime has No Spurious Local Minima. [[paper]](https://arxiv.org/abs/2402.11867)
   - Uijeong Jang, Jason D. Lee, Ernest K. Ryu.
   - Key Word: Low-Rank Adaptation; Neural Tangent Kernel Regime.
