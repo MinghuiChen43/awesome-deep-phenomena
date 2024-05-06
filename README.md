@@ -1750,6 +1750,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Understanding LLMs Requires More Than Statistical Generalization. [[paper]](https://arxiv.org/abs/2405.01964)
+  - Patrik Reizinger, Szilvia Ujváry, Anna Mészáros, Anna Kerekes, Wieland Brendel, Ferenc Huszár.
+  - Key Word: Large Language Model; Generalization Measure; Transferability; Inductive Biases.
+  - <details><summary>Digest</summary> The last decade has seen blossoming research in deep learning theory attempting to answer, 'Why does deep learning generalize?'" argues for a shift in perspective in understanding the desirable qualities of Language Models (LLMs). The authors highlight the non-identifiability of AR probabilistic models, where models with zero or near-zero KL divergence can exhibit different behaviors. They provide mathematical examples and empirical observations to support their argument and discuss the practical relevance of non-identifiability through three case studies. The paper concludes by reviewing research directions focusing on LLM-relevant generalization measures, transferability, and inductive biases.
+
 - Categorical Deep Learning: An Algebraic Theory of Architectures. [[paper]](https://arxiv.org/abs/2402.15332)
   - Bruno Gavranović, Paul Lessard, Andrew Dudzik, Tamara von Glehn, João G. M. Araújo, Petar Veličković.
   - Key Word: Category Theory.
