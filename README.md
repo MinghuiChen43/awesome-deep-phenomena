@@ -1750,6 +1750,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Towards a Theoretical Understanding of the 'Reversal Curse' via Training Dynamics. [[paper]](https://arxiv.org/abs/2405.04669)
+  - Hanlin Zhu, Baihe Huang, Shaolun Zhang, Michael Jordan, Jiantao Jiao, Yuandong Tian, Stuart Russell.
+  - Key Word: Large Language Model; Reasoning; Training Dynamics; Reversal Curse.
+  - <details><summary>Digest</summary> Auto-regressive large language models struggle with simple logical reasoning tasks like inverse search, known as the "reversal curse." Through analyzing the training dynamics of two auto-regressive models, this paper reveals that the asymmetry in the weights is a core reason for the reversal curse and shows the necessity of chain-of-thought for one-layer transformers.
+
 - Understanding LLMs Requires More Than Statistical Generalization. [[paper]](https://arxiv.org/abs/2405.01964)
   - Patrik Reizinger, Szilvia Ujváry, Anna Mészáros, Anna Kerekes, Wieland Brendel, Ferenc Huszár.
   - Key Word: Large Language Model; Generalization Measure; Transferability; Inductive Biases.
