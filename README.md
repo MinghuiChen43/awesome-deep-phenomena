@@ -32,6 +32,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2024
 
+- The Platonic Representation Hypothesis. [[paper]](https://arxiv.org/abs/2405.07987)
+  - Minyoung Huh, Brian Cheung, Tongzhou Wang, Phillip Isola.
+  - Key Word: Foundation Models; Representational Convergence.
+  - <details><summary>Digest</summary> The paper argues that representations in AI models, especially deep networks, are converging. This convergence is observed across time, multiple domains, and different data modalities. As models get larger, they measure distance between data points in increasingly similar ways. The authors hypothesize that this convergence is moving towards a shared statistical model of reality, which they term the "platonic representation." They discuss potential selective pressures towards this representation and explore the implications, limitations, and counterexamples to their analysis.
+
 - The Unreasonable Ineffectiveness of the Deeper Layers. [[paper]](https://arxiv.org/abs/2403.17887)
   - Andrey Gromov, Kushal Tirumala, Hassan Shapourian, Paolo Glorioso, Daniel A. Roberts.
   - Key Word: Large Language Model; Pruning.
