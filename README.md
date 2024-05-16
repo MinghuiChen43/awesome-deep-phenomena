@@ -470,6 +470,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Collapse: 2024
 
+- Neural Collapse Meets Differential Privacy: Curious Behaviors of NoisyGD with Near-perfect Representation Learning. [[paper]](https://arxiv.org/abs/2405.08920)
+  - Chendi Wang, Yuqing Zhu, Weijie J. Su, Yu-Xiang Wang.
+  - key Word: Neural Collapse; Differential Privacy.
+  - <details><summary>Digest</summary> The study by De et al. (2022) explores the impact of large-scale representation learning on differentially private (DP) learning, focusing on the phenomenon of Neural Collapse (NC) in deep learning and transfer learning. The research establishes an error bound within the NC framework, evaluates feature quality, reveals the lesser robustness of DP fine-tuning, and suggests strategies to enhance its robustness, with empirical evidence supporting these findings.
+
 - Average gradient outer product as a mechanism for deep neural collapse. [[paper]](https://arxiv.org/abs/2402.13728)
   - Daniel Beaglehole, Peter Súkeník, Marco Mondelli, Mikhail Belkin.
   - Key Word: Neural Collapse; Average Gradient Outer Product.
