@@ -32,6 +32,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2024
 
+- LoRA Learns Less and Forgets Less. [[paper]](https://arxiv.org/abs/2405.09673)
+  - Dan Biderman, Jose Gonzalez Ortiz, Jacob Portes, Mansheej Paul, Philip Greengard, Connor Jennings, Daniel King, Sam Havens, Vitaliy Chiley, Jonathan Frankle, Cody Blakeney, John P. Cunningham.
+  - Key Word: LoRA; Fine-Tuning; Learning-Forgetting Trade-off.
+  - <details><summary>Digest</summary> The study compares the performance of Low-Rank Adaptation (LoRA), a parameter-efficient finetuning method for large language models, with full finetuning in programming and mathematics domains. While LoRA generally underperforms compared to full finetuning, it better maintains the base model's performance on tasks outside the target domain, providing stronger regularization than common techniques like weight decay and dropout. Full finetuning learns perturbations with a rank that is 10-100X greater than typical LoRA configurations, which may explain some performance gaps. The study concludes with best practices for finetuning with LoRA.
+
 - The Platonic Representation Hypothesis. [[paper]](https://arxiv.org/abs/2405.07987)
   - Minyoung Huh, Brian Cheung, Tongzhou Wang, Phillip Isola.
   - Key Word: Foundation Models; Representational Convergence.
