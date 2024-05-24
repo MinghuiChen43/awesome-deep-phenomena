@@ -32,6 +32,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2024
 
+- Not All Language Model Features Are Linear. [[paper]](https://arxiv.org/abs/2405.14860)
+  - Joshua Engels, Isaac Liao, Eric J. Michaud, Wes Gurnee, Max Tegmark.
+  - Key Word: Large Language Model; Linear Representation Hypothesis.
+  - <details><summary>Digest</summary> This paper challenges the linear representation hypothesis in language models by proposing that some representations are inherently multi-dimensional. Using sparse autoencoders, the authors identify interpretable multi-dimensional features in GPT-2 and Mistral 7B, such as circular features for days and months, and demonstrate their computational significance through intervention experiments.
+
 - LoRA Learns Less and Forgets Less. [[paper]](https://arxiv.org/abs/2405.09673)
   - Dan Biderman, Jose Gonzalez Ortiz, Jacob Portes, Mansheej Paul, Philip Greengard, Connor Jennings, Daniel King, Sam Havens, Vitaliy Chiley, Jonathan Frankle, Cody Blakeney, John P. Cunningham.
   - Key Word: LoRA; Fine-Tuning; Learning-Forgetting Trade-off.
