@@ -1770,6 +1770,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Why Larger Language Models Do In-context Learning Differently? [[paper]](https://arxiv.org/abs/2405.19592)
+  - Zhenmei Shi, Junyi Wei, Zhuoyan Xu, Yingyu Liang.
+  - Key Word: Large Language Model; In-Context Learning.
+  - <details><summary>Digest</summary> Large language models (LLMs) exhibit in-context learning (ICL), performing well on new tasks using brief examples without parameter adjustments. This study theoretically explores why larger models are more sensitive to noise, finding that smaller models focus on key features and are more robust, while larger models cover more features and are more easily distracted, supported by preliminary experimental results.
+
 - Towards a Theoretical Understanding of the 'Reversal Curse' via Training Dynamics. [[paper]](https://arxiv.org/abs/2405.04669)
   - Hanlin Zhu, Baihe Huang, Shaolun Zhang, Michael Jordan, Jiantao Jiao, Yuandong Tian, Stuart Russell.
   - Key Word: Large Language Model; Reasoning; Training Dynamics; Reversal Curse.
