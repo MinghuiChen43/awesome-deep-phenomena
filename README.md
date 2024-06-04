@@ -1770,6 +1770,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Hardness of Learning Neural Networks under the Manifold Hypothesis. [[paper]](https://arxiv.org/abs/2406.01461)
+  - Bobak T. Kiani, Jason Wang, Melanie Weber.
+  - Key Word: Manifold Hypothesis; Hardness of Learning Neural Networks.
+  - <details><summary>Digest</summary> The paper investigates the difficulty of learning neural networks under the manifold hypothesis, which posits that high-dimensional data lies on or near a low-dimensional manifold. It demonstrates that learning is hard under manifolds of bounded curvature but becomes feasible with additional assumptions on the manifold's volume, suggesting that certain geometric properties can significantly impact the learnability of neural networks.
+
 - Why Larger Language Models Do In-context Learning Differently? [[paper]](https://arxiv.org/abs/2405.19592)
   - Zhenmei Shi, Junyi Wei, Zhuoyan Xu, Yingyu Liang.
   - Key Word: Large Language Model; In-Context Learning.
