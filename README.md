@@ -1775,6 +1775,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Manifold Hypothesis; Hardness of Learning Neural Networks.
   - <details><summary>Digest</summary> The paper investigates the difficulty of learning neural networks under the manifold hypothesis, which posits that high-dimensional data lies on or near a low-dimensional manifold. It demonstrates that learning is hard under manifolds of bounded curvature but becomes feasible with additional assumptions on the manifold's volume, suggesting that certain geometric properties can significantly impact the learnability of neural networks.
 
+- Is In-Context Learning in Large Language Models Bayesian? A Martingale Perspective. [[paper]](https://arxiv.org/abs/2406.00793)
+  - Fabian Falck, Ziyu Wang, Chris Holmes.
+  - Key Word: In-Context Learning; Bayesian Inference.
+  - <details><summary>Digest</summary> The paper examines the hypothesis that in-context learning (ICL) in large language models (LLMs) functions as Bayesian inference by analyzing the martingale property, a key requirement for Bayesian learning with exchangeable data. The authors find that while the martingale property is necessary for unambiguous predictions and principled uncertainty, their experiments reveal violations of this property and deviations from expected Bayesian behavior, thus challenging the hypothesis that ICL is inherently Bayesian.
+
 - Why Larger Language Models Do In-context Learning Differently? [[paper]](https://arxiv.org/abs/2405.19592)
   - Zhenmei Shi, Junyi Wei, Zhuoyan Xu, Yingyu Liang.
   - Key Word: Large Language Model; In-Context Learning.
