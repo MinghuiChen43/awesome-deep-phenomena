@@ -1770,6 +1770,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Understanding Finetuning for Factual Knowledge Extraction. [[paper]](https://arxiv.org/abs/2406.14785)
+  - Gaurav Ghosal, Tatsunori Hashimoto, Aditi Raghunathan.
+  - Key Word: Fine-Tuning; Factual Knowledge.
+  - <details><summary>Digest</summary> Fine-tuning question-answering models on lesser-known facts results in worse factuality compared to using well-known facts, as models may produce generic responses rather than accurate ones. This study shows that fine-tuning with well-known data improves performance, highlighting the need to consider the storage of facts in pretrained models for effective fine-tuning.
+
 - Hardness of Learning Neural Networks under the Manifold Hypothesis. [[paper]](https://arxiv.org/abs/2406.01461)
   - Bobak T. Kiani, Jason Wang, Melanie Weber.
   - Key Word: Manifold Hypothesis; Hardness of Learning Neural Networks.
