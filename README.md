@@ -32,6 +32,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2024
 
+- AI models collapse when trained on recursively generated data. [[paper]](https://www.nature.com/articles/s41586-024-07566-y?utm_medium=Social&utm_campaign=nature&utm_source=Twitter#Echobox=1721898113)
+  - Ilia Shumailov, Zakhar Shumaylov, Yiren Zhao, Nicolas Papernot, Ross Anderson, Yarin Gal. *Nature*
+  - Key Word: Model Collapse; Generative Model.
+  - <details><summary>Digest</summary> The paper demonstrates that AI models trained on recursively generated data suffer from a collapse in performance. This finding highlights the critical need for diverse and high-quality data sources to maintain the robustness and reliability of AI systems.
+
 - Not All Language Model Features Are Linear. [[paper]](https://arxiv.org/abs/2405.14860)
   - Joshua Engels, Isaac Liao, Eric J. Michaud, Wes Gurnee, Max Tegmark.
   - Key Word: Large Language Model; Linear Representation Hypothesis.
