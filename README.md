@@ -1784,6 +1784,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- On the Geometry of Deep Learning. [[paper]](https://arxiv.org/abs/2408.04809)
+  - Randall Balestriero, Ahmed Imtiaz Humayun, Richard Baraniuk.
+  - Key Word: Geometry.
+  - <details><summary>Digest</summary> This paper explores the mathematical foundations of deep learning, focusing on the connection between deep networks and function approximation using affine splines (piecewise linear functions). It reviews recent work on the geometrical properties of deep networks, particularly how they tessellate input space, demonstrating how this perspective can enhance our understanding and optimization of deep networks.
+
 - Understanding Finetuning for Factual Knowledge Extraction. [[paper]](https://arxiv.org/abs/2406.14785)
   - Gaurav Ghosal, Tatsunori Hashimoto, Aditi Raghunathan.
   - Key Word: Fine-Tuning; Factual Knowledge.
