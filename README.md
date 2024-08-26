@@ -15,6 +15,7 @@ Our understanding of modern neural networks lags behind their practical successe
 <img width="35%" align="right" alt="DALLE" src="img/DALL·E 2024-01-15 16.32.32 - A highly detailed digital art piece featuring an artificial brain integrated with advanced technology and physics concepts. The brain, depicted in the.png" />
 
 - [Empirical Study](#empirical-study)
+- [In-Context Learning](#in-context-learning)
 - [Neural Collapse](#neural-collapse)
 - [Deep Double Descent](#deep-double-descent)
 - [Lottery Ticket Hypothesis](#lottery-ticket-hypothesis)
@@ -478,6 +479,12 @@ Our understanding of modern neural networks lags behind their practical successe
   - Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, Oriol Vinyals. *ICLR 2017*
   - Key Word: Memorization.
   - <details><summary>Digest</summary> Through extensive systematic experiments, we show how these traditional approaches fail to explain why large neural networks generalize well in practice. Specifically, our experiments establish that state-of-the-art convolutional networks for image classification trained with stochastic gradient methods easily fit a random labeling of the training data.  
+
+
+## In-Context Learning
+
+TBD
+
 
 ## Neural Collapse
 
