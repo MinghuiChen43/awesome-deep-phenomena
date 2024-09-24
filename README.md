@@ -33,6 +33,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2024
 
+- Rethinking Conventional Wisdom in Machine Learning: From Generalization to Scaling. [[paper]](https://arxiv.org/abs/2409.15156)
+  - Lechao Xiao.
+  - Key Word: Regularization; Generalization; Neural Scaling Law.
+  - <details><summary>Digest</summary> This paper explores the shift in machine learning from focusing on minimizing generalization error to reducing approximation error, particularly in the context of large language models (LLMs) and scaling laws. It questions whether traditional regularization principles, like L2 regularization and small batch sizes, remain relevant in this new paradigm. The authors introduce the concept of “scaling law crossover,” where techniques effective at smaller scales may fail as model size increases. The paper raises two key questions: what new principles should guide model scaling, and how can models be effectively compared at large scales where only single experiments are feasible?
+
 - AI models collapse when trained on recursively generated data. [[paper]](https://www.nature.com/articles/s41586-024-07566-y?utm_medium=Social&utm_campaign=nature&utm_source=Twitter#Echobox=1721898113)
   - Ilia Shumailov, Zakhar Shumaylov, Yiren Zhao, Nicolas Papernot, Ross Anderson, Yarin Gal. *Nature*
   - Key Word: Model Collapse; Generative Model.
