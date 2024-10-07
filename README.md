@@ -497,6 +497,11 @@ TBD
 
 ### Neural Collapse: 2024
 
+- Formation of Representations in Neural Networks. [[paper]](https://arxiv.org/abs/2410.03006)
+  - Liu Ziyin, Isaac Chuang, Tomer Galanti, Tomaso Poggio.
+  - Key Word: Canonical Representation Hypothesis; Neural Representation.
+  - <details><summary>Digest</summary> This paper proposes the Canonical Representation Hypothesis (CRH), which posits that during neural network training, a set of six alignment relations universally governs the formation of representations in hidden layers. Specifically, it suggests that the latent representations (R), weights (W), and neuron gradients (G) become mutually aligned, leading to compact representations that are invariant to task-irrelevant transformations. The paper also introduces the Polynomial Alignment Hypothesis (PAH), which arises when CRH is broken, resulting in power-law relations between R, W, and G. The authors suggest that balancing gradient noise and regularization is key to the emergence of these canonical representations and propose that these hypotheses could unify major deep learning phenomena like neural collapse and the neural feature ansatz.
+
 - Neural Collapse Meets Differential Privacy: Curious Behaviors of NoisyGD with Near-perfect Representation Learning. [[paper]](https://arxiv.org/abs/2405.08920)
   - Chendi Wang, Yuqing Zhu, Weijie J. Su, Yu-Xiang Wang.
   - key Word: Neural Collapse; Differential Privacy.
