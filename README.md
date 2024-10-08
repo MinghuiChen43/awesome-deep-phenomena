@@ -1795,6 +1795,21 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape Perspective. [[paper]](https://arxiv.org/abs/2410.05192)
+  - Kaiyue Wen, Zhiyuan Li, Jason Wang, David Hall, Percy Liang, Tengyu Ma.
+  - Key Word: Gradient Descent Dynamics; Loss Landscape.
+  - <details><summary>Digest</summary> The paper introduces the Warmup-Stable-Decay (WSD) learning rate schedule, which allows training language models without a pre-fixed compute budget. WSD uses a constant learning rate for most of the training (stable phase) and then applies a rapidly decaying learning rate (decay phase) to produce strong models. Unlike traditional schedules, WSD creates a loss curve where the loss stays high during the stable phase and sharply drops in the decay phase. The authors explain this using a “river valley” landscape analogy, where large oscillations during the stable phase drive fast progress, and the decay phase fine-tunes the optimization. They propose WSD-S, a variant that reuses decayed checkpoints, outperforming WSD and Cyclic-Cosine in generating language models across different compute budgets.
+
+- The Optimization Landscape of SGD Across the Feature Learning Strength. [[paper]](https://arxiv.org/abs/2410.04642)
+  - Alexander Atanasov, Alexandru Meterez, James B. Simon, Cengiz Pehlevan.
+  - Key Word: Loss Landscape; Feature Learning.
+  - <details><summary>Digest</summary> This paper investigates the effect of scaling a neural network's final layer by a hyperparameter γ, which controls feature learning dynamics. The study explores how γ interacts with the learning rate η across various models and datasets in online training. The authors identify optimal learning rate scaling regimes, where η* scales with γ² when γ is small and with γ²/L for deep networks when γ is large. In the under-explored "ultra-rich" γ≫1 regime, networks exhibit distinctive loss curves with plateaus and steps, optimizing similarly across large γ values. The study highlights the importance of tuning γ for optimal performance and suggests further analytical exploration of the large-γ limit.
+
+- Provable Weak-to-Strong Generalization via Benign Overfitting. [[paper]](https://arxiv.org/abs/2410.04638)
+  - David X. Wu, Anant Sahai.
+  - Key Word: Weak-to-Strong Generalization; Benign Overfitting.
+  - <details><summary>Digest</summary> This paper explores weak-to-strong generalization, where a weak teacher supervises a strong student using imperfect pseudolabels, as introduced by Burns et al. (2023). The authors theoretically analyze this paradigm for binary and multilabel classification in an overparameterized Gaussian model, where the weak teacher’s pseudolabels are nearly random. They identify two outcomes for the student: successful generalization or random guessing. Their results highlight the importance of logits for weak supervision and include a new tight lower bound for the maximum of correlated Gaussians, potentially useful for extending to multiclass classification.
+
 - On the Geometry of Deep Learning. [[paper]](https://arxiv.org/abs/2408.04809)
   - Randall Balestriero, Ahmed Imtiaz Humayun, Richard Baraniuk.
   - Key Word: Geometry.
