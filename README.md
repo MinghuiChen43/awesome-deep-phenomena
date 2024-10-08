@@ -1108,6 +1108,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2024
 
+- Grokking at the Edge of Linear Separability. [[paper]](https://arxiv.org/abs/2410.04489)
+  - Alon Beck, Noam Levi, Yohai Bar-Sinai.
+  - Key Word: Grokking.
+  - <details><summary>Digest</summary> This paper investigates the generalization properties of binary logistic classification and the phenomenon of grokking—delayed generalization with non-monotonic test loss. The authors study a random feature model and show that grokking is amplified when the training set is nearly linearly separable. They prove that if the data is linearly separable from the origin, the model overfits due to the implicit bias of logistic loss. However, for non-separable data, the model generalizes perfectly asymptotically, though early overfitting can occur. The study also finds that near the transition to linear separability, the model can overfit for extended periods before generalizing, drawing parallels to critical phenomena in physical systems.
+
 - Information-Theoretic Foundations for Neural Scaling Laws. [[paper]](https://arxiv.org/abs/2407.01456)
   - Hong Jun Jeon, Benjamin Van Roy.
   - Key Word: Information Theory; Neural Scaling Laws.
