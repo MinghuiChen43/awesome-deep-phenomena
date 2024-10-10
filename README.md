@@ -1800,6 +1800,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Leveraging free energy in pretraining model selection for improved fine-tuning. [[paper]](https://arxiv.org/abs/2410.05612)
+  - Michael Munn, Susan Wei.
+  - Key Word: Model Selection; Free Energy.
+  - <details><summary>Digest</summary> This paper explores the success of the pretrain-then-adapt paradigm in artificial intelligence models, like BERT and GPT, and introduces a Bayesian model selection criterion called downstream free energy. This criterion evaluates a model’s adaptability to downstream tasks by measuring the concentration of favorable parameters near the pretrained checkpoint, without needing access to the downstream data. The authors show that this criterion correlates with improved fine-tuning performance, providing a way to predict how well pretrained models will adapt to new tasks.
+
 - Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape Perspective. [[paper]](https://arxiv.org/abs/2410.05192)
   - Kaiyue Wen, Zhiyuan Li, Jason Wang, David Hall, Percy Liang, Tengyu Ma.
   - Key Word: Gradient Descent Dynamics; Loss Landscape.
