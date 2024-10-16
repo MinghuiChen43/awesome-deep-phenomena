@@ -1105,6 +1105,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://github.com/Hannibal046/Awesome-LLM/blob/main/resources/image8.gif)
 
+- A Hitchhiker's Guide to Scaling Law Estimation. [[paper]](https://arxiv.org/abs/2410.11840)
+  - Leshem Choshen, Yang Zhang, Jacob Andreas.
+  - Key Word: Neural scaling Law.
+  - <details><summary>Digest</summary> The paper investigates how to best estimate and interpret scaling laws that predict machine learning model performance. By analyzing a large dataset of losses and evaluations from 485 pretrained models, the authors estimate over 1000 scaling laws. They propose best practices, such as using intermediate training checkpoints and comparing models of similar sizes, to improve prediction accuracy. While models of different families may show variable scaling behavior, predictions can often be made using scaling estimates from related models. Additionally, training multiple small models can be more effective than training a single large one due to seed variability.
+
 
 ### Emergence and Phase Transitions: 2024
 
