@@ -1105,6 +1105,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://github.com/Hannibal046/Awesome-LLM/blob/main/resources/image8.gif)
 
+- Context-Scaling versus Task-Scaling in In-Context Learning. [[paper]](https://arxiv.org/abs/2410.12783)
+  - Amirhesam Abedsoltan, Adityanarayanan Radhakrishnan, Jingfeng Wu, Mikhail Belkin.
+  - Key Word: In-Context Learning; Task-Scaling; Context-Scaling.
+  - <details><summary>Digest</summary> This paper analyzes two key aspects of In-Context Learning (ICL) in transformers: (1) context-scaling, where performance improves with more in-context examples, and (2) task-scaling, where performance improves with more pre-training tasks. The authors show that while transformers achieve both, standard MLPs only achieve task-scaling. To understand context-scaling, they propose a simplified transformer without key, query, value weights, which performs comparably to GPT-2 in various tasks. They find that a data-dependent feature map enables context-scaling, and when combined with an MLP, it achieves both context and task-scaling, offering a simpler framework to study ICL.
+
 - A Hitchhiker's Guide to Scaling Law Estimation. [[paper]](https://arxiv.org/abs/2410.11840)
   - Leshem Choshen, Yang Zhang, Jacob Andreas.
   - Key Word: Neural scaling Law.
