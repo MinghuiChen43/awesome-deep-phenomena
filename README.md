@@ -1805,6 +1805,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Loss Landscape Characterization of Neural Networks without Over-Parametrziation. [[paper]](https://arxiv.org/abs/2410.12455)
+  - Rustem Islamov, Niccolò Ajroldi, Antonio Orvieto, Aurelien Lucchi.
+  - Key Word: Loss Landscape; Over-Parameterization; Invexity.
+  - <details><summary>Digest</summary> This paper addresses the challenge of ensuring convergence in optimization methods for deep learning, where the loss landscapes are non-convex. While the Polyak-Lojasiewicz (PL) inequality offers a common structural condition for convergence, it requires impractical over-parametrization in deep networks. The authors propose a new class of functions that describe the loss landscape of modern deep models without needing extensive over-parametrization and can account for saddle points. They prove that gradient-based optimizers converge under this new assumption and support it with theoretical analysis and empirical experiments.
+
 - Leveraging free energy in pretraining model selection for improved fine-tuning. [[paper]](https://arxiv.org/abs/2410.05612)
   - Michael Munn, Susan Wei.
   - Key Word: Model Selection; Free Energy.
