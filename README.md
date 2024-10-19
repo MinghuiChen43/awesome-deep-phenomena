@@ -1835,6 +1835,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Weak-to-Strong Generalization; Benign Overfitting.
   - <details><summary>Digest</summary> This paper explores weak-to-strong generalization, where a weak teacher supervises a strong student using imperfect pseudolabels, as introduced by Burns et al. (2023). The authors theoretically analyze this paradigm for binary and multilabel classification in an overparameterized Gaussian model, where the weak teacher’s pseudolabels are nearly random. They identify two outcomes for the student: successful generalization or random guessing. Their results highlight the importance of logits for weak supervision and include a new tight lower bound for the maximum of correlated Gaussians, potentially useful for extending to multiclass classification.
 
+- Autoregressive Large Language Models are Computationally Universal. [[paper]](https://arxiv.org/abs/2410.03170)
+  - Dale Schuurmans, Hanjun Dai, Francesco Zanini.
+  - Key Word: Autoregressive Large Language Model; Univeral Turing Machine.
+  - <details><summary>Digest</summary> This paper demonstrates that autoregressive decoding of a transformer-based language model can achieve universal computation without modifying the model’s weights. The authors introduce a generalization of autoregressive decoding, where emitted tokens extend the context window for processing long inputs. They show this system corresponds to a Lag system, a known computationally universal model. By proving a universal Turing machine can be simulated with 2027 production rules, they test whether a large language model can mimic this behavior. They confirm that gemini-1.5-pro-001, with a specific prompt and greedy decoding, can function as a general-purpose computer under the Church-Turing thesis.  
+
 - On the Geometry of Deep Learning. [[paper]](https://arxiv.org/abs/2408.04809)
   - Randall Balestriero, Ahmed Imtiaz Humayun, Richard Baraniuk.
   - Key Word: Geometry.
