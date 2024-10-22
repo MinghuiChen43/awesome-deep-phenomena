@@ -733,9 +733,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Lottery Ticket Hypothesis: 2024
 
+- On the Sparsity of the Strong Lottery Ticket Hypothesis.
+  - Emanuele Natale, Davide Ferré, Giordano Giambartolomei, Frédéric Giroire, Frederik Mallmann-Trenn.
+  - Key Word: Strong Lottery Ticket Hypothesis. 
+  - <details><summary>Digest</summary> Recent research has explored the Strong Lottery Ticket Hypothesis (SLTH), which suggests that a random neural network contains subnetworks that can approximate smaller networks without training. This builds on the weaker Lottery Ticket Hypothesis, which states that large networks contain sparse subnetworks that can be efficiently trained to perform as well as the full network. However, previous SLTH results lacked guarantees on subnetwork size due to reliance on the Random Subset Sum (RSS) Problem. This paper provides the first proof of SLTH with subnetwork sparsity guarantees in settings like dense and equivariant networks. The key contribution is an improved bound on a variant of the RSS Problem, offering new insights into subnetwork size constraints.
+
 - No Free Prune: Information-Theoretic Barriers to Pruning at Initialization. [[paper]](https://arxiv.org/abs/2402.01089)
   - Tanishq Kumar, Kevin Luo, Mark Sellke.
-  - Key Word: Lottery Tickets; Overparameterization; Mutual Information.
+  - Key Word: Lottery Ticket Hypothesis; Overparameterization; Mutual Information.
   - <details><summary>Digest</summary> This paper investigates the concept of "lottery tickets" in deep learning, questioning the necessity of large models versus identifying and training sparse networks from the start. Despite attempts, finding these efficient subnetworks without training the full model has largely failed. The study proposes a theoretical reason for this, focusing on the effective parameter count, which includes non-zero weights and the data-related information within the sparsity mask. It extends the Law of Robustness to sparse networks, suggesting that data-dependent masks are crucial for robust performance. The findings indicate that masks created during or after training contain more information than those at initialization, affecting the network's effective capacity. This explains the difficulty in finding lottery tickets without full model training, as confirmed by experimental results on neural networks.
 
 ### Lottery Ticket Hypothesis: 2023
