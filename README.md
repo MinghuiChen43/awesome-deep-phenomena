@@ -1815,6 +1815,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Simplicity Bias via Global Convergence of Sharpness Minimization. [[paper]](https://arxiv.org/abs/2410.16401)
+  - Khashayar Gatmiry, Zhiyuan Li, Sashank J. Reddi, Stefanie Jegelka.
+  - Key Word: Simplicity Bias; Sharpness Minimization.
+  - <details><summary>Digest</summary> This paper investigates the connection between the generalization ability of neural networks, typically attributed to the implicit bias of stochastic gradient descent (SGD), and the simplicity of the final trained model, particularly in relation to low-rank features. The authors focus on label noise SGD, which tends to converge to flatter regions of the loss landscape. They demonstrate that for two-layer neural networks, label noise SGD converges to a solution where all neurons replicate a single linear feature, leading to a rank-one feature matrix. Their key contribution is showing that label noise SGD minimizes sharpness on the zero-loss manifold and discovering a novel property of local geodesic convexity in the trace of the Hessian.
+
 - Loss Landscape Characterization of Neural Networks without Over-Parametrziation. [[paper]](https://arxiv.org/abs/2410.12455)
   - Rustem Islamov, Niccolò Ajroldi, Antonio Orvieto, Aurelien Lucchi.
   - Key Word: Loss Landscape; Over-Parameterization; Invexity.
