@@ -1815,6 +1815,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Initialization Matters: On the Benign Overfitting of Two-Layer ReLU CNN with Fully Trainable Layers. [[paper]](https://arxiv.org/abs/2410.19139)
+  - Shuning Shang, Xuran Meng, Yuan Cao, Difan Zou.
+  - Key Word: Benign Overfitting; Feature Learning.
+  - <details><summary>Digest</summary> This paper studies benign overfitting in over-parameterized neural networks, specifically focusing on two-layer ReLU convolutional neural networks (CNNs) with fully trainable layers. It finds that the initialization scale of the output layer significantly affects training dynamics. Large initialization scales make training similar to fixed-output scenarios, with the hidden layer growing while the output layer remains stable. Small scales lead to complex interactions where both layers grow proportionally. The paper also provides bounds on test errors, identifying conditions on initialization scale and signal-to-noise ratio (SNR) that determine whether benign overfitting occurs. Numerical experiments support these findings.
+
 - Simplicity Bias via Global Convergence of Sharpness Minimization. [[paper]](https://arxiv.org/abs/2410.16401)
   - Khashayar Gatmiry, Zhiyuan Li, Sashank J. Reddi, Stefanie Jegelka.
   - Key Word: Simplicity Bias; Sharpness Minimization.
