@@ -1815,6 +1815,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Theoretical limitations of multi-layer Transformer. [[paper]](https://arxiv.org/abs/2412.02975)
+  - Lijie Chen, Binghui Peng, Hongxun Wu.
+  - Key Word: Transformer; Chain-of-Thought.
+  - <details><summary>Digest</summary> This paper establishes the first unconditional lower bound on the expressive power of multi-layer decoder-only transformers, demonstrating that they require polynomially large dimensions to perform sequential composition of L functions over n tokens for any constant L. It reveals that multi-layer transformers face an exponential depth-width trade-off, where fewer layers make tasks exponentially harder, and highlights an advantage of encoders over decoders for certain tasks, as well as the exponential simplification of tasks using chain-of-thought reasoning. The authors introduce a novel multi-party autoregressive communication model and a new proof technique for deriving lower bounds, providing foundational tools for understanding the computational power of transformers.
+
 - Initialization Matters: On the Benign Overfitting of Two-Layer ReLU CNN with Fully Trainable Layers. [[paper]](https://arxiv.org/abs/2410.19139)
   - Shuning Shang, Xuran Meng, Yuan Cao, Difan Zou.
   - Key Word: Benign Overfitting; Feature Learning.
