@@ -1110,6 +1110,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://github.com/Hannibal046/Awesome-LLM/blob/main/resources/image8.gif)
 
+- The Complexity Dynamics of Grokking. [[paper]](https://arxiv.org/abs/2412.09810)
+  - Branton DeMoss, Silvia Sapora, Jakob Foerster, Nick Hawes, Ingmar Posner.
+  - Key Word: Grokking; Generalization; Minimum Description Length Principle.
+  - <details><summary>Digest</summary> This paper explores generalization in neural networks through the lens of compression, focusing on the phenomenon of grokking—where networks transition from memorization to generalization after overfitting. The authors introduce a novel intrinsic complexity measure based on Kolmogorov complexity, revealing a consistent rise-and-fall pattern in complexity during training that corresponds to memorization and generalization phases. Leveraging insights from rate-distortion theory and the minimum description length principle, they propose a new regularization method that penalizes spectral entropy to promote low-rank representations. This approach improves generalization and achieves superior dataset compression compared to baseline methods.
+
 - Context-Scaling versus Task-Scaling in In-Context Learning. [[paper]](https://arxiv.org/abs/2410.12783)
   - Amirhesam Abedsoltan, Adityanarayanan Radhakrishnan, Jingfeng Wu, Mikhail Belkin.
   - Key Word: In-Context Learning; Task-Scaling; Context-Scaling.
