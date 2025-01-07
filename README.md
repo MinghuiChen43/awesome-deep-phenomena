@@ -1110,6 +1110,16 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://github.com/Hannibal046/Awesome-LLM/blob/main/resources/image8.gif)
 
+### Emergence and Phase Transitions: 2025
+
+- A ghost mechanism: An analytical model of abrupt learning. [[paper]](https://arxiv.org/abs/2501.02378)
+  - Fatih Dinc, Ege Cirakman, Yiqi Jiang, Mert Yuksekgonul, Mark J. Schnitzer, Hidenori Tanaka.
+  - Key Word: Abrupt Learning; Learning Dynamics.
+  - <details><summary>Digest</summary> This paper explores the phenomenon of abrupt learning in neural networks, where performance suddenly improves after prolonged stagnation. Using a minimal dynamical system trained on a delayed-activation task, the authors analytically demonstrate that abrupt learning arises from ghost points—destabilizing features in the learning dynamics—rather than bifurcations. They identify a critical learning rate shaped by two loss landscape features: a no-learning zone and an oscillatory minimum. Testing recurrent neural networks (RNNs), they confirm that ghost points precede abrupt learning and destabilize the process. To mitigate this, they propose two strategies: lowering model output confidence to escape no-learning zones and increasing model redundancy (trainable ranks) for stability. This work highlights a bifurcation-free mechanism of abrupt learning and emphasizes the roles of uncertainty and redundancy in stabilizing learning trajectories.
+
+
+### Emergence and Phase Transitions: 2024
+
 - The Complexity Dynamics of Grokking. [[paper]](https://arxiv.org/abs/2412.09810)
   - Branton DeMoss, Silvia Sapora, Jakob Foerster, Nick Hawes, Ingmar Posner.
   - Key Word: Grokking; Generalization; Minimum Description Length Principle.
@@ -1124,9 +1134,6 @@ Our understanding of modern neural networks lags behind their practical successe
   - Leshem Choshen, Yang Zhang, Jacob Andreas.
   - Key Word: Neural scaling Law.
   - <details><summary>Digest</summary> The paper investigates how to best estimate and interpret scaling laws that predict machine learning model performance. By analyzing a large dataset of losses and evaluations from 485 pretrained models, the authors estimate over 1000 scaling laws. They propose best practices, such as using intermediate training checkpoints and comparing models of similar sizes, to improve prediction accuracy. While models of different families may show variable scaling behavior, predictions can often be made using scaling estimates from related models. Additionally, training multiple small models can be more effective than training a single large one due to seed variability.
-
-
-### Emergence and Phase Transitions: 2024
 
 - Grokking at the Edge of Linear Separability. [[paper]](https://arxiv.org/abs/2410.04489)
   - Alon Beck, Noam Levi, Yohai Bar-Sinai.
