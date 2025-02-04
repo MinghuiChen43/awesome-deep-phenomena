@@ -489,6 +489,15 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](./img/NC_animation.gif)
 
+
+### Neural Collapse: 2025
+
+- Neural Collapse Beyond the Unconstrainted Features Model: Landscape, Dynamics, and Generalization in the Mean-Field Regime. [[paper]](https://arxiv.org/abs/2501.19104)
+  - Diyuan Wu, Marco Mondelli.
+  - Key Word: Neural Collapse; Mean-Field Analysis.
+  - <details><summary>Digest</summary> This paper studies Neural Collapse (NC1)—the vanishing of within-class variability in well-trained neural networks—from a data-specific perspective. Analyzing a three-layer network with mean-field dynamics, the authors establish a key link between NC1 and the loss landscape, proving that points with small loss and gradient norm approximately satisfy NC1. They further show that gradient flow on MSE loss leads to NC1 solutions and that for well-separated data, NC1 coincides with vanishing test error. The results highlight how NC1 naturally emerges during training due to loss landscape properties.
+
+
 ### Neural Collapse: 2024
 
 - Formation of Representations in Neural Networks. [[paper]](https://arxiv.org/abs/2410.03006)
