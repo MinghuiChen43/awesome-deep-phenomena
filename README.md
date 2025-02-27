@@ -1121,6 +1121,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2025
 
+- (Mis)Fitting: A Survey of Scaling Laws. [[paper]](https://arxiv.org/abs/2502.18969)
+  - Margaret Li, Sneha Kudugunta, Luke Zettlemoyer.
+  - Key Word: Neural Scaling Laws; Survey.
+  - <details><summary>Digest</summary> The paper critiques the reliance on scaling laws in foundation models, highlighting how variations in training setups, architectures, and optimization methods can impact the conclusions drawn from these laws. It discusses discrepancies in prior research on topics like the optimal token-to-parameter ratio and presents an analysis of how small changes can significantly alter results. The paper also surveys over 50 studies on scaling trends, noting that most use power laws but fail to report essential details for reproducibility. To address this, the authors propose a checklist for scaling law research contributors.
+
 - A ghost mechanism: An analytical model of abrupt learning. [[paper]](https://arxiv.org/abs/2501.02378)
   - Fatih Dinc, Ege Cirakman, Yiqi Jiang, Mert Yuksekgonul, Mark J. Schnitzer, Hidenori Tanaka.
   - Key Word: Abrupt Learning; Learning Dynamics.
