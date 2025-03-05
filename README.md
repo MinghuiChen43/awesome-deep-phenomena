@@ -1839,6 +1839,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Others
 
+### Others: 2025
+
+- Deep Learning is Not So Mysterious or Different. [[paper]](https://arxiv.org/abs/2503.02113)
+  - Andrew Gordon Wilson.
+  - Key Word: Deep Phenomena; Soft Inductive Biases.
+  - <details><summary>Digest</summary> This paper argues that deep neural networks do not exhibit fundamentally unique or mysterious generalization behavior. Phenomena like benign overfitting, double descent, and the benefits of overparameterization are not exclusive to deep learning but can be understood through established frameworks like PAC-Bayes and hypothesis bounds. The key unifying principle is soft inductive biases—instead of restricting hypothesis space to prevent overfitting, deep learning embraces flexibility while favoring simpler solutions. While deep learning is not exceptional in generalization, it remains distinct in aspects like representation learning, mode connectivity, and universality.
+
+
 ### Others: 2024
 
 - Theoretical limitations of multi-layer Transformer. [[paper]](https://arxiv.org/abs/2412.02975)
