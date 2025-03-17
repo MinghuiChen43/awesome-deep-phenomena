@@ -2512,7 +2512,7 @@ Our understanding of modern neural networks lags behind their practical successe
 - The Benefits of Implicit Regularization from SGD in Least Squares Problems. [[paper]](https://arxiv.org/abs/2108.04552)
   - Difan Zou, Jingfeng Wu, Vladimir Braverman, Quanquan Gu, Dean P. Foster, Sham M. Kakade. *NeurIPS 2021*
   - Key Word: Implicit Regularization.
-  <details><summary>Digest</summary> We show: (1) for every problem instance and for every ridge parameter, (unregularized) SGD, when provided with logarithmically more samples than that provided to the ridge algorithm, generalizes no worse than the ridge solution (provided SGD uses a tuned constant stepsize); (2) conversely, there exist instances (in this wide problem class) where optimally-tuned ridge regression requires quadratically more samples than SGD in order to have the same generalization performance.
+  - <details><summary>Digest</summary> We show: (1) for every problem instance and for every ridge parameter, (unregularized) SGD, when provided with logarithmically more samples than that provided to the ridge algorithm, generalizes no worse than the ridge solution (provided SGD uses a tuned constant stepsize); (2) conversely, there exist instances (in this wide problem class) where optimally-tuned ridge regression requires quadratically more samples than SGD in order to have the same generalization performance.
 
 - Neural Controlled Differential Equations for Online Prediction Tasks. [[paper]](https://arxiv.org/abs/2106.11028) [[code]](https://github.com/jambo6/online-neural-cdes)
   - James Morrill, Patrick Kidger, Lingyi Yang, Terry Lyons.
