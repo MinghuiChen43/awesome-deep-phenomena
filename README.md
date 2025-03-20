@@ -1121,6 +1121,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2025
 
+- Measuring AI Ability to Complete Long Tasks. [[paper]](https://arxiv.org/abs/2503.14499)
+  - Thomas Kwa, Ben West, Joel Becker, Amy Deng, Katharyn Garcia, Max Hasin, Sami Jawhar, Megan Kinniment, Nate Rush, Sydney Von Arx, Ryan Bloom, Thomas Broadley, Haoxing Du, Brian Goodrich, Nikola Jurkovic, Luke Harold Miles, Seraphina Nix, Tao Lin, Neev Parikh, David Rein, Lucas Jun Koba Sato, Hjalmar Wijk, Daniel M. Ziegler, Elizabeth Barnes, Lawrence Chan.
+  - Key Word: Agent Training; Compute Scaling.
+  - <details><summary>Digest</summary> The paper introduces a new metric, the 50%-task-completion time horizon, which measures how long humans typically take to complete tasks that AI models achieve with a 50% success rate. Using benchmarks like RE-Bench, HCAST, and 66 novel tasks, the study finds that frontier AI models (e.g., Claude 3.7 Sonnet) have a 50% time horizon of ~50 minutes. AI time horizons have been doubling every ~7 months since 2019, with potential acceleration in 2024, driven by improvements in reliability, adaptability, logical reasoning, and tool use. The authors discuss the external validity of their results and the risks of increased AI autonomy, predicting that if trends hold, AI could automate many software tasks requiring a month of human effort within five years.
+
 - (Mis)Fitting: A Survey of Scaling Laws. [[paper]](https://arxiv.org/abs/2502.18969)
   - Margaret Li, Sneha Kudugunta, Luke Zettlemoyer.
   - Key Word: Neural Scaling Laws; Survey.
