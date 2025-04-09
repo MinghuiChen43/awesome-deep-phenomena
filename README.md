@@ -740,6 +740,14 @@ Our understanding of modern neural networks lags behind their practical successe
 ![avatar](https://miro.medium.com/v2/resize:fit:1400/1*jb07XiONxy2jMpRqQYjDqw.png)
 
 
+### Lottery Ticket Hypothesis: 2025
+
+- Find A Winning Sign: Sign Is All We Need to Win the Lottery. [[paper]](https://arxiv.org/abs/2504.05357#)
+  - Junghun Oh, Sungyong Baik, Kyoung Mu Lee.
+  - Key Word: Lottery Ticket Hypothesis.
+  - <details><summary>Digest</summary> This paper revisits the Lottery Ticket Hypothesis, showing that parameter sign configurations are key to transferring generalization to randomly initialized sparse networks. The authors demonstrate that preserving signs and sparsity—rather than full weights or normalization parameters—retains the network’s generalization ability. Using linear mode connectivity analysis, they show that low error barriers can be maintained between trained and initialized networks, even without normalization layers. Their method improves transferability across architectures and datasets, moving closer to reliably identifying winning tickets.
+
+
 ### Lottery Ticket Hypothesis: 2024
 
 - On the Sparsity of the Strong Lottery Ticket Hypothesis.
