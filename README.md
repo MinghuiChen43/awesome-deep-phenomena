@@ -1854,6 +1854,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- When is Task Vector Provably Effective for Model Editing? A Generalization Analysis of Nonlinear Transformers. [[paper]](https://arxiv.org/abs/2504.10957)
+  - Hongkang Li, Yihua Zhang, Shuai Zhang, Meng Wang, Sijia Liu, Pin-Yu Chen.
+  - Key Word: Task Arithmetic; Feature Learning.
+  - <details><summary>Digest</summary> This paper provides the first theoretical analysis of task arithmetic—editing pre-trained models using linear combinations of task vectors. It proves that task addition and negation can effectively support multi-task learning and unlearning in Transformer models. The authors show how to select coefficients to ensure out-of-domain generalization, with guarantees holding for both full and low-rank weights. Results are validated on machine unlearning using Phi-1.5.
+
 - Deep Learning is Not So Mysterious or Different. [[paper]](https://arxiv.org/abs/2503.02113)
   - Andrew Gordon Wilson.
   - Key Word: Deep Phenomena; Soft Inductive Biases.
