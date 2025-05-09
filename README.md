@@ -752,6 +752,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Lottery Ticket Hypothesis: 2025
 
+- Sparse Training from Random Initialization: Aligning Lottery Ticket Masks using Weight Symmetry. [[paper]](https://arxiv.org/abs/2505.05143)
+  - Mohammed Adnan, Rohan Jain, Ekansh Sharma, Rahul Krishnan, Yani Ioannou.
+  - Key Word: Lottery Ticket Hypothesis; Weight Symmetry.
+  - <details><summary>Digest</summary> This paper proposes that the poor generalization of Lottery Ticket Hypothesis (LTH) masks across random initializations is due to misaligned optimization basins. By aligning the LTH mask through permutation to match the basin of a new initialization, they significantly improve sparse training performance across models and datasets.
+
 - Find A Winning Sign: Sign Is All We Need to Win the Lottery. [[paper]](https://arxiv.org/abs/2504.05357#)
   - Junghun Oh, Sungyong Baik, Kyoung Mu Lee.
   - Key Word: Lottery Ticket Hypothesis.
