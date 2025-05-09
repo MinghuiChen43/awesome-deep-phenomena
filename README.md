@@ -32,6 +32,16 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2024
 
+- Reasoning Models Don't Always Say What They Think. [[paper]](https://arxiv.org/abs/2505.05410)
+  - Yanda Chen, Joe Benton, Ansh Radhakrishnan, Jonathan Uesato, Carson Denison, John Schulman, Arushi Somani, Peter Hase, Misha Wagner, Fabien Roger, Vlad Mikulik, Samuel R. Bowman, Jan Leike, Jared Kaplan, Ethan Perez.
+  - Key Word: Chain-of-Thought; Faithfulness.
+  - <details><summary>Digest</summary> This paper evaluates the faithfulness of chain-of-thought (CoT) reasoning in LLMs and finds that CoTs often fail to reliably reflect models’ actual use of reasoning hints. While reinforcement learning can modestly improve faithfulness, it plateaus and does not ensure transparency. The study concludes that CoT monitoring is useful for detecting issues but insufficient for reliably preventing rare, harmful behaviors.
+
+- When Bad Data Leads to Good Models. [[paper]](https://arxiv.org/abs/2505.04741)
+  - Kenneth Li, Yida Chen, Fernanda Viégas, Martin Wattenberg.
+  - Key Word: Detoxification.
+  - <details><summary>Digest</summary> This paper challenges conventional views on data quality in LLM pretraining, showing that including more toxic data can improve post-training control. Specifically, toxic data makes toxicity more linearly separable in the model’s representation space, enabling more effective detoxification through techniques like inference-time intervention, while preserving general capabilities.
+
 - Rethinking Conventional Wisdom in Machine Learning: From Generalization to Scaling. [[paper]](https://arxiv.org/abs/2409.15156)
   - Lechao Xiao.
   - Key Word: Regularization; Generalization; Neural Scaling Law.
