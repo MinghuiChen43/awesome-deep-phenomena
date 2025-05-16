@@ -1869,6 +1869,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- Neural Thermodynamic Laws for Large Language Model Training. [[paper]](https://arxiv.org/abs/2505.10559)
+  - Ziming Liu, Yizhou Liu, Jeff Gore, Max Tegmark.
+  - Key Word: Thermodynamics; River-Valley Loss Landscape.
+  - <details><summary>Digest</summary> This paper proposes Neural Thermodynamic Laws (NTL), a new framework for understanding LLM training dynamics. Theoretically, it shows that classical thermodynamic concepts emerge naturally under certain loss landscape assumptions. Practically, it provides insights for designing better learning rate schedules.
+
 - When is Task Vector Provably Effective for Model Editing? A Generalization Analysis of Nonlinear Transformers. [[paper]](https://arxiv.org/abs/2504.10957)
   - Hongkang Li, Yihua Zhang, Shuai Zhang, Meng Wang, Sijia Liu, Pin-Yu Chen.
   - Key Word: Task Arithmetic; Feature Learning.
