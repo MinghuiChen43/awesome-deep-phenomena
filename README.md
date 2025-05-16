@@ -1144,6 +1144,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2025
 
+- Superposition Yields Robust Neural Scaling. [[paper]](https://arxiv.org/abs/2505.10465)
+  - Yizhou liu, Ziming Liu, Jeff Gore.
+  - Key Word: Superposition; Neural Scaling Law.
+  - <details><summary>Digest</summary> This paper investigates the origin of neural scaling laws in LLMs by introducing a toy model based on two principles: representation superposition and feature frequency variation. It finds that under strong superposition, loss scales inversely with model size due to feature interference in low-dimensional spaces. Empirical analysis of LLMs confirms this behavior, suggesting that superposition is key to neural scaling laws, offering insights for more efficient model training and design.
+
 - Measuring AI Ability to Complete Long Tasks. [[paper]](https://arxiv.org/abs/2503.14499)
   - Thomas Kwa, Ben West, Joel Becker, Amy Deng, Katharyn Garcia, Max Hasin, Sami Jawhar, Megan Kinniment, Nate Rush, Sydney Von Arx, Ryan Bloom, Thomas Broadley, Haoxing Du, Brian Goodrich, Nikola Jurkovic, Luke Harold Miles, Seraphina Nix, Tao Lin, Neev Parikh, David Rein, Lucas Jun Koba Sato, Hjalmar Wijk, Daniel M. Ziegler, Elizabeth Barnes, Lawrence Chan.
   - Key Word: Agent Training; Compute Scaling.
