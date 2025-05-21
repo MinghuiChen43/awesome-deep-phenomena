@@ -1649,6 +1649,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://i.ytimg.com/vi/raT2ECrvbag/maxresdefault.jpg)
 
+### Neural Tangent Kernel: 2025
+
+- Just One Layer Norm Guarantees Stable Extrapolation. [[paper]](https://arxiv.org/abs/2505.14512)
+  - Juliusz Ziomek, George Whittle, Michael A. Osborne.
+  - Key Word: Neural Tangent Kernel; Layer Norm.
+  - <details><summary>Digest</summary> This paper shows that adding just one LayerNorm to an infinitely wide neural network fundamentally changes its Neural Tangent Kernel (NTK), making it a bounded-variance kernel. This ensures the network’s outputs remain stable even far from the training distribution. In contrast, networks without LayerNorm can produce arbitrarily large outputs. Empirical results on finite-width networks confirm that LayerNorm helps control extrapolatory instability, with practical benefits in domains like protein structure prediction and age estimation for underrepresented groups.
+
+
 ### Neural Tangent Kernel: 2024
 
 - The lazy (NTK) and rich (μP) regimes: a gentle tutorial. [[paper]](https://arxiv.org/abs/2404.19719)
