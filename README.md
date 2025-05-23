@@ -1882,6 +1882,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- Understanding Prompt Tuning and In-Context Learning via Meta-Learning. [[paper]](https://arxiv.org/abs/2505.17010)
+  - Tim Genewein, Kevin Wenliang Li, Jordi Grau-Moya, Anian Ruoss, Laurent Orseau, Marcus Hutter.
+  - Key Word: Meta Learning; In-Context Learning; Prompt Tuning; Bayes.
+  - <details><summary>Digest</summary> This paper proposes a Bayesian perspective on prompt optimization, offering a conceptual framework to understand when and why prompting works. It argues that pretrained neural networks behave as Bayesian predictors, and optimal prompting can be seen as conditioning these predictors. However, the theory also reveals fundamental limits of prompting, which may require weight tuning to overcome. Experiments on LSTMs and Transformers support the theory, showing that soft prompts (continuous vectors) are more effective than hard prompts, even in untrained networks, due to their ability to manipulate activations more flexibly.
+
 - Neural Thermodynamic Laws for Large Language Model Training. [[paper]](https://arxiv.org/abs/2505.10559)
   - Ziming Liu, Yizhou Liu, Jeff Gore, Max Tegmark.
   - Key Word: Thermodynamics; River-Valley Loss Landscape.
