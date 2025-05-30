@@ -1882,6 +1882,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- Understanding Mode Connectivity via Parameter Space Symmetry. [[paper]](https://arxiv.org/abs/2505.23681)
+  - Bo Zhao, Nima Dehmamy, Robin Walters, Rose Yu.
+  - Key Word: Mode Connectivity.
+  - <details><summary>Digest</summary> This paper investigates mode connectivity—the phenomenon where neural network minima are connected by low-loss curves—through the lens of parameter space symmetry. The authors analyze how symmetries affect the topology of the minima, showing that skip connections reduce disconnected components. They derive when (linear) mode connectivity holds or fails, and provide explicit connecting curves based on symmetry. Their results highlight how continuous symmetries shape the loss landscape and underlie mode connectivity.
+
 - Understanding Prompt Tuning and In-Context Learning via Meta-Learning. [[paper]](https://arxiv.org/abs/2505.17010)
   - Tim Genewein, Kevin Wenliang Li, Jordi Grau-Moya, Anian Ruoss, Laurent Orseau, Marcus Hutter.
   - Key Word: Meta Learning; In-Context Learning; Prompt Tuning; Bayes.
