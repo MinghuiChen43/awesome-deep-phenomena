@@ -1882,6 +1882,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- Do Neural Networks Need Gradient Descent to Generalize? A Theoretical Study. [[paper]](https://arxiv.org/abs/2506.03931)
+  - Yotam Alexander, Yonatan Slutzky, Yuval Ran-Milo, Nadav Cohen.
+  - Key Word: Gradient Descent; Guess and Check.
+  - <details><summary>Digest</summary> This paper challenges the volume hypothesis—the idea that neural networks can generalize well without gradient descent, using only Guess & Check (G&C). Studying matrix factorization tasks, the authors show that: G&C generalization worsens with width, but improves with depth, revealing a fundamental asymmetry. This is the first provable case where gradient descent outperforms G&C in wide networks. The results suggest that neural network generalization may fundamentally depend on architecture and training method interplay.
+
 - Understanding Mode Connectivity via Parameter Space Symmetry. [[paper]](https://arxiv.org/abs/2505.23681)
   - Bo Zhao, Nima Dehmamy, Robin Walters, Rose Yu.
   - Key Word: Mode Connectivity.
