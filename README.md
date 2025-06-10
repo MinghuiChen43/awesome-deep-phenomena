@@ -1882,6 +1882,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- Alternating Gradient Flows: A Theory of Feature Learning in Two-layer Neural Networks. [[paper]](https://arxiv.org/abs/2506.06489)
+  - Daniel Kunin, Giovanni Luca Marchetti, Feng Chen, Dhruva Karkada, James B. Simon, Michael R. DeWeese, Surya Ganguli, Nina Miolane.
+  - Key Word: Feature Learning.
+  - <details><summary>Digest</summary> The paper introduces Alternating Gradient Flows (AGF), a framework that models feature learning dynamics in two-layer neural networks trained from small initialization. AGF captures the staircase-like loss curve as an alternating process: activating dormant neurons to acquire features and optimizing active ones. It explains the timing and structure of loss drops, unifies prior analyses, and shows how networks learn features like singular modes, principal components, and Fourier components, offering new insights into neural feature learning.
+
 - Do Neural Networks Need Gradient Descent to Generalize? A Theoretical Study. [[paper]](https://arxiv.org/abs/2506.03931)
   - Yotam Alexander, Yonatan Slutzky, Yuval Ran-Milo, Nadav Cohen.
   - Key Word: Gradient Descent; Guess and Check.
