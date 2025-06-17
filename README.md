@@ -1144,6 +1144,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2025
 
+- What Happens During the Loss Plateau? Understanding Abrupt Learning in Transformers. [[paper]](https://arxiv.org/abs/2506.13688)
+  - Pulkit Gopalani, Wei Hu.
+  - Key Word: Abrupt Learning; Grokking.
+  - <details><summary>Digest</summary> Transformers trained on algorithmic tasks often show a long plateau followed by sudden improvement. During this plateau, they develop partial solutions but suffer from repetition bias and representation collapse. The bottleneck is slow learning of optimal attention maps, which, once formed, trigger rapid progress. These patterns also appear in early pre-training of large models like Pythia and OLMo, suggesting they are general phenomena.
+
 - Superposition Yields Robust Neural Scaling. [[paper]](https://arxiv.org/abs/2505.10465)
   - Yizhou liu, Ziming Liu, Jeff Gore.
   - Key Word: Superposition; Neural Scaling Law.
