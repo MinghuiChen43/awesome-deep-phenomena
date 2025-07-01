@@ -1887,6 +1887,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- Not All Explanations for Deep Learning Phenomena Are Equally Valuable. [[paper]](https://arxiv.org/abs/2506.23286)
+  - Alan Jeffares, Mihaela van der Schaar.
+  - Key Word: Deep Learning Phenomena; Position.
+  - <details><summary>Digest</summary> This paper argues that surprising deep learning phenomena (e.g., double descent, grokking, lottery ticket hypothesis) are often overemphasized as isolated puzzles lacking real-world relevance. Instead of ad hoc explanations, the authors advocate using these phenomena to refine general deep learning theories. They recommend reorienting research focus to better align with the broader goals of the field.
+
 - Alternating Gradient Flows: A Theory of Feature Learning in Two-layer Neural Networks. [[paper]](https://arxiv.org/abs/2506.06489)
   - Daniel Kunin, Giovanni Luca Marchetti, Feng Chen, Dhruva Karkada, James B. Simon, Michael R. DeWeese, Surya Ganguli, Nina Miolane.
   - Key Word: Feature Learning.
