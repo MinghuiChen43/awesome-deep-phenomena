@@ -1887,6 +1887,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- Position: A Theory of Deep Learning Must Include Compositional Sparsity. [[paper]](https://arxiv.org/abs/2507.02550)
+  - David A. Danhofer, Davide D'Ascenzo, Rafael Dubach, Tomaso Poggio.
+  - Key Word: Compositional Sparsity; Position.
+  - <details><summary>Digest</summary> This position paper argues that the success of overparameterized deep neural networks stems from their ability to exploit compositional sparsity—the structure of target functions as compositions of low-dimensional subfunctions. The authors claim this structure is common in all efficiently Turing-computable functions and thus prevalent in real-world learning tasks. While existing theory addresses approximation and generalization under this structure, key questions about learnability and optimization remain open. Understanding compositional sparsity is essential for a full theory of deep and general intelligence.
+
 - Not All Explanations for Deep Learning Phenomena Are Equally Valuable. [[paper]](https://arxiv.org/abs/2506.23286)
   - Alan Jeffares, Mihaela van der Schaar.
   - Key Word: Deep Learning Phenomena; Position.
