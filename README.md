@@ -1887,6 +1887,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- Transfer Learning in Infinite Width Feature Learning Networks. [[paper]](https://arxiv.org/abs/2507.04448)
+  - Clarissa Lauditi, Blake Bordelon, Cengiz Pehlevan.
+  - Key Word: Feature Learning; Transfer Learning.
+  - <details><summary>Digest</summary> The paper presents a theoretical framework for transfer learning in infinitely wide neural networks, analyzing both Bayesian and gradient flow training settings. It introduces adapted feature kernels to track how representations evolve across source and target tasks, with elastic weight coupling controlling feature reuse. The theory, supported by experiments, highlights how factors like feature learning strength, dataset size, and task alignment influence transfer learning effectiveness.
+
 - Position: A Theory of Deep Learning Must Include Compositional Sparsity. [[paper]](https://arxiv.org/abs/2507.02550)
   - David A. Danhofer, Davide D'Ascenzo, Rafael Dubach, Tomaso Poggio.
   - Key Word: Compositional Sparsity; Position.
