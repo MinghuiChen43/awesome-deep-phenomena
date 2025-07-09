@@ -1144,6 +1144,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2025
 
+- FACT: the Features At Convergence Theorem for neural network. [[paper]](https://arxiv.org/abs/2507.05644)
+  - Enric Boix-Adsera, Neil Mallinar, James B. Simon, Mikhail Belkin.
+  - Key Word: Feature Learning; Neural Feature Ansatz.
+  - <details><summary>Digest</summary> This paper introduces the Features at Convergence Theorem (FACT), a theoretical result characterizing how neural network weights relate to input features and gradients at convergence under weight decay. The authors empirically validate this relation and propose a modified learning algorithm, FACT-RFM, based on enforcing FACT within Recursive Feature Machines. FACT-RFM performs well on tabular tasks and replicates complex neural learning phenomena such as grokking and phase transitions.
+
 - What Happens During the Loss Plateau? Understanding Abrupt Learning in Transformers. [[paper]](https://arxiv.org/abs/2506.13688)
   - Pulkit Gopalani, Wei Hu.
   - Key Word: Abrupt Learning; Grokking.
