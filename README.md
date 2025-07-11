@@ -623,12 +623,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://miro.medium.com/v2/resize:fit:1400/1*-TnyYQwbN0g6ghkFqjd7-A.png)
 
-### Deep Double Descent: 2023
+### Deep Double Descent: 2025
 
 - Bayesian Double Descent. [[paper]](https://arxiv.org/abs/2507.07338)
   - Nick Polson, Vadim Sokolov.
   - Key Word: Duoble Descent; Bayesian Model Selection.
   - <details><summary>Digest</summary> The paper interprets the double-descent risk curve of over-parameterized models through a Bayesian lens. It shows that the re-descending risk in the interpolation regime arises naturally from Bayesian model selection, which still favors simpler explanations in line with Occam’s razor, and illustrates this with neural-network examples while outlining open research directions.
+
+### Deep Double Descent: 2023
 
 - A U-turn on Double Descent: Rethinking Parameter Counting in Statistical Learning. [[paper]](https://arxiv.org/abs/2310.18988)
   - Alicia Curth, Alan Jeffares, Mihaela van der Schaar.
