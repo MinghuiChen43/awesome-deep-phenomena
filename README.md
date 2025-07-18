@@ -1668,6 +1668,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Tangent Kernel: 2025
 
+- Understanding the Evolution of the Neural Tangent Kernel at the Edge of Stability. [[paper]](https://arxiv.org/abs/2507.12837)
+  - Kaiqi Jiang, Jeremy Cohen, Yuanzhi Li.
+  - Key Word: Neural Tangent Kernel; Edge of Stability.
+  - <details><summary>Digest</summary> This paper investigates the behavior of Neural Tangent Kernel (NTK) eigenvectors during the Edge of Stability (EoS) phase in gradient descent training. It finds that higher learning rates lead to stronger alignment between NTK eigenvectors and training targets. The authors support this observation with theoretical analysis in a two-layer linear network, contributing to a deeper understanding of deep learning dynamics.
+
 - Just One Layer Norm Guarantees Stable Extrapolation. [[paper]](https://arxiv.org/abs/2505.14512)
   - Juliusz Ziomek, George Whittle, Michael A. Osborne.
   - Key Word: Neural Tangent Kernel; Layer Norm.
