@@ -1151,6 +1151,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2025
 
+- Pre-training under infinite compute. [[paper]](https://arxiv.org/abs/2509.14786)
+  - Konwoo Kim, Suhas Kotha, Percy Liang, Tatsunori Hashimoto.
+  - Key Word: Pre-training; Compute Scaling.
+  - <details><summary>Digest</summary> The paper studies data-efficient pre-training when compute is abundant but training data is limited. It shows that standard approaches (more epochs, larger models) overfit, but stronger regularization (30× higher weight decay) improves scaling behavior. The authors further reduce loss by ensembling models and distilling ensembles into much smaller students while retaining most benefits. Their combined recipe (epoching, regularization, parameter scaling, and ensembling) achieves 5× data efficiency gains, with improvements generalizing to downstream benchmarks (up to 17.5× data efficiency on math tasks).
+
 - FACT: the Features At Convergence Theorem for neural network. [[paper]](https://arxiv.org/abs/2507.05644)
   - Enric Boix-Adsera, Neil Mallinar, James B. Simon, Mikhail Belkin.
   - Key Word: Feature Learning; Neural Feature Ansatz.
