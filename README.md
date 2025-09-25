@@ -1370,6 +1370,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://miro.medium.com/v2/resize:fit:1200/1*hkYlTODpjJgo32DoCOWN5w.png)
 
+### Interactions with Neuroscience: 2025
+
+- ImageNet-trained CNNs are not biased towards texture: Revisiting feature reliance through controlled suppression. [[paper]]()
+  - Tom Burgert, Oliver Stoll, Paolo Rota, Begüm Demir.
+  - Key Word: Shape-Texture; Psychophysical Experiments.
+  - <details><summary>Digest</summary> The paper challenges the view that CNNs are inherently texture-biased by introducing a domain-agnostic framework that measures reliance on shape, texture, and color through systematic cue suppression. Results show CNNs mainly depend on local shape features rather than texture, though modern architectures (ConvNeXt, ViTs) and training strategies reduce this bias. Extending the analysis reveals domain-specific patterns: vision models emphasize shape, medical imaging models rely on color, and remote sensing models favor texture.
+
+
 ### Interactions with Neuroscience: 2023
 
 - How deep is the brain? The shallow brain hypothesis. [[paper]](https://www.nature.com/articles/s41583-023-00756-z)
