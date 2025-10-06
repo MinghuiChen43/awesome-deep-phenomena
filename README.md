@@ -1151,6 +1151,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2025
 
+- Provable Scaling Laws of Feature Emergence from Learning Dynamics of Grokking. [[paper]](https://arxiv.org/abs/2509.21519)
+  - Yuandong Tian.
+  - Key Word: Grokking; Feature Learning; Lazy Learning.
+  - <details><summary>Digest</summary> This paper introduces Li², a mathematical framework explaining grokking—delayed generalization—in two-layer nonlinear networks through three stages: lazy learning, where the top layer memorizes random features; independent feature learning, where weight decay and structured gradients enable each hidden node to independently learn meaningful representations via gradient ascent on an energy function; and interactive feature learning, where hidden nodes collaboratively refine missing features. The framework establishes theoretical scaling laws linking gradient flow, weight decay, learning rate, and sample size to feature emergence, memorization, and generalization, and further explains from first principles why optimizers like Muon enhance grokking dynamics, with extensions to deeper architectures.
+
 - Pre-training under infinite compute. [[paper]](https://arxiv.org/abs/2509.14786)
   - Konwoo Kim, Suhas Kotha, Percy Liang, Tatsunori Hashimoto.
   - Key Word: Pre-training; Compute Scaling.
