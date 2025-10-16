@@ -1151,6 +1151,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Emergence and Phase Transitions: 2025
 
+- The Art of Scaling Reinforcement Learning Compute for LLMs. [[paper]](https://arxiv.org/abs/2510.13786)
+  - Devvrit Khatri, Lovish Madaan, Rishabh Tiwari, Rachit Bansal, Sai Surya Duvvuri, Manzil Zaheer, Inderjit S. Dhillon, David Brandfonbrener, Rishabh Agarwal.
+  - Key Word: Reinforcement Learning; Compute Scaling.
+  - <details><summary>Digest</summary> This paper introduces ScaleRL, a principled framework for understanding and predicting how reinforcement learning (RL) scales in large language models (LLMs). Based on over 400,000 GPU-hours of systematic experiments, the authors fit sigmoidal compute–performance curves to characterize RL scaling behavior and analyze the impact of common design choices. They find that while factors like normalization, curriculum, and off-policy algorithms mainly influence compute efficiency, they do not significantly change the asymptotic performance. Importantly, stable RL recipes exhibit predictable scaling trajectories, allowing accurate extrapolation from smaller-scale runs. Overall, the work provides both a scientific basis for analyzing RL scaling and a practical recipe for achieving predictable, efficient large-scale RL training in LLMs.
+
 - Provable Scaling Laws of Feature Emergence from Learning Dynamics of Grokking. [[paper]](https://arxiv.org/abs/2509.21519)
   - Yuandong Tian.
   - Key Word: Grokking; Feature Learning; Lazy Learning.
