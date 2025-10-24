@@ -1927,6 +1927,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- Position: Many generalization measures for deep learning are fragile. [[paper]](https://arxiv.org/abs/2510.18934)
+  - Shuofeng Zhang, Ard Louis.
+  - Key Word: Generalization Measures; Position.
+  - <details><summary>Digest</summary> This position paper argues that most post-mortem generalization measures for deep neural networks are fragile: very small changes in training (e.g., slightly adjusting learning rate or optimizer) can drastically alter their value or even reverse qualitative trends, despite the underlying model barely changing. The authors show that common measures like path norms, spectral norms, flatness proxies, and deterministic PAC-Bayes surrogates can all break under such perturbations, and even strong candidates like the PAC-Bayes origin bound fail to reflect differences in dataset complexity. In contrast, function-based and marginal-likelihood PAC-Bayes bounds better capture scaling with data complexity but are not post-hoc. The paper concludes that new generalization metrics should be rigorously audited for fragility rather than assumed reliable.
+
 - Transfer Learning in Infinite Width Feature Learning Networks. [[paper]](https://arxiv.org/abs/2507.04448)
   - Clarissa Lauditi, Blake Bordelon, Cengiz Pehlevan.
   - Key Word: Feature Learning; Transfer Learning.
