@@ -30,6 +30,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://danieltakeshi.github.io/assets/understanding_dl_rethinking_gen.png)
 
+### Empirical Study: 2025
+
+- Sharp Minima Can Generalize: A Loss Landscape Perspective On Data. [[paper]](https://arxiv.org/abs/2511.04808)
+  - Raymond Fan, Bryce Sandlund, Lin Myat Ko.
+  - Key Word: Loss Landscape; Sharp Minima; Generalization.
+  - <details><summary>Digest</summary> The volume hypothesis suggests deep learning is effective because it is likely to find flat minima due to their large volumes, and flat minima generalize well. This picture does not explain the role of large datasets in generalization. Measuring minima volumes under varying amounts of training data reveals sharp minima which generalize well exist, but are unlikely to be found due to their small volumes. Increasing data changes the loss landscape, such that previously small generalizing minima become (relatively) large.
+
+
 ### Empirical Study: 2024
 
 - Reasoning Models Don't Always Say What They Think. [[paper]](https://arxiv.org/abs/2505.05410)
