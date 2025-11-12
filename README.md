@@ -1935,6 +1935,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- Coherence Mechanisms for Provable Self-Improvement. [[paper]](https://arxiv.org/abs/2511.08440)
+  - Mehryar Mohri, Jon Schneider, Yifan Wu.
+  - Key Word: Self-Improvement; Self-Correction; Invariance; Data Augmentation; Self-Distillation.
+  - <details><summary>Digest</summary> This paper introduces a formal framework for self-improvement in large language models based on the principle of coherence—ensuring that model outputs remain consistent under transformations that preserve the task. Using projection-based updates, the framework refines a baseline model to be more coherent while staying close to its original behavior, with theoretical guarantees of monotonic improvement measured by reduced Bregman divergence. The analysis covers both direct and two-step projection methods, extends to non-ideal and empirical settings, and culminates in a characterization theorem showing that any provably improving mechanism must conform to coherence, establishing it as a fundamental and necessary principle for self-improvement.
+
 - Position: Many generalization measures for deep learning are fragile. [[paper]](https://arxiv.org/abs/2510.18934)
   - Shuofeng Zhang, Ard Louis.
   - Key Word: Generalization Measures; Position.
