@@ -1935,6 +1935,16 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2025
 
+- The Mean-Field Dynamics of Transformers. [[paper]](https://arxiv.org/abs/2512.01868)
+  - Philippe Rigollet.
+  - Key Word: Mean-Field Theory; Transformers.
+  - <details><summary>Digest</summary> We develop a mathematical framework that interprets Transformer attention as an interacting particle system and studies its continuum (mean-field) limits. By idealizing attention continuous on the sphere, we connect Transformer dynamics to Wasserstein gradient flows, synchronization models (Kuramoto), and mean-shift clustering. Central to our results is a global clustering phenomenon whereby tokens cluster asymptotically after long metastable states where they are arranged into multiple clusters. We further analyze a tractable equiangular reduction to obtain exact clustering rates, show how commonly used normalization schemes alter contraction speeds, and identify a phase transition for long-context attention. The results highlight both the mechanisms that drive representation collapse and the regimes that preserve expressive, multi-cluster structure in deep attention architectures.
+
+- Does Flatness imply Generalization for Logistic Loss in Univariate Two-Layer ReLU Network?
+  - Dan Qiao, Yu-Xiang Wang.
+  - Key Word: Flatness; Generalization; Logistic Loss; ReLU Network.
+  - <details><summary>Digest</summary> This paper investigates whether flat solutions in overparameterized two-layer ReLU networks guarantee generalization under logistic loss, a relationship already established for square loss. The authors prove a nuanced result: while flat solutions generalize near-optimally within specific regions, flatness is insufficient globally because arbitrarily flat yet overfitting solutions exist at infinity. Ultimately, the study demonstrates that the link between flatness and generalization is significantly more delicate and conditional under logistic loss than under square loss.
+
 - Coherence Mechanisms for Provable Self-Improvement. [[paper]](https://arxiv.org/abs/2511.08440)
   - Mehryar Mohri, Jon Schneider, Yifan Wu.
   - Key Word: Self-Improvement; Self-Correction; Invariance; Data Augmentation; Self-Distillation.
