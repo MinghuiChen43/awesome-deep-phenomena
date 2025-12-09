@@ -510,6 +510,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Neural Collapse: 2025
 
+- Asymptotic analysis of shallow and deep forgetting in replay with Neural Collapse. [[paper]](https://arxiv.org/abs/2512.07400)
+  - Giulia Lanzillotta, Damiano Meier, Thomas Hofmann.
+  - Key Word: Neural Collapse; Continual Learning.
+  - <details><summary>Digest</summary> This paper addresses the continual learning paradox where models retain separable features for past tasks yet fail at prediction, formalizing this as a distinct gap between robust deep feature retention and fragile shallow classifier forgetting. By extending the Neural Collapse framework to sequential settings, the authors demonstrate that while minimal experience replay buffers are mathematically sufficient to anchor feature geometry, they induce a "strong collapse" in the classifier characterized by rank-deficient covariances and inflated class means that obscure true decision boundaries. Consequently, the work challenges the prevailing reliance on large buffers, suggesting that robust performance can be unlocked with minimal data simply by explicitly correcting these specific statistical artifacts in the classifier.
+
 - Neural Collapse Beyond the Unconstrainted Features Model: Landscape, Dynamics, and Generalization in the Mean-Field Regime. [[paper]](https://arxiv.org/abs/2501.19104)
   - Diyuan Wu, Marco Mondelli.
   - Key Word: Neural Collapse; Mean-Field Analysis.
