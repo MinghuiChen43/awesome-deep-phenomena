@@ -1938,6 +1938,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ## Others
 
+### Others: 2026
+
+- From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence. [[paper]](https://arxiv.org/abs/2601.03220)
+  - Marc Finzi, Shikai Qiu, Yiding Jiang, Pavel Izmailov, J. Zico Kolter, Andrew Gordon Wilson.
+  - Key Word: Epiplexity; Information Theory; Computationally Bounded Intelligence.
+  - <details><summary>Digest</summary> The paper argues that classic notions of information (Shannon information, Kolmogorov complexity) don’t explain what makes data useful for learning because they assume unbounded computation and miss “learnable structure.” It highlights three apparent information-theory paradoxes with modern ML—deterministic transforms can’t increase information, information shouldn’t depend on data order, and likelihood training is “just” distribution matching—then resolves them by introducing epiplexity, a new measure of information for computationally bounded observers. Epiplexity is designed to capture structured, learnable content while excluding time-bounded entropy (hard-to-predict randomness like PRNG outputs or chaos). Using this lens, the authors show how computation can effectively create usable information, why data ordering can matter, and how likelihood modeling can yield programs more complex than the original generating process. They also propose practical estimators for epiplexity, showing it varies across datasets, correlates with downstream performance, and can identify dataset interventions that improve out-of-distribution generalization—positioning epiplexity as a theory for data selection (not just model selection).
+
+
 ### Others: 2025
 
 - The Mean-Field Dynamics of Transformers. [[paper]](https://arxiv.org/abs/2512.01868)
