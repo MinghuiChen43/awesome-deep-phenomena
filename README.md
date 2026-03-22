@@ -2021,6 +2021,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2024
 
+- Understand the Effectiveness of Shortcuts through the Lens of DCA. [[paper]](https://arxiv.org/abs/2412.09853)
+  - Youran Sun, Yihua Liu, Yi-Shuai Niu.
+  - Key Word: Skip Connections; Residual Networks; Difference-of-Convex Algorithm; Optimization Theory; Hessian.
+  - <details><summary>Digest</summary> This paper applies the Difference-of-Convex Algorithm (DCA) framework to analyze why skip connections work in deep networks. By constructing a DC decomposition of the loss for vanilla (shortcut-free) networks, the authors show that the DCA update direction equals the SGD gradient of a shortcut network, establishing the identity DCA + vanilla network = SGD + shortcut network. The analysis reveals that shortcuts implicitly leverage second-order (Hessian) information beyond the usual gradient-flow explanation. As a byproduct, the framework predicts a novel architecture called NegNet that replaces addition with subtraction in residual connections, which experiments on CIFAR-10 confirm performs comparably to standard ResNets.
+
 - Theoretical limitations of multi-layer Transformer. [[paper]](https://arxiv.org/abs/2412.02975)
   - Lijie Chen, Binghui Peng, Hongxun Wu.
   - Key Word: Transformer; Chain-of-Thought.
