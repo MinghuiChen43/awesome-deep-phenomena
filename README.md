@@ -1204,6 +1204,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Neural Scaling Laws; Survey.
   - <details><summary>Digest</summary> The paper critiques the reliance on scaling laws in foundation models, highlighting how variations in training setups, architectures, and optimization methods can impact the conclusions drawn from these laws. It discusses discrepancies in prior research on topics like the optimal token-to-parameter ratio and presents an analysis of how small changes can significantly alter results. The paper also surveys over 50 studies on scaling trends, noting that most use power laws but fail to report essential details for reproducibility. To address this, the authors propose a checklist for scaling law research contributors.
 
+- Phase Transitions in Large Language Models and the O(N) Model. [[paper]](https://arxiv.org/abs/2501.16241)
+  - Youran Sun, Babak Haghighat. *ICML 2025*
+  - Key Word: Phase Transitions; O(N) Model; Statistical Physics; Large Language Models.
+  - <details><summary>Digest</summary> The Transformer is recast as an O(N) spin model, and its energy is measured across generation temperatures. Two phase transitions show up: a second-order transition at T_c ≈ 1.2 separating coherent text from nonsense, and a higher-depth transition near 7B parameters where models start recognizing their own incoherent output — an emergent capability absent in smaller models. Critical exponents yield an internal dimension of about 6. The energy–temperature curve doubles as a quick diagnostic for whether a model's capacity matches its training data.
+
 - A ghost mechanism: An analytical model of abrupt learning. [[paper]](https://arxiv.org/abs/2501.02378)
   - Fatih Dinc, Ege Cirakman, Yiqi Jiang, Mert Yuksekgonul, Mark J. Schnitzer, Hidenori Tanaka.
   - Key Word: Abrupt Learning; Learning Dynamics.
