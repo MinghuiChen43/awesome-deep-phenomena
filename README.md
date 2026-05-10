@@ -3145,3 +3145,7 @@ Formatting (The order of the papers is reversed based on the initial submission 
   - Authors. *Published Conference or Journal*
   - Key Word: XXX.
   - <details><summary>Digest</summary> XXXXXX
+
+## Agent-Assisted Updates
+
+This repository includes `AGENTS.md` for reproducible Codex/Claude paper additions. From the repository root, ask: `Use this project's AGENTS.md. Add this arXiv paper to README.md: https://arxiv.org/abs/xxxx.xxxxx`
