@@ -1945,6 +1945,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2026
 
+- Deep Learning as Neural Low-Degree Filtering: A Spectral Theory of Hierarchical Feature Learning. [[paper]](https://arxiv.org/abs/2605.13612)
+  - Yatin Dandi, Matteo Vilucchio, Luca Arnaboldi, Hugo Tabanelli, Florent Krzakala.
+  - Key Word: Hierarchical Feature Learning; Spectral Theory; Low-Degree Filtering; Lazy Regime; Representation Learning.
+  - <details><summary>Digest</summary> This paper introduces Neural Low-Degree Filtering (Neural LoFi), a stylized gradient-training limit that turns hierarchical feature learning into an iterative spectral procedure. In this framework, each layer selects directions with the strongest accessible low-degree correlation to the label, yielding a tractable kernel-space view of multilayer feature learning beyond the lazy regime. Mechanistic experiments on fully connected and convolutional networks show that Neural LoFi can outperform lazy random-feature baselines, recover structured filters, and predict early gradient-descent representation discovery.</details>
+
 - From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence. [[paper]](https://arxiv.org/abs/2601.03220)
   - Marc Finzi, Shikai Qiu, Yiding Jiang, Pavel Izmailov, J. Zico Kolter, Andrew Gordon Wilson.
   - Key Word: Epiplexity; Information Theory; Computationally Bounded Intelligence.
