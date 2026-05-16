@@ -1945,6 +1945,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2026
 
+- Spontaneous symmetry breaking and Goldstone modes for deep information propagation. [[paper]](https://arxiv.org/abs/2605.14685)
+  - Nabil Iqbal, T. Anderson Keller, Yue Song, Takeru Miyato, Max Welling.
+  - Key Word: Spontaneous Symmetry Breaking; Goldstone Modes; Information Propagation; Equivariant Networks; Recurrent Memory.
+  - <details><summary>Digest</summary> This paper studies deep neural networks whose internal layers are equivariant under continuous symmetries and can support Goldstone-like degrees of freedom. The authors show analytically and empirically that these modes provide coherent signal propagation across depth and recurrent iterations, offering stable information flow without residual connections or normalization. In feedforward networks the mechanism improves trainability and representation diversity, while in recurrent models it strengthens long-term memory on long-sequence tasks.</details>
+
 - Deep Learning as Neural Low-Degree Filtering: A Spectral Theory of Hierarchical Feature Learning. [[paper]](https://arxiv.org/abs/2605.13612)
   - Yatin Dandi, Matteo Vilucchio, Luca Arnaboldi, Hugo Tabanelli, Florent Krzakala.
   - Key Word: Hierarchical Feature Learning; Spectral Theory; Low-Degree Filtering; Lazy Regime; Representation Learning.
