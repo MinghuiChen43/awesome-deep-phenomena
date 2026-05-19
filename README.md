@@ -1707,6 +1707,14 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://i.ytimg.com/vi/raT2ECrvbag/maxresdefault.jpg)
 
+### Neural Tangent Kernel: 2026
+
+- Training Infinitely Deep and Wide Transformers. [[paper]](https://arxiv.org/abs/2605.17660)
+  - Raphaël Barboni, Maarten V. de Hoop, Takashi Furuya, Gabriel Peyré.
+  - Key Word: Neural Tangent Kernel; Mean-Field Transformers; Infinite-Depth Training; Conditional Wasserstein Gradient Flow; Neural PDE.
+  - <details><summary>Digest</summary> This paper develops a mathematical framework for gradient-based training of transformers in a mean-field regime where both depth and attention-head width go to infinity. It shows that transformer training can be viewed as controlling a neural PDE, derives a conditional Wasserstein gradient for the training risk, and proves existence and uniqueness of the resulting gradient flow. The authors also characterize when the attention NTK is injective and use this condition to prove convergence to global minima from sufficiently small initial loss.</details>
+
+
 ### Neural Tangent Kernel: 2025
 
 - Understanding the Evolution of the Neural Tangent Kernel at the Edge of Stability. [[paper]](https://arxiv.org/abs/2507.12837)
