@@ -1368,6 +1368,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Key Word: Grokking; Physics of Learning; Deep Double Descent.
   - <details><summary>Digest</summary> We aim to understand grokking, a phenomenon where models generalize long after overfitting their training set. We present both a microscopic analysis anchored by an effective theory and a macroscopic analysis of phase diagrams describing learning performance across hyperparameters. We find that generalization originates from structured representations whose training dynamics and dependence on training set size can be predicted by our effective theory in a toy setting. We observe empirically the presence of four learning phases: comprehension, grokking, memorization, and confusion.
 
+- Training Compute-Optimal Large Language Models. [[paper]](https://arxiv.org/abs/2203.15556)
+  - Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor Cai, Eliza Rutherford, Diego de Las Casas, Lisa Anne Hendricks, Johannes Welbl, Aidan Clark, Tom Hennigan, Eric Noland, Katie Millican, George van den Driessche, Bogdan Damoc, Aurelia Guy, Simon Osindero, Karen Simonyan, Erich Elsen, Jack W. Rae, Oriol Vinyals, Laurent Sifre.
+  - Key Word: Neural Scaling Laws; Compute-Optimal Training; Large Language Models; Data Scaling; Chinchilla.
+  - <details><summary>Digest</summary> This paper studies how to allocate a fixed training compute budget between model size and number of tokens for transformer language models. Across more than 400 trained models, it finds that compute-optimal training scales model parameters and training tokens roughly equally, implying that many large language models were undertrained on data. The authors validate this by training Chinchilla, a 70B-parameter model that uses the same compute as larger baselines but substantially more data, and report stronger downstream performance with lower fine-tuning and inference costs.</details>
+
 - Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets. [[paper]](https://arxiv.org/abs/2201.02177) [[code]](https://github.com/openai/grok)
   - Alethea Power, Yuri Burda, Harri Edwards, Igor Babuschkin, Vedant Misra. 
   - Key Word: Grokking; Overfitting.
@@ -1392,6 +1397,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Utkarsh Sharma, Jared Kaplan.
   - Key Word: Neural Scaling Law; Manifold Intrinsic Dimension; Fractal Dimension.
   - <details><summary>Digest</summary> This paper investigates neural network performance with abundant data, finding that well-trained networks exhibit power-law loss scaling (L∝N−α) based on network parameters (N). The phenomenon applies broadly across diverse data types and scales. The study proposes that this behavior stems from neural models effectively conducting regression on an intrinsic dimension (d) data manifold. The theory predicts α≈4/d scaling exponents for cross-entropy and mean-squared error losses. Empirical validation occurs via independent measurements of intrinsic dimension and scaling exponents in a teacher/student framework, including various d and α values through random teacher network adjustments. CNN classifiers and GPT-style language models further test the theory's applicability across datasets.
+
+- Scaling Laws for Neural Language Models. [[paper]](https://arxiv.org/abs/2001.08361)
+  - Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B. Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, Dario Amodei.
+  - Key Word: Neural Scaling Law; Language Models; Compute-Optimal Training; Sample Efficiency.
+  - <details><summary>Digest</summary> This paper empirically studies scaling laws for neural language model cross-entropy loss across model size, dataset size, and training compute. It finds power-law trends spanning many orders of magnitude, while architectural details such as width and depth have smaller effects within broad ranges. The resulting equations characterize overfitting and training speed, and imply that compute-efficient training favors very large models trained on relatively modest data and stopped before convergence.</details>
 
 
 ## Interactions with Neuroscience
