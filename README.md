@@ -30,6 +30,13 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ![avatar](https://danieltakeshi.github.io/assets/understanding_dl_rethinking_gen.png)
 
+### Empirical Study: 2026
+
+- Revisiting the Volume Hypothesis. [[paper]](https://arxiv.org/abs/2606.31282)
+  - Ari Pakman, Lior Kreimer, Yakir Berchenko.
+  - Key Word: Volume Hypothesis; Loss Landscape; Generalization; Stochastic Gradient Descent; Random Sampling.
+  - <details><summary>Digest</summary> This paper revisits whether good-generalizing low-loss basins occupy more volume in weight space than poor-generalizing ones, contrasting that view with SGD implicit-bias explanations. The authors use Replica Exchange Wang-Landau estimates of joint training and test accuracy densities in binary networks across datasets and architectures. Their results suggest the generalization advantage of gradient learning over random sampling shrinks as the training set grows, offering a possible resolution to conflicting prior evidence.</details>
+
 ### Empirical Study: 2025
 
 - Sharp Minima Can Generalize: A Loss Landscape Perspective On Data. [[paper]](https://arxiv.org/abs/2511.04808)
