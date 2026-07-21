@@ -32,6 +32,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2026
 
+- Local Redundancy: An Information-Theoretic Measure of Plasticity from Synthetic Memorization. [[paper]](https://arxiv.org/abs/2607.13432)
+  - Jiaxuan Cheng.
+  - Key Word: Neural Network Plasticity; Local Redundancy; Synthetic Memorization; Continual Learning; Transfer Learning.
+  - <details><summary>Digest</summary> This paper introduces local redundancy, an information-theoretic measure of a neural network's ability to adapt to new tasks. Because the exact quantity is intractable, the author proves that the expected squared gradient norm on a synthetic memorization task provides an efficient lower bound. Experiments on continual image classification and time series transfer learning show that local redundancy predicts downstream performance better than effective rank, dead neuron fraction, and weight norm, and can select useful pretraining checkpoints after validation loss plateaus.</details>
+
 - Revisiting the Volume Hypothesis. [[paper]](https://arxiv.org/abs/2606.31282)
   - Ari Pakman, Lior Kreimer, Yakir Berchenko.
   - Key Word: Volume Hypothesis; Loss Landscape; Generalization; Stochastic Gradient Descent; Random Sampling.
@@ -1175,6 +1180,11 @@ Our understanding of modern neural networks lags behind their practical successe
   - Devvrit Khatri, Lovish Madaan, Rishabh Tiwari, Rachit Bansal, Sai Surya Duvvuri, Manzil Zaheer, Inderjit S. Dhillon, David Brandfonbrener, Rishabh Agarwal.
   - Key Word: Reinforcement Learning; Compute Scaling.
   - <details><summary>Digest</summary> This paper introduces ScaleRL, a principled framework for understanding and predicting how reinforcement learning (RL) scales in large language models (LLMs). Based on over 400,000 GPU-hours of systematic experiments, the authors fit sigmoidal compute–performance curves to characterize RL scaling behavior and analyze the impact of common design choices. They find that while factors like normalization, curriculum, and off-policy algorithms mainly influence compute efficiency, they do not significantly change the asymptotic performance. Importantly, stable RL recipes exhibit predictable scaling trajectories, allowing accurate extrapolation from smaller-scale runs. Overall, the work provides both a scientific basis for analyzing RL scaling and a practical recipe for achieving predictable, efficient large-scale RL training in LLMs.
+
+- Tracing the Representation Geometry of Language Models from Pretraining to Post-training. [[paper]](https://arxiv.org/abs/2509.23024)
+  - Melody Zixuan Li, Kumar Krishna Agrawal, Arna Ghosh, Komal Kumar Teru, Adam Santoro, Guillaume Lajoie, Blake A. Richards.
+  - Key Word: Representation Geometry; Geometric Phase Transitions; Pretraining Dynamics; Post-training Dynamics; Representation Compression.
+  - <details><summary>Digest</summary> Spectral measurements across OLMo and Pythia models reveal three recurring geometric phases during autoregressive pretraining: an initial representational collapse, an entropy-seeking expansion associated with peak n-gram memorization, and a compression-seeking consolidation that coincides with improved downstream performance. The authors connect these phases to cross-entropy optimization under skewed token frequencies and representational bottlenecks. During post-training, supervised fine-tuning and direct preference optimization expand representations but weaken out-of-distribution robustness, while reinforcement learning with verifiable rewards compresses them, improving reward alignment at the cost of generation diversity.</details>
 
 - Provable Scaling Laws of Feature Emergence from Learning Dynamics of Grokking. [[paper]](https://arxiv.org/abs/2509.21519)
   - Yuandong Tian.
