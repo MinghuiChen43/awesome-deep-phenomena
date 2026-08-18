@@ -1980,6 +1980,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Others: 2026
 
+- Flatland: The Adventures of Gradient Descent with Large Step Sizes. [[paper]](https://arxiv.org/abs/2606.06722)
+  - Leonardo Galli, Curtis Fox, Wiebke Bartolomaeus, Mark Schmidt, Holger Rauhut.
+  - Key Word: Gradient Descent; Large Step Sizes; Edge of Stability; Loss Landscape; Flat Stationary Points; Self-Stabilization.
+  - <details><summary>Digest</summary> This paper develops first-order adaptive methods that safely choose very large step sizes under only local smoothness assumptions on the gradient, causing gradient descent to operate at the Edge of Stability from the start. These dynamics efficiently reach globally flat stationary points, a region the authors call Flatland, which can contain both bad saddles and global minima; reaching it too early can slow convergence and harm generalization. A self-stabilization strategy lets gradient descent move into slightly sharper valleys and turn failed training runs into successful ones.</details>
+
 - Spontaneous symmetry breaking and Goldstone modes for deep information propagation. [[paper]](https://arxiv.org/abs/2605.14685)
   - Nabil Iqbal, T. Anderson Keller, Yue Song, Takeru Miyato, Max Welling.
   - Key Word: Spontaneous Symmetry Breaking; Goldstone Modes; Information Propagation; Equivariant Networks; Recurrent Memory.
