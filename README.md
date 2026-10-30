@@ -44,6 +44,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2025
 
+- Correcting Mean Bias in Text Embeddings: A Refined Renormalization with Training-Free Improvements on MMTEB. [[paper]](https://arxiv.org/abs/2511.11041)
+  - Xingyu Ren, Youran Sun, Haoyu Liang.
+  - Key Word: Text Embeddings; Mean Bias; Representation Geometry; Training-Free Correction; MMTEB.
+  - <details><summary>Digest</summary> This paper finds that current sentence-embedding models add a near-constant mean vector to every output. It studies two training-free corrections: subtracting the mean, and projecting each embedding off the mean direction. A first-order error analysis shows that the projection cancels the parallel part of the mean-estimation error. Across 38 models on MMTEB, the projection gives consistent classification gains, with 29 models significant and no losses. An ablation over nine methods shows that removing one direction helps. Full PCA whitening hurts every tested model.</details>
+
 - Sharp Minima Can Generalize: A Loss Landscape Perspective On Data. [[paper]](https://arxiv.org/abs/2511.04808)
   - Raymond Fan, Bryce Sandlund, Lin Myat Ko.
   - Key Word: Loss Landscape; Sharp Minima; Generalization.
