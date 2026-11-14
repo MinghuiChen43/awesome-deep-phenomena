@@ -32,6 +32,11 @@ Our understanding of modern neural networks lags behind their practical successe
 
 ### Empirical Study: 2026
 
+- Staged Depth Training: A Representation Curriculum for PINNs. [[paper]](https://arxiv.org/abs/2609.30299)
+  - Kejia Zhang, Youran Sun, Haizhao Yang.
+  - Key Word: Physics-Informed Neural Networks; Depth Scaling; Representation Curriculum; Staged Training; PINNacle.
+  - <details><summary>Digest</summary> Standard PINN training lets representations form on their own while the network fits the final solution. This paper makes representation learning an explicit, ordered process called Staged Depth Training (SDT). SDT trains a shallow prefix under a temporary physics-informed head. It then drops the head, freezes the prefix, and adds depth. The final architecture and inference cost stay the same. On the 20 default forward problems of PINNacle with three backbones, SDT improves 40 of 59 equal-budget cells by at least 5%. Ablations show that optimizer restarts or shallow warm-starting alone do not explain the gain. On Poisson-Boltzmann 2D, SDT more than doubles the fitted depth-scaling exponent, from 0.29 to 0.74.</details>
+
 - Local Redundancy: An Information-Theoretic Measure of Plasticity from Synthetic Memorization. [[paper]](https://arxiv.org/abs/2607.13432)
   - Jiaxuan Cheng.
   - Key Word: Neural Network Plasticity; Local Redundancy; Synthetic Memorization; Continual Learning; Transfer Learning.
